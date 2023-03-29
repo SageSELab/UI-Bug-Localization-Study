@@ -1,0 +1,28 @@
+[BUG] Categories are displayed off the screen
+
+Hi, thank you so much for the active development of this amazing tool.
+
+Describe the bug
+The categories of a categorical trait are displayed off-screen, especially if they are large words or multiple words. This does not happen if the format of the trait is changed to "multicat".
+
+Looks like there is a fixed number of 3 categories per line with the "categorical" format. With the "multicat" the different categories are fitted to the screen on a variable number per line.
+
+To Reproduce
+Steps to reproduce the behavior:
+
+1. Create two categorical traits, with several categories (15+ characters long each)
+2. One trait select "categorical" format, the other trait select "multicat"
+3. Go to collect and see the difference on how categories are displayed
+
+Expected behavior
+Expected different categories from "categorical" format traits to be displayed as those from "multicat" format, i.e. fitted to screen.
+
+Screenshots
+multicat screenshot
+categorical screenshot
+
+Device Info (please complete the following information):
+
+Model: Huawei Psmart+ 2019
+OS: Android 10
+Field Book Version 4.3.0

@@ -1,0 +1,17 @@
+Some image is not visible in share activity
+
+Actual Behaviour
+
+Some image is not visible properly in share activity and image is not perfectly zoomed.
+
+Expected Behaviour
+
+It should visible.
+
+Steps to reproduce it
+
+Try with different images in share activity.
+
+Would you like to work on the issue?
+
+Yes.

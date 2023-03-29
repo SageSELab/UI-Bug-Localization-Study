@@ -1,0 +1,15 @@
+redundant camera dialog
+
+Actual Behaviour
+after resetting the settings, a dialog appears while opening up the camera settings for the first time which navigates to the camera.
+
+Expected Behaviour
+after resetting camera settings should be displayed directly without any dialog.
+
+Steps to reproduce it
+reset the settings. navigate to camera settings. a dialog would appear which directs to camera on clicking ok.
+
+Screenshots of the issue
+
+Would you like to work on the issue?
+yes.

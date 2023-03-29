@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1446" opendate="">
+      <buginformation>
+         <summary/>
+         <description>main activity manage fragment edit text button</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.cohenadair.anglerslog.locations.ManageLocationFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

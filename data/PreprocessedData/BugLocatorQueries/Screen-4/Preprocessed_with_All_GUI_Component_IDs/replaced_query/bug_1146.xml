@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1146" opendate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content parent panel top panel title template alert title title divider custom content panel text button panel button button</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.android.gpstest.GpsStatusFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

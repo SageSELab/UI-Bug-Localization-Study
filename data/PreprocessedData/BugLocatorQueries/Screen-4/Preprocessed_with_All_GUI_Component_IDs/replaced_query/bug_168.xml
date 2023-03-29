@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="168" opendate="">
+      <buginformation>
+         <summary/>
+         <description>content content container permission icon permission message permission allow button permission deny button permission allow always button permission allow foreground only button launcher drag layer scrim view app view app list view icon all app header search container all app icon mic icon fast scroller</description>
+      </buginformation>
+      <fixedFiles>
+         <file>cgeo.geocaching.maps.MapProviderFactory.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

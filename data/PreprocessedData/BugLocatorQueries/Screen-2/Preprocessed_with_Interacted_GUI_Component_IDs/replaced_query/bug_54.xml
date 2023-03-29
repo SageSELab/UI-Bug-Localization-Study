@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="54" opendate="">
+      <buginformation>
+         <summary/>
+         <description/>
+      </buginformation>
+      <fixedFiles>
+         <file>net.gsantner.markor.util.AppSettings.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

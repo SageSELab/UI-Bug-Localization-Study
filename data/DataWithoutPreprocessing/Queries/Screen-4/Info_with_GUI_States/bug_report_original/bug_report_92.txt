@@ -1,0 +1,25 @@
+MAC vendor search is case sensitive
+
+Please search issues (open and closed) to see the issues has already been reported.
+In #145 a hardware address vendor search was added, which I highly appreciate.
+
+Describe the bug
+However, as already stated in one of the comments, the search is case sensitive, it only works if you type upper case letters. That breaks user expectations and is cumbersome to type with some keyboards.
+
+I consider that a bug, because lower case letters are perfectly valid for a hexadecimal value.
+
+To Reproduce
+Steps to reproduce the behavior:
+
+1. Go to 'Menu'
+2. Click on 'Hersteller' (that may be 'Vendor' in English?)
+3. Type a valid address containing lower case letters from a to f
+4. See no results
+
+Expected behavior
+00:16:3e is actually the very same (part of) address like 00:16:3E because hexadecimal notation does not differentiate case of letters. So I expect both (and even mixed case) input to get me results.
+
+Note
+Some behaviour only occurs on certain devices or versions of Android, please provide the following screenshots/information Device/Android OS (Settings → About Phone) and WiFi Analyzer version (Menu -> About)
+
+Please make hardware address input/search case insensitive!

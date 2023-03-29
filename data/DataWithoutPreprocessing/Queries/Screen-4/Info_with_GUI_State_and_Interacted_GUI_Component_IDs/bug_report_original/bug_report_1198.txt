@@ -1,0 +1,15 @@
+[Bug] Encrypted PDF gets overwritten in case same pdf is encrypted again
+
+Steps to reproduce
+
+1. Go to View Files
+2. Click on any pdf ( abc.pdf for example)
+3. Click Add password. Write a password
+4. A new pdf abc_encrypted.pdf is created
+5. Again, click on abc.pdf & select Add password
+6. Type new password & click ok
+7. The previous file abc_encrypted.pdf is overwritten
+
+Expected behavior
+
+Create a new abc_encrypted[some unique number].pdf. Don't overwrite existing file.

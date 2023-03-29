@@ -1,0 +1,18 @@
+Crash after deleting a program that is in progress
+
+If you start a program, then go to delete it without first stopping it, then the next time you go back into "Workout" the application will crash. It will be stuck in a crash loop.
+
+To Reproduce
+Steps to reproduce the behavior:
+1. Create a test program with any exercise.
+2. Go to Workout -> Program, select your new program and click "Start Program".
+3. Go to Program list, select your test program and delete it.
+4. Go back to Workout. The application will crash.
+
+Expected behavior
+If a workout that is in progress gets deleted, simply stop it.
+
+Additional context
+I reproduced this one while playing around a bit. It looks like when you go back into the Workout page, there is a refresh that happens and it is trying to access a Program that does not exist anymore. Problem is that even if the program was deleted, it is still inside the mDbWorkoutHistory and set as running.
+
+I can look into this and fix it, it will help me familiarize myself with the code.

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="19" opendate="">
+      <buginformation>
+         <summary/>
+         <description>main activity add housenumber form toggle keyboard</description>
+      </buginformation>
+      <fixedFiles>
+         <file>de.westnordost.streetcomplete.quests.housenumber.AddHousenumberForm.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

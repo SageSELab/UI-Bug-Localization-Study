@@ -1,0 +1,15 @@
+[Bug] Nothing happens when we try to add password to already password protected PDF
+
+Steps to reproduce
+
+1. Go to View Files
+2. Click on any pdf ( abc.pdf for example)
+3. Click Add password. Write a password
+4. A new pdf abc_encrypted.pdf is created
+5. Now, click on abc_encrypted.pdf
+6. Click Add Password. Type a password.
+7. Snackbar shows Password added, but nothing happens in the listing.
+
+Expected behaviour
+
+1. Show a snackbar with the error message Password could not be applied to the PDF. Please check the PDF again

@@ -1,0 +1,32 @@
+[BUG] Crashes in Collect after importing field_sample.csv
+
+Describe the bug
+Following exception occurs after importing a sample csv, going to Collect, and pressing the +1 button.
+
+Process: com.fieldbook.tracker, PID: 2134
+java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String com.fieldbook.tracker.objects.TraitObject.getTrait()' on a null object reference
+at com.fieldbook.tracker.traits.CounterTraitLayout$1.onClick(CounterTraitLayout.java:48)
+at android.view.View.performClick(View.java:6294)
+at android.view.View$PerformClick.run(View.java:24770)
+at android.os.Handler.handleCallback(Handler.java:790)
+at android.os.Handler.dispatchMessage(Handler.java:99)
+at android.os.Looper.loop(Looper.java:164)
+at android.app.ActivityThread.main(ActivityThread.java:6494)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+To Reproduce
+Steps to reproduce the behavior:
+1. Accept all permissions.
+2. Press no to both dialogs.
+3. Go to Fields, import local file field_sample.csv
+4. Go back to Config activity
+5. Go to Collect
+6. Click any button (other than primary/secondary choice) on this page and the app crashes
+
+Expected behavior
+Doesn't crash.
+
+Device Info (please complete the following information):
+Tested on Pixel 2 AVD

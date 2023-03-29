@@ -1,0 +1,1 @@
+bmi wrong when weight not describe you issue hello when the weight set the bmi calculate wrong thank you chris reproduce step reproduce the behavior set size profile set weight weight track either see error expect behavior weight value should convert before bmi calculation smartphone android app additional context weight treat when set

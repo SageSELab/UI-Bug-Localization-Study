@@ -1,0 +1,4 @@
+Crash when adding empty link
+
+Steps to reproduce:
+Open app -> tap to + button -> write "abcde" or leave a blank line -> tap to add button -> crash

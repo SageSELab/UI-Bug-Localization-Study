@@ -1,0 +1,1 @@
+form activity accounts activity account form fragment color picker dialog accounts list fragment input color picker color picker swatch menu save

@@ -1,0 +1,15 @@
+Disable the scroll on image when Doodle effect is selected
+
+Steps
+
+1. Select images
+2. Select Filter images
+3. Select Enable Doodle Effect
+
+Issue
+
+The doodle effect does not get applied properly when trying to create a vertical line (the image scrolls)
+
+Expected behaviour
+
+Disable the scroll on image, when doodle effect is selected

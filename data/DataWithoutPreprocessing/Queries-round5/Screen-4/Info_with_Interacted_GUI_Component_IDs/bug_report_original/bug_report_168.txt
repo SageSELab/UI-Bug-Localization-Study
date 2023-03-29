@@ -1,0 +1,55 @@
+Google maps crashes on Android 10
+
+Detailed steps causing the problem:
+
+1. Upgrade to the Android Q beta
+2. Open c:geo
+3. Select "Live map" view
+
+Actual behavior after performing these steps:
+
+The app immediately crashes
+
+Expected behavior after performing these steps:
+
+The app does not crash
+
+Version of c:geo used:
+
+2019.02.23
+
+Is the problem reproducible for you?
+
+Yes, even post-reboot
+
+System information:
+
+--- System information ---
+Device: Pixel 3 (blueline, google)
+Android version: Q
+Android build: QPP1.190205.018.B4
+c:geo version: 2019.02.23
+Google Play services: enabled - 16.0.86 (100400-237483552)
+Low power mode: inactive
+Compass capabilities: yes
+Rotation vector sensor: present
+Orientation sensor: present
+Magnetometer & Accelerometer sensor: present
+Direction sensor used: rotation vector
+Hide own/found: false
+Map strategy: auto
+HW acceleration: enabled (default state)
+System language: en_US
+System date format: M/d/yy
+Debug mode active: no
+System internal c:geo dir: /data/user/0/cgeo.geocaching (30.6 GB free) internal
+User storage c:geo dir: /storage/emulated/0/cgeo (30.6 GB free) external non-removable
+Geocache data: /storage/emulated/0/Android/data/cgeo.geocaching/files/GeocacheData (30.6 GB free) external non-removable
+Database: /data/user/0/cgeo.geocaching/databases/data (148.0 KB) on system internal storage
+Fine location permission: granted
+Write external storage permission: granted
+Geocaching sites enabled:
+   geocaching.com: Logged in (Login OK) / BASIC
+Geocaching.com date format: M/d/yyyy
+Installed c:geo plugins:  none
+--- End of system information ---

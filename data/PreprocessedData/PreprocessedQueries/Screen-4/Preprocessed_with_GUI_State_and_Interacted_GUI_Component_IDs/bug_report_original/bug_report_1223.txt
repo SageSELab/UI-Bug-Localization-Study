@@ -1,0 +1,1 @@
+split memo disappear step reproduce the behaviour click transaction click edit fab button click split icon add memo more split click save click save again click edit fab button click split icon expect behaviour split have they memo actual behaviour split not have they memo anymore software specification gnu cash android version system android version device type any

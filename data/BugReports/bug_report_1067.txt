@@ -1,0 +1,11 @@
+Home screen tips toggle improperly indented
+
+Steps to reproduce
+1. Open Settings
+2. Open Mozilla menu
+
+Expected behavior
+"Show homescreen tips" is left aligned with the rest of the buttons
+
+Actual behavior
+"Show homescreen tips" is indented

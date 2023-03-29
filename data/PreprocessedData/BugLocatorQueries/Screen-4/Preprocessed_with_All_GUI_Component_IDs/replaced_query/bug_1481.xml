@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1481" opendate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content toolbar front page layout recycler view domain title score comment count relative time feature image container feature image status bar background navigation bar background action share tab pager webview layout</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.hexforhn.hex.StoryActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

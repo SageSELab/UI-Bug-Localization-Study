@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="200" opendate="">
+      <buginformation>
+         <summary/>
+         <description>content main bottom sheet gridview list image list title decor content parent action bar container action bar save observation main content swipeable layout take photo gallery dummy focus species guess icon species guess help icon please note icon description time icon observe time observe location icon location refresh button location guess coordinate latitude longitude accuracy prefix accuracy location visibility icon location visibility location visibility description captive icon captive captive checkbox captive off icon project icon select project status bar background navigation bar background drawer layout drawer content observation list image linear layout sub content right obs part date observe comment click catcher sync require add observation</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.inaturalist.android.ObservationListActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

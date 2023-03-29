@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1446" opendate="">
+      <buginformation>
+         <summary>issue editing fishing spot</summary>
+         <description>edit fishing spot add one the list and the coordinate the exist fishing spot not update reproduction step edit location click fishing spot edit change the coordinate save there will two the same spot show the list click save again will add the addition spot behaviour correct instabug issue main activity manage fragment content manage container toolbar view back button title text view button content scroll view name view edit text fishing spot map crosshair latitude layout longitude layout coordinate refresh button action bar root main drawer master container toolbar action confirm icon image view add fishing spot view primary button container title subtitle view subtitle text view more info button status bar background navigation bar background</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.cohenadair.anglerslog.locations.ManageLocationFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

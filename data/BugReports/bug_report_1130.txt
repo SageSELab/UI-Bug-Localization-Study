@@ -1,0 +1,18 @@
+Undo with last list item does not work
+
+App version: develop
+Android version: LineageOS 16
+Device model: OnePlus 3T
+First occured: Not sure. Was there before the empty view rework in #3060
+
+Expected behaviour:
+Undo snackar action should work
+
+Current behaviour:
+Undo action does not work when the item is the only one in the list. Empty view is removed and list is displayed. List contains an item (layout inspector), but it seems to be moved outside of the screen. Affected: Queue, Episodes->New, Episodes->Favorites
+
+Steps to reproduce:
+
+1. Remove all items except one from queue
+2. Swipe out
+3. Press "Undo"

@@ -1,0 +1,1 @@
+setting activity main activity decor content parent action bar container action bar content list container title widget frame widget summary status bar background navigation bar background help header widget layout search edit layout left hand side buttons wrapper launcher button search edit text right hand side buttons wrapper menu button

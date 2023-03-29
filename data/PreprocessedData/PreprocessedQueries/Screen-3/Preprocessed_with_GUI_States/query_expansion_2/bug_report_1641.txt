@@ -1,0 +1,1 @@
+compliance the training type slider bug you choose something the trainings type slider there compliance the value reproduce step reproduce the behavior open the exercise editor change something see error expect behavior the value the slider should store the xml file and list the schedule view smartphone device all android version

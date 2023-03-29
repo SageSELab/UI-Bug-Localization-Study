@@ -1,0 +1,1 @@
+{"id": "191", "bug_location": [{"commit_ids": ["6e925f1e60796c2f1623a1514e9d9192ab3bfd1e"], "file_name": "bug-191/app/src/main/java/ch/logixisland/anuto/view/game/TowerView.java"}, {"commit_ids": ["6e925f1e60796c2f1623a1514e9d9192ab3bfd1e"], "file_name": "bug-191/app/src/main/java/ch/logixisland/anuto/business/control/TowerInserter.java"}]}

@@ -1,0 +1,31 @@
+NPE on create payment
+
+Steps to reproduce:
+create a trip -> long click the trip -> swipe the tab from "Travelers" to "Report", and click menu option "create payment"
+
+Exception trace:
+java.lang.NullPointerException: Attempt to invoke virtual method 'android.app.Application android.support.v4.app.FragmentActivity.getApplication()' on a null object reference
+        at de.koelle.christian.trickytripper.activities.a.c(ParticipantTabActivity.java:96)
+        at de.koelle.christian.trickytripper.activities.a.a(ParticipantTabActivity.java:36)
+        at de.koelle.christian.trickytripper.activities.a$b.a(ParticipantTabActivity.java:154)
+        at android.support.v7.app.AppCompatDelegateImplV9$b.a(AppCompatDelegateImplV9.java:1790)
+        at android.support.v7.app.q$a.a(WindowDecorActionBar.java:1101)
+        at android.support.v7.view.menu.h.a(MenuBuilder.java:817)
+        at android.support.v7.view.menu.j.b(MenuItemImpl.java:156)
+        at android.support.v7.view.menu.h.a(MenuBuilder.java:964)
+        at android.support.v7.view.menu.m.onItemClick(MenuPopup.java:127)
+        at android.widget.AdapterView.performItemClick(AdapterView.java:310)
+        at android.widget.AbsListView.performItemClick(AbsListView.java:1145)
+        at android.widget.AbsListView$PerformClick.run(AbsListView.java:3042)
+        at android.widget.AbsListView$3.run(AbsListView.java:3879)
+        at android.os.Handler.handleCallback(Handler.java:739)
+        at android.os.Handler.dispatchMessage(Handler.java:95)
+        at android.os.Looper.loop(Looper.java:148)
+        at android.app.ActivityThread.main(ActivityThread.java:5417)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+        
+App Version: 1.5.8
+
+Device: Android 6.0 emulator

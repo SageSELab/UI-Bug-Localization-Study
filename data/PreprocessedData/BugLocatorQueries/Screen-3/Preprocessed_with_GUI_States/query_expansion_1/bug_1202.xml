@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1202" opendate="">
+      <buginformation>
+         <summary>filter image toast save current display even when image save</summary>
+         <description>step select few image filter image add any effect select brush option draw something select save current now press right arrow icon the toast display save current first expect behaviour toast should display when image save image editor</description>
+      </buginformation>
+      <fixedFiles>
+         <file>swati4star.createpdf.activity.ImageEditor.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

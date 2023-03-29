@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1563" opendate="">
+      <buginformation>
+         <summary/>
+         <description>file activity title</description>
+      </buginformation>
+      <fixedFiles>
+         <file>io.lerk.lrkFM.activities.FileActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

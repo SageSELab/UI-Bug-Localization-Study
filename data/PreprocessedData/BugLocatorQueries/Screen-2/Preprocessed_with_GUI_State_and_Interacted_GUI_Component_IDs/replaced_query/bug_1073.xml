@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1073" opendate="">
+      <buginformation>
+         <summary/>
+         <description>main activity browser fragment</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.mozilla.focus.browser.LocalizedContent.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

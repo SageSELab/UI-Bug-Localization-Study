@@ -1,0 +1,16 @@
+Timestamp 0 when never exported.
+
+Steps to reproduce the behaviour
+1. Create a new book.
+2. Manage books...
+
+Expected behaviour
+A message like Never exported.
+
+Actual behaviour
+Last exported: 1970-01-à1 01-00-00.0
+
+Software specifications
+GnuCash Android version: 2.1.3
+System Android version: 6
+Device type: Phone.  AccountsActivity PreferenceActivity AccountsListFragment BookManagerFragment action_bar_root content drawer_layout coordinatorLayout fragment_container toolbar menu_search tab_layout pager fragment_account_list account_recycler_view account_color_strip primary_text secondary_text favorite_status account_balance options_menu fab_create_account statusBarBackground navigationBarBackground nav_view design_navigation_view navigation_header_container drawer_title book_name design_menu_item_text title decor_content_parent action_bar_container action_bar menu_create_book list_container list list_item_2_lines label_last_sync last_sync_time  AccountsActivity PreferenceActivity AccountsListFragment BookManagerFragment action_bar_root content drawer_layout coordinatorLayout fragment_container toolbar menu_search tab_layout pager fragment_account_list account_recycler_view account_color_strip primary_text secondary_text favorite_status account_balance options_menu fab_create_account statusBarBackground navigationBarBackground nav_view design_navigation_view navigation_header_container drawer_title book_name design_menu_item_text title decor_content_parent action_bar_container action_bar menu_create_book list_container list list_item_2_lines label_last_sync last_sync_time

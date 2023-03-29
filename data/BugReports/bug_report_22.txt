@@ -1,0 +1,28 @@
+New "edit times" screen harder to use than old screen
+
+Describe the bug
+The new edit times screen which appears looks nice, but using it to actually edit times is a much greater pain than the irritants that were present on the old screen (the version with the round 'clock' time selector wheels).
+
+To Reproduce
+Steps to reproduce the behavior:
+
+1. Long press a task with time values
+2. Scroll the popup menu (if necessary) and select "show times"
+3. Tap a time range
+
+Expected behavior
+An easy and fast UI to use to make changes to start/end time points for an event.
+
+Actual behavior
+The UI for selecting a time value has changed from a circular clock face to a side-by-side pair of vertically scrolling linear lists of time values. This layout is significantly more time consuming to use to select a specific time value because of the amount of 'scroll' through the lengthy linear lists that is necessary (24 entries for the hours, 60 entries for minutes). If one has, say, a value of 09:45 and needs to run back to 09:15, one has to scroll the minutes list across 30 numerals to get to the right value.
+
+With the old clock layout, selecting an hours value and a minutes value was a direct access operation (sometimes with a little tweaking when the ui picked 16 instead of 15).
+
+But the two UI's are like the difference between an O(1) lookup vs. an O(n) lookup algorithm. The old clock face was O(1) access time. The new UI is O(n) access time.
+
+Please either bring back the old UI, or offer a setup option to switch to the old UI. It was way superior from a time taken to make a change perspective than the new UI.
+
+Smartphone (please complete the following information):
+
+Phone: Moto E4
+OS: Android 7.1.1

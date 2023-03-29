@@ -1,0 +1,18 @@
+Glosbe translations broken
+
+Reproduction Steps
+
+1. Enter any word into the advanced editor
+2. Press TRANSLATE
+
+Expected Result
+
+Translation successful
+
+Actual Result
+
+Translation failed
+
+I guess they changed their API or something... :-/
+
+As reported here

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1645" opendate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content toolbar name text edit train spinner text rep edit pause edit set edit speed edit exc edit time edit inten spinner bpm edit fab status bar background navigation bar background drawer layout schedule edit fragment list parent panel top panel title template alert title custom panel custom aerr app info aerr close</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.german_software_engineers.trainerapp.ExerciseDialog.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

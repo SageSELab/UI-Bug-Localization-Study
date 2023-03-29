@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1402" opendate="">
+      <buginformation>
+         <summary>some image not visible share activity</summary>
+         <description>actual behaviour some image not visible properly share activity and image not perfectly zoom expect behaviour should visible step reproduce with different image share activity would you like work the issue yes main activity single media activity share activity support request manager fragment photo preview action share</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.fossasia.phimpme.share.SharingActivity.java</file>
+         <file>org.fossasia.phimpme.MyApplication.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

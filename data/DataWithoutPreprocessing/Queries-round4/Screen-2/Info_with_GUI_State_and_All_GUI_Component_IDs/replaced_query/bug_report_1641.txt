@@ -1,0 +1,1 @@
+ content title action_bar_root toolbar nameTextEdit trainSpinner text1 repEdit pauseEdit setEdit speedEdit fab statusBarBackground navigationBarBackground

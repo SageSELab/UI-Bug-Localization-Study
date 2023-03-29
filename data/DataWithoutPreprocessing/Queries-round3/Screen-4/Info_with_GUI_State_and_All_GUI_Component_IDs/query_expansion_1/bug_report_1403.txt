@@ -1,0 +1,18 @@
+Unable to edit the edited photo
+
+Actual Behaviour
+
+App crashes on editing the edited photo
+
+Expected Behaviour
+
+No crash should occur.
+It is occuring due to problem with extension.
+
+Steps to reproduce it
+
+Edit a photo, save it, edit the edited photo
+
+Would you like to work on the issue?
+
+yes.  LFMainActivity SingleMediaActivity SupportRequestManagerFragment action_bar_root content drawer_layout Relative_Album_layout toolbar all_photos sort_action swipeRefreshLayout rl_main_content grid_albums album_card header_album_card album_preview linear_card_text album_name album_photos_count bottombar navigation_camera smallLabel icon navigation_home largeLabel navigation_accounts statusBarBackground navigationBarBackground delete_action grid_photos media_card_layout photo_preview PhotoPager_Layout photos_pager toolbar_bottom action_share action_edit action_delete action_details parentPanel topPanel title_template alertTitle customPanel custom aerr_restart

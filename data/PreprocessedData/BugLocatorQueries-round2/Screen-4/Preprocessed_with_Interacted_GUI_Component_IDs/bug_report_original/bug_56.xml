@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="56" opendate="">
+      <buginformation>
+         <summary>bug unable change label size when printing zebra printer</summary>
+         <description>after add trait the zebra label print format unable change the label size when collect datum the drop down menu text barcode and copy also not available reproduce step reproduce the behavior create trait with the zebra label print format select zebra label print trait score collect and move zebra label print trait scroll down label detail expect behavior dropdown menu should appear with multiple label size option should possible enter the label size manually device info please complete the follow information model zebra android field book version able print label use the standard size simple</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.fieldbook.tracker.traits.LabelPrintTraitLayout.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

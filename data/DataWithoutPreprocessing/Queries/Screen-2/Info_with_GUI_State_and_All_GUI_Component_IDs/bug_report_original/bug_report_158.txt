@@ -1,0 +1,11 @@
+Dark mode not correctly setting theme colors in card area of Reviewer
+
+Reproduction Steps
+
+Switch on Night Mode.
+It doesn't matter if one sets the Theme to "Dark" or "Black".
+Card background is always 100% black.
+
+Pure black backgrounds should be avoided from an UX perspective. It increases eyestrain and decreases legibility.
+
+I suggest that the card background should be toned down a bit.

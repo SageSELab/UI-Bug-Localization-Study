@@ -1,0 +1,3 @@
+Android 4.4.2/ Samsung GT-N7100: Crashes on start.
+
+Android 4.4.2/ Samsung GT-N7100: This app gives a notice: 0 of n steps walked and crashes on start, every time. Have rebooted device and no change.

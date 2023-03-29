@@ -1,0 +1,1 @@
+ghost thumbnail image observation list view when create observation without image and back the observation list there image there from another one see screenshot below these should have image build step reproduce bug tap create button tap skip photo save observation tap the checkmark upper right

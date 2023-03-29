@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="200" opendate="">
+      <buginformation>
+         <summary/>
+         <description>add observation list title save observation</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.inaturalist.android.ObservationListActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

@@ -1,0 +1,1 @@
+ ServerSettingsActivity content parentPanel topPanel title_template alertTitle titleDivider customPanel custom edittext_container edit buttonPanel button2 button1 decor_content_parent action_bar_container action_bar title summary widget_frame checkbox icon contentPanel scrollView message

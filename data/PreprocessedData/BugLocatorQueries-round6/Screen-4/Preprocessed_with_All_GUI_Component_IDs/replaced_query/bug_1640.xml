@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug id="1640" opendate="" fixdate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content drawer layout nav view design navigation view navigation header container image view text view design menu item text toolbar schedule fragment list fab app bar toolbar layout</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.german_software_engineers.trainerapp.ExerciseView.Controller.ExerciseViewHolder.java</file>
+         <file>com.german_software_engineers.trainerapp.InfoActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

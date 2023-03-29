@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1089" opendate="">
+      <buginformation>
+         <summary>illegal state exception crash when tape back unsaved time</summary>
+         <description>java lang illegal state exception androidx fragment app back stack record add back stack record java androidx fragment app back stack record add back stack record java androidx fragment app dialog fragment show dialog fragment java com chess clock fragment time control fragment show confirm back dialog time control fragment java com chess clock activity setting activity back press setting activity java android app activity key activity java step reproduce open app setting time tap one the clock and change time set press back setting activity clock timer activity time control fragment</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.chess.clock.fragments.TimeControlFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

@@ -1,0 +1,21 @@
+License on Infopage
+
+Disciption
+The Licsense on the info Page is not completely written down.
+
+To Reproduce
+Steps to reproduce the behavior:
+
+1. Open the Menu.
+2. Click on 'Info'
+3. Scroll down to the end.
+4. See the error
+
+Expected behavior
+The License schould be set completely
+
+Smartphone (please complete the following information):
+
+Device: every
+OS: every
+Version alfa 0119

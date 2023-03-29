@@ -1,0 +1,27 @@
+Aegis doesn't respect user's animation settings
+
+Info
+
+Version: v1.1.1
+
+Steps to reproduce
+
+1. Go into your Android settings and disable animations
+2. Open Aegis
+3. Unlock vault
+
+What do you expect to happen?
+
+No animations in the timer, acitivty transitions and recyclerview update.
+
+What happens instead?
+
+There are still animations because Aegis overrides the user settings.
+
+Animations check
+
+We can read the flags:
+TRANSITION_ANIMATION_SCALE
+WINDOW_ANIMATION_SCALE
+
+If they are 0, then animations are disabled.

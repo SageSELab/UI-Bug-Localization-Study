@@ -1,0 +1,15 @@
+Crash on fast multiple clicks on Play/Stop button
+
+Steps to reproduce:
+
+1. Open App.
+2. Add URL with stream.
+3. Open station.
+4. Do multiple fast clicks on Play/Stop button.
+
+Tested on 3 real devices (Android 7, Android 7.1.1, Android 6) and official Android Emulator virtual device with Andorid 7.1.1. Tested on compiled latest source and at least 5 previous commits (plus Google Play version).
+
+Some logs:
+08-30 14:19:38.709 25337-25337/org.y20k.transistor E/AndroidRuntime: FATAL EXCEPTION: main Process: org.y20k.transistor, PID: 25337 java.lang.NullPointerException: Attempt to invoke virtual method 'void com.google.android.exoplayer2.SimpleExoPlayer.prepare(com.google.android.exoplayer2.source.MediaSource)' on a null object reference at org.y20k.transistor.PlayerService.preparePLayer(PlayerService.java:692) at org.y20k.transistor.PlayerService.access$900(PlayerService.java:105) at org.y20k.transistor.PlayerService$InitializePlayerHelper.onPostExecute(PlayerService.java:952) at org.y20k.transistor.PlayerService$InitializePlayerHelper.onPostExecute(PlayerService.java:908) at android.os.AsyncTask.finish(AsyncTask.java) at android.os.AsyncTask.access$500(AsyncTask.java) at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java) at android.os.Handler.dispatchMessage(Handler.java) at android.os.Looper.loop(Looper.java) at android.app.ActivityThread.main(ActivityThread.java) at java.lang.reflect.Method.invoke(Native Method) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java) 
+
+Sorry for my english.

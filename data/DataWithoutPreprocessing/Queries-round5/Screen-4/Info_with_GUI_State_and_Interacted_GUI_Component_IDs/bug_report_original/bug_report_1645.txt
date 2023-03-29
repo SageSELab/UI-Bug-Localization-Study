@@ -1,0 +1,20 @@
+Crash in Add Exercise Dialog
+
+Describtion
+App crashes if the user checks the Angle Box in the Add Exercise Dialog.
+
+To Reproduce
+Steps to reproduce the behavior:
+1. Try to generate a new Trainings Schedule
+2. Click on Add Exercise
+3. Give the Exercise a name and check the Angle box.
+4. Put a Number in the Textbox
+5. Finish the Dialog
+6. See the Error
+
+Expected behavior
+No Crash and a added Exercise.
+
+Smartphone (please complete the following information):
+Device: all
+OS: Android

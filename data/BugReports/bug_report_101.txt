@@ -1,0 +1,20 @@
+Demo doesn't show tiles when sd card is removed and using Application Private Storage
+
+Issue Type
+
+[ ] Bug
+
+Description and/or steps/code to reproduce the problem
+
+When I Pick the base location and cache location in the Demo Settings and pick Application Private Storage, the tiles load correctly if the device has an sd card available, when the sd card is removed even if the cache is set as an internal app path the tiles won't load and show as blank. Is an sd card necessary to load the tiles even when the base location and cache location don't use external storage?
+
+Similarly, using these config settings in the app we're building before creating a map and setting a tile source, yields the same results, the base path and the cache path are set to the the internal app storage, and the tiles load correctly when an sd card is mounted, and they're blank when it's removed.
+
+Configuration.getInstance().setOsmdroidBasePath(..
+Configuration.getInstance().setOsmdroidTileCache(...
+Configuration.getInstance().setTileFileSystemCacheMaxBytes(...
+Configuration.getInstance().setUserAgentValue(...
+
+Version of osmdroid the issue relates to:
+
+6.0.1

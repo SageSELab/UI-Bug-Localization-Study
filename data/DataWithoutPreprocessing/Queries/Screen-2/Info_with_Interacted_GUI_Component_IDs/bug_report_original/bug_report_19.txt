@@ -1,0 +1,15 @@
+cursor jumps before housenumber when adding letter
+
+Steps to reproduce
+1. select housenumber task
+2. the housenumber is for example "10a", so type 10 and the letter button
+3. the cursor jumps before the number, so when you insert "a" you have "a10" instead of "10a"
+
+expected behavior
+cursor should stay at the end of the input field, so new input get's added to the end
+
+affected versions
+5.2
+Android 6.0.1
+
+i used a quiet old version before i updated, there it was also like this.

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1214" opendate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content frame pager intro auth desc intro auth selection text intro credentials layout intro password layout intro password edit text input end icon intro password confirm button back pager indicator button next status bar background navigation bar background</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.shadowice.flocke.andotp.Activities.IntroScreenActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

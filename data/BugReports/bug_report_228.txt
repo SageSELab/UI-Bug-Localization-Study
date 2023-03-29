@@ -1,0 +1,21 @@
+Persian currency symbol is doubled
+
+Steps to reproduce the behaviour
+
+1. Choose IRR as currency symbol
+
+Expected behaviour
+
+It should show only one character currency symbol
+
+Actual behaviour
+
+It shows two consecutive IRR currency symbols
+
+Software specifications
+
+GnuCash Android version: 2.1.7
+System Android version: 4.2.2
+Device type: Smart phone
+Similar bug in the main application and the fix:
+Bug 787479 - Persian currency symbol is doubled

@@ -1,0 +1,21 @@
+Cursor position reset when switching away from app
+
+Version
+
+v0.2.4 from F-Droid
+
+Steps to replicate
+
+1. Open a (preferably big) file and enter edit mode
+2. Move the cursor to any place other than the initial position
+3. Switch to another app and switch back
+
+Expected behavior
+
+Cursor remains where you placed it.
+
+Actual behavior
+
+Cursor goes back to the initial position.
+
+This happens even when one has opened e.g. the insert image dialog. If you insert the image after switching back, it'll be inserted at the beginning of the file.

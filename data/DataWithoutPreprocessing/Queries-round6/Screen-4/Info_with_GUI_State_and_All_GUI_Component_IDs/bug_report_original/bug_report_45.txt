@@ -1,0 +1,27 @@
+Cannot add location when device's location mode is device only
+
+Describe the bug
+The location cannot be added, and there are no explanations and reminders for the user. After investigation, I found that the problem is caused by the "device only" mode. Omni notes should prompt the user to switch the location mode just as it prompts the user to open the location. Otherwise, the user may not know why the location cannot be added
+
+Context
+Device: galaxy a6s
+OS version: Android 8.1.0
+App version: 6.0.5
+
+How to reproduce
+Steps to reproduce the behavior:
+
+1. Change location mode to "device only"
+2. Install Omni Notes and open
+3. Click on plus button in the lower right corner
+4. Click on "Text note'
+5. Click the paper clip button
+6. Click on "Location'
+7. See "LOCATION NOT FOUND"
+
+Expected behavior
+The user should be prompted that the current positioning mode cannot be located and needs to switch to high accuracy mode
+
+Screenshots
+Recorded video see attachment
+record.zip

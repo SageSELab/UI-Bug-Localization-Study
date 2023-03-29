@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1481" opendate="">
+      <buginformation>
+         <summary/>
+         <description>front page activity story activity comment fragment</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.hexforhn.hex.StoryActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

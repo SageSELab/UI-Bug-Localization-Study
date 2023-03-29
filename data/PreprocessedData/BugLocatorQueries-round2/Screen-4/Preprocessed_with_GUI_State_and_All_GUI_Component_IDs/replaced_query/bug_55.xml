@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="55" opendate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content layout main toolbar help selector list selector selector spinner spinner target selector text trait leave trait type trait right trait detail range leave name plot range holder range name plot name value plot range holder range plot range right cur val trait container trait holder disease layout rust rust rust rust rust rust rust rust rust rust rust rust rust rust rust rust rust rust rust rust rust rust rust rust rust delim toolbar bottom miss value delete value status bar background navigation bar background audio layout record location layout get location btn categorical layout</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.fieldbook.tracker.traits.CategoricalTraitLayout.java</file>
+         <file>com.fieldbook.tracker.traits.MultiCatTraitLayout.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

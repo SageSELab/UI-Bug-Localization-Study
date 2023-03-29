@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="206" opendate="">
+      <buginformation>
+         <summary>timestamp when never export</summary>
+         <description>step reproduce the behaviour create book manage book expect behaviour message like never export actual behaviour last export software specification gnu cash android version system android version device type phone</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.gnucash.android.ui.settings.BookManagerFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

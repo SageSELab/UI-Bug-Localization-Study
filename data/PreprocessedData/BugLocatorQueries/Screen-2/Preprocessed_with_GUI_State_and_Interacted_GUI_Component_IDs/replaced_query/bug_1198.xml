@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1198" opendate="">
+      <buginformation>
+         <summary/>
+         <description>main activity view files fragment button positive</description>
+      </buginformation>
+      <fixedFiles>
+         <file>swati4star.createpdf.adapter.ViewFilesAdapter.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

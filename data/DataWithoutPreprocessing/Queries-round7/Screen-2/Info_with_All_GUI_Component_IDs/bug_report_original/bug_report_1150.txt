@@ -1,0 +1,23 @@
+"Help->About" language doesn't change when language setting is changed
+
+Summary:
+
+The language of the "Help->About" screen isn't currently affected by the "Setting->Language" setting.
+
+Steps to reproduce:
+
+1. Start the app on a device with one Android language setting (e.g., English)
+2. Change to another language in GPSTest via ""Setting->Language" (e.g., Spanish)
+3. In the nav drawer, go to "Help->About"
+
+Expected behavior:
+
+The "Help->About" screen should show up in the language selected in GPSTest settings.
+
+Observed behavior:
+
+The "Help->About" screen is shown in the Android system settings language and ignores the GPSTest language setting.
+
+Device and Android version:
+
+Samsung Galaxy S8+ w/ Android 9.0

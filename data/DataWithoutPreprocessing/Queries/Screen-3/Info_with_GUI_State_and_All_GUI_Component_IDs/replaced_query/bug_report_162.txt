@@ -1,0 +1,1 @@
+ AccountSetupBasics DocumentsActivity decor_content_parent action_bar_container action_bar home action_bar_title content account_email account_password show_password foldable_advanced_options foldableControl foldableIcon foldableText divider manual_setup next parentPanel contentPanel scrollView message buttonPanel button1

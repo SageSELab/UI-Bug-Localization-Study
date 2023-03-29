@@ -1,0 +1,18 @@
+Unable to edit the edited photo
+
+Actual Behaviour
+
+App crashes on editing the edited photo
+
+Expected Behaviour
+
+No crash should occur.
+It is occuring due to problem with extension.
+
+Steps to reproduce it
+
+Edit a photo, save it, edit the edited photo
+
+Would you like to work on the issue?
+
+yes.

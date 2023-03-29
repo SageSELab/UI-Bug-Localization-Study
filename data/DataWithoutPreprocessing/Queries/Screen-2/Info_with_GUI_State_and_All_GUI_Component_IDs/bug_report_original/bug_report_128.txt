@@ -1,0 +1,19 @@
+Switching language is not working.
+
+General information
+App version: 0.7.1.1
+App source: GitHub
+Android Version: 6
+
+Expected result
+
+What is expected?
+When switching language, the UI should display the right language
+
+What does happen instead?
+The app is falling back to english
+
+Steps to reproduce
+I think that the app should use values-ar values-fr etc instead of the regionalized values-rLangRegion
+
+This can be disabled on Crowdin.

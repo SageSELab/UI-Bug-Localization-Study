@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="117" opendate="">
+      <buginformation>
+         <summary/>
+         <description/>
+      </buginformation>
+      <fixedFiles>
+         <file>openfoodfacts.github.scrachx.openfood.views.product.nutrition.NutritionProductFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

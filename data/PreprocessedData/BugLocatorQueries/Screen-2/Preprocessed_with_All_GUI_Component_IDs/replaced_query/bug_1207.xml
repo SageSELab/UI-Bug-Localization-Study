@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1207" opendate="">
+      <buginformation>
+         <summary/>
+         <description>content parent panel top panel title template alert title custom panel custom manual type text manual label manual secret manual tag dialog expand button dialog expand layout manual period manual digit manual algorithm button panel button button aerr restart</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.shadowice.flocke.andotp.View.ManualEntryDialog.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

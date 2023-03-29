@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="248" opendate="">
+      <buginformation>
+         <summary/>
+         <description>admin preferences activity preferences activity</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.odk.collect.android.preferences.GeneralPreferencesFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

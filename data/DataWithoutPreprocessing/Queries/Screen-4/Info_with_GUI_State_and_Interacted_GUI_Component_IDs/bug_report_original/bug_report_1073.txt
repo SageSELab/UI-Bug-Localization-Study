@@ -1,0 +1,15 @@
+Your Rights license link broken
+
+Steps to reproduce
+1. Settings -> Mozilla -> Your rights
+2. Click "licenses"
+
+Expected behavior
+Licenses open
+
+Actual behavior
+Nothing
+
+Device information
+Android device: Pixel 2
+Focus version: Tried local Klar WebView build (checked out at a random commit) and Focus GeckoView build, probably recent

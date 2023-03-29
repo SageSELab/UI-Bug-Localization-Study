@@ -1,0 +1,15 @@
+redundant camera dialog
+
+Actual Behaviour
+after resetting the settings, a dialog appears while opening up the camera settings for the first time which navigates to the camera.
+
+Expected Behaviour
+after resetting camera settings should be displayed directly without any dialog.
+
+Steps to reproduce it
+reset the settings. navigate to camera settings. a dialog would appear which directs to camera on clicking ok.
+
+Screenshots of the issue
+
+Would you like to work on the issue?
+yes.  SettingsActivity action_bar_root content parentPanel customPanel custom message_card text_dialog_title text_dialog_rl text_dialog_message buttonPanel button2 button1 setting_background toolbar settingAct_scrollView general_setting_card general_setting_title ll_camera camera_icon camera_item_title camera_item_sub ll_security security_icon security_item_title security_item_sub ll_n_columns n_columns_icon n_columns_Item_Title n_columns_Item_Title_Sub ll_excluded_album excluded_album_icon Excluded_Album_Item_Title Excluded_Album_Item_Title_Sub theme_setting_card theme_setting_title ll_basic_theme basic_theme_icon basic_theme_item basic_theme_item_sub ll_primaryColor primary_color_icon PrimaryColor_Item PrimaryColor_Item_Sub ll_accentColor accent_color_icon accentColor_Item accentColor_Item_Sub ll_custom_thirdAct custom_3thact_icon custom_3thAct_title custom_3thAct_Sub pref_container statusBarBackground navigationBarBackground topPanel title_template alertTitle titleDividerNoCustom contentPanel scrollView message

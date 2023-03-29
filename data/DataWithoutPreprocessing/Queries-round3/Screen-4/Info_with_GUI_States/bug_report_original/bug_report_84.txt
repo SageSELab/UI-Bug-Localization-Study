@@ -1,0 +1,69 @@
+Does master branch work ?
+
+Problem description
+
+I am testing the master branch and it seems does not work.
+I am unable to set up a server.
+
+Steps to reproduce
+
+Lauch Ultrasonic master in an AVD.
+Go to settings, add server, enter name, url, user and password.
+Click on "Test Connection".
+In logcat I see :
+
+04-02 22:10:11.294 3074-3074/org.moire.ultrasonic.debug W/ServerSettingsFragment: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:80
+java.net.ConnectException: Failed to connect to localhost/127.0.0.1:80
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)
+at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:158)
+at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:256)
+at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:134)
+at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:113)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.logging.HttpLoggingInterceptor.intercept(HttpLoggingInterceptor.java:212)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at org.moire.ultrasonic.api.subsonic.interceptors.RangeHeaderInterceptor.intercept(RangeHeaderInterceptor.kt:31)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at org.moire.ultrasonic.api.subsonic.interceptors.PasswordHexInterceptor.intercept(PasswordHexInterceptor.kt:23)
+at org.moire.ultrasonic.api.subsonic.interceptors.ProxyPasswordInterceptor.intercept(ProxyPasswordInterceptor.kt:25)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at org.moire.ultrasonic.api.subsonic.interceptors.VersionInterceptor.intercept(VersionInterceptor.kt:38)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at org.moire.ultrasonic.api.subsonic.SubsonicAPIClient$okHttpClient$2.intercept(SubsonicAPIClient.kt:77)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at retrofit2.OkHttpCall.execute(OkHttpCall.java:174)
+at retrofit2.ExecutorCallAdapterFactory$ExecutorCallbackCall.execute(ExecutorCallAdapterFactory.java:89)
+at org.moire.ultrasonic.service.RESTMusicService.ping(RESTMusicService.java:140)
+at org.moire.ultrasonic.service.CachedMusicService.ping(CachedMusicService.java:89)
+at org.moire.ultrasonic.fragment.ServerSettingsFragment$1.doInBackground(ServerSettingsFragment.java:249)
+at org.moire.ultrasonic.fragment.ServerSettingsFragment$1.doInBackground(ServerSettingsFragment.java:237)
+at org.moire.ultrasonic.util.ModalBackgroundTask$3.run(ModalBackgroundTask.java:93)
+Caused by: java.net.ConnectException: failed to connect to localhost/127.0.0.1 (port 80) after 10000ms: isConnected failed: ECONNREFUSED (Connection refused)
+at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+at libcore.io.IoBridge.connectErrno(IoBridge.java:1
+System information
+
+Ultrasonic version: master branch
+Android version: 4.4.4 API 19
+Device info: Device manufacturer, model
+Additional notes
+
+It tries to connect to localhost despite the fact that I entered a valid Airsonic server URL.
+All works fine with Ultrasonic 2.2.2

@@ -1,0 +1,54 @@
+Crash when entering too large of a number in manual entry dialog
+
+General information
+App version: 0.70 and 0.7.1.1-dev
+App source: F-Droid and GitHub master
+Android Version: 10 (Samsung S9 and x86 emulator)
+
+Steps to reproduce
+TOTP Crash
+1. Open app to the main list of 2FA codes.
+2. Tap the add FAB and select "Enter details".
+3. Select TOTP for the Type field.
+4. Enter something into the Label and Secret fields.
+5. Open the Advanced Options overflow, and enter a number larger than Integer.MAX_VALUE into either the Period or Digits fields.
+HOTP Crash
+1. Open app to the main list of 2FA codes.
+2. Tap the add FAB and select "Enter details".
+3. Select HOTP for the Type field.
+4. Enter something into the Label and Secret fields.
+5. Enter a number larger than Long.MAX_VALUE into the Counter field.
+6. Tap the Save button.
+
+Expected result
+
+What is expected?
+In the manual details entry dialog, entering a number in the Period or Digits fields larger than Integer.MAX_VALUE or entering a number in the Counter field larger than Long.MAX_VALUE should disable the Save button.
+
+What does happen instead?
+The application crashes. This would probably never occur during normal usage, but it's an easy fix so I'll put a PR up.
+
+Logcat
+TOTP Period/Digits crash:
+2020-05-29 09:04:34.505 7852-7852/org.shadowice.flocke.andotp.dev E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: org.shadowice.flocke.andotp.dev, PID: 7852
+    java.lang.NumberFormatException: For input string: "3000000000"
+        at java.lang.Integer.parseInt(Integer.java:618)
+        at java.lang.Integer.parseInt(Integer.java:650)
+        at org.shadowice.flocke.andotp.Dialogs.ManualEntryDialog$8.afterTextChanged(ManualEntryDialog.java:293)
+        at android.widget.TextView.sendAfterTextChanged(TextView.java:10551)
+        at android.widget.TextView$ChangeWatcher.afterTextChanged(TextView.java:13388)
+        at android.text.SpannableStringBuilder.sendAfterTextChanged(SpannableStringBuilder.java:1277)
+        at android.text.SpannableStringBuilder.replace(SpannableStringBuilder.java:577)
+        at android.text.SpannableStringBuilder.replace(SpannableStringBuilder.java:507)
+        at android.text.SpannableStringBuilder.replace(SpannableStringBuilder.java:37)
+        at android.text.method.NumberKeyListener.onKeyDown(NumberKeyListener.java:131)
+
+HOTP Counter crash:
+2020-05-29 09:10:59.885 8118-8118/org.shadowice.flocke.andotp.dev E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: org.shadowice.flocke.andotp.dev, PID: 8118
+    java.lang.NumberFormatException: For input string: "1000000000000000000000"
+        at java.lang.Long.parseLong(Long.java:597)
+        at java.lang.Long.parseLong(Long.java:636)
+        at org.shadowice.flocke.andotp.Dialogs.ManualEntryDialog$7.onClick(ManualEntryDialog.java:245)
+        at android.view.View.performClick(View.java:7125)

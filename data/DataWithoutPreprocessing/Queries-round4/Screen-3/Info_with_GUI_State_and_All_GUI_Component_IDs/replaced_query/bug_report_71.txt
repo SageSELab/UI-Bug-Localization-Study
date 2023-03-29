@@ -1,0 +1,1 @@
+ SettingsActivity MainActivity decor_content_parent action_bar_container action_bar content list_container title widget_frame switch_widget summary statusBarBackground navigationBarBackground help headers widgetLayout searchEditLayout leftHandSideButtonsWrapper launcherButton searchEditText rightHandSideButtonsWrapper menuButton

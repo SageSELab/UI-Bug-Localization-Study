@@ -1,0 +1,18 @@
+Select Date Dialog
+
+Short Description
+
+Check/Uncheck checkbox on New Birthday date
+
+Steps to reproduce
+
+1. Press Add button
+2. Press EditText Birthday
+3. Uncheck the Checkbox "Birthday Year"
+4. Press Finish
+5. Press EditText Birthday Again
+6. I see Birthday Year List but Checkbox is unchecked
+
+Expected Results
+
+Checkbox "Bithday Year" Checked

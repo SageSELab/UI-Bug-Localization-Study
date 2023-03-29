@@ -1,0 +1,14 @@
+Issue manually entering fishing spot coordinates
+
+Problem
+If the "sync" icon isn't clicked after manually entering coordinates, the fishing spot's coordinates aren't updated accordingly.
+
+Reproduction steps
+1. Create a new, or edit an existing location
+2. Add fishing spot
+3. Manually enter coordinates (do not click the sync button)
+4. Save
+5. In the edit location screen the coordinates are not correct
+
+Solution
+The add fishing spot screen should get and validate its coordinates from the TextView widgets, not the middle of the map. If the coordinates are invalid, the user should see a dialog (this may already be implemented).

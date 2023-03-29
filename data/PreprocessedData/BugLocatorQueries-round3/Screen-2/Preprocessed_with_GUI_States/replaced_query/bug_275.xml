@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="275" opendate="">
+      <buginformation>
+         <summary/>
+         <description/>
+      </buginformation>
+      <fixedFiles>
+         <file>com.beemdevelopment.aegis.ui.Dialogs.java</file>
+         <file>com.beemdevelopment.aegis.ui.slides.CustomAuthenticatedSlide.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

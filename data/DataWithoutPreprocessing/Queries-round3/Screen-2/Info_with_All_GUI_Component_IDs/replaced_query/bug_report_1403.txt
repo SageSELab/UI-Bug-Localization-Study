@@ -1,0 +1,1 @@
+ action_bar_root content PhotoPager_Layout photos_pager toolbar_bottom action_share action_edit action_delete action_details toolbar statusBarBackground navigationBarBackground parentPanel topPanel title_template alertTitle customPanel custom aerr_restart

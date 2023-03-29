@@ -1,0 +1,8 @@
+Can't edit dates for a Trip
+
+Reproduction Steps
+1. Create Trip
+2. Edit Trip
+3. Modify date
+4. Press Save
+5. Observe error

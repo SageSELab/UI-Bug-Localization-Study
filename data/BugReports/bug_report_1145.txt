@@ -1,0 +1,21 @@
+Can't enter negative sign for lat/lon/alt in Accuracy view
+
+Describe the bug
+In Accuracy view, if you type a negative sign into the latitude, longitude, or altitude text boxes, nothing happens (no negative signs are added).
+
+I think the changes in #389 broke this.
+
+To Reproduce
+Steps to reproduce the behavior:
+1. Go to Accuracy view
+2. Tap on fields for latitude, longitude, or altitude
+3. Type -
+
+Expected behavior
+- should appear in the text box
+
+Observed behavior
+Nothing appears in the text box
+
+App, Device and Android version:
+Samsung Galaxy S8+ with Android 9

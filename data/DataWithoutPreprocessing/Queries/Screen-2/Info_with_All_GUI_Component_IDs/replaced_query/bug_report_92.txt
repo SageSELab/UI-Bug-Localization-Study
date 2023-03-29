@@ -1,0 +1,1 @@
+ action_bar_root content drawer_layout toolbar main_fragment_layout main_fragment vendorSearchText search_bar search_edit_frame search_mag_icon search_plate search_src_text vendor_name vendor_macs statusBarBackground navigationBarBackground search_close_btn empty

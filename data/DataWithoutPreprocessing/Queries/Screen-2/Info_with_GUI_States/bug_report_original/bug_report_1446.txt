@@ -1,0 +1,14 @@
+Issue editing fishing spots
+
+Trying to edit fishing spots adds a new one to the list, and the coordinates of the existing fishing spot are not updated.
+
+Reproduction steps:
+
+1. Edit a Location
+2. Click a fishing spot to edit
+3. Change the coordinates
+4. Save
+5. There will be two of the same spot showing in the list
+6. Clicking save again will no add the addition spot (this behaviour is correct)
+
+Instabug issue

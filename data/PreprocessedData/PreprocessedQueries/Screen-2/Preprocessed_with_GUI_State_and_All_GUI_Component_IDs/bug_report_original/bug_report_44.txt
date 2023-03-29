@@ -1,0 +1,1 @@
+tag text removal bug use checkbox describe the bug tag text removal bug seem like will remove all tag with the same header the delete tag context device nokia plus version android app version how reproduce step reproduce the behavior add some tag like remove test tag uncheck the box remove all tag contain test expect behavior should remain testa testb the previous

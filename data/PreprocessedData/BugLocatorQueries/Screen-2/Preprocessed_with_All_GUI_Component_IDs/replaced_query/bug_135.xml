@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="135" opendate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content drawer layout toolbar layout toolbar tab layout view pager parent layout category image list category image view category image title category image author status bar background navigation bar background image search result display image search progress</description>
+      </buginformation>
+      <fixedFiles>
+         <file>fr.free.nrw.commons.category.SubCategoryListFragment.java</file>
+         <file>fr.free.nrw.commons.explore.categories.SearchCategoryFragment.java</file>
+         <file>fr.free.nrw.commons.explore.categories.SearchCategoriesAdapterFactory.java</file>
+         <file>fr.free.nrw.commons.explore.categories.SearchCategoriesRenderer.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

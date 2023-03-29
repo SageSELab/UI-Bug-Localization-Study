@@ -1,0 +1,25 @@
+Confirmation field in settings doesn't react to show password option
+
+General information
+
+App version: master
+App source: GitHub
+Android Version: 29
+Custom ROM: None (emulator)
+
+Steps to reproduce
+
+1. Open app.
+2. Open Settings.
+3. Tap "Authentication" to open dialog.
+4. Enter new PIN/Password into both fields, and tap the "password visibility" option
+
+Expected result
+
+What is expected?
+Password/PIN shows in both fields
+
+What does happen instead?
+Password/PIN shows only in the main field, not the confirm field.
+
+I added a similar fix for #580 for the introductory Password/PIN setting, so I'll port that over here as well.

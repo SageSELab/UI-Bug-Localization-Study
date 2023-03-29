@@ -1,0 +1,14 @@
+Issue manually entering fishing spot coordinates
+
+Problem
+If the "sync" icon isn't clicked after manually entering coordinates, the fishing spot's coordinates aren't updated accordingly.
+
+Reproduction steps
+1. Create a new, or edit an existing location
+2. Add fishing spot
+3. Manually enter coordinates (do not click the sync button)
+4. Save
+5. In the edit location screen the coordinates are not correct
+
+Solution
+The add fishing spot screen should get and validate its coordinates from the TextView widgets, not the middle of the map. If the coordinates are invalid, the user should see a dialog (this may already be implemented).  content manage_container toolbar_view back_button title_text_view done_button content_scroll_view name_view edit_text fishing_spot_map crosshairs latitude_layout longitude_layout coordinate_refresh_button action_bar_root main_drawer master_container toolbar action_confirm icon_image_view add_fishing_spot_view primary_button container title_subtitle_view subtitle_text_view more_info_button statusBarBackground navigationBarBackground  content manage_container toolbar_view back_button title_text_view done_button content_scroll_view name_view edit_text fishing_spot_map crosshairs latitude_layout longitude_layout coordinate_refresh_button action_bar_root main_drawer master_container toolbar action_confirm icon_image_view add_fishing_spot_view primary_button container title_subtitle_view subtitle_text_view more_info_button statusBarBackground navigationBarBackground  content manage_container toolbar_view back_button title_text_view done_button content_scroll_view name_view edit_text fishing_spot_map crosshairs latitude_layout longitude_layout coordinate_refresh_button action_bar_root main_drawer master_container toolbar action_confirm icon_image_view add_fishing_spot_view primary_button container title_subtitle_view subtitle_text_view more_info_button statusBarBackground navigationBarBackground

@@ -1,0 +1,1 @@
+back button lead home fragment when orange file selector still open more like bug step reproduce any fragment such invert pdf remove page etc wherever there the orange slider use click the slider pull click back button expect behaviour click back button should pull the slider down remain the same fragment actual behaviour the back button lead the home fragment

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1214" opendate="">
+      <buginformation>
+         <summary>confirmation field react show password option when set password pin the first time</summary>
+         <description>general information app version master app source git hub android version api custom rom none emulator step reproduce open fresh installation the app choose password pin encryption method enter something into the enter password and confirm password field tap the visibility icon show password pin expect result what expect when the visibility icon tap show the password pin the confirm field should also show the password pin example from gmail what happen instead the confirm password field show password pin logcat issue log but attach screenshot action bar root content frame pager intro auth desc intro auth selection text intro credentials layout intro password layout intro password edit text input end icon intro password confirm button back pager indicator button next status bar background navigation bar background</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.shadowice.flocke.andotp.Activities.IntroScreenActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

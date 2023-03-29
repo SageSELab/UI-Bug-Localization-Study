@@ -1,0 +1,1 @@
+grant permissions activity main activity detail fragment permission allow button

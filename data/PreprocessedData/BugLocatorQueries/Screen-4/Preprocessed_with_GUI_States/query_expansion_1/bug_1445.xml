@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1445" opendate="">
+      <buginformation>
+         <summary>edit date trip</summary>
+         <description>reproduction step create trip edit trip modify date press save observe error main activity manage fragment</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.cohenadair.anglerslog.model.Logbook.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

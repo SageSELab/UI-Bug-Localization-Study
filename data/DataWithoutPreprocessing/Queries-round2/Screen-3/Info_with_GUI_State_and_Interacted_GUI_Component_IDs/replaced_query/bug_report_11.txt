@@ -1,0 +1,1 @@
+ SplashActivity GrantPermissionsActivity Launcher button1 permission_allow_button

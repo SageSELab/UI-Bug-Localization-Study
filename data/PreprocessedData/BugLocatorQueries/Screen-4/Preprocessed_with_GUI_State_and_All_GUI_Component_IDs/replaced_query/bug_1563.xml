@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1563" opendate="">
+      <buginformation>
+         <summary/>
+         <description>file activity action bar root content drawer layout app bar layout toolbar context menu button file title file icon file permission file date file size fab navigation bar background title</description>
+      </buginformation>
+      <fixedFiles>
+         <file>io.lerk.lrkFM.activities.FileActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

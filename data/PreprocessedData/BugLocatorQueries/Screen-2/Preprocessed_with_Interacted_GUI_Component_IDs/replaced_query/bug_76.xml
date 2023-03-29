@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="76" opendate="">
+      <buginformation>
+         <summary/>
+         <description/>
+      </buginformation>
+      <fixedFiles>
+         <file>com.genonbeta.TrebleShot.adapter.FileListAdapter.java</file>
+         <file>com.genonbeta.TrebleShot.fragment.FileListFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

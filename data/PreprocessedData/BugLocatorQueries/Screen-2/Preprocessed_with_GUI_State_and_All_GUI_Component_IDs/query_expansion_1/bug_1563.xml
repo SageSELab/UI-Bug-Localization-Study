@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1563" opendate="">
+      <buginformation>
+         <summary>keep scroll position when add file context reload current directory</summary>
+         <description>describe the bug when reload the current directory after complete file operation the list scroll the top obviously because reinitialize need save the scroll position before trigger reload save scroll after scroll reproduce step reproduce the behavior any folder with enough list scroll mark any file the bottom any operation scroll move back expect behavior current scroll position should preserved app info android version version file activity content title action bar root drawer layout app bar layout toolbar context menu button file title file icon file permission file date fab navigation bar background</description>
+      </buginformation>
+      <fixedFiles>
+         <file>io.lerk.lrkFM.activities.FileActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

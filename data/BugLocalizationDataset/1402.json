@@ -1,0 +1,1 @@
+{"id": "1402", "bug_location": [{"commit_ids": ["4f032f1305d2040c070c857a940240c0ad1bf9d2"], "file_name": "bug-1402/app/src/main/java/org/fossasia/phimpme/MyApplication.java"}, {"commit_ids": ["4f032f1305d2040c070c857a940240c0ad1bf9d2"], "file_name": "bug-1402/app/src/main/java/org/fossasia/phimpme/share/SharingActivity.java"}]}

@@ -1,0 +1,1 @@
+issue editing fishing spot edit fishing spot add one the list and the coordinate the exist fishing spot not update reproduction step edit location click fishing spot edit change the coordinate save there will two the same spot show the list click save again will add the addition spot behaviour correct instabug issue

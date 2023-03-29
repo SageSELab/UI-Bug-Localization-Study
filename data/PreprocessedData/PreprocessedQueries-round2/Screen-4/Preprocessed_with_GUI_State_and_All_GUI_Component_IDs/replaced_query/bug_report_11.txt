@@ -1,0 +1,1 @@
+splash activity grant permissions activity launcher action bar root content parent panel top panel title template alert title title divider custom content panel scroll view message button panel button button dialog container desc container perm desc root permission icon permission message button group permission deny button permission allow button

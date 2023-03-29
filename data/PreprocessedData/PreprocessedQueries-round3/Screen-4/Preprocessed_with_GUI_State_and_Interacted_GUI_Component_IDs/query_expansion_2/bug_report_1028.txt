@@ -1,0 +1,1 @@
+glosbe translation reproduction step enter any word into the advance editor press translate expect result translation successful actual result translation fail guess they change they api something report here translation activity multimedia edit field activity text translation activity multimedia edit field activity text

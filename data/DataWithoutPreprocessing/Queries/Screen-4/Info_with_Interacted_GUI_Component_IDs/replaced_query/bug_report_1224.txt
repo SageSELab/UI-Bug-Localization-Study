@@ -1,0 +1,1 @@
+ input_color_picker color_picker_swatch menu_save

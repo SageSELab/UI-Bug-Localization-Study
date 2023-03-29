@@ -1,0 +1,25 @@
+Crashes with invalid format email address
+
+Expected behavior
+
+I want to use an internal email adress like "foo@b.2". We use some custom software on our own servers only for internal communication. It works in Thunderbird.
+
+Actual behavior
+
+(All messages and texts are in german on my device; I don't know the texts if you use K9 in english. I just tried to translate them)
+If I try to add a new email account to K9-Mail (Enter email and password) and tap on one of the two buttons ("Manually" or "Continue") the app will crash with only the message "K-9 Mail has stopped"
+
+Steps to reproduce
+
+1. Open K-9 Mail
+2. Add new email account with "foo@b.2"
+3. Press "Manually" or "Continue"
+4. Crash
+
+Environment
+
+K-9 Mail version: 5.403
+
+Android version: 6.0.1
+
+Account type (IMAP, POP3, WebDAV/Exchange): I WANT to use IMAP, but I haven't tried yet, because of the crash.

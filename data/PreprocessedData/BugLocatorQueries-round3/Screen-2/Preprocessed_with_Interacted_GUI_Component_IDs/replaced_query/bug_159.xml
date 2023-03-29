@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="159" opendate="">
+      <buginformation>
+         <summary/>
+         <description>action save</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.ichi2.anki.CardBrowser.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

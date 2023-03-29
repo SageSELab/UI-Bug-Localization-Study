@@ -1,0 +1,23 @@
+BMI wrong when weight is not in kg
+
+Describe your issue
+Hello,
+When the weight is set in lb or st the BMI calculated is wrong.
+Thank you.
+Chris
+
+To Reproduce
+Steps to reproduce the behavior:
+
+Set size in profile.
+Set weight in "Weight Track" in either lb or st.
+See error
+Expected behavior
+Weight value should be converted to kg before BMI calculation.
+
+Smartphone:
+
+Android 8.1
+App 0.19.3.1
+Additional context
+Weight is being treated as kg when set in lb or st.

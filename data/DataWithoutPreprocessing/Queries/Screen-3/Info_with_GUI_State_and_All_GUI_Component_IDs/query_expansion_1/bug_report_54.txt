@@ -1,0 +1,18 @@
+Save button makes the file not save
+
+General information
+App version: 1.1.0 Google Play Store
+System: Android 8.0.0 Sony XZ2 Compact
+
+Description
+
+Steps to reproduce the bug:
+
+1. Press + to create a new note.
+2. Enter title and some content
+3. Wait for the save icon to be enabled (it is grayed out at start)
+4. Press save icon
+5. Press the back arrow from top
+6. Note is NOT created
+
+The note creation works if I skip steps 3 and 4 and only just press the back arrow. If I wait then the note is not created.  DocumentActivity MainActivity DocumentEditFragment MoreFragment action_bar_root content toolbar note__activity__header_view_switcher note__activity__text_note_title action_preview action_save document__placeholder_fragment document__fragment__edit__content_editor__scrolling_parent document__fragment__edit__highlighting_editor document__fragment__edit__textmodule_actions_bar__scrolling_parent document__fragment__edit__textmodule_actions_bar statusBarBackground navigationBarBackground main_content main_bottom_stuff fab_add_new_item bottom_navigation_bar nav_notebook icon largeLabel nav_todo smallLabel nav_quicknote nav_more appbar action_search search_bar search_button action_sort action_history main__view_pager_container notes_fragment_section_text file_identifier_icon note_title note_extra

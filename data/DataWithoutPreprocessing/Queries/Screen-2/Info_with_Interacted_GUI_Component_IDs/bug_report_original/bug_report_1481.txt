@@ -1,0 +1,8 @@
+Back behaviour broken for Article WebView
+
+Steps to reproduce:
+1. Open an article.
+2. Select a link in the article, allowing the next page to load in the WebView.
+3. Hit back.
+
+Observe the the user is taken back to the front page rather than navigating back a page in the WebView.

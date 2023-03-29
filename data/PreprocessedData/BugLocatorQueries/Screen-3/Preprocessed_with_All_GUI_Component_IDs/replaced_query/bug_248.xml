@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="248" opendate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content toolbar list container title summary status bar background navigation bar background icon frame icon</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.odk.collect.android.preferences.GeneralPreferencesFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

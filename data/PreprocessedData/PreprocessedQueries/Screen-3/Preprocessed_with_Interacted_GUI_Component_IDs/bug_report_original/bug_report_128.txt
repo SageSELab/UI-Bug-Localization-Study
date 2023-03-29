@@ -1,0 +1,1 @@
+switching language not work general information app version app source git hub android version expect result what expect when switching language the should display the right language what happen instead the app fall back english step reproduce think that the app should use value value etc instead the regionalize value lang region can disabled crowdin

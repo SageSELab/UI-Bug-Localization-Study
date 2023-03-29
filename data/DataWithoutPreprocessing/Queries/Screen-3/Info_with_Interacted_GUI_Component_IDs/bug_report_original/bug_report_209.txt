@@ -1,0 +1,18 @@
+Bug: Long pressing the amount input brings up QWERTY keyboard
+
+Steps to reproduce the behaviour
+1. Navigate to Transactions screen
+2. Tap the Add button
+3. Enter Description (optional)
+4. Focus the Amount input
+5. Long press to bring up the context menu
+
+Expected behaviour
+See the context menu
+
+Actual behaviour
+
+Software specifications
+GnuCash Android version: 2.2.0
+System Android version: 6.0
+Device type: Motorola Moto G (2nd Generation)

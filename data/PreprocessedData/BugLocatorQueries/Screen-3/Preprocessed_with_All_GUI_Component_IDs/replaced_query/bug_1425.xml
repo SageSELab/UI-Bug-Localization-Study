@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1425" opendate="">
+      <buginformation>
+         <summary/>
+         <description>text content editor value title editor value date input cardview weight singlevalueinput title singlevalueinput value editor value input singlevalueinput unit spinner btn cancel btn update action bar root drawer layout action toolbar image profile action chrono fragment container weight input weight graph weight detail button fat input fat graph fat detail button muscle input muscle graph muscle detail button water input water graph water detail button imc value imc view text imc help ffmi value ffmi view text ffmus help status bar background navigation bar background</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.easyfitness.WeightFragment.java</file>
+         <file>com.easyfitness.DAO.bodymeasures.DAOBodyMeasure.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

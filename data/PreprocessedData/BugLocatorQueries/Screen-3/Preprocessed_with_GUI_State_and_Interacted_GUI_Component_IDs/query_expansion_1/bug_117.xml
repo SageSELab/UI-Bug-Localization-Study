@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="117" opendate="">
+      <buginformation>
+         <summary>space increase refresh nutrition fact tab</summary>
+         <description>summary the space between each row nutritional value nutrition fact tab increase refresh the datum step reproduce select any food item and nutritional fact tab that item use swipe refresh method swipe down more space add between each row expect behavior refreshing should only update the datum observe behavior refreshing also change the space between each row nutritional value device and android version model redmi note android version android oreo rom custom screenshot product activity ingredient product fragment nutrition product fragment</description>
+      </buginformation>
+      <fixedFiles>
+         <file>openfoodfacts.github.scrachx.openfood.views.product.nutrition.NutritionProductFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

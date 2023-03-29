@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1568" opendate="">
+      <buginformation>
+         <summary/>
+         <description>file check box</description>
+      </buginformation>
+      <fixedFiles>
+         <file>io.lerk.lrkFM.adapter.FileArrayAdapter.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

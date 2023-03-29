@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="192" opendate="">
+      <buginformation>
+         <summary>cursor position reset when switching away from app</summary>
+         <description>version from droid step replicate open preferably big file and enter edit mode move the cursor any place other than the initial position another app and back expect behavior cursor remains where you place actual behavior cursor back the initial position happen even when one have open the insert image dialog you insert the image after switching back insert the begin the file document activity recents activity document edit fragment document fragment edit highlight editor title</description>
+      </buginformation>
+      <fixedFiles>
+         <file>net.gsantner.markor.activity.DocumentEditFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

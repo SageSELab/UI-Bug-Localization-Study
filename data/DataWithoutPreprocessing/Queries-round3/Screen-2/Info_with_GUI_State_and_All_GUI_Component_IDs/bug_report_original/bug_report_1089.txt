@@ -1,0 +1,18 @@
+IllegalStateException Crash when taping back in new unsaved time
+
+java.lang.IllegalStateException:  
+  at androidx.fragment.app.BackStackRecord.doAddOp (BackStackRecord.java:400)
+  at androidx.fragment.app.BackStackRecord.add (BackStackRecord.java:379)
+  at androidx.fragment.app.DialogFragment.show (DialogFragment.java:143)
+  at com.chess.clock.fragments.TimeControlFragment.showConfirmGoBackDialog (TimeControlFragment.java:366)
+  at com.chess.clock.activities.SettingsActivity.onBackPressed (SettingsActivity.java:162)
+  at android.app.Activity.onKeyUp (Activity.java:3057)
+
+Steps to reproduce:
+
+1. open app
+2. Settings
+3. New time
+4. tap one of the clocks and change time
+5. Set
+6. press Back

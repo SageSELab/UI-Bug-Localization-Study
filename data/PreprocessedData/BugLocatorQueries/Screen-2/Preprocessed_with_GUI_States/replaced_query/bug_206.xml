@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="206" opendate="">
+      <buginformation>
+         <summary/>
+         <description>accounts activity preference activity accounts list fragment book manager fragment</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.gnucash.android.ui.settings.BookManagerFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

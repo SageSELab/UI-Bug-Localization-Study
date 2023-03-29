@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="129" opendate="">
+      <buginformation>
+         <summary/>
+         <description/>
+      </buginformation>
+      <fixedFiles>
+         <file>org.shadowice.flocke.andotp.Dialogs.ManualEntryDialog.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

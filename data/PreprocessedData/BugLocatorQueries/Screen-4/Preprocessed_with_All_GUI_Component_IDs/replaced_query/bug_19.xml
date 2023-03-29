@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="19" opendate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content map bottom sheet container bottom sheet title input house number toggle keyboard button panel button other answer button top panel toolbar upload answer counter unsynced answer counter action undo map fragment map control fragment compass compass needle compass north create note zoom zoom out tracking openstreetmap link status bar background navigation bar background</description>
+      </buginformation>
+      <fixedFiles>
+         <file>de.westnordost.streetcomplete.quests.housenumber.AddHousenumberForm.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

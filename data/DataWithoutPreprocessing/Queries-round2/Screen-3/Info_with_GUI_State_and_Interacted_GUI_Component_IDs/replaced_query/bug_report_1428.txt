@@ -1,0 +1,1 @@
+ MainActivity BodyPartListFragment BodyPartDetailsFragment LIST_BODYPART buttonAdd

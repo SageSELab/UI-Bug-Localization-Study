@@ -1,0 +1,1 @@
+{"id": "1130", "bug_location": [{"commit_ids": ["d26d2126072654ba95f31f2bb638479bc2f199c4"], "file_name": "bug-1130/app/src/main/java/de/danoeh/antennapod/fragment/AllEpisodesFragment.java"}, {"commit_ids": ["d26d2126072654ba95f31f2bb638479bc2f199c4"], "file_name": "bug-1130/app/src/main/java/de/danoeh/antennapod/fragment/QueueFragment.java"}]}

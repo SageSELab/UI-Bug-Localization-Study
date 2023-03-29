@@ -1,0 +1,1 @@
+dark mode not correctly set theme color card area reviewer reproduction step night mode matter one set the theme dark black card background always black pure black background should avoid from perspective increase eyestrain and decrease legibility suggest that the card background should tone down bit

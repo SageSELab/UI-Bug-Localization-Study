@@ -1,0 +1,1 @@
+ GrantPermissionsActivity MainActivity DetailFragment permission_allow_button

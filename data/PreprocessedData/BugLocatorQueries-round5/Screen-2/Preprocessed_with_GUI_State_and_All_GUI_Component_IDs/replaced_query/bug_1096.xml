@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug id="1096" opendate="" fixdate="">
+      <buginformation>
+         <summary/>
+         <description>record sound activity inaturalist decor content parent action bar container action bar content seconds counter sound visualizer start recording stop record parent panel top panel title template alert title custom panel custom aerr restart</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.inaturalist.android.RecordSoundActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

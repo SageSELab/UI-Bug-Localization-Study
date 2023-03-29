@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1213" opendate="">
+      <buginformation>
+         <summary/>
+         <description/>
+      </buginformation>
+      <fixedFiles>
+         <file>org.shadowice.flocke.andotp.Preferences.PasswordEncryptedPreference.java</file>
+         <file>org.shadowice.flocke.andotp.Dialogs.PasswordEntryDialog.java</file>
+         <file>org.shadowice.flocke.andotp.Preferences.CredentialsPreference.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

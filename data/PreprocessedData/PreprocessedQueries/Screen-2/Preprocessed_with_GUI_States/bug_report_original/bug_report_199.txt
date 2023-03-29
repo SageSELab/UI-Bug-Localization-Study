@@ -1,0 +1,1 @@
+autosync not activate after regain connectivity step reproduce bug turn off connectivity make turn connectivity back remain wait upload state and pull refresh not activate sync expect behavior should sync automatically

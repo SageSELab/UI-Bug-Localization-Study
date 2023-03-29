@@ -1,0 +1,1 @@
+ ChartActivity DashboardActivity use_percent_values button1

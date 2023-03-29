@@ -1,0 +1,29 @@
+2.4.0 won't open to GUI with wifi enabled: "A network error occurred"
+
+Problem description
+
+Since the upgrade to 2.4.0 the app opens to an error message whenever wifi is enabled on my phone.
+
+The error is: "Error. A network error occurred. Please check the server address or try again later."
+
+It is not possible to access the GUI and use the application. Turning off wifi solves this problem and the app starts normally.
+
+This problem did not exist until my Ultrasonic icon changed about a week ago, so I believe it is related to the latest release.
+
+Steps to reproduce
+
+1. Turn on wifi on a properly configured Ultrasonic app on an Android device
+2. Restart the app.
+
+System information
+
+Ultrasonic version: 2.4.0
+Android version: 7.0 security patch through 3/2018
+Device info: S6
+Additional notes
+
+At first, I thought this might be an issue with having an Internet routable address for the Subsonic server when connected to a non-Internet routable LAN via wifi (which takes precedence over my phone carrier's network). I say that because, historically, connecting to my home wifi and specifying my home server's public IPv4 address eventually resulted in the same(?) "network error" message as above. This is likely due to the configuration of my routers.
+
+But now, I have the same issue when I change the server address to a LAN IP address, which I created long ago so that I could use Ultrasonic while at home on wifi.
+
+Also, the message comes up immediately instead of after the app starts trying to access the server for content. This makes the app unusable -- there's no way to change settings or select a different server because the app is inaccessible.

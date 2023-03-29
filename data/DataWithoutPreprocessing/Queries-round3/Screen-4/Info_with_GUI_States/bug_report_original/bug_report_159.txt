@@ -1,0 +1,30 @@
+Crash in Card Browser, the multi-select mode: Edit => change the card type
+
+Reproduction Steps
+
+1. Create any type and clone it (to keep things simple, I've just used basic, calling the types "Basic 1" & "Basic 2").
+2. Add two cards to the first type.
+3. Browser → select the two new cards → Edit → try to change the type (in my case, "Basic 1" → "Basic 2").
+
+Expected Result
+
+If you could allow there some sort of batch type reassignment via the default field mapping, that would be perfect!
+
+Actual Result
+
+It crashes, only the first card is affected by the change.
+
+Debug info
+
+Refer to the support page if you are unsure where to get the "debug info".
+
+Research
+
+Enter an [x] character to confirm the points below:
+
+--- I've reported it via the play.google.com, your representative there suggested that I report it here.
+
+ I have read the support page and am reporting a bug or enhancement request specific to AnkiDroid
+ I have checked the manual and the FAQ and could not find a solution to my issue
+ I have searched for similar existing issues here and on the user forum
+ (Optional) I have confirmed the issue is not resolved in the latest alpha release (instructions)

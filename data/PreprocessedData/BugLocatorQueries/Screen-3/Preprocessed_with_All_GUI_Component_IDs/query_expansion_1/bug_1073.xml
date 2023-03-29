@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1073" opendate="">
+      <buginformation>
+         <summary>you rights license link</summary>
+         <description>step reproduce setting mozilla you rights click licens expect behavior licens open actual behavior nothing device information android device pixel focus version local klar web view build check out random commit and focus gecko view build probably recent action bar root content toolbar container list container title summary widget frame widget link icon frame icon status bar background navigation bar background browser container status bar background main content appbar urlbar toolbar content security info display url menu view swipe refresh first erase</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.mozilla.focus.browser.LocalizedContent.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

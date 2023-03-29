@@ -1,0 +1,1 @@
+main activity manage fragment edit text button

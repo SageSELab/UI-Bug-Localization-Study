@@ -1,0 +1,1 @@
+bug press the amount input bring qwerty keyboard step reproduce the behaviour navigate transaction screen tap the add button enter description optional focus the amount input press bring the context menu expect behaviour see the context menu actual behaviour software specification gnu cash android version system android version device type motorola moto generation

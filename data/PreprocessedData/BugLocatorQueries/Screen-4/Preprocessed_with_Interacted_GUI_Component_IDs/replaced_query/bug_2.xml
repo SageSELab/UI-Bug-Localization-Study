@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="2" opendate="">
+      <buginformation>
+         <summary/>
+         <description>use percent value button</description>
+      </buginformation>
+      <fixedFiles>
+         <file>io.github.zwieback.familyfinance.business.chart.fragment.PieChartFragment.java</file>
+         <file>io.github.zwieback.familyfinance.business.chart.fragment.HorizontalBarChartFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

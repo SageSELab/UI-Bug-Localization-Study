@@ -1,0 +1,16 @@
+Help text is cut off
+
+Summary:
+The "Help" text is currently cut off:
+
+Steps to reproduce:
+Go to Navigation Drawer "Help"
+
+Expected behavior:
+Show an explanation of all fields
+
+Observed behavior:
+Help text cuts off in the middle of "Acc"
+
+Device and Android version:
+Pixel 2 emulator w/ Android 8.0

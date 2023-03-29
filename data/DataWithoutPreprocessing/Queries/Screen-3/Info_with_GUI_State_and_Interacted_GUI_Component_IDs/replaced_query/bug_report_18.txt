@@ -1,0 +1,1 @@
+ MedicinesActivity MedicineInfoActivity MedicineCreateOrEditFragment stock_switch btn_stock_add

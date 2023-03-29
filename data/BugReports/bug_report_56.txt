@@ -1,0 +1,21 @@
+[BUG] Unable to change label size when printing to Zebra printer
+
+After adding a trait in the "Zebra Label Print" format we are unable to change the label size. When collecting data, the drop-down menus for Text, Barcode and Copies are also not available.
+
+To Reproduce
+Steps to reproduce the behavior:
+
+1. Create a trait with the "Zebra Label Print" format
+2. Select "Zebra Label Print" trait for scoring
+3. Go to "Collect" and move to "Zebra Label Print" trait
+4. Scroll down for label details
+
+Expected behavior
+A dropdown menu should appear with multiple label size options or it should be possible to enter the label size manually.
+
+Device Info (please complete the following information):
+
+Model: [Zebra MC3300]
+OS: [e.g. Android 7.1.2]
+Field Book Version [4.3.3]
+We are able to print on labels of 10 cm by 5 cm using the standard size of "3" x 2" simple".

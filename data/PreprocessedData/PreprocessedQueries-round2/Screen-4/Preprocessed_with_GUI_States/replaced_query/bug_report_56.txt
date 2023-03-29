@@ -1,0 +1,1 @@
+config activity collect activity

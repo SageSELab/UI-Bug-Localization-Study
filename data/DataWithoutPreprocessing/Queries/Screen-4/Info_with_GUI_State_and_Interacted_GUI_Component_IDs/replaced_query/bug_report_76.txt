@@ -1,0 +1,1 @@
+ WelcomeActivity HomeActivity ReportFragment activity_welcome_view_next icon

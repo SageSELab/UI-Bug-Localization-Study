@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1299" opendate="">
+      <buginformation>
+         <summary/>
+         <description>add btn config title minus btn</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.fieldbook.tracker.activities.ConfigActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

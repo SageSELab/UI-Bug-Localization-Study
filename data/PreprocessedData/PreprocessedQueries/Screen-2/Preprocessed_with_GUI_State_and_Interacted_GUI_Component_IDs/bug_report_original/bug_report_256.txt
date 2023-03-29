@@ -1,0 +1,1 @@
+app crash when modify account transaction account longer exist step reproduce the behaviour use entry mode create account and set transaction account remove account modify account crash occur expect behaviour open account modify actual behaviour app crash software specification gnu cash android version system android version nougat device type google pixel

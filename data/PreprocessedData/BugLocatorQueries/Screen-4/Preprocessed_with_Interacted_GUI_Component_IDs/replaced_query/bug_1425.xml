@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1425" opendate="">
+      <buginformation>
+         <summary/>
+         <description>singlevalueinput unit spinner text btn update</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.easyfitness.WeightFragment.java</file>
+         <file>com.easyfitness.DAO.bodymeasures.DAOBodyMeasure.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

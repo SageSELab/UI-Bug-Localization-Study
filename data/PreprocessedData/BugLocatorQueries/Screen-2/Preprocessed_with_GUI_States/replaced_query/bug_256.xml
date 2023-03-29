@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="256" opendate="">
+      <buginformation>
+         <summary/>
+         <description>transaction activity accounts activity transaction list fragment</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.gnucash.android.ui.account.AccountsListFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

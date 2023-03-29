@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1406" opendate="">
+      <buginformation>
+         <summary/>
+         <description>edit image activity single media activity two item fragment support request manager fragment recycler menu fragment action edit</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.fossasia.phimpme.gallery.activities.SingleMediaActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

@@ -1,0 +1,1 @@
+action bar root content drawer layout toolbar schedule fragment list schedule fragment toolbar fab status bar background navigation bar background title name text edit train spinner text rep edit pause edit set edit speed edit

@@ -1,0 +1,23 @@
+Night mode: Category pages
+
+Summary:
+When clicking on a category in night mode, the app does not show the "Parent Categories", there's a blank space instead.
+
+Steps to reproduce:
+How can we reproduce the issue?
+Settings > Night Mode;
+Explore > Click any image > Click on a random categorie > Parent Categories
+
+What did you expect the app to do, and what did you see instead?
+The names of the parent categories should be shown.
+
+Device and Android version:
+Found on Xiaomi A1, Android 8.1.0
+
+Commons app version:
+2.8.5
+
+Screen-shots:
+
+Would you like to work on the issue?
+Yess.

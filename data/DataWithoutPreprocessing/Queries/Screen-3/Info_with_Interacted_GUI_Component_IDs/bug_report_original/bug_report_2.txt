@@ -1,0 +1,39 @@
+app crash when change view by in report section
+
+EXPECTED BEHAVIOR
+when the user changes the appearance of the report from "view value" to "use percent value" this application will still work properly and will display report data in accordance with the wishes of the user
+
+ACTUAL BEHAVIOR
+when the user changes the appearance of the report from "view value" to "use percent value" this application will crash and stop working
+
+STEPS TO REPRODUCE
+1. install and open the app
+2. click "report" option
+3. scroll to the right side to "incomes by articles or expenses by articles
+4. click eye icon
+5. change view by "view values" to "use percent values"
+6. see errors
+
+devices
+phone models: oppo neo 7
+os : android 6.1
+
+BUG RECORDING
+https://www.youtube.com/watch?v=MYMrVP3fQ_g&feature=youtu.be
+
+logcat
+Process: io.github.zwieback.familyfinance, PID: 13191
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.github.mikephil.charting.data.PieData.setDrawValues(boolean)' on a null object reference
+	at io.github.zwieback.familyfinance.business.chart.fragment.PieChartFragment.onApplyDisplay(PieChartFragment.java:160)
+	at io.github.zwieback.familyfinance.business.chart.fragment.PieChartFragment.onApplyDisplay(PieChartFragment.java:40)
+	at io.github.zwieback.familyfinance.business.chart.activity.ChartActivity.onApplyDisplay(ChartActivity.java:150)
+	at io.github.zwieback.familyfinance.business.chart.dialog.ChartDisplayDialog.lambda$onCreateDialog$0(ChartDisplayDialog.java:53)
+	at io.github.zwieback.familyfinance.business.chart.dialog.-$$Lambda$ChartDisplayDialog$3JuCWsAV3m9zaJu55iVYBsSndyU.onClick(lambda)
+	at android.support.v7.app.AlertController$ButtonHandler.handleMessage(AlertController.java:167)
+	at android.os.Handler.dispatchMessage(Handler.java:111)
+	at android.os.Looper.loop(Looper.java:218)
+	at android.app.ActivityThread.main(ActivityThread.java:5657)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:990)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:785)```

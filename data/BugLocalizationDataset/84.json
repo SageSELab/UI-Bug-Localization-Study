@@ -1,0 +1,1 @@
+{"id": "84", "bug_location": [{"commit_ids": ["95496eb1200e892600b60d5048248e893b339af3"], "file_name": "bug-84/ultrasonic/src/main/java/org/moire/ultrasonic/util/Constants.java"}, {"commit_ids": ["95496eb1200e892600b60d5048248e893b339af3"], "file_name": "bug-84/ultrasonic/src/main/java/org/moire/ultrasonic/util/Util.java"}]}

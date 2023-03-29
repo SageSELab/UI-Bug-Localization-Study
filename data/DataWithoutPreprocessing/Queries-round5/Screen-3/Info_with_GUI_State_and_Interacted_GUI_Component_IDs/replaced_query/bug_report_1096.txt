@@ -1,0 +1,1 @@
+ GrantPermissionsActivity RecordSoundActivity inaturalist permission_allow_button

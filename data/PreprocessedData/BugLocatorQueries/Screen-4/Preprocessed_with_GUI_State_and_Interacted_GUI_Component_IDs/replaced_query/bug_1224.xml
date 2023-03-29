@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1224" opendate="">
+      <buginformation>
+         <summary/>
+         <description>form activity accounts activity account form fragment color picker dialog accounts list fragment input color picker color picker swatch menu save</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.gnucash.android.ui.account.AccountFormFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

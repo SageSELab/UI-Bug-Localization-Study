@@ -1,0 +1,1 @@
+bug encrypted pdf get overwritten same pdf encrypted again step reproduce view file click any pdf abc pdf example click add password write password pdf abc encrypt pdf create again click abc pdf select add password type password click the previous file abc encrypt pdf overwritten expect behavior create abc encrypted some unique number pdf overwrite exist file

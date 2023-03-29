@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1425" opendate="">
+      <buginformation>
+         <summary>bmi wrong when weight not</summary>
+         <description>describe you issue hello when the weight set the bmi calculate wrong thank you chris reproduce step reproduce the behavior set size profile set weight weight track either see error expect behavior weight value should convert before bmi calculation smartphone android app additional context weight treat when set singlevalueinput unit spinner text btn update</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.easyfitness.WeightFragment.java</file>
+         <file>com.easyfitness.DAO.bodymeasures.DAOBodyMeasure.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

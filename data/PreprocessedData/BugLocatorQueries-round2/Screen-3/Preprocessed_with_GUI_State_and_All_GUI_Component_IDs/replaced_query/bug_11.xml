@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="11" opendate="">
+      <buginformation>
+         <summary/>
+         <description>splash activity grant permissions activity launcher action bar root content parent panel top panel title template alert title title divider custom content panel scroll view message button panel button button dialog container desc container perm desc root permission icon permission message button group permission deny button permission allow button</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.droidheat.musicplayer.NoadPlayer.java</file>
+         <file>com.droidheat.musicplayer.PlayActivity.java</file>
+         <file>com.droidheat.musicplayer.HomeFragment.java</file>
+         <file>com.droidheat.musicplayer.QueueFragment.java</file>
+         <file>com.droidheat.musicplayer.SongsManager.java</file>
+         <file>com.droidheat.musicplayer.MusicDockFragment.java</file>
+         <file>com.droidheat.musicplayer.SplashActivity.java</file>
+         <file>com.droidheat.musicplayer.MusicPlayback.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

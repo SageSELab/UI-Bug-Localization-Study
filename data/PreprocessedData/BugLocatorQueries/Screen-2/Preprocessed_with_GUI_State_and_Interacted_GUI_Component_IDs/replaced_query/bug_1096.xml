@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1096" opendate="">
+      <buginformation>
+         <summary/>
+         <description>record sound activity inaturalist</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.inaturalist.android.RecordSoundActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

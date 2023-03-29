@@ -1,0 +1,1 @@
+ NoteEditor AnkiDroidCrashReportDialog text1 action_save

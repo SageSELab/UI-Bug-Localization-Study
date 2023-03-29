@@ -1,0 +1,20 @@
+No Compliance of the Trainings Type Slider
+
+Bug
+If you choose Something at the TrainingsTypeSlider, there is no compliance of the value.
+
+To Reproduce
+Steps to reproduce the behavior:
+
+1. Open the Exercise Editor
+2. Change Something
+3. See error
+
+Expected behavior
+The value of the Slider should be stored in the XML-File and be Listed in the Schedule View.
+
+Smartphone:
+
+Device: all
+OS: Android
+Version 1902

@@ -1,0 +1,1 @@
+{"id": "1425", "bug_location": [{"commit_ids": ["d3663691f94a2ac0f31db8efbbc2b047bbabe7ab"], "file_name": "bug-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java"}, {"commit_ids": ["d3663691f94a2ac0f31db8efbbc2b047bbabe7ab"], "file_name": "bug-1425/app/src/main/java/com/easyfitness/WeightFragment.java"}]}

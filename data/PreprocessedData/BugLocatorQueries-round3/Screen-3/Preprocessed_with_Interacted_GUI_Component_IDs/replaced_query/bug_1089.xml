@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1089" opendate="">
+      <buginformation>
+         <summary/>
+         <description>button</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.chess.clock.fragments.TimeControlFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

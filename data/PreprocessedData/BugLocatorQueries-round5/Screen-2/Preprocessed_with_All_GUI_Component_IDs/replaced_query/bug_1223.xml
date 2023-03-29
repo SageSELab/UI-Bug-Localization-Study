@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug id="1223" opendate="" fixdate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content toolbar menu save fragment container fragment transaction form input transaction name currency symbol input transaction amount btn split editor input transaction type layout entry input transfer account spinner text input date input time input description input recurrence menu add split imbalance layout imbalance textview split list layout split currency symbol input split amount btn split type btn remove split name text input layout input split memo input account spinner calculator keyboard</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.gnucash.android.ui.transaction.TransactionFormFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

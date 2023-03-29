@@ -1,0 +1,26 @@
+First time setup does not require confirming password if "show password" box is checked
+
+First time setup does not require confirming password if "show password" box is checked
+
+Info
+
+Version: 1.14
+Source: Google Play
+Vault encrypted: Yes (with biometric unlock)
+Device: Samsung Galaxy S10e, SM-G970U
+Android version and ROM: Android 10, stock ROM
+
+Steps to reproduce
+
+1. Fresh install of app
+2. Enable biometric unlock (fingerprint). Note: I did not test this without enabling biometric unlock
+3. Type a password and click "show password"
+4. Click enter or next without confirming password
+
+What do you expect to happen?
+
+A prompt for confirming the password would be expected here.
+
+What happens instead?
+
+No prompt, user is taken directly to the main page of the app

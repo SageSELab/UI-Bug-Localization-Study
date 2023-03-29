@@ -1,0 +1,81 @@
+Bug Report ID,Ranks-unsorted,Ranks,Files
+2,"[88, 90]","[88, 90]","['io.github.zwieback.familyfinance.business.chart.fragment.HorizontalBarChartFragment.java', 'io.github.zwieback.familyfinance.business.chart.fragment.PieChartFragment.java']"
+8,[3],[3],['de.koelle.christian.trickytripper.TrickyTripperActivity.java']
+10,"[66, 70, 73]","[66, 70, 73]","['me.zhanghai.android.files.ftpserver.FtpServerService.java', 'me.zhanghai.android.files.ftpserver.FtpServerReceiver.java', 'me.zhanghai.android.files.ftpserver.FtpServerStatePreference.java']"
+18,"[3, 34, 47]","[3, 34, 47]","['es.usc.citius.servando.calendula.fragments.MedicineCreateOrEditFragment.java', 'es.usc.citius.servando.calendula.fragments.ScheduleTimetableFragment.java', 'es.usc.citius.servando.calendula.fragments.RoutineCreateOrEditFragment.java']"
+19,[3],[3],['de.westnordost.streetcomplete.quests.housenumber.AddHousenumberForm.java']
+44,[54],[54],['it.feio.android.omninotes.utils.TagsHelper.java']
+53,[18],[18],['net.gsantner.markor.ui.NewFileDialog.java']
+117,[],[],[]
+128,"[14, 15, 21]","[14, 15, 21]","['org.shadowice.flocke.andotp.Activities.MainActivity.java', 'org.shadowice.flocke.andotp.Activities.SettingsActivity.java', 'org.shadowice.flocke.andotp.Utilities.Settings.java']"
+129,[],[],[]
+130,[13],[13],['org.shadowice.flocke.andotp.Activities.IntroScreenActivity.java']
+135,[],[],[]
+191,[],[],[]
+206,[25],[25],['org.gnucash.android.ui.settings.BookManagerFragment.java']
+209,[7],[7],['org.gnucash.android.ui.util.widget.CalculatorEditText.java']
+256,[35],[35],['org.gnucash.android.ui.account.AccountsListFragment.java']
+1073,[],[],[]
+1202,[1],[1],['swati4star.createpdf.activity.ImageEditor.java']
+1205,[],[],[]
+1207,[17],[17],['org.shadowice.flocke.andotp.View.ManualEntryDialog.java']
+1214,[11],[11],['org.shadowice.flocke.andotp.Activities.IntroScreenActivity.java']
+1215,[26],[26],['org.shadowice.flocke.andotp.Dialogs.ManualEntryDialog.java']
+1224,[12],[12],['org.gnucash.android.ui.account.AccountFormFragment.java']
+1299,[45],[45],['com.fieldbook.tracker.activities.ConfigActivity.java']
+1399,[3],[3],['org.fossasia.phimpme.gallery.activities.SettingsActivity.java']
+1430,[9],[9],['com.easyfitness.programs.ProgramRunnerFragment.java']
+1441,[22],[22],['com.cohenadair.anglerslog.locations.ManageFishingSpotFragment.java']
+1445,[44],[44],['com.cohenadair.anglerslog.model.Logbook.java']
+1481,[],[],[]
+54,[],[],[]
+76,[],[],[]
+92,[82],[82],['com.vrem.wifianalyzer.vendor.model.VendorDB.java']
+158,[],[],[]
+160,[],[],[]
+162,[1],[1],['com.fsck.k9.activity.setup.AccountSetupBasics.java']
+192,[18],[18],['net.gsantner.markor.activity.DocumentEditFragment.java']
+199,[6],[6],['org.inaturalist.android.ObservationListActivity.java']
+200,[9],[9],['org.inaturalist.android.ObservationListActivity.java']
+248,[52],[52],['org.odk.collect.android.preferences.GeneralPreferencesFragment.java']
+1198,[1],[1],['swati4star.createpdf.adapter.ViewFilesAdapter.java']
+1228,[24],[24],['org.gnucash.android.ui.transaction.TransactionDetailActivity.java']
+1389,"[5, 13, 16]","[5, 13, 16]","['org.y20k.transistor.PlayerActivityFragment.java', 'org.y20k.transistor.core.Station.java', 'org.y20k.transistor.helpers.StationFetcher.java']"
+1425,"[10, 69]","[10, 69]","['com.easyfitness.DAO.bodymeasures.DAOBodyMeasure.java', 'com.easyfitness.WeightFragment.java']"
+1446,[10],[10],['com.cohenadair.anglerslog.locations.ManageLocationFragment.java']
+1563,[4],[4],['io.lerk.lrkFM.activities.FileActivity.java']
+1568,[6],[6],['io.lerk.lrkFM.adapter.FileArrayAdapter.java']
+11,"[1, 2, 6, 7, 8, 9, 23]","[1, 2, 6, 7, 8, 9, 23]","['com.droidheat.musicplayer.SplashActivity.java', 'com.droidheat.musicplayer.HomeFragment.java', 'com.droidheat.musicplayer.MusicPlayback.java', 'com.droidheat.musicplayer.PlayActivity.java', 'com.droidheat.musicplayer.SongsManager.java', 'com.droidheat.musicplayer.MusicDockFragment.java', 'com.droidheat.musicplayer.QueueFragment.java']"
+55,"[7, 18]","[7, 18]","['com.fieldbook.tracker.traits.CategoricalTraitLayout.java', 'com.fieldbook.tracker.traits.MultiCatTraitLayout.java']"
+56,[24],[24],['com.fieldbook.tracker.traits.LabelPrintTraitLayout.java']
+227,[],[],[]
+1213,"[4, 5, 6]","[4, 5, 6]","['org.shadowice.flocke.andotp.Preferences.PasswordEncryptedPreference.java', 'org.shadowice.flocke.andotp.Dialogs.PasswordEntryDialog.java', 'org.shadowice.flocke.andotp.Preferences.CredentialsPreference.java']"
+1222,[78],[78],['org.gnucash.android.model.Recurrence.java']
+1428,"[2, 4, 5, 13, 18, 28, 37, 42, 45]","[2, 4, 5, 13, 18, 28, 37, 42, 45]","['com.easyfitness.machines.MachineFragment.java', 'com.easyfitness.bodymeasures.BodyPartDetailsFragment.java', 'com.easyfitness.ValueEditorDialogbox.java', 'com.easyfitness.machines.MachineDetailsFragment.java', 'com.easyfitness.machines.MachineCursorAdapter.java', 'com.easyfitness.machines.MachineArrayFullAdapter.java', 'com.easyfitness.fonte.FonteGraphFragment.java', 'com.easyfitness.graph.DateGraph.java', 'com.easyfitness.DAO.bodymeasures.BodyPart.java']"
+84,[],[],[]
+87,[68],[68],['org.moire.ultrasonic.util.BackgroundTask.java']
+159,[9],[9],['com.ichi2.anki.CardBrowser.java']
+193,"[12, 100]","[12, 100]","['com.alexstyl.specialdates.addevent.ui.BirthdayDatePicker.java', 'com.alexstyl.specialdates.addevent.BirthdayPickerDialog.java']"
+275,[],[],[]
+1028,[],[],[]
+1089,[],[],[]
+1130,"[9, 12]","[9, 12]","['de.danoeh.antennapod.fragment.QueueFragment.java', 'de.danoeh.antennapod.fragment.AllEpisodesFragment.java']"
+1402,"[4, 59]","[4, 59]","['org.fossasia.phimpme.share.SharingActivity.java', 'org.fossasia.phimpme.MyApplication.java']"
+1403,[35],[35],['org.fossasia.phimpme.editor.FileUtils.java']
+71,[],[],[]
+201,[2],[2],['org.inaturalist.android.ObservationListActivity.java']
+1641,"[1, 3]","[1, 3]","['com.german_software_engineers.trainerapp.ExerciseViewActivity.java', 'com.german_software_engineers.trainerapp.GeneralTrainingScheduleEditor.java']"
+1096,[],[],[]
+1146,[],[],[]
+1147,[],[],[]
+1151,[],[],[]
+1223,[6],[6],['org.gnucash.android.ui.transaction.TransactionFormFragment.java']
+1645,[6],[6],['com.german_software_engineers.trainerapp.ExerciseDialog.java']
+106,"[12, 143]","[12, 143]","['com.poupa.vinylmusicplayer.loader.SongLoader.java', 'com.poupa.vinylmusicplayer.util.FileUtil.java']"
+110,[],[],[]
+168,[],[],[]
+271,[48],[48],['com.beemdevelopment.aegis.ui.views.TotpProgressBar.java']
+1406,[1],[1],['org.fossasia.phimpme.gallery.activities.SingleMediaActivity.java']
+45,[108],[108],['it.feio.android.omninotes.helpers.GeocodeProviderBaseFactory.java']
+1640,[],[],[]
+1150,[],[],[]

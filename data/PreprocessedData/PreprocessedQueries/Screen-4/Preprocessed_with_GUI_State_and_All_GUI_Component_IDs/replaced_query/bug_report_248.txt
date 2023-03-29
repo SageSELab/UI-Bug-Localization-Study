@@ -1,0 +1,1 @@
+admin preferences activity preferences activity action bar root content toolbar list container title widget frame checkbox status bar background navigation bar background summary icon frame icon

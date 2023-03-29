@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1228" opendate="">
+      <buginformation>
+         <summary/>
+         <description>input split amount menu save</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.gnucash.android.ui.transaction.TransactionDetailActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

@@ -1,0 +1,1 @@
+filter image toast save current display even when image save step select few image filter image add any effect select brush option draw something select save current now press right arrow icon the toast display save current first expect behaviour toast should display when image save

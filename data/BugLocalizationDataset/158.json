@@ -1,0 +1,1 @@
+{"id": "158", "bug_location": [{"commit_ids": ["5c7ef543d2ac9233ba6818e43b1d1a097f7332a8"], "file_name": "bug-158/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java"}, {"commit_ids": ["5c7ef543d2ac9233ba6818e43b1d1a097f7332a8"], "file_name": "bug-158/AnkiDroid/src/main/java/com/ichi2/themes/Themes.java"}]}

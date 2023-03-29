@@ -1,0 +1,1 @@
+when account edit its color lose step reproduce the behaviour set the color account edit the account press save expect behaviour the color the account remains the same actual behaviour the color unset software specification gnu cash android version system android version device type aquaris

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="200" opendate="">
+      <buginformation>
+         <summary>ghost thumbnail image observation list view</summary>
+         <description>when create observation without image and back the observation list there image there from another one see screenshot below these should have image build step reproduce bug tap create button tap skip photo save observation tap the checkmark upper right observation list activity observation editor list title save observation</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.inaturalist.android.ObservationListActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

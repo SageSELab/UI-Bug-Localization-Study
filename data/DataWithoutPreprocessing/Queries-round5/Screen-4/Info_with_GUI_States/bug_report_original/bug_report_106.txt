@@ -1,0 +1,21 @@
+unable to play from folder view since 0.21.0
+
+Describe the bug
+Since I installed the latest update 0.21.0, I am unable to play media from the folder view. Touching a song has no effect, neither has selecting the song by long pressing and then using "add to playlist" or by using the song menu and selecting "play next". This is reproducible on all of my songs, all of which used to work before the update.
+Notably, the library view is not affected (everything works as expected there, tried the same songs), only the folder view.
+I have reinstalled the app as well to no effect.
+
+To Reproduce
+Steps to reproduce the behavior:
+
+1. Go to folder view
+2. Try to play any song by any means provided by the app
+
+Expected behavior
+The song would play.
+
+Smartphone (please complete the following information):
+Device: LG V30 (H930)
+Android Version: build 183202318d019, release 8.0.0, sdk 26
+ROM: factory default
+Vinyl Music Player Version: 0.21.0

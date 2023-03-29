@@ -1,0 +1,99 @@
+Bug: App crash when i allow access to my file
+
+Describe the bug.
+
+When I launched the app, I got a pop up that I should grant permission, I clicked on accept, and the app pops up again that I should allow access to my file and I clicked allow, the app roll and crashed.
+
+Steps to reproduce.
+
+1. Launch the app
+
+2. Click on accept to grant permission
+
+3. Then click on allow
+
+4. And note the bug
+
+Expected Behaviour
+
+I expect the app shouldn't crash when I allow access to my file.
+
+Screen recording
+
+https://youtu.be/j7M1LJ1yycI
+
+Devices and Versions)
+
+Device: [itel]
+
+Version [6.1]
+
+App version [0.8.20190518-2]
+
+Log
+
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: Process: com.droidheat.musicplayer, PID: 24873
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: android.view.InflateException: Binary XML file line #21: Binary XML file line #21: Error inflating class ImageView
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:539)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:423)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at com.droidheat.musicplayer.CustomAdapter.getView(CustomAdapter.java:74)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at com.commonsware.cwac.merge.MergeAdapter.getView(MergeAdapter.java:271)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.AbsListView.obtainView(AbsListView.java:2354)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.ListView.makeAndAddView(ListView.java:1878)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.ListView.fillSpecific(ListView.java:1357)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.ListView.layoutChildren(ListView.java:1677)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.AbsListView.onLayout(AbsListView.java:2156)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.View.layout(View.java:16649)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.ViewGroup.layout(ViewGroup.java:5471)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1743)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1586)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1495)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.View.layout(View.java:16649)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.ViewGroup.layout(ViewGroup.java:5471)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.support.v4.view.ViewPager.onLayout(ViewPager.java:1775)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.View.layout(View.java:16649)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.ViewGroup.layout(ViewGroup.java:5471)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.RelativeLayout.onLayout(RelativeLayout.java:1079)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.View.layout(View.java:16649)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.ViewGroup.layout(ViewGroup.java:5471)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.support.constraint.ConstraintLayout.onLayout(ConstraintLayout.java:1915)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.View.layout(View.java:16649)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.ViewGroup.layout(ViewGroup.java:5471)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:336)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:273)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.View.layout(View.java:16649)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.ViewGroup.layout(ViewGroup.java:5471)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1743)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1586)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1495)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.View.layout(View.java:16649)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.ViewGroup.layout(ViewGroup.java:5471)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:336)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:273)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.View.layout(View.java:16649)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.ViewGroup.layout(ViewGroup.java:5471)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1743)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1586)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1495)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.View.layout(View.java:16649)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.ViewGroup.layout(ViewGroup.java:5471)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:336)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.widget.FrameLayout.onLayout(FrameLayout.java:273)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at com.android.internal.policy.PhoneWindow$DecorView.onLayout(PhoneWindow.java:2694)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.View.layout(View.java:16649)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.ViewGroup.layout(ViewGroup.java:5471)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:2171)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1931)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1107)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6013)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:858)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.Choreographer.doCallbacks(Choreographer.java:670)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.Choreographer.doFrame(Choreographer.java:606)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:844)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:739)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:148)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5452)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:781)
+05-22 18:22:23.222 24873 24873 E AndroidRuntime: 	at com.android.internal.os.Zy```

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="10" opendate="">
+      <buginformation>
+         <summary>ftp server restart app kill after stop</summary>
+         <description>material file version beta android version kernel version droid version device step reproduce open material file give access file open menu ftp server start server stop server close application result server restart its own that the way the app beautiful and useful really appreciate and thank you work</description>
+      </buginformation>
+      <fixedFiles>
+         <file>me.zhanghai.android.files.ftpserver.FtpServerService.java</file>
+         <file>me.zhanghai.android.files.ftpserver.FtpServerReceiver.java</file>
+         <file>me.zhanghai.android.files.ftpserver.FtpServerStatePreference.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

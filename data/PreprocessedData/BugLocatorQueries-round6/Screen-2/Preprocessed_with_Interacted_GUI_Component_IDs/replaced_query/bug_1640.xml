@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug id="1640" opendate="" fixdate="">
+      <buginformation>
+         <summary/>
+         <description/>
+      </buginformation>
+      <fixedFiles>
+         <file>com.german_software_engineers.trainerapp.ExerciseView.Controller.ExerciseViewHolder.java</file>
+         <file>com.german_software_engineers.trainerapp.InfoActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

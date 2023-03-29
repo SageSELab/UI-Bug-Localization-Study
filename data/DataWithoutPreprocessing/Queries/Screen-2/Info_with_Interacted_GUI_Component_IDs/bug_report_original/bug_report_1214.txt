@@ -1,0 +1,26 @@
+Confirmation field doesn't react to "show password" option when setting password/PIN the first time
+
+General information
+App version: master
+App source: GitHub
+Android Version: API 29
+Custom ROM: None (emulator)
+
+Steps to reproduce
+1. Open a fresh installation of the app.
+2. Choose Password/PIN as encryption method.
+3. Enter something into the "Enter new password" and "Confirm password" fields.
+4. Tap the visibility icon to show password/PIN.
+
+Expected result
+
+What is expected?
+When the visibility icon is tapped to show the password/PIN, the confirm field should also show the password/PIN.
+
+Example from Gmail:
+
+What does happen instead?
+The confirm password field doesn't show password/PIN.
+
+Logcat
+UI issue so no logs, but I've attached a screenshot:

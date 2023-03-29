@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="158" opendate="">
+      <buginformation>
+         <summary/>
+         <description>deck picker reviewer action bar root content drawer layout root layout deckpicker view toolbar action sync pull sync wrapper file deck picker horiz deckpicker name count layout deckpicker deckpicker lrn deckpicker rev today stats text view add content menu fab expand menu button navigation bar background front frame action undo action mark card top bar number learn number review number flashcard frame touch layer flashcard whiteboard bottom area layout answer option layout flashcard layout flip flip card</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.ichi2.anki.AbstractFlashcardViewer.java</file>
+         <file>com.ichi2.themes.Themes.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

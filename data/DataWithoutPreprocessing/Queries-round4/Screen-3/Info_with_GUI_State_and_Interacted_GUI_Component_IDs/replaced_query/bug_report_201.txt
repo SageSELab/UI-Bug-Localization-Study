@@ -1,0 +1,1 @@
+ ObservationEditor ObservationListActivity save_observation cancel_sync

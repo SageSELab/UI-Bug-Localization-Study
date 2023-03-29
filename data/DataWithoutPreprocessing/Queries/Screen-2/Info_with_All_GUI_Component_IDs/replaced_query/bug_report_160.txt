@@ -1,0 +1,1 @@
+ action_bar_root content drawer_layout root_layout front_frame toolbar action_hide_whiteboard action_undo action_flag top_bar new_number learn_number review_number choosen_answer flashcard_frame flashcard qa touch_layer whiteboard bottom_area_layout answer_options_layout flashcard_layout_flip flip_card navigationBarBackground

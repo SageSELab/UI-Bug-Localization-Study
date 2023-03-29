@@ -1,0 +1,8 @@
+Can't edit dates for a Trip
+
+Reproduction Steps
+1. Create Trip
+2. Edit Trip
+3. Modify date
+4. Press Save
+5. Observe error  content parentPanel customPanel custom datePicker date_picker_header date_picker_header_year date_picker_header_date animator date_picker_day_picker day_picker_view_pager month_view prev next buttonPanel button2 button1 action_bar_root main_drawer master_container toolbar action_confirm manage_container content_scroll_view start_date_view icon_image_view primary_button end_date_view name_view edit_text catches_view locations_view anglers_view notes_view statusBarBackground navigationBarBackground topPanel title_template alertTitle contentPanel scrollView message  content parentPanel customPanel custom datePicker date_picker_header date_picker_header_year date_picker_header_date animator date_picker_day_picker day_picker_view_pager month_view prev next buttonPanel button2 button1 action_bar_root main_drawer master_container toolbar action_confirm manage_container content_scroll_view start_date_view icon_image_view primary_button end_date_view name_view edit_text catches_view locations_view anglers_view notes_view statusBarBackground navigationBarBackground topPanel title_template alertTitle contentPanel scrollView message

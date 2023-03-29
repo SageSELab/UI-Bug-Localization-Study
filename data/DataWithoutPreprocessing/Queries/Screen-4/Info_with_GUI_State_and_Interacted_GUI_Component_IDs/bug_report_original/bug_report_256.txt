@@ -1,0 +1,19 @@
+App crashes when trying modify account if default transaction account no longer exist.
+
+Steps to reproduce the behaviour
+1. Use double entry mode.
+2. Create account A and B.
+3. Set B's default transaction account to A.
+4. Remove account A.
+5. Modify account B, crash occurred.
+
+Expected behaviour
+Open account modifying interface.
+
+Actual behaviour
+App crashed.
+
+Software specifications
+GnuCash Android version: 2.1.4
+System Android version: Nougat 7.1.1
+Device type: Google Pixel

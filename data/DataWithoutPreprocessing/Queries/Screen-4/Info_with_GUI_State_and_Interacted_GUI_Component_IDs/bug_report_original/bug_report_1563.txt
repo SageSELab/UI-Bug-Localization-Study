@@ -1,0 +1,19 @@
+Keep scroll position when adding files to op context/reloading current directory
+
+Describe the bug
+When reloading the current directory after completing a file operation, the list scrolls to the top (obviously because it's reinitialized). We need to save the scroll position before triggering a reload/save it on scroll/after scroll?
+
+To Reproduce
+Steps to reproduce the behavior:
+
+1. Go to any folder with a long enough list to scroll
+2. Mark any file at the bottom for any operation
+3. Scroll moves back up
+
+Expected behavior
+Current scroll position should be preserved.
+
+App Info:
+
+Android Version: 9
+Version: 1.9

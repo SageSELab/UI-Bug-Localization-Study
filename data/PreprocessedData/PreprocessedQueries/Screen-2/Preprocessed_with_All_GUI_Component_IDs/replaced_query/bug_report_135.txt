@@ -1,0 +1,1 @@
+action bar root content drawer layout toolbar layout toolbar tab layout view pager parent layout category image list category image view category image title category image author status bar background navigation bar background image search result display image search progress

@@ -1,0 +1,81 @@
+Bug Report ID,Ranks-unsorted,Ranks,Files
+2,"[0, 0]",[],"['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-2/app/src/main/java/io/github/zwieback/familyfinance/business/chart/fragment/HorizontalBarChartFragment.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-2/app/src/main/java/io/github/zwieback/familyfinance/business/chart/fragment/PieChartFragment.java']"
+8,[10],[10],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-8/app/src/main/java/de/koelle/christian/trickytripper/TrickyTripperActivity.java']
+10,"[0, 0, 0]",[],"['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerStatePreference.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerReceiver.java']"
+18,"[82, 1, 74]","[1, 74, 82]","['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/RoutineCreateOrEditFragment.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/MedicineCreateOrEditFragment.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/ScheduleTimetableFragment.java']"
+19,[1],[1],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-19/app/src/main/java/de/westnordost/streetcomplete/quests/housenumber/AddHousenumberForm.java']
+44,[0],[],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-44/omniNotes/src/main/java/it/feio/android/omninotes/utils/TagsHelper.java']
+53,[20],[20],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-53/app/src/main/java/net/gsantner/markor/ui/NewFileDialog.java']
+117,[],[],[]
+128,"[24, 13, 20]","[13, 20, 24]","['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-128/app/src/main/java/org/shadowice/flocke/andotp/Utilities/Settings.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-128/app/src/main/java/org/shadowice/flocke/andotp/Activities/MainActivity.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-128/app/src/main/java/org/shadowice/flocke/andotp/Activities/SettingsActivity.java']"
+129,[],[],[]
+130,[16],[16],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java']
+135,[],[],[]
+191,[],[],[]
+206,[28],[28],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-206/app/src/main/java/org/gnucash/android/ui/settings/BookManagerFragment.java']
+209,[14],[14],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-209/app/src/main/java/org/gnucash/android/ui/util/widget/CalculatorEditText.java']
+256,[47],[47],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-256/app/src/main/java/org/gnucash/android/ui/account/AccountsListFragment.java']
+1073,[],[],[]
+1202,[1],[1],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1202/app/src/main/java/swati4star/createpdf/activity/ImageEditor.java']
+1205,[],[],[]
+1207,[1],[1],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1207/app/src/main/java/org/shadowice/flocke/andotp/View/ManualEntryDialog.java']
+1214,[4],[4],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1214/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java']
+1215,[2],[2],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1215/app/src/main/java/org/shadowice/flocke/andotp/Dialogs/ManualEntryDialog.java']
+1224,[22],[22],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1224/app/src/main/java/org/gnucash/android/ui/account/AccountFormFragment.java']
+1299,[0],[],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1299/app/src/main/java/com/fieldbook/tracker/activities/ConfigActivity.java']
+1399,[2],[2],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1399/app/src/main/java/org/fossasia/phimpme/gallery/activities/SettingsActivity.java']
+1430,"[33, 19]","[19, 33]","['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1430/app/src/main/java/com/easyfitness/programs/ProgramPagerFragment.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1430/app/src/main/java/com/easyfitness/programs/ProgramRunnerFragment.java']"
+1441,[19],[19],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1441/android/app/src/main/java/com/cohenadair/anglerslog/locations/ManageFishingSpotFragment.java']
+1445,[0],[],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1445/android/app/src/main/java/com/cohenadair/anglerslog/model/Logbook.java']
+1481,[],[],[]
+54,[],[],[]
+76,[],[],[]
+92,[0],[],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-92/app/src/main/java/com/vrem/wifianalyzer/vendor/model/VendorDB.java']
+158,[],[],[]
+160,[],[],[]
+162,[1],[1],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-162/k9mail/src/main/java/com/fsck/k9/activity/setup/AccountSetupBasics.java']
+192,[22],[22],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-192/app/src/main/java/net/gsantner/markor/activity/DocumentEditFragment.java']
+199,[12],[12],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-199/iNaturalist/src/main/java/org/inaturalist/android/ObservationListActivity.java']
+200,[5],[5],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-200/iNaturalist/src/main/java/org/inaturalist/android/ObservationListActivity.java']
+248,[58],[58],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-248/collect_app/src/main/java/org/odk/collect/android/preferences/GeneralPreferencesFragment.java']
+1198,[4],[4],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1198/app/src/main/java/swati4star/createpdf/adapter/ViewFilesAdapter.java']
+1228,[28],[28],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1228/app/src/main/java/org/gnucash/android/ui/transaction/TransactionDetailActivity.java']
+1389,"[5, 0, 0]",[5],"['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1389/app/src/main/java/org/y20k/transistor/PlayerActivityFragment.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1389/app/src/main/java/org/y20k/transistor/core/Station.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1389/app/src/main/java/org/y20k/transistor/helpers/StationFetcher.java']"
+1425,"[37, 14]","[14, 37]","['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1425/app/src/main/java/com/easyfitness/WeightFragment.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java']"
+1446,[26],[26],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1446/AnglersLog/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java']
+1563,[6],[6],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1563/app/src/main/java/io/lerk/lrkFM/activities/FileActivity.java']
+1568,[1],[1],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1568/app/src/main/java/io/lerk/lrkFM/adapter/FileArrayAdapter.java']
+11,"[7, 13, 0, 1, 14, 8, 15]","[1, 7, 8, 13, 14, 15]","['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-11/app/src/main/java/com/droidheat/musicplayer/HomeFragment.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-11/app/src/main/java/com/droidheat/musicplayer/SongsManager.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-11/app/src/main/java/com/droidheat/musicplayer/QueueFragment.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-11/app/src/main/java/com/droidheat/musicplayer/SplashActivity.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-11/app/src/main/java/com/droidheat/musicplayer/MusicDockFragment.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-11/app/src/main/java/com/droidheat/musicplayer/MusicPlayback.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-11/app/src/main/java/com/droidheat/musicplayer/PlayActivity.java']"
+55,"[25, 4]","[4, 25]","['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-55/app/src/main/java/com/fieldbook/tracker/traits/MultiCatTraitLayout.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-55/app/src/main/java/com/fieldbook/tracker/traits/CategoricalTraitLayout.java']"
+56,[24],[24],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-56/app/src/main/java/com/fieldbook/tracker/traits/LabelPrintTraitLayout.java']
+227,[],[],[]
+1213,"[7, 6, 5]","[5, 6, 7]","['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1213/app/src/main/java/org/shadowice/flocke/andotp/Preferences/CredentialsPreference.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1213/app/src/main/java/org/shadowice/flocke/andotp/Preferences/PasswordEncryptedPreference.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1213/app/src/main/java/org/shadowice/flocke/andotp/Dialogs/PasswordEntryDialog.java']"
+1222,"[0, 0, 0]",[],"['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1222/app/src/main/java/org/gnucash/android/ui/util/RecurrenceParser.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1222/app/src/main/java/org/gnucash/android/db/adapter/RecurrenceDbAdapter.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1222/app/src/main/java/org/gnucash/android/model/Recurrence.java']"
+1428,"[16, 5, 26, 1, 14, 29, 0, 21, 0, 0]","[1, 5, 14, 16, 21, 26, 29]","['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1428/app/src/main/java/com/easyfitness/fonte/FonteGraphFragment.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1428/app/src/main/java/com/easyfitness/bodymeasures/BodyPartDetailsFragment.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1428/app/src/main/java/com/easyfitness/machines/MachineCursorAdapter.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1428/app/src/main/java/com/easyfitness/machines/MachineFragment.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1428/app/src/main/java/com/easyfitness/machines/MachineDetailsFragment.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1428/app/src/main/java/com/easyfitness/machines/MachineArrayFullAdapter.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1428/app/src/main/java/com/easyfitness/graph/DateGraph.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1428/app/src/main/java/com/easyfitness/ValueEditorDialogbox.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1428/app/src/main/java/com/easyfitness/DAO/bodymeasures/BodyPart.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1428/app/src/main/java/com/easyfitness/DAO/bodymeasures/BodyPartExtensions.java']"
+84,[],[],[]
+87,[0],[],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-87/ultrasonic/src/main/java/org/moire/ultrasonic/util/BackgroundTask.java']
+159,[5],[5],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-159/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java']
+193,"[0, 33, 0]",[33],"['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-193/mobile/src/main/java/com/alexstyl/specialdates/contact/Birthday.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-193/mobile/src/main/java/com/alexstyl/specialdates/addevent/ui/BirthdayDatePicker.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-193/mobile/src/main/java/com/alexstyl/specialdates/addevent/BirthdayPickerDialog.java']"
+275,"[0, 11]",[11],"['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-275/app/src/main/java/com/beemdevelopment/aegis/ui/Dialogs.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-275/app/src/main/java/com/beemdevelopment/aegis/ui/slides/CustomAuthenticatedSlide.java']"
+1028,[],[],[]
+1089,[],[],[]
+1130,"[32, 46]","[32, 46]","['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1130/app/src/main/java/de/danoeh/antennapod/fragment/QueueFragment.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1130/app/src/main/java/de/danoeh/antennapod/fragment/AllEpisodesFragment.java']"
+1402,"[2, 0]",[2],"['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1402/app/src/main/java/org/fossasia/phimpme/share/SharingActivity.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1402/app/src/main/java/org/fossasia/phimpme/MyApplication.java']"
+1403,[45],[45],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1403/app/src/main/java/org/fossasia/phimpme/editor/FileUtils.java']
+71,[],[],[]
+201,[2],[2],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-201/iNaturalist/src/main/java/org/inaturalist/android/ObservationListActivity.java']
+1641,"[0, 1, 0, 0, 0]",[1],"['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1641/app/src/main/java/com/german_software_engineers/trainerapp/GeneralTrainingScheduleEditor.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1641/app/src/main/java/com/german_software_engineers/trainerapp/ExerciseViewActivity.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Enumerations/TrainingsTypes.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Legacy/Schedule.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Model/XMLParser.java']"
+1096,[],[],[]
+1146,[],[],[]
+1147,[],[],[]
+1151,[],[],[]
+1223,[3],[3],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1223/app/src/main/java/org/gnucash/android/ui/transaction/TransactionFormFragment.java']
+1645,[7],[7],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1645/app/src/main/java/com/german_software_engineers/trainerapp/ExerciseDialog.java']
+106,"[0, 45]",[45],"['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-106/app/src/main/java/com/poupa/vinylmusicplayer/util/FileUtil.java', 'UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-106/app/src/main/java/com/poupa/vinylmusicplayer/loader/SongLoader.java']"
+110,[],[],[]
+168,[8],[8],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-168/main/src/cgeo/geocaching/maps/MapProviderFactory.java']
+271,[0],[],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-271/app/src/main/java/com/beemdevelopment/aegis/ui/views/TotpProgressBar.java']
+1406,[2],[2],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-1406/app/src/main/java/org/fossasia/phimpme/gallery/activities/SingleMediaActivity.java']
+45,[0],[],['UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-45/omniNotes/src/main/java/it.feio.android.omninotes.helpers/GeocodeProviderBaseFactory.java']
+1640,[],[],[]
+1150,[],[],[]

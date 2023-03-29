@@ -1,0 +1,35 @@
+Can't open the add/remove medicine stock dialog
+
+Version
+2.5.7 from F-Droid
+
+Steps to reproduce
+1. Edit a medicine
+2. Tap the '+' or '-' button
+
+Expected outcome
+The add/remove dialog gets displayed.
+
+Actual outcome
+I get kicked back to the medicine screen.
+
+Exception
+FATAL EXCEPTION: main
+Process: es.usc.citius.servando.calendula, PID: 6220
+java.lang.IllegalStateException: Fragment b{f3e5022 #0 number_dialog} declared target fragment MedicineCreateOrEditFragment{8239cfe #0 id=0x7f0901de android:switcher:2131296734:0} that does not belong to this FragmentManager!
+	at android.support.v4.app.p.a(Unknown Source:303)
+	at android.support.v4.app.p.e(Unknown Source:38)
+	at android.support.v4.app.p.a(Unknown Source:45)
+	at android.support.v4.app.d.g(Unknown Source:169)
+	at android.support.v4.app.p.b(Unknown Source:38)
+	at android.support.v4.app.p.a(Unknown Source:112)
+	at android.support.v4.app.p.b(Unknown Source:89)
+	at android.support.v4.app.p.f(Unknown Source:21)
+	at android.support.v4.app.p$1.run(Unknown Source:2)
+	at android.os.Handler.handleCallback(Handler.java:808)
+	at android.os.Handler.dispatchMessage(Handler.java:101)
+	at android.os.Looper.loop(Looper.java:166)
+	at android.app.ActivityThread.main(ActivityThread.java:7425)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:245)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:921)

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1428" opendate="">
+      <buginformation>
+         <summary>body measure should</summary>
+         <description>describe you issue hello body measure unit display when there record already workaround identify reproduce step reproduce the behavior body tracking click body with record click spinner show should show expect behavior show the correct unit action bar root content drawer layout action toolbar image profile action chrono fragment container add body part list bodypart logo list bodypart list bodypart minigraph list bodypart lastrecord status bar background navigation bar background body tracking details toolbar delete button name card view bodypart logo bodypart name value text view button add bodymeasure chart editor value title editor value date input cardview weight singlevalueinput title singlevalueinput value editor value input singlevalueinput unit spinner text btn cancel btn update</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.easyfitness.machines.MachineFragment.java</file>
+         <file>com.easyfitness.DAO.bodymeasures.BodyPart.java</file>
+         <file>com.easyfitness.bodymeasures.BodyPartDetailsFragment.java</file>
+         <file>com.easyfitness.machines.MachineArrayFullAdapter.java</file>
+         <file>com.easyfitness.machines.MachineCursorAdapter.java</file>
+         <file>com.easyfitness.DAO.bodymeasures.BodyPartExtensions.java</file>
+         <file>com.easyfitness.ValueEditorDialogbox.java</file>
+         <file>com.easyfitness.fonte.FonteGraphFragment.java</file>
+         <file>com.easyfitness.machines.MachineDetailsFragment.java</file>
+         <file>com.easyfitness.graph.DateGraph.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

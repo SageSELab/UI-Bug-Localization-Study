@@ -1,0 +1,1 @@
+{"id": "55", "bug_location": [{"commit_ids": ["395e94bf62312dfd3df66fdbad75412aacf733a2"], "file_name": "bug-55/app/src/main/java/com/fieldbook/tracker/traits/CategoricalTraitLayout.java"}, {"commit_ids": ["395e94bf62312dfd3df66fdbad75412aacf733a2"], "file_name": "bug-55/app/src/main/java/com/fieldbook/tracker/traits/MultiCatTraitLayout.java"}]}

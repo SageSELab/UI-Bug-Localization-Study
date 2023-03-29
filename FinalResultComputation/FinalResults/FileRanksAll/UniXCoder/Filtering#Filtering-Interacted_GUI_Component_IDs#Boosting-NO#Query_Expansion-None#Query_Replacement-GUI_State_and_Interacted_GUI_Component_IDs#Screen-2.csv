@@ -1,0 +1,19 @@
+Bug Report ID,File,Rank
+18,bug-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/MedicineCreateOrEditFragment.java,1
+19,bug-19/app/src/main/java/de/westnordost/streetcomplete/quests/housenumber/AddHousenumberForm.java,1
+206,bug-206/app/src/main/java/org/gnucash/android/ui/settings/BookManagerFragment.java,6
+256,bug-256/app/src/main/java/org/gnucash/android/ui/account/AccountsListFragment.java,15
+1202,bug-1202/app/src/main/java/swati4star/createpdf/activity/ImageEditor.java,1
+1224,bug-1224/app/src/main/java/org/gnucash/android/ui/account/AccountFormFragment.java,1
+1399,bug-1399/app/src/main/java/org/fossasia/phimpme/gallery/activities/SettingsActivity.java,1
+162,bug-162/k9mail/src/main/java/com/fsck/k9/activity/setup/AccountSetupBasics.java,1
+1563,bug-1563/app/src/main/java/io/lerk/lrkFM/activities/FileActivity.java,1
+1568,bug-1568/app/src/main/java/io/lerk/lrkFM/adapter/FileArrayAdapter.java,1
+1428,bug-1428/app/src/main/java/com/easyfitness/bodymeasures/BodyPartDetailsFragment.java,1
+159,bug-159/AnkiDroid/src/main/java/com/ichi2/anki/CardBrowser.java,2
+1130,bug-1130/app/src/main/java/de/danoeh/antennapod/fragment/QueueFragment.java,2
+201,bug-201/iNaturalist/src/main/java/org/inaturalist/android/ObservationListActivity.java,1
+1223,bug-1223/app/src/main/java/org/gnucash/android/ui/transaction/TransactionFormFragment.java,1
+106,bug-106/app/src/main/java/com/poupa/vinylmusicplayer/loader/SongLoader.java,69
+168,bug-168/main/src/cgeo/geocaching/maps/MapProviderFactory.java,60
+1406,bug-1406/app/src/main/java/org/fossasia/phimpme/gallery/activities/SingleMediaActivity.java,1

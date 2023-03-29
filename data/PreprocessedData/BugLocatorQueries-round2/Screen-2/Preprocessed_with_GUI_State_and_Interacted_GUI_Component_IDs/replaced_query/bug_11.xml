@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="11" opendate="">
+      <buginformation>
+         <summary/>
+         <description>grant permissions activity launcher permission allow button</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.droidheat.musicplayer.PlayActivity.java</file>
+         <file>com.droidheat.musicplayer.QueueFragment.java</file>
+         <file>com.droidheat.musicplayer.SplashActivity.java</file>
+         <file>com.droidheat.musicplayer.NoadPlayer.java</file>
+         <file>com.droidheat.musicplayer.MusicPlayback.java</file>
+         <file>com.droidheat.musicplayer.MusicDockFragment.java</file>
+         <file>com.droidheat.musicplayer.SongsManager.java</file>
+         <file>com.droidheat.musicplayer.HomeFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

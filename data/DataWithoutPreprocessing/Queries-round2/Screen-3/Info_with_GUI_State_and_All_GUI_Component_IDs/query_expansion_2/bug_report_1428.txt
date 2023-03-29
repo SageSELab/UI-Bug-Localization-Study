@@ -1,0 +1,17 @@
+Body measure is in kg/lbs/st while it should be in cm/in
+
+Describe your issue
+Hello,
+Body measures unit are displayed in KG when there is no record already done.
+No workaround identified.
+
+To Reproduce
+Steps to reproduce the behavior:
+
+1. Go to "Body tracking"
+2. Click on a Body with no records
+3. Click on +
+4. Spinner shows "kg" while it should show "cm"
+
+Expected behavior
+Show the correct unit.  MainActivity BodyPartListFragment BodyPartDetailsFragment action_bar_root content drawer_layout actionToolbar imageProfile action_chrono fragment_container addBodyPart LIST_BODYPART_LOGO LIST_BODYPART LIST_BODYPART_MINIGRAPH LIST_BODYPART_LASTRECORD statusBarBackground navigationBarBackground bodyTrackingDetailsToolbar deleteButton nameCardView BODYPART_LOGO BODYPART_NAME valueTextView buttonAdd bodymeasureChart EditorValueTitle EditorValueDateInput cardviewWeight singlevalueinput_title singlevalueinput_value EditorValueInput singlevalueinput_unitSpinner text1 btn_cancel btn_update  MainActivity BodyPartListFragment BodyPartDetailsFragment action_bar_root content drawer_layout actionToolbar imageProfile action_chrono fragment_container addBodyPart LIST_BODYPART_LOGO LIST_BODYPART LIST_BODYPART_MINIGRAPH LIST_BODYPART_LASTRECORD statusBarBackground navigationBarBackground bodyTrackingDetailsToolbar deleteButton nameCardView BODYPART_LOGO BODYPART_NAME valueTextView buttonAdd bodymeasureChart EditorValueTitle EditorValueDateInput cardviewWeight singlevalueinput_title singlevalueinput_value EditorValueInput singlevalueinput_unitSpinner text1 btn_cancel btn_update

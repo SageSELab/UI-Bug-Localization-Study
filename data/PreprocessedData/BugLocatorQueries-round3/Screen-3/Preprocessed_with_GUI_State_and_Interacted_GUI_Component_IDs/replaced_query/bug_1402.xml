@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1402" opendate="">
+      <buginformation>
+         <summary/>
+         <description>main activity single media activity share activity support request manager fragment photo preview action share</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.fossasia.phimpme.share.SharingActivity.java</file>
+         <file>org.fossasia.phimpme.MyApplication.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

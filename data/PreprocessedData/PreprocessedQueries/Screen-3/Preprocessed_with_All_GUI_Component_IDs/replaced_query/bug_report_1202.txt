@@ -1,0 +1,1 @@
+decor content parent action bar container action bar finish content reset current savecurrent imagecount nextimage button scroll view image photo editor view doodle seek bar doodle color doodle color recycler view parent layout filter preview filter name status bar background navigation bar background

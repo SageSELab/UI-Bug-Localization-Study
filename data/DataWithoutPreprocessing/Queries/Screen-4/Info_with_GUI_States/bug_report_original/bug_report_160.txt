@@ -1,0 +1,33 @@
+Problem with the eraser tab
+
+Reproduction Steps
+
+1. Click on whiteboard tab while reviewing flashcards and use the feature to write/draw anything
+2. Click on the erase tab till you have undone the drawing and the erase tab grays out
+3. Redraw anything by clicking on the whiteboard icon
+
+Expected Result
+
+Upon redrawing, the eraser tab should revert its color from gray to white
+
+Actual Result
+
+On redrawing, the eraser tab still remains grayed out.
+
+Debug info
+
+Refer to the [support page]AnkiDroid Version = 2.10beta3
+
+Android Version = 10
+
+ACRA UUID = bbdbcff5-0c68-4fd5-8b77-95df0b7fc4b3
+
+Research
+
+Enter an [ x ] character to confirm the points below:
+
+[ x ] I have read the support page and am reporting a bug or enhancement request specific to AnkiDroid
+
+[ X ] I have checked the manual and the FAQ and could not find a solution to my issue
+
+[ ] I have searched for similar existing issues here and on the user forum

@@ -1,0 +1,1 @@
+content grant singleton grant dialog content container permission icon permission message permission allow button permission deny button

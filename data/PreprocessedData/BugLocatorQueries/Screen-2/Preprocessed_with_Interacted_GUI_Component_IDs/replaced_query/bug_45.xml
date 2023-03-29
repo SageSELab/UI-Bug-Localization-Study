@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="45" opendate="">
+      <buginformation>
+         <summary/>
+         <description>location</description>
+      </buginformation>
+      <fixedFiles>
+         <file>it.feio.android.omninotes.helpers.GeocodeProviderBaseFactory.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

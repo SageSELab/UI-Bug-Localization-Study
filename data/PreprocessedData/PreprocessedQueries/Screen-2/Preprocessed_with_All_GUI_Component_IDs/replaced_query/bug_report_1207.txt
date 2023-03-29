@@ -1,0 +1,1 @@
+content parent panel top panel title template alert title custom panel custom manual type text manual label manual secret manual tag dialog expand button dialog expand layout manual period manual digit manual algorithm button panel button button aerr restart

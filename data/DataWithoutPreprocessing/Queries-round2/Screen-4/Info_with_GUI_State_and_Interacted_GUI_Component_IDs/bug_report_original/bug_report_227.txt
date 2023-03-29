@@ -1,0 +1,26 @@
+New transaction is not saved correctly (sign issue)
+
+Steps to reproduce the behaviour
+
+1. In an account (type bank) add a new transaction using the orange button.
+2. type any amount you like (eg 10000 as deposit, the sign changes and the number becomes red)
+3. Choose an account which has the type "expense"
+4. Save
+5. Go back to the account overview.
+
+Expected behaviour
+
+The amount has been substracted.
+
+Actual behaviour
+
+The amount has been added.
+
+Funfact: It seems to work correct when hitting "split" after step 3. and then hitting "save" twice
+It occurred with the last update on google-play a few days ago. No issues in previous version.
+
+Software specifications
+
+GnuCash Android version:2.2.1
+System Android version:7.1.2
+Device type:Nexus 5X

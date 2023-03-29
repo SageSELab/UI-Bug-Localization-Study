@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="92" opendate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content drawer layout nav view design navigation view navigation header container image view design menu item text toolbar action filter action scanner main connection scanning nodata main fragment layout main fragment access point refresh access points view status bar background navigation bar background vendor search text search bar search edit frame search mag icon search plate search src text vendor name vendor mac search close btn empty</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.vrem.wifianalyzer.vendor.model.VendorDB.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

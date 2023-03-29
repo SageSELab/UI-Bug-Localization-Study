@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug id="110" opendate="" fixdate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content drawer layout drawer content container slide layout content container fragment container appbar toolbar action search tab pager container recycler view touch intercept framelayout song view image container image title scrollview title text action shuffle artist header album count icon album count text song count icon song count text duration icon duration text text scrollview menu header overlay</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.poupa.vinylmusicplayer.provider.Discography.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

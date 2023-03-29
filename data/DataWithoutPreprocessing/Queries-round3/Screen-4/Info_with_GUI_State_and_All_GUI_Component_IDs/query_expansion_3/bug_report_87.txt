@@ -1,0 +1,29 @@
+2.4.0 won't open to GUI with wifi enabled: "A network error occurred"
+
+Problem description
+
+Since the upgrade to 2.4.0 the app opens to an error message whenever wifi is enabled on my phone.
+
+The error is: "Error. A network error occurred. Please check the server address or try again later."
+
+It is not possible to access the GUI and use the application. Turning off wifi solves this problem and the app starts normally.
+
+This problem did not exist until my Ultrasonic icon changed about a week ago, so I believe it is related to the latest release.
+
+Steps to reproduce
+
+1. Turn on wifi on a properly configured Ultrasonic app on an Android device
+2. Restart the app.
+
+System information
+
+Ultrasonic version: 2.4.0
+Android version: 7.0 security patch through 3/2018
+Device info: S6
+Additional notes
+
+At first, I thought this might be an issue with having an Internet routable address for the Subsonic server when connected to a non-Internet routable LAN via wifi (which takes precedence over my phone carrier's network). I say that because, historically, connecting to my home wifi and specifying my home server's public IPv4 address eventually resulted in the same(?) "network error" message as above. This is likely due to the configuration of my routers.
+
+But now, I have the same issue when I change the server address to a LAN IP address, which I created long ago so that I could use Ultrasonic while at home on wifi.
+
+Also, the message comes up immediately instead of after the app starts trying to access the server for content. This makes the app unusable -- there's no way to change settings or select a different server because the app is inaccessible.  MainActivity SelectAlbumActivity scrim_behind notification_panel notification_container_parent qs_frame quick_settings_container header qs_carrier_text battery battery_percentage_view clock quick_qs_panel icon qs_background qs_footer settings_button_container settings_button expand_indicator date_time_alarm_group date notification_stack_scroller backgroundNormal expanded status_bar_latest_event_content notification_header app_name_text time_divider time expand_button notification_action_list_margin_target notification_main_column line1 title big_text actions_container actions action0 fake_shadow text header_text_divider header_text content dismiss_text scrim_in_front status_bar_container status_bar status_bar_contents notification_icon_area md__drawer md__content decor_content_parent action_bar_container action_bar main_shuffle main_select_server main.select_server_1 main.select_server_2 main_music main_artists_button main_albums_button main_genres_button main_songs main_songs_button main_songs_starred main_albums main_albums_newest main_albums_recent main_albums_frequent main_albums_highest main_albums_random main_albums_starred main_albums_alphaByName statusBarBackground navigationBarBackground parentPanel topPanel title_template alertTitle titleDividerNoCustom contentPanel scrollView message buttonPanel button1  MainActivity SelectAlbumActivity scrim_behind notification_panel notification_container_parent qs_frame quick_settings_container header qs_carrier_text battery battery_percentage_view clock quick_qs_panel icon qs_background qs_footer settings_button_container settings_button expand_indicator date_time_alarm_group date notification_stack_scroller backgroundNormal expanded status_bar_latest_event_content notification_header app_name_text time_divider time expand_button notification_action_list_margin_target notification_main_column line1 title big_text actions_container actions action0 fake_shadow text header_text_divider header_text content dismiss_text scrim_in_front status_bar_container status_bar status_bar_contents notification_icon_area md__drawer md__content decor_content_parent action_bar_container action_bar main_shuffle main_select_server main.select_server_1 main.select_server_2 main_music main_artists_button main_albums_button main_genres_button main_songs main_songs_button main_songs_starred main_albums main_albums_newest main_albums_recent main_albums_frequent main_albums_highest main_albums_random main_albums_starred main_albums_alphaByName statusBarBackground navigationBarBackground parentPanel topPanel title_template alertTitle titleDividerNoCustom contentPanel scrollView message buttonPanel button1  MainActivity SelectAlbumActivity scrim_behind notification_panel notification_container_parent qs_frame quick_settings_container header qs_carrier_text battery battery_percentage_view clock quick_qs_panel icon qs_background qs_footer settings_button_container settings_button expand_indicator date_time_alarm_group date notification_stack_scroller backgroundNormal expanded status_bar_latest_event_content notification_header app_name_text time_divider time expand_button notification_action_list_margin_target notification_main_column line1 title big_text actions_container actions action0 fake_shadow text header_text_divider header_text content dismiss_text scrim_in_front status_bar_container status_bar status_bar_contents notification_icon_area md__drawer md__content decor_content_parent action_bar_container action_bar main_shuffle main_select_server main.select_server_1 main.select_server_2 main_music main_artists_button main_albums_button main_genres_button main_songs main_songs_button main_songs_starred main_albums main_albums_newest main_albums_recent main_albums_frequent main_albums_highest main_albums_random main_albums_starred main_albums_alphaByName statusBarBackground navigationBarBackground parentPanel topPanel title_template alertTitle titleDividerNoCustom contentPanel scrollView message buttonPanel button1

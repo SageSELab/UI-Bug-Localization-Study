@@ -1,0 +1,26 @@
+Sky Avg SNR chart not colored in KitKat
+
+Summary:
+
+The Sky activity's Avg SNR chart should show a gradient (like in screenshot) insead of a uniformly dark rectangle.
+
+Steps to reproduce:
+
+Start Google app.
+Sky (from hamburger menu).
+Scroll down as needed until Avg SNR chart is visible.
+Expected behavior:
+
+Show a gradient in the interior of the Avg SNR chart.
+
+Observed behavior:
+
+See uniformly dark interior of the Avg SNR chart, regardless of Use Dark Theme ticked.
+
+Device and Android version:
+
+Moto G (2013), KitKat 4.4.4, stock ROM with some Xposed modules, Google Play Services 12.2.1
+
+Screenshots:
+
+Available upon request.

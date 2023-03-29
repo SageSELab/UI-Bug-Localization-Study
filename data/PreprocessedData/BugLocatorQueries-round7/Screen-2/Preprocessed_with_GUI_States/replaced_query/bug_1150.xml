@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug id="1150" opendate="" fixdate="">
+      <buginformation>
+         <summary/>
+         <description>test activity help activity status fragment</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.android.gpstest.HelpActivity.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

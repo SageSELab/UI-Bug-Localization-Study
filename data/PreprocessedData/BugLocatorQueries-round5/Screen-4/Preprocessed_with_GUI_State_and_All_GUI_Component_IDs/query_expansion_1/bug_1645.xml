@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug id="1645" opendate="" fixdate="">
+      <buginformation>
+         <summary>crash add exercise dialog</summary>
+         <description>describtion app crash the user check the angle box the add exercise dialog reproduce step reproduce the behavior generate training schedule click add exercise give the exercise name and check the angle box put number the textbox finish the dialog see the error expect behavior crash and add exercise smartphone please complete the follow information device all android content parent panel custom panel custom exercise name seat check box seat edit leg check box leg edit foot check box foot edit angle check box angle edit back check box back edit weight check box weight edit button panel button button top panel title template alert title aerr app info aerr close</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.german_software_engineers.trainerapp.ExerciseDialog.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="227" opendate="">
+      <buginformation>
+         <summary>transaction not save correctly sign issue</summary>
+         <description>step reproduce the behaviour account type bank add transaction use the orange button type any amount you like deposit the sign change and the number become red choose account which have the type expense save back the account overview expect behaviour the amount have substract actual behaviour the amount have add funfact seem work correct when hit split after step and then hit save twice occur with the last update google play few day ago issue previous version software specification gnu cash android version system android version device type nexus</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.gnucash.android.receivers.TransactionRecorder.java</file>
+         <file>org.gnucash.android.model.Split.java</file>
+         <file>org.gnucash.android.ui.transaction.TransactionFormFragment.java</file>
+         <file>org.gnucash.android.db.adapter.AccountsDbAdapter.java</file>
+         <file>org.gnucash.android.ui.transaction.SplitEditorFragment.java</file>
+         <file>org.gnucash.android.importer.GncXmlHandler.java</file>
+         <file>org.gnucash.android.model.Transaction.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

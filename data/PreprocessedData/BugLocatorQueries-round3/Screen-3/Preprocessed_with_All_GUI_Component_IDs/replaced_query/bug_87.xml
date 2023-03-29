@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="87" opendate="">
+      <buginformation>
+         <summary/>
+         <description>scrim behind notification panel notification container parent frame quick setting container header carrier text battery battery percentage view clock quick panel icon background footer setting button container setting button expand indicator date time alarm group date notification stack scroller background normal expand status bar latest event content notification header app name text time divider time expand button notification action list margin target notification main column line title big text action container action action fake shadow text header text divider header text content dismiss text scrim front status bar container status bar status bar contents notification icon area drawer content decor content parent action bar container action bar main shuffle main select server main select server main select server main music main artist button main album button main genre button main song main song button main song star main album main album newest main album recent main album frequent main album highest main album random main album star main album alpha name status bar background navigation bar background parent panel top panel title template alert title title divider custom content panel scroll view message button panel button</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.moire.ultrasonic.util.BackgroundTask.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

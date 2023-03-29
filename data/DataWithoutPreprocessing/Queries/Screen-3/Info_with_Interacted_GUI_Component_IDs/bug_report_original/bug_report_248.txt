@@ -1,0 +1,32 @@
+Accessing General settings form Admin settings does not display disabled submenus
+
+Software and hardware versions
+
+Collect v1.20.0, Android v9 build number 00WW_5_140, device used Nokia 8 TA-1004
+
+Problem description
+
+Accessing General settings from Admin settings does not display all General settings submenus if access to them has been revoked from normal users.
+
+When normal user access for all settings has been disabled, only the following submenu items are available in admin mode:
+
+1. Server Settings -> ODK Aggregate settings
+2. Form management -> Form filling -> Show guidance for questions
+
+Steps to reproduce the problem
+
+1. In Admin Settings -> User Settings, uncheck all check boxes
+2. Check available settings in Admin Settings -> General Settings -> Server
+3. Check available settings in Admin Settings -> General Settings -> User interface
+4. Check available settings in Admin Settings -> General Settings -> Form management
+5. Check available settings in Admin Settings -> General Settings -> User and device identity
+
+Expected behavior
+
+Accessing General settings via the Admin settings should allow access to all the settings in General settings submenus.
+
+Other information
+
+Class org.odk.collect.android.preferences.DisabledPreferencesRemover does not seem to take into account whether the user is in admin mode or not.
+
+Class org.odk.collect.android.preferences.GeneralPreferencesFragment handles admin mode correctly for main General settings categories.

@@ -1,0 +1,12 @@
+Back button leads to Home Fragment when orange file selector is still open
+
+This is more like a UX bug.
+
+Steps to reproduce
+Go to any fragment such as invert pdf ,remove page etc wherever there's is the orange slider in use.Click on the slider to pull up.Click back button.
+
+Expected behaviour
+Clicking on back button should pull the slider down while remaining on the same fragment.
+
+Actual behaviour
+The back button leads to the Home Fragment.

@@ -1,0 +1,13 @@
+Negative Credits
+
+Steps to reproduce
+1. start any game
+2. drag+drop any defence towers you like, credits < 0 are possible
+
+Yay my most successful round ever! But takes the fun away :(
+Not sure whether it actually goes down to -∞ or has some negative limit
+
+Version 0.2-1 (F-Droid)
+Android 6.0.1
+
+Example:

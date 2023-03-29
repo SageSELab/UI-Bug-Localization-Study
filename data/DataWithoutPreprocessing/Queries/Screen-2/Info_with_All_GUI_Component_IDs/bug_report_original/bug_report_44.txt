@@ -1,0 +1,19 @@
+Tag text removal bug by using checkbox
+
+Describe the bug
+Tag text removal bug
+It seems like it will remove all tags with the same header as the deleted tag.
+
+Context
+Device: Nokia 7 plus
+OS version: Android 9.0.0
+App version: 5.2.2
+
+How to reproduce
+Steps to reproduce the behavior:
+1. Add some tag like this
+2. Remove "test" tag by unchecking the box in this case.
+3. Remove all tag contain "test"
+
+Expected behavior
+Should remain "#testa", "#testb" in the previous case.

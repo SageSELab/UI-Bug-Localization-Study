@@ -1,0 +1,25 @@
+If code refresh time is set to "9999" - Aegis crashes
+
+Info
+
+Version: 1.2
+Source: F-Droid
+Vault encrypted: Yes
+Device: Pixel
+Android version and ROM: Android 10
+
+Steps to reproduce
+
+1. Create a new manual entry
+2. Give other details, but set time to generate a new key to "9999" seconds.
+
+What do you expect to happen?
+
+New code should be generated when the entered time is up.
+
+What happens instead?
+
+Aegis instantly crashes.
+I reopened Aegis, gave the password and it crashed again and again to the point where i just cleared all the app data.
+
+This issue is possibly the cause of #496

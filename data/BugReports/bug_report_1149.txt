@@ -1,0 +1,19 @@
+Update Help for Status to say "estimated" horizontal/vertical accuracy
+
+Summary:
+As mentioned in #320 (comment), the new "E" for horizontal/vertical accuracy isn't explained in the Help text.
+
+My notes from #320 (comment):
+
+"E" does stand for "estimated" in the context of horizontal and vertical error. I added this when I added the "Accuracy" feature to GPSTest to try and differentiate between the actual and estimated accuracy values. In other words, I didn't want someone to set a ground truth value in Accuracy and then come back to Status and think that real accuracy was being displayed in Status. Confusion between estimated and actual accuracy is a huge problem and this was my small attempt in a limited timeframe to address it. I'd welcome better ideas for this in #176.
+
+And you're right, this isn't in the Help/About section, so I need to update that.
+
+Steps to reproduce:
+Look at "Help->About"
+
+Expected behavior:
+Explain the "E"
+
+Observed behavior:
+No "E" explanation

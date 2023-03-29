@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="162" opendate="">
+      <buginformation>
+         <summary>crash with invalid format email address</summary>
+         <description>expect behavior want use internal email adress like foo use some custom software own server only internal communication work thunderbird actual behavior all message and text german device know the text you use english just translate they add email account mail enter email and password and tap one the two button manually the app will crash with only the message mail have stop step reproduce open mail add email account with foo press manually crash environment mail version android version account type imap pop web dav exchange want use imap but have yet because the crash account setup basics document activity manual setup</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.fsck.k9.activity.setup.AccountSetupBasics.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

@@ -1,0 +1,17 @@
+Some image is not visible in share activity
+
+Actual Behaviour
+
+Some image is not visible properly in share activity and image is not perfectly zoomed.
+
+Expected Behaviour
+
+It should visible.
+
+Steps to reproduce it
+
+Try with different images in share activity.
+
+Would you like to work on the issue?
+
+Yes.  LFMainActivity SingleMediaActivity SharingActivity SupportRequestManagerFragment action_bar_root content drawer_layout Relative_Album_layout toolbar sort_action delete_action swipeRefreshLayout rl_main_content grid_photos media_card_layout photo_preview bottombar navigation_camera smallLabel icon navigation_home largeLabel navigation_accounts statusBarBackground navigationBarBackground PhotoPager_Layout photos_pager toolbar_bottom action_share action_edit action_delete action_details share_layout share_image edit_text_caption_container edittext_share_caption button_mic divider1 bottom_view share_account account_image account_name  LFMainActivity SingleMediaActivity SharingActivity SupportRequestManagerFragment action_bar_root content drawer_layout Relative_Album_layout toolbar sort_action delete_action swipeRefreshLayout rl_main_content grid_photos media_card_layout photo_preview bottombar navigation_camera smallLabel icon navigation_home largeLabel navigation_accounts statusBarBackground navigationBarBackground PhotoPager_Layout photos_pager toolbar_bottom action_share action_edit action_delete action_details share_layout share_image edit_text_caption_container edittext_share_caption button_mic divider1 bottom_view share_account account_image account_name

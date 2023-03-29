@@ -1,0 +1,20 @@
+Space increase on refresh in Nutrition Facts tab
+
+Summary:
+The space between each row of nutritional value in Nutrition Facts tab increases on refreshing the data.
+
+Steps to reproduce:
+Select any food item and go to Nutritional Facts tab of that item. It uses swipe to refresh method so on swiping down, more space is added between each row.
+
+Expected behavior:
+Refreshing should only update the data.
+
+Observed behavior:
+Refreshing also changes the space between each row of nutritional value.
+
+Device and Android version:
+Model - Mi Redmi Note 5
+Android version - Android Oreo (8.1)
+ROM - Custom
+
+Screenshots:

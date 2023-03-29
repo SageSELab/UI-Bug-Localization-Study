@@ -1,0 +1,1 @@
+main activity singlevalueinput unit spinner text btn update

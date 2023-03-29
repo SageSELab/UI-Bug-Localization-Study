@@ -1,0 +1,17 @@
+Body measure is in kg/lbs/st while it should be in cm/in
+
+Describe your issue
+Hello,
+Body measures unit are displayed in KG when there is no record already done.
+No workaround identified.
+
+To Reproduce
+Steps to reproduce the behavior:
+
+1. Go to "Body tracking"
+2. Click on a Body with no records
+3. Click on +
+4. Spinner shows "kg" while it should show "cm"
+
+Expected behavior
+Show the correct unit.

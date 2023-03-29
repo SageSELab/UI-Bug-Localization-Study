@@ -1,0 +1,28 @@
+File URI support detection overly strict
+
+Describe the bug
+External storage cannot be written to on Fire OS 5 (based on Android 5.1 Lollipop LOLLIPOP_MR1), despite Storage Access Framework (SAF) subtree support being added in 5.0 LOLLIPOP. This is caused by at least these two checks:
+
+https://github.com/genonbeta/TrebleShot/blob/bea5ce3bce36cccf5a34d833ac6d8fc2e237984d/app/src/main/java/com/genonbeta/TrebleShot/fragment/FileListFragment.java#L200
+
+https://github.com/genonbeta/TrebleShot/blob/bea5ce3bce36cccf5a34d833ac6d8fc2e237984d/app/src/main/java/com/genonbeta/TrebleShot/fragment/FileListFragment.java#L234-L235
+
+These gate URI mounting on Marshmallow M (23), while they should gate on Lollipop LOLLIPOP (21).
+
+Additionally, while searching around for this issue, I noticed that use of straight numbers and Build.VERSION_CODES enum members is inconsistent, and it might be easier to correct checks like this if VERSION_CODES.* is consistently used (vs. grepping for straight 23).
+
+To Reproduce
+Steps to reproduce the behavior on Android 5.1 (API level 22 / LOLLIPOP_MR1):
+
+1. Open file browser.
+2. Tap on ⋯ menu.
+3. Observe lack of "Mount folder" menu item.
+
+Expected behavior
+Mount folder should be available, as it works on this platform (e.g. it's available and functioning with Ghost Commander's SAF browser).
+
+Environment (please complete the following information):
+Android version: Fire OS 5.2.6.9 (based on Android Lollipop 5.1)
+Language: English
+App version: 1.2.9 (F-Droid)
+Device Model and Brand: Amazon Fire TV (2nd generation)

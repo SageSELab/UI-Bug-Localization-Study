@@ -1,0 +1,12 @@
+Autosync Does Not Activate After Regaining Connectivity
+
+Steps to Reproduce Bug
+
+1. Turn off connectivity
+2. Make an ob
+3. Turn connectivity back on
+4. Obs remain in Waiting for Upload... state and pull to refresh does not activate a sync.
+
+Expected Behavior
+
+Obs should sync automatically.

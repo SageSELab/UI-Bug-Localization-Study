@@ -1,0 +1,15 @@
+Weekly scheduled exports are listed with the wrong day
+
+Steps to reproduce the behaviour
+
+Create a weekly scheduled export on Sundays.
+
+Expected behaviour
+
+The scheduled export is listed as "Weekly on Sunday".
+
+Actual behaviour
+
+The scheduled export is listed as "Weekly on Thursday".
+
+Reported through UserVoice (ticket 143).

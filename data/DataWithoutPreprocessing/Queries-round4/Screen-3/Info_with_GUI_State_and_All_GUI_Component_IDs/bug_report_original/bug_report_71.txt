@@ -1,0 +1,19 @@
+Favorites bar doesn't appear under specific UI settings
+
+Describe the bug
+After updating to a newer version of KISS launcher, I am no longer able to make the shortcut bar appear. The cause seems to be the "Hide favorites bar initially" setting. When enabled, the favorites bar will not appear when I try to tap on the screen. When disabled, the favorites bar will stay present and not disappear until the search bar or the KISS button is pressed.
+
+To Reproduce
+Steps to reproduce the behavior:
+1. Set an app as a favorite.
+2. Enable "Show favorites above search bar" under Favorites settings.
+3. Enable Minimalistic UI under User experience.
+4. Enable "Hide favorites bar initially" under Minimalistic UI.
+5. Check home screen to see there is no favorites bar, even after tapping the screen.
+
+Expected behavior
+Previously, I had set up KISS launcher to display my favorites bar when I tapped anywhere on the main screen. Now, I can't make the favorites bar appear at all without changing my settings.
+
+Additional information
+App version: 3.13.5
+App installed via: F-Droid

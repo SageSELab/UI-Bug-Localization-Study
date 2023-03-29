@@ -1,0 +1,21 @@
+Going back while recording sound causes endless loading (or crash)
+
+Pixel 3
+
+Create new observation
+Record a sound
+record the sound
+Don't press done, but go back (eg because the sound was not good and you want to re-record)
+try to record a new sound
+press done
+get an endless Loading screen
+unable to go back
+have to force close iNat app
+
+Same issue if you have an existing observation
+Record a sound, but don't press done, just go back to re-record.
+Record the sound, press done, and endless Loading screen.
+
+Note that I believe she is using the built-in sound recorder. There are some large crash logs in slack: https://inaturalist.slack.com/archives/G041A2Z1W/p1571388239011300
+
+When I try to replicate given the steps above (on a Pixel 3), I just get a crash immediately after tapping the back button in the left side of the header.

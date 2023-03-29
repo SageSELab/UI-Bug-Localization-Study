@@ -1,0 +1,1 @@
+ SettingsActivity camera_item_sub

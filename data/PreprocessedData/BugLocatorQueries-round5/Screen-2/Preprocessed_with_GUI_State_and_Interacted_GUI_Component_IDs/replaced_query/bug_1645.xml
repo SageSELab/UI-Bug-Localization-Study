@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug id="1645" opendate="" fixdate="">
+      <buginformation>
+         <summary/>
+         <description>button</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.german_software_engineers.trainerapp.ExerciseDialog.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

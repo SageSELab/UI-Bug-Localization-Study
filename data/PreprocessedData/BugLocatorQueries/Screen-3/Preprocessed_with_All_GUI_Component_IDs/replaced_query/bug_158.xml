@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="158" opendate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content root layout toolbar action save card editor scroll card editor layout card editor model text note type spinner text card editor deck text note deck spinner card editor edit fields layout note edit text media button card editor tag button card editor tag text card editor cards button card editor cards text navigation bar background drawer layout deckpicker view action sync pull sync wrapper file deck picker horiz deckpicker name count layout deckpicker deckpicker lrn deckpicker rev today stats text view add content menu fab expand menu button front frame action undo action mark card top bar number learn number review number flashcard frame touch layer flashcard whiteboard bottom area layout answer option layout flashcard layout flip flip card</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.ichi2.anki.AbstractFlashcardViewer.java</file>
+         <file>com.ichi2.themes.Themes.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

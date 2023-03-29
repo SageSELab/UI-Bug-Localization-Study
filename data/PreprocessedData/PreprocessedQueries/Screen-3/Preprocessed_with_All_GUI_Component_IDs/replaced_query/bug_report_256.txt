@@ -1,0 +1,1 @@
+action bar root content drawer layout coordinator layout fragment container toolbar toolbar spinner text menu favorite account tab layout pager fragment transaction list transaction recycler view empty view fab create transaction status bar background navigation bar background title checkbox parent panel top panel title template alert title custom panel custom aerr restart

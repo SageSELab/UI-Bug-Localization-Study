@@ -1,0 +1,38 @@
+Nav drawer selection color for dark theme isn't right
+
+Summary:
+The current selection color for the navigation drawer selected item (e.g., "Status" when the status screen is shown) should be darker - it's currently not set as part of the Dark theme (i.e., navdrawer_background_color_selected_dark isn't used).
+
+This boils down to trying to set the Theme/Style dynamically on the layout for the nav drawer item, and I haven't gotten this working yet.
+
+WIP branch at https://github.com/barbeau/gpstest/tree/nav-drawer-dark-selected.
+
+Here's the main code:
+        if (Application.getPrefs().getBoolean(getString(R.string.pref_key_dark_theme), false)
+                && layoutToInflate == R.layout.navdrawer_item) {
+            // Dark theme
+            Context context = new ContextThemeWrapper(getActivity(), R.style.NavDrawerListItem_Dark);
+            LayoutInflater layoutInflater = getActivity().getLayoutInflater().cloneInContext(context);
+            view = layoutInflater.inflate(layoutToInflate, container, false);
+        } else {
+            // Light theme
+            view = getActivity().getLayoutInflater().inflate(layoutToInflate, container, false);
+        }
+        
+It currently looks like the below, with only the area immediately surrounding the icon and text being black, the rest being navdrawer_background_color_selected_light, which is the color for the light style set in the XML:
+
+Steps to reproduce:
+1. Enable Dark theme via Settings
+2. Open navigation drawer
+
+Expected behavior:
+Selected item in navigation drawer should have a darker highlighted color to make it easier to see (i.e., should use navdrawer_background_color_selected_dark.
+
+Observed behavior:
+The lighter navdrawer_background_color_selected_light color is used for the selected item
+
+Device and Android version:
+Samsung Galaxy S8+ w/ Android 8.0 beta
+
+Screenshots:
+See above

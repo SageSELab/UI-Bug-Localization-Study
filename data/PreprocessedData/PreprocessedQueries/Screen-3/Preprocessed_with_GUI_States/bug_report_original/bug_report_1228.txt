@@ -1,0 +1,1 @@
+transaction detail screen footer disappear step reproduce the behaviour click exist transaction click edit transaction fab click split icon add split click save click save again expect behaviour footer visible actual behaviour footer remove balance and date software specification gnu cash android version system android version device type any

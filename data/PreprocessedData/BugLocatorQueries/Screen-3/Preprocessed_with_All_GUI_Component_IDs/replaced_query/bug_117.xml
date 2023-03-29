@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="117" opendate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content coordinator layout product toolbar tab pager swipe refresh scroll view image view front score layout image grade nova group product details text name product text generic name product text barcode product text quantity product text packaging product text brand product text category product bottom navigation share large label icon edit product search product history bottom nav empty button scan status bar background navigation bar background image view nutrition text per portion nutriment recycler view nutriment header nutriment name nutriment value nutriment serve value</description>
+      </buginformation>
+      <fixedFiles>
+         <file>openfoodfacts.github.scrachx.openfood.views.product.nutrition.NutritionProductFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

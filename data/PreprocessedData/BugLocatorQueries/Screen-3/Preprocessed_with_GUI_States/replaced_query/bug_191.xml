@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="191" opendate="">
+      <buginformation>
+         <summary/>
+         <description>game activity</description>
+      </buginformation>
+      <fixedFiles>
+         <file>ch.logixisland.anuto.view.game.TowerView.java</file>
+         <file>ch.logixisland.anuto.business.control.TowerInserter.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

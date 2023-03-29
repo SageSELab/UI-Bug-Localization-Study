@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="227" opendate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content drawer layout coordinator layout fragment container toolbar toolbar spinner text menu favorite account tab layout pager fragment transaction list transaction recycler view list item line primary text secondary text edit transaction transaction date transaction amount option menu fab create transaction status bar background navigation bar background menu search fragment account list account recycler view account color strip favorite status account balance fab create account</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.gnucash.android.ui.transaction.SplitEditorFragment.java</file>
+         <file>org.gnucash.android.db.adapter.AccountsDbAdapter.java</file>
+         <file>org.gnucash.android.model.Split.java</file>
+         <file>org.gnucash.android.receivers.TransactionRecorder.java</file>
+         <file>org.gnucash.android.ui.transaction.TransactionFormFragment.java</file>
+         <file>org.gnucash.android.importer.GncXmlHandler.java</file>
+         <file>org.gnucash.android.model.Transaction.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

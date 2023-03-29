@@ -1,0 +1,12 @@
+New file dialogue always says Type: Markdown rather than previous type used
+
+Steps to reproduce:
+1. Create a new file, change type to e.g. todo.txt, save it
+2. Create another new file
+3. Observe the dialogue correctly remembers .todo.txt as the previously used file extension, but below that it says Type: Markdown
+
+This appears to be a cosmetic issue only - the second new file is named something.todo.txt, so the app is correctly remembering the user's last settings, but nonetheless it looks odd and confusing to the user.
+
+It also makes it harder when you want to make a Markdown file as you have to choose something other than Markdown then choose Markdown again before the file extension will change to .md.
+
+Version 2.3.2 from F-Droid.

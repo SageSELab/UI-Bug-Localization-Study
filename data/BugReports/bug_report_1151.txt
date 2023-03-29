@@ -1,0 +1,20 @@
+Current application of Dark and Light theme is confusing
+
+Summary:
+Discussed in https://groups.google.com/d/msg/gpstest_android/wlIi9jBVncQ/BY7rPUx7BgAJ.
+
+When you switch from Light to Dark theme or Dark to Light by checking/unchecking the checkbox in Settings, the theme is immediately applied to the Preferences Activity, and in the process the main GpsTestActivity is finished so the user doesn't return to that Activity after exiting the Preferences Activity and see it with the old theme. However, this is confusing from the user's perspective, as they expect to see the main GpsTestActivity when leaving the Preferences Activity.
+
+We should make this behavior clearer through an informational message, or change the theme to apply to the GpsTestActivity and still allow the user to return to it.
+
+Steps to reproduce:
+Go to Settings and check or uncheck the "Use Dark Theme" setting, and then press the back button
+
+Expected behavior:
+I should see the main GpsTestActivity, or the app should explain why I'm not seeing it
+
+Observed behavior:
+The main GpsTestActivity disappears without any info message saying why.
+
+Device and Android version:
+N/A

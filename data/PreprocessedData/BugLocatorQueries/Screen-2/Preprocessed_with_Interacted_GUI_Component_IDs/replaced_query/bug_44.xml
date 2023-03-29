@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="44" opendate="">
+      <buginformation>
+         <summary/>
+         <description>button positive</description>
+      </buginformation>
+      <fixedFiles>
+         <file>it.feio.android.omninotes.utils.TagsHelper.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

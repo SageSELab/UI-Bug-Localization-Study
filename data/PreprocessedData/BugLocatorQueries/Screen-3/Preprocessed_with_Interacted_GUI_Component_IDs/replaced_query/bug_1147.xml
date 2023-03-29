@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1147" opendate="">
+      <buginformation>
+         <summary/>
+         <description>icon search box input</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.android.gpstest.NavigationDrawerFragment.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

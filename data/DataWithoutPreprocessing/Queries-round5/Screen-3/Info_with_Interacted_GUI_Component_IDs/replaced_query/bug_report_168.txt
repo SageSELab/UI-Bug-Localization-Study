@@ -1,0 +1,1 @@
+ permission_allow_always_button map

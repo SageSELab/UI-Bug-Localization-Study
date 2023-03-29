@@ -1,0 +1,1 @@
+main activity action bar root content drawer layout toolbar main fragment layout main fragment vendor search text search bar search edit frame search mag icon search plate search src text vendor name vendor mac status bar background navigation bar background search close btn empty

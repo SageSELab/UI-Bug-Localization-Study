@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="1403" opendate="">
+      <buginformation>
+         <summary/>
+         <description>main activity single media activity support request manager fragment action bar root content drawer layout relative album layout toolbar all photo sort action swipe refresh layout main content grid album album card header album card album preview linear card text album name album photo count bottombar navigation camera small label icon navigation home large label navigation account status bar background navigation bar background delete action grid photo media card layout photo preview photo pager layout photo pager toolbar bottom action share action edit action delete action detail parent panel top panel title template alert title custom panel custom aerr restart</description>
+      </buginformation>
+      <fixedFiles>
+         <file>org.fossasia.phimpme.editor.FileUtils.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>

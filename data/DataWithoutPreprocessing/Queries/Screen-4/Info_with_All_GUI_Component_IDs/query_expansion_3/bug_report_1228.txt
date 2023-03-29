@@ -1,0 +1,24 @@
+Transaction details screen footer disappears
+
+Steps to reproduce the behaviour
+
+1. Click on existing transaction
+2. Click on edit transaction FAB
+3. Click on splits icon
+4. Add a split
+5. Click "save"
+6. Click "save" again
+
+Expected behaviour
+
+Footer visible.
+
+Actual behaviour
+
+Footer removed (balance and date).
+
+Software specifications
+
+GnuCash Android version: 2.2.0
+System Android version: 6.0
+Device type: Any  action_bar_root content toolbar menu_add_split menu_save fragment_container imbalance_layout imbalance_textview split_list_layout split_currency_symbol input_split_amount btn_split_type btn_remove_split name_text_input_layout input_split_memo input_accounts_spinner text1 calculator_keyboard statusBarBackground navigationBarBackground fragment_transaction_form input_transaction_name currency_symbol input_transaction_amount btn_split_editor input_date input_time input_description input_recurrence trn_description transaction_account fragment_transaction_details split_account_name split_debit split_credit fab_edit_transaction  action_bar_root content toolbar menu_add_split menu_save fragment_container imbalance_layout imbalance_textview split_list_layout split_currency_symbol input_split_amount btn_split_type btn_remove_split name_text_input_layout input_split_memo input_accounts_spinner text1 calculator_keyboard statusBarBackground navigationBarBackground fragment_transaction_form input_transaction_name currency_symbol input_transaction_amount btn_split_editor input_date input_time input_description input_recurrence trn_description transaction_account fragment_transaction_details split_account_name split_debit split_credit fab_edit_transaction  action_bar_root content toolbar menu_add_split menu_save fragment_container imbalance_layout imbalance_textview split_list_layout split_currency_symbol input_split_amount btn_split_type btn_remove_split name_text_input_layout input_split_memo input_accounts_spinner text1 calculator_keyboard statusBarBackground navigationBarBackground fragment_transaction_form input_transaction_name currency_symbol input_transaction_amount btn_split_editor input_date input_time input_description input_recurrence trn_description transaction_account fragment_transaction_details split_account_name split_debit split_credit fab_edit_transaction

@@ -1,0 +1,18 @@
+Stopping GNSS should clear filter text
+
+Describe the bug
+Stopping GNSS should clear the current filter text. Currently, the previously displayed text remains, which shows something like "Showing 9 of 15 satellites (show all)"
+
+To Reproduce
+Steps to reproduce the behavior:
+1. Filter a GNSS
+2. Stop GNSS
+
+Expected behavior
+Filter text should disappear
+
+Observed behavior
+Filter text is still visible
+
+App, Device and Android version:
+Samsung Galaxy S8+ with Android 9

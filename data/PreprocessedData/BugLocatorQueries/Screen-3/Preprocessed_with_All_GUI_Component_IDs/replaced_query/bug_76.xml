@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<bugrepository name="androR2">
+   <bug fixdate="" id="76" opendate="">
+      <buginformation>
+         <summary/>
+         <description>action bar root content drawer layout app bar toolbar action editable filter search bar search button content main activitiy home fragment layout home view pager genfw custom list fragment view container genfw custom list fragment container fragment container layout fast scroll recyclerview container layout fast scroll recyclerview bottom divider action container send layout button receive layout button genfw custom list fragment list view container genfw custom list fragment empty view genfw custom list fragment empty image view genfw custom list fragment empty text view layout home navigator container layout home bottom navigation view icon large label small label navigation bar background fragment fileexplorer list view container genfw custom list fragment list view layout list title text layout image selector thumbnail image text text menu layout fast scroll recyclerview fastscroll view fragment fileexplorer separator fragment fileexplorer pathresolver list pathresolver image list pathresolver text title submenuarrow</description>
+      </buginformation>
+      <fixedFiles>
+         <file>com.genonbeta.TrebleShot.fragment.FileListFragment.java</file>
+         <file>com.genonbeta.TrebleShot.adapter.FileListAdapter.java</file>
+      </fixedFiles>
+   </bug>
+</bugrepository>
