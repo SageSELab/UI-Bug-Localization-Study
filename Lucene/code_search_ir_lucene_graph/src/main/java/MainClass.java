@@ -1,7 +1,7 @@
 import .cs.severe.ir4se.processor.controllers.RetrievalEvaluator;
 import .cs.severe.ir4se.processor.controllers.impl.DefaultRetrievalEvaluator;
 import .cs.severe.ir4se.processor.controllers.impl.RAMRetrievalIndexer;
-import .cs.severe.ir4se.processor.controllers.impl.lucene.LuceneRetrievalSearcher;
+import .cs.severe.ir4se.processor.controllers.impl.lucene.LuceneRetrievalrcher;
 import .cs.severe.ir4se.processor.entity.Query;
 import .cs.severe.ir4se.processor.entity.RelJudgment;
 import .cs.severe.ir4se.processor.entity.RetrievalDoc;
@@ -161,22 +161,22 @@ public class MainClass {
         //Use the class DefaultRetrievalIndexer to store the index in disk
         try (Directory index = new RAMRetrievalIndexer().buildIndex(corpus, null)) {
 
-            //the searcher
-            LuceneRetrievalSearcher searcher = new LuceneRetrievalSearcher(index, null);
+            //the rcher
+            LuceneRetrievalrcher rcher = new LuceneRetrievalrcher(index, null);
 
-            //search
-            List<RetrievalDoc> searchResults = searcher.searchQuery(query);
+            //rch
+            List<RetrievalDoc> rchResults = rcher.rchQuery(query);
 
 
             //get results from the corpus so that we can print their content
             List<RetrievalDoc> resultsFromCorpus =
-                    corpus.stream().filter(searchResults::contains).collect(Collectors.toList());
+                    corpus.stream().filter(rchResults::contains).collect(Collectors.toList());
 
             file_count_writer.writeNext(new String[]{bugID, query_reformulation_type, String.valueOf(resultsFromCorpus.size())});
             file_count_writer.flush();
             
             // resultsFromCorpus.forEach(d ->{
-            //     System.out.println("Search result = ");
+            //     System.out.println("rch result = ");
             //     System.out.println(d.getDocName());
             //     // System.out.print(d.getDocId());
             //     // System.out.print(": ");
@@ -186,14 +186,14 @@ public class MainClass {
 
             for (int fileIndex=0; fileIndex<corpus.size(); fileIndex++) {
                 //expected results for the query
-                RelJudgment expectedSearchResults = new RelJudgment();
+                RelJudgment expectedrchResults = new RelJudgment();
                 String bug_file_name = corpus.get(fileIndex).getDocName();
                 
                 if (isBuggy(buggy_file_list, bug_file_name)) {
-                	expectedSearchResults.setRelevantDocs(List.of(corpus.get(fileIndex)));
+                	expectedrchResults.setRelevantDocs(List.of(corpus.get(fileIndex)));
                 	
 	                //compute metrics (see what each position means in the resulting list)
-	                List<Double> evalResults = evaluator.evaluateRelJudgment(expectedSearchResults, searchResults);
+	                List<Double> evalResults = evaluator.evaluateRelJudgment(expectedrchResults, rchResults);
 	                // System.out.print("Query evaluation results = ");
 	                // System.out.println(evalResults.get(0));
                     ranklist.add(new AbstractMap.SimpleEntry<>(bug_file_name, evalResults.get(0).toString()));
@@ -553,7 +553,7 @@ public class MainClass {
         }
     }
 
-    private static void file_search_and_rankings(ArrayList<String> bug_issue_ids, List<String> stopWords, String result_folder, 
+    private static void file_rch_and_rankings(ArrayList<String> bug_issue_ids, List<String> stopWords, String result_folder, 
         String subpath, String filetype, 
         String preprocessed_code_dir, String filtered_boosted_dir, String buggy_project_dir, 
         String prep_code_path, String prep_query_path, String preprocessed_data_path, String jsonFilePath, 
@@ -662,7 +662,7 @@ public class MainClass {
 
         if (ns.getString("operations").equals("Filtering")) {
             String corpus_path = "Screen-" + ns.getString("screen") + "/" + "Corpus-" + ns.getString("filtering");
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), corpus_path, "FilteredFiles", 
+            file_rch_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), corpus_path, "FilteredFiles", 
                 ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
                 ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
                 prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
@@ -681,12 +681,12 @@ public class MainClass {
             String corpus_path = "Screen-" + ns.getString("screen") + "/" + "Corpus-" + "All_Java_Files";
             String boosting_path = corpus_path + "/Boosting-" + ns.getString("boosting");
 
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "MathedQueryFiles", 
+            file_rch_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "MathedQueryFiles", 
                 ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
                 ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
                 prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
 
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "NotMathedQueryFiles", 
+            file_rch_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "NotMathedQueryFiles", 
                 ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
                 ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
                 prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
@@ -704,12 +704,12 @@ public class MainClass {
             String corpus_path = "Screen-" + ns.getString("screen") + "/" + "Corpus-" + ns.getString("filtering");
             String boosting_path = corpus_path + "/Boosting-" + ns.getString("boosting");
 
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "MathedQueryFiles", 
+            file_rch_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "MathedQueryFiles", 
                 ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
                 ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
                 prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
 
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "NotMathedQueryFiles", 
+            file_rch_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "NotMathedQueryFiles", 
                 ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
                 ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
                 prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
@@ -725,7 +725,7 @@ public class MainClass {
             final_result_writer.close();
         } else if (ns.getString("operations").equals("QueryReformulation")) {
             String corpus_path = "Screen-" + ns.getString("screen") + "/" + "Corpus-" + "All_Java_Files";
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), corpus_path, "FilteredFiles", 
+            file_rch_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), corpus_path, "FilteredFiles", 
                 ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
                 ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
                 prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));

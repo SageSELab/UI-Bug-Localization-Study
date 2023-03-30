@@ -3,7 +3,7 @@
    <bug fixdate="" id="8" opendate="">
       <buginformation>
          <summary/>
-         <description>tricky tripper activity launcher content title parent panel content panel scroll view message button panel button</description>
+         <description>tricky tripper activity launcher content title parent panel content panel scroll view mes button panel button</description>
       </buginformation>
       <fixedFiles>
          <file>de.koelle.christian.trickytripper.TrickyTripperActivity.java</file>

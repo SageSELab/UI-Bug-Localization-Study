@@ -4823,7 +4823,7 @@
                 "name": "android.widget.TextView",
                 "text": "- Added ability to export to any service which supports the Storage Access Framework \n - Added option to set the location for regular automatic backups (See backup settings)\n - Added Bitcoin currency support\n - Added support for renaming books\n - Multiple bug fixes and improvements\n",
                 "contentDescription": "",
-                "idXml": "android:id/message",
+                "idXml": "android:id/mes",
                 "componentIndex": 0,
                 "componentTotalIndex": 0,
                 "positionX": 70,
@@ -4843,7 +4843,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Center",
-                "idText": "android:id/message",
+                "idText": "android:id/mes",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -5401,8 +5401,8 @@
                 "activity": "org.gnucash.android.ui.account.AccountsActivity",
                 "name": "android.widget.TextView",
                 "text": "",
-                "contentDescription": "Search",
-                "idXml": "org.gnucash.android:id/menu_search",
+                "contentDescription": "rch",
+                "idXml": "org.gnucash.android:id/menu_rch",
                 "componentIndex": 0,
                 "componentTotalIndex": 0,
                 "positionX": 954,
@@ -5422,7 +5422,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Top right",
-                "idText": "org.gnucash.android:id/menu_search",
+                "idText": "org.gnucash.android:id/menu_rch",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -63198,6 +63198,6 @@
         "packageName": "org.gnucash.android",
         "mainActivity": "org.gnucash.android.ui.account.AccountsActivity",
         "version": "2.2.0",
-        "apkPath": "/Users/smhasanmansur/Downloads/Bug_localization_project/burt/trace-replayer/test-apks/1228.apk"
+        "apkPath": "Downloads/Bug_localization_project/burt/trace-replayer/test-apks/1228.apk"
     }
 }

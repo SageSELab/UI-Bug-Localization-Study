@@ -181,7 +181,7 @@ class FileAnalysis:
 
 
 	# checks the source code of the files and in every method in files in a term exists 
-	def get_class_other_terms(self, parent_directory, search_terms):
+	def get_class_other_terms(self, parent_directory, rch_terms):
 		class_method_list = []
 		list_of_other_files = []
 		for filename in sorted(glob.glob(f'{parent_directory}/**/*.java', recursive = True)):
@@ -197,24 +197,24 @@ class FileAnalysis:
 			functions = Bs_data.find_all('function')
 
 			for function in functions:
-				search_terms = [term.lower() for term in search_terms]
-				search_term_exist = self.check_if_term_exist(search_terms, function.text.lower())
-				if search_term_exist == True:
+				rch_terms = [term.lower() for term in rch_terms]
+				rch_term_exist = self.check_if_term_exist(rch_terms, function.text.lower())
+				if rch_term_exist == True:
 					class_method_list.append(function.text)
 					list_of_other_files.append(filename)
 
 		return list_of_other_files, class_method_list
 
-	# retrieve files where any search term exists
-	def get_files_if_term_exists(self, parent_directory, search_terms):
+	# retrieve files where any rch term exists
+	def get_files_if_term_exists(self, parent_directory, rch_terms):
 		list_of_matched_files = []
 		for filename in sorted(glob.glob(f'{parent_directory}/**/*.java', recursive = True)):
 			file_content = self.get_file_content(filename)
 
-			#search_terms = [term.lower() for term in search_terms]
-			search_term_exist = self.check_if_term_exist(search_terms, file_content)
+			#rch_terms = [term.lower() for term in rch_terms]
+			rch_term_exist = self.check_if_term_exist(rch_terms, file_content)
 
-			if search_term_exist == True:
+			if rch_term_exist == True:
 				list_of_matched_files.append(filename)
 
 		return list_of_matched_files
@@ -255,9 +255,9 @@ class FileAnalysis:
 
 		return class_name, method_block
 
-	def check_if_term_exist(self, search_terms, method_block):
+	def check_if_term_exist(self, rch_terms, method_block):
 		match_keyword = False
-		for keyword in search_terms:
+		for keyword in rch_terms:
 			if keyword in method_block:
 				match_keyword = True
 

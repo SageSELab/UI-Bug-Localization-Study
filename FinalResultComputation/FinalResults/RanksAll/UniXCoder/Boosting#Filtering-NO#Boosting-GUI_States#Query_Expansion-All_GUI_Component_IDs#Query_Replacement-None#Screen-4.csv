@@ -10,7 +10,7 @@ Bug Report ID,Ranks-unsorted,Ranks,Files
 128,"[1, 2, 13]","[1, 2, 13]","['bug-128/app/src/main/java/org/shadowice/flocke/andotp/Activities/SettingsActivity.java', 'bug-128/app/src/main/java/org/shadowice/flocke/andotp/Activities/MainActivity.java', 'bug-128/app/src/main/java/org/shadowice/flocke/andotp/Utilities/Settings.java']"
 129,[6],[6],['bug-129/app/src/main/java/org/shadowice/flocke/andotp/Dialogs/ManualEntryDialog.java']
 130,[1],[1],['bug-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java']
-135,"[1, 10, 17, 58]","[1, 10, 17, 58]","['bug-135/app/src/main/java/fr/free/nrw/commons/category/SubCategoryListFragment.java', 'bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoryFragment.java', 'bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesRenderer.java', 'bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesAdapterFactory.java']"
+135,"[1, 10, 17, 58]","[1, 10, 17, 58]","['bug-135/app/src/main/java/fr/free/nrw/commons/category/SubCategoryListFragment.java', 'bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/rchCategoryFragment.java', 'bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/rchCategoriesRenderer.java', 'bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/rchCategoriesAdapterFactory.java']"
 191,"[3, 19]","[3, 19]","['bug-191/app/src/main/java/ch/logixisland/anuto/view/game/TowerView.java', 'bug-191/app/src/main/java/ch/logixisland/anuto/business/control/TowerInserter.java']"
 206,[1],[1],['bug-206/app/src/main/java/org/gnucash/android/ui/settings/BookManagerFragment.java']
 209,[8],[8],['bug-209/app/src/main/java/org/gnucash/android/ui/util/widget/CalculatorEditText.java']

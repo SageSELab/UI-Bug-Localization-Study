@@ -1055,7 +1055,7 @@
                 "name": "android.widget.TextView",
                 "text": "Allow lrkFM to access photos and media on your device?",
                 "contentDescription": "",
-                "idXml": "com.android.permissioncontroller:id/permission_message",
+                "idXml": "com.android.permissioncontroller:id/permission_mes",
                 "componentIndex": 1,
                 "componentTotalIndex": 0,
                 "positionX": 133,
@@ -1075,7 +1075,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Center",
-                "idText": "com.android.permissioncontroller:id/permission_message",
+                "idText": "com.android.permissioncontroller:id/permission_mes",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -6732,7 +6732,7 @@
                 "name": "android.widget.FrameLayout",
                 "text": "",
                 "contentDescription": "",
-                "idXml": "com.google.android.apps.nexuslauncher:id/search_container_workspace",
+                "idXml": "com.google.android.apps.nexuslauncher:id/rch_container_workspace",
                 "componentIndex": 0,
                 "componentTotalIndex": 0,
                 "positionX": 35,
@@ -6752,7 +6752,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Top",
-                "idText": "com.google.android.apps.nexuslauncher:id/search_container_workspace",
+                "idText": "com.google.android.apps.nexuslauncher:id/rch_container_workspace",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -6848,7 +6848,7 @@
                 "name": "android.view.ViewGroup",
                 "text": "",
                 "contentDescription": "",
-                "idXml": "com.google.android.apps.nexuslauncher:id/hotseat",
+                "idXml": "com.google.android.apps.nexuslauncher:id/hott",
                 "componentIndex": 3,
                 "componentTotalIndex": 0,
                 "positionX": 0,
@@ -6868,7 +6868,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Bottom",
-                "idText": "com.google.android.apps.nexuslauncher:id/hotseat",
+                "idText": "com.google.android.apps.nexuslauncher:id/hott",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -6904,8 +6904,8 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.TextView",
-                "text": "Messages",
-                "contentDescription": "Messages",
+                "text": "Mess",
+                "contentDescription": "Mess",
                 "idXml": "",
                 "componentIndex": 0,
                 "componentTotalIndex": 0,
@@ -7050,8 +7050,8 @@
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.FrameLayout",
                 "text": "",
-                "contentDescription": "Search",
-                "idXml": "com.google.android.apps.nexuslauncher:id/search_container_all_apps",
+                "contentDescription": "rch",
+                "idXml": "com.google.android.apps.nexuslauncher:id/rch_container_all_apps",
                 "componentIndex": 1,
                 "componentTotalIndex": 0,
                 "positionX": 52,
@@ -7071,7 +7071,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Bottom",
-                "idText": "com.google.android.apps.nexuslauncher:id/search_container_all_apps",
+                "idText": "com.google.android.apps.nexuslauncher:id/rch_container_all_apps",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -7108,7 +7108,7 @@
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.view.View",
                 "text": "",
-                "contentDescription": "Voice search",
+                "contentDescription": "Voice rch",
                 "idXml": "com.google.android.apps.nexuslauncher:id/mic_icon",
                 "componentIndex": 2,
                 "componentTotalIndex": 0,
@@ -7514,7 +7514,7 @@
                 "name": "android.widget.FrameLayout",
                 "text": "",
                 "contentDescription": "",
-                "idXml": "com.google.android.apps.nexuslauncher:id/search_container_workspace",
+                "idXml": "com.google.android.apps.nexuslauncher:id/rch_container_workspace",
                 "componentIndex": 0,
                 "componentTotalIndex": 0,
                 "positionX": 35,
@@ -7534,7 +7534,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Top",
-                "idText": "com.google.android.apps.nexuslauncher:id/search_container_workspace",
+                "idText": "com.google.android.apps.nexuslauncher:id/rch_container_workspace",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -7630,7 +7630,7 @@
                 "name": "android.view.ViewGroup",
                 "text": "",
                 "contentDescription": "",
-                "idXml": "com.google.android.apps.nexuslauncher:id/hotseat",
+                "idXml": "com.google.android.apps.nexuslauncher:id/hott",
                 "componentIndex": 3,
                 "componentTotalIndex": 0,
                 "positionX": 0,
@@ -7650,7 +7650,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Bottom",
-                "idText": "com.google.android.apps.nexuslauncher:id/hotseat",
+                "idText": "com.google.android.apps.nexuslauncher:id/hott",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -7686,8 +7686,8 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.TextView",
-                "text": "Messages",
-                "contentDescription": "Messages",
+                "text": "Mess",
+                "contentDescription": "Mess",
                 "idXml": "",
                 "componentIndex": 0,
                 "componentTotalIndex": 0,
@@ -7832,8 +7832,8 @@
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.FrameLayout",
                 "text": "",
-                "contentDescription": "Search",
-                "idXml": "com.google.android.apps.nexuslauncher:id/search_container_all_apps",
+                "contentDescription": "rch",
+                "idXml": "com.google.android.apps.nexuslauncher:id/rch_container_all_apps",
                 "componentIndex": 1,
                 "componentTotalIndex": 0,
                 "positionX": 52,
@@ -7853,7 +7853,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Bottom",
-                "idText": "com.google.android.apps.nexuslauncher:id/search_container_all_apps",
+                "idText": "com.google.android.apps.nexuslauncher:id/rch_container_all_apps",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -7890,7 +7890,7 @@
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.view.View",
                 "text": "",
-                "contentDescription": "Voice search",
+                "contentDescription": "Voice rch",
                 "idXml": "com.google.android.apps.nexuslauncher:id/mic_icon",
                 "componentIndex": 2,
                 "componentTotalIndex": 0,
@@ -8411,7 +8411,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -12058,7 +12058,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -12667,7 +12667,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -13243,7 +13243,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -13852,7 +13852,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -14461,7 +14461,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -15070,7 +15070,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -15679,7 +15679,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -16288,7 +16288,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -16897,7 +16897,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -17506,7 +17506,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -18115,7 +18115,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -18254,7 +18254,7 @@
         {
             "activity": "com.android.launcher2.Launcher",
             "name": "android.widget.CheckBox",
-            "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+            "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
             "contentDescription": "",
             "idXml": "com.android.chrome:id/send_report_checkbox",
             "componentIndex": 1,
@@ -18724,7 +18724,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -19300,7 +19300,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -19909,7 +19909,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -20518,7 +20518,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -21127,7 +21127,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -21736,7 +21736,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -22345,7 +22345,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -22954,7 +22954,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -23563,7 +23563,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -24172,7 +24172,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -24781,7 +24781,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -25390,7 +25390,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -25999,7 +25999,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -26608,7 +26608,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -27217,7 +27217,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -29159,7 +29159,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -29768,7 +29768,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -30377,7 +30377,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -30986,7 +30986,7 @@
             {
                 "activity": "com.android.launcher2.Launcher",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -31107,6 +31107,6 @@
         "packageName": "io.lerk.lrkFM",
         "mainActivity": "io.lerk.lrkFM.activities.file.FileActivity",
         "version": "2.3.0",
-        "apkPath": "/Users/smhasanmansur/Downloads/Bug_localization_project/burt/trace-replayer/test-apks/1568.apk"
+        "apkPath": "Downloads/Bug_localization_project/burt/trace-replayer/test-apks/1568.apk"
     }
 }

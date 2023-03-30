@@ -3,7 +3,7 @@
    <bug fixdate="" id="1224" opendate="">
       <buginformation>
          <summary/>
-         <description>form activity accounts activity account form fragment accounts list fragment action bar root content toolbar menu save fragment container fragment account form name text input layout input account name input currency spinner text layout color type input color picker input account type spinner description input layout input account description checkbox placeholder account label transfer account layout transfer account checkbox transfer account input transfer account status bar background navigation bar background drawer layout coordinator layout menu search tab layout pager fragment account list account recycler view account color strip primary text secondary text favorite status account balance option menu fab create account</description>
+         <description>form activity accounts activity account form fragment accounts list fragment action bar root content toolbar menu save fragment container fragment account form name text input layout input account name input currency spinner text layout color type input color picker input account type spinner description input layout input account description checkbox placeholder account label transfer account layout transfer account checkbox transfer account input transfer account status bar background navigation bar background drawer layout coordinator layout menu rch tab layout pager fragment account list account recycler view account color strip primary text secondary text favorite status account balance option menu fab create account</description>
       </buginformation>
       <fixedFiles>
          <file>org.gnucash.android.ui.account.AccountFormFragment.java</file>

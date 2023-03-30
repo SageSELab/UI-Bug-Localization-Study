@@ -3022,7 +3022,7 @@
             {
                 "activity": "org.osmdroid.intro.IntroActivity",
                 "name": "android.widget.TextView",
-                "text": "Important information on data usage",
+                "text": "Important information on data u",
                 "contentDescription": "",
                 "idXml": "",
                 "componentIndex": 1,
@@ -5252,7 +5252,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -6960,7 +6960,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -8668,7 +8668,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -10376,7 +10376,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -11303,7 +11303,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -12230,7 +12230,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -13648,7 +13648,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -15529,7 +15529,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -16949,7 +16949,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -18659,7 +18659,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -20369,7 +20369,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -22079,7 +22079,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -23499,7 +23499,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -24919,7 +24919,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -26339,7 +26339,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -27759,7 +27759,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -29179,7 +29179,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -30599,7 +30599,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -32309,7 +32309,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -34019,7 +34019,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -35729,7 +35729,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -37439,7 +37439,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -38859,7 +38859,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -40569,7 +40569,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -41989,7 +41989,7 @@
             {
                 "activity": "org.osmdroid.PreferenceActivity",
                 "name": "android.widget.TextView",
-                "text": "Base Directory (we search for tile archives here)",
+                "text": "Base Directory (we rch for tile archives here)",
                 "contentDescription": "",
                 "idXml": "org.osmdroid:id/baseDirTitle",
                 "componentIndex": 6,
@@ -43154,6 +43154,6 @@
         "packageName": "org.osmdroid",
         "mainActivity": "org.osmdroid.intro.IntroActivity",
         "version": "6.0.1",
-        "apkPath": "/Users/smhasanmansur/Downloads/Bug_localization_project/burt/trace-replayer/test-apks/101.apk"
+        "apkPath": "Downloads/Bug_localization_project/burt/trace-replayer/test-apks/101.apk"
     }
 }

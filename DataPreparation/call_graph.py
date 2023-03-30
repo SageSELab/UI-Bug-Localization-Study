@@ -38,7 +38,7 @@ class CallGraph:
         return G
 
 
-    # https://www.geeksforgeeks.org/python-program-for-depth-first-search-or-dfs-for-a-graph/
+    # https://www.geeksforgeeks.org/python-program-for-depth-first-rch-or-dfs-for-a-graph/
     # A function used by DFS
     def DFSUtil(self, graph, v, visited):
  
@@ -54,7 +54,7 @@ class CallGraph:
  
     # The function to do DFS traversal. It uses
     # recursive DFSUtil()
-    def DFS(self, graph, list_of_start_methods, class_method_dict, bug_report_contents, search_terms, visited):
+    def DFS(self, graph, list_of_start_methods, class_method_dict, bug_report_contents, rch_terms, visited):
         #print(graph)
         V = len(graph)  #total vertices
  
@@ -80,7 +80,7 @@ class CallGraph:
             class_name, method_block = self.get_method_block_with_file_name(node, class_method_dict)  
             #method_contents_list.append(method_block)
 
-            termFlag = self.check_if_term_exist(search_terms, method_block)
+            termFlag = self.check_if_term_exist(rch_terms, method_block)
             #bugReportSimilarFlag, sim_score = self.check_if_similar(bug_report_contents, method_block)
 
             if termFlag == True:

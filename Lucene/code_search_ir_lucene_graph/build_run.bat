@@ -9,18 +9,18 @@ set CUR_DIR=%CD%
 
 set APPCORE_REPO_PATH=%REPOSITORIES_PATH%\appcore
 set TXT_ANALYZER_REPO_PATH=%REPOSITORIES_PATH%\text-analyzer
-set CODE_SEARCH_REPO_PATH=%REPOSITORIES_PATH%\code_search_ir
+set CODE_RCH_REPO_PATH=%REPOSITORIES_PATH%\code_rch_ir
 
 REM project building
 cd "%APPCORE_REPO_PATH%\appcore" && call gradlew clean testClasses install && @echo on
 cd "%TXT_ANALYZER_REPO_PATH%\text-analyzer" && call gradlew clean testClasses install && @echo on
 
 REM install additional libraries
-cd "%CODE_SEARCH_REPO_PATH%\lib"
+cd "%CODE_RCH_REPO_PATH%\lib"
 call mvn install:install-file "-Dfile=ir4se-fwk-0.0.2.jar" "-DgroupId=.cs.severe" "-DartifactId=ir4se-fwk" "-Dversion=0.0.2" "-Dpackaging=jar"
 
-cd "%CODE_SEARCH_REPO_PATH%" && call mvn package -DskipTests  && @echo on
+cd "%CODE_RCH_REPO_PATH%" && call mvn package -DskipTests  && @echo on
 
-call "%JAVA_HOME%/bin/java" -cp target/code_search_ir-1.0.jar MainClass
+call "%JAVA_HOME%/bin/java" -cp target/code_rch_ir-1.0.jar MainClass
 
 cd "%CUR_DIR%"

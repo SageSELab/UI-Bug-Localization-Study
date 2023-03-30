@@ -10,7 +10,7 @@ Bug Report ID,Ranks-unsorted,Ranks,Files
 128,"[4, 20, 26]","[4, 20, 26]","['bug-128/app/src/main/java/org/shadowice/flocke/andotp/Activities/MainActivity.java', 'bug-128/app/src/main/java/org/shadowice/flocke/andotp/Activities/SettingsActivity.java', 'bug-128/app/src/main/java/org/shadowice/flocke/andotp/Utilities/Settings.java']"
 129,[1],[1],['bug-129/app/src/main/java/org/shadowice/flocke/andotp/Dialogs/ManualEntryDialog.java']
 130,[11],[11],['bug-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java']
-135,"[4, 34]","[4, 34]","['bug-135/app/src/main/java/fr/free/nrw/commons/category/SubCategoryListFragment.java', 'bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoryFragment.java']"
+135,"[4, 34]","[4, 34]","['bug-135/app/src/main/java/fr/free/nrw/commons/category/SubCategoryListFragment.java', 'bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/rchCategoryFragment.java']"
 191,[],[],[]
 206,[33],[33],['bug-206/app/src/main/java/org/gnucash/android/ui/settings/BookManagerFragment.java']
 209,[16],[16],['bug-209/app/src/main/java/org/gnucash/android/ui/util/widget/CalculatorEditText.java']

@@ -3,7 +3,7 @@
    <bug fixdate="" id="129" opendate="">
       <buginformation>
          <summary/>
-         <description>main activity nexus launcher activity content parent panel top panel title template alert title custom panel custom manual type text manual issuer manual label manual secret manual tag dialog expand button button panel button button launcher drag layer scrim view workspace workspace page container search container workspace smartspace content clock page indicator hotseat layout search container hotseat icon mic icon</description>
+         <description>main activity nexus launcher activity content parent panel top panel title template alert title custom panel custom manual type text manual issuer manual label manual secret manual tag dialog expand button button panel button button launcher drag layer scrim view workspace workspace page container rch container workspace smartspace content clock page indicator hott layout rch container hott icon mic icon</description>
       </buginformation>
       <fixedFiles>
          <file>org.shadowice.flocke.andotp.Dialogs.ManualEntryDialog.java</file>

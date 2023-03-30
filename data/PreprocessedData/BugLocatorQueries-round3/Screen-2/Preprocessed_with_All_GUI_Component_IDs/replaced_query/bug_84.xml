@@ -3,7 +3,7 @@
    <bug fixdate="" id="84" opendate="">
       <buginformation>
          <summary/>
-         <description>decor content parent action bar container action bar content title summary widget frame checkbox parent panel top panel title template icon alert title title divider content panel scroll view message button panel button</description>
+         <description>decor content parent action bar container action bar content title summary widget frame checkbox parent panel top panel title template icon alert title title divider content panel scroll view mes button panel button</description>
       </buginformation>
       <fixedFiles>
          <file>org.moire.ultrasonic.util.Util.java</file>

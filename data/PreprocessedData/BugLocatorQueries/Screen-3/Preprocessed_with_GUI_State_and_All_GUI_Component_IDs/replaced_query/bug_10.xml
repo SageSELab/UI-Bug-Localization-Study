@@ -3,7 +3,7 @@
    <bug fixdate="" id="10" opendate="">
       <buginformation>
          <summary/>
-         <description>file list activity ftp server activity file list fragment ftp server fragment action bar root content drawer bar layout app bar toolbar action search action sort breadcrumb text swipe refresh recycler item icon layout icon name menu speed dial main fab navigation bar background navigation fragment title subtitle preference fragment recycler view summary widget frame widget status bar background</description>
+         <description>file list activity ftp server activity file list fragment ftp server fragment action bar root content drawer bar layout app bar toolbar action rch action sort breadcrumb text swipe refresh recycler item icon layout icon name menu speed dial main fab navigation bar background navigation fragment title subtitle preference fragment recycler view summary widget frame widget status bar background</description>
       </buginformation>
       <fixedFiles>
          <file>me.zhanghai.android.files.ftpserver.FtpServerReceiver.java</file>

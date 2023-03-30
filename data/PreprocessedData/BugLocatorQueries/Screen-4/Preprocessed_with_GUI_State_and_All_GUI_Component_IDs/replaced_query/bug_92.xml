@@ -3,7 +3,7 @@
    <bug fixdate="" id="92" opendate="">
       <buginformation>
          <summary/>
-         <description>main activity action bar root content drawer layout toolbar action filter action scanner main connection scanning nodata main fragment layout main fragment access point refresh access points view status bar background navigation bar background nav view design navigation view navigation header container image view design menu item text vendor search text search bar search edit frame search mag icon search plate search src text vendor name vendor mac search close btn empty</description>
+         <description>main activity action bar root content drawer layout toolbar action filter action scanner main connection scanning nodata main fragment layout main fragment access point refresh access points view status bar background navigation bar background nav view design navigation view navigation header container image view design menu item text vendor rch text rch bar rch edit frame rch mag icon rch plate rch src text vendor name vendor mac rch close btn empty</description>
       </buginformation>
       <fixedFiles>
          <file>com.vrem.wifianalyzer.vendor.model.VendorDB.java</file>

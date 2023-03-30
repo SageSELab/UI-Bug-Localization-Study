@@ -10,7 +10,7 @@ Bug Report ID,Ranks-unsorted,Ranks,Files
 128,"[1, 7, 13]","[1, 7, 13]","['org.shadowice.flocke.andotp.Activities.SettingsActivity.java', 'org.shadowice.flocke.andotp.Activities.MainActivity.java', 'org.shadowice.flocke.andotp.Utilities.Settings.java']"
 129,[2],[2],['org.shadowice.flocke.andotp.Dialogs.ManualEntryDialog.java']
 130,[1],[1],['org.shadowice.flocke.andotp.Activities.IntroScreenActivity.java']
-135,"[3, 13]","[3, 13]","['fr.free.nrw.commons.category.SubCategoryListFragment.java', 'fr.free.nrw.commons.explore.categories.SearchCategoryFragment.java']"
+135,"[3, 13]","[3, 13]","['fr.free.nrw.commons.category.SubCategoryListFragment.java', 'fr.free.nrw.commons.explore.categories.rchCategoryFragment.java']"
 191,[6],[6],['ch.logixisland.anuto.view.game.TowerView.java']
 206,[2],[2],['org.gnucash.android.ui.settings.BookManagerFragment.java']
 209,[16],[16],['org.gnucash.android.ui.util.widget.CalculatorEditText.java']

@@ -258,7 +258,7 @@ def compute_result_for_individual_bug(bug_issue_id, corpus_match_files_dir, quer
         preprocessed_code_dir, 
         buggy_projects_dir, prep_code_path, emb_path, sim_path)
 
-def file_search_and_rankings(filetype, bug_issue_ids, result_folder, subpath, filtered_boosted_dir, 
+def file_rch_and_rankings(filetype, bug_issue_ids, result_folder, subpath, filtered_boosted_dir, 
     buggy_projects_dir, preprocessed_data_path, jsonFilePath, preprocessed_code_dir, 
     prep_query_path, prep_code_path, emb_path, sim_path, query_reformulation_gui):
     result_sub_dir = result_folder + "/" + subpath + "/QueryReformulation-" + query_reformulation_gui + "/" + filetype
@@ -411,7 +411,7 @@ def main(args):
 
     if args['operations']=='Filtering':
         corpus_path = "Screen-" + args['screen'] + "/" + "Corpus-" + args['filtering'] 
-        file_search_and_rankings("FilteredFiles", bug_issue_ids, args['result'], corpus_path, 
+        file_rch_and_rankings("FilteredFiles", bug_issue_ids, args['result'], corpus_path, 
             args['filtered_boosted_repo'], args['buggy_project_dir'], 
             args['prep_data_path'], args['json_file_path'], args['preprocessed_code_dir'], 
             prep_query_path, args['prep_code_path'], emb_path, sim_path, args['query_reformulation'])
@@ -427,11 +427,11 @@ def main(args):
     elif args['operations']=='Boosting':
         corpus_path = "Screen-" + args['screen'] + "/" + "Corpus-" + "All_Java_Files" 
         boosting_path = corpus_path + "/Boosting-" + args['boosting']
-        file_search_and_rankings("MathedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
+        file_rch_and_rankings("MathedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
             args['filtered_boosted_repo'], args['buggy_project_dir'], 
             args['prep_data_path'], args['json_file_path'], args['preprocessed_code_dir'], 
             prep_query_path, args['prep_code_path'], emb_path, sim_path, args['query_reformulation'])
-        file_search_and_rankings("NotMathedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
+        file_rch_and_rankings("NotMathedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
             args['filtered_boosted_repo'], args['buggy_project_dir'], 
             args['prep_data_path'], args['json_file_path'], args['preprocessed_code_dir'], 
             prep_query_path, args['prep_code_path'], emb_path, sim_path, args['query_reformulation'])
@@ -448,11 +448,11 @@ def main(args):
     elif args['operations']=='Filtering+Boosting':
         corpus_path = "Screen-" + args['screen'] + "/" + "Corpus-" + args['filtering'] 
         boosting_path = corpus_path + "/Boosting-" + args['boosting']
-        file_search_and_rankings("MathedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
+        file_rch_and_rankings("MathedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
             args['filtered_boosted_repo'], args['buggy_project_dir'], 
             args['prep_data_path'], args['json_file_path'], args['preprocessed_code_dir'], 
             prep_query_path, args['prep_code_path'], emb_path, sim_path, args['query_reformulation'])
-        file_search_and_rankings("NotMathedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
+        file_rch_and_rankings("NotMathedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
             args['filtered_boosted_repo'], args['buggy_project_dir'], 
             args['prep_data_path'], args['json_file_path'], args['preprocessed_code_dir'], 
             prep_query_path, args['prep_code_path'], emb_path, sim_path, args['query_reformulation'])
@@ -468,7 +468,7 @@ def main(args):
 
     elif args['operations']=='QueryReformulation':
         corpus_path = "Screen-" + args['screen'] + "/" + "Corpus-" + "All_Java_Files"
-        file_search_and_rankings("FilteredFiles", bug_issue_ids, args['result'], corpus_path, 
+        file_rch_and_rankings("FilteredFiles", bug_issue_ids, args['result'], corpus_path, 
             args['filtered_boosted_repo'], args['buggy_project_dir'], 
             args['prep_data_path'], args['json_file_path'], args['preprocessed_code_dir'], 
             prep_query_path, args['prep_code_path'], emb_path, sim_path, args['query_reformulation'])

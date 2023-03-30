@@ -3,7 +3,7 @@
    <bug fixdate="" id="92" opendate="">
       <buginformation>
          <summary/>
-         <description>main activity search src text</description>
+         <description>main activity rch src text</description>
       </buginformation>
       <fixedFiles>
          <file>com.vrem.wifianalyzer.vendor.model.VendorDB.java</file>

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>code_search_ir</artifactId>
+    <artifactId>code_rch_ir</artifactId>
     <version>1.0</version>
 
     <build>

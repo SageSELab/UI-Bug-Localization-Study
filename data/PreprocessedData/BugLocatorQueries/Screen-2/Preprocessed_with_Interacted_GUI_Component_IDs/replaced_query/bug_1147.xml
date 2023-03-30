@@ -3,7 +3,7 @@
    <bug fixdate="" id="1147" opendate="">
       <buginformation>
          <summary/>
-         <description>search box input</description>
+         <description>rch box input</description>
       </buginformation>
       <fixedFiles>
          <file>com.android.gpstest.NavigationDrawerFragment.java</file>

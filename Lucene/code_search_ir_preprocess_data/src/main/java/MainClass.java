@@ -1,7 +1,7 @@
 import .cs.severe.ir4se.processor.controllers.RetrievalEvaluator;
 import .cs.severe.ir4se.processor.controllers.impl.DefaultRetrievalEvaluator;
 import .cs.severe.ir4se.processor.controllers.impl.RAMRetrievalIndexer;
-import .cs.severe.ir4se.processor.controllers.impl.lucene.LuceneRetrievalSearcher;
+import .cs.severe.ir4se.processor.controllers.impl.lucene.LuceneRetrievalrcher;
 import .cs.severe.ir4se.processor.entity.Query;
 import .cs.severe.ir4se.processor.entity.RelJudgment;
 import .cs.severe.ir4se.processor.entity.RetrievalDoc;

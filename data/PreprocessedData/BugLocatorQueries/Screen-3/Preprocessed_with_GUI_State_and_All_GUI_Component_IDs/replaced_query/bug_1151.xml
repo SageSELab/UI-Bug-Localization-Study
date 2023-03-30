@@ -3,7 +3,7 @@
    <bug fixdate="" id="1151" opendate="">
       <buginformation>
          <summary/>
-         <description>preferences nexus launcher activity content action bar content wrapper header title summary widget frame checkbox status bar background navigation bar background launcher drag layer workspace workspace block row date text date text qsb container icon page indicator all app handle hotseat layout</description>
+         <description>preferences nexus launcher activity content action bar content wrapper header title summary widget frame checkbox status bar background navigation bar background launcher drag layer workspace workspace block row date text date text qsb container icon page indicator all app handle hott layout</description>
       </buginformation>
       <fixedFiles>
          <file>com.android.gpstest.GpsTestActivity.java</file>

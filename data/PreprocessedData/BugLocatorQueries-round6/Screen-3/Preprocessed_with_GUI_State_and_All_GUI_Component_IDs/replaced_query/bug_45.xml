@@ -3,7 +3,7 @@
    <bug id="45" opendate="" fixdate="">
       <buginformation>
          <summary/>
-         <description>main activity grant permissions activity detail fragment content root custom view frame attachment dialog root camera video file record sketch location timestamp pushbullet dialog container desc container perm desc root permission icon permission message button group permission deny button permission allow button action bar root drawer layout crouton handle toolbar menu attachment menu category menu tag menu share fragment container detail root detail wrapper detail tile card title wrapper tag marker detail title detail content card content wrapper detail content reminder layout reminder icon datetime detail timestamp snackbar placeholder</description>
+         <description>main activity grant permissions activity detail fragment content root custom view frame attachment dialog root camera video file record sketch location timestamp pushbullet dialog container desc container perm desc root permission icon permission mes button group permission deny button permission allow button action bar root drawer layout crouton handle toolbar menu attachment menu category menu tag menu share fragment container detail root detail wrapper detail tile card title wrapper tag marker detail title detail content card content wrapper detail content reminder layout reminder icon datetime detail timestamp snackbar placeholder</description>
       </buginformation>
       <fixedFiles>
          <file>it.feio.android.omninotes.helpers.GeocodeProviderBaseFactory.java</file>

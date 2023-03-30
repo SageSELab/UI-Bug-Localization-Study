@@ -18,7 +18,7 @@ Bug Report ID,File,Rank
 129,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-129/app/src/main/java/org/shadowice/flocke/andotp/Dialogs/ManualEntryDialog.java,1
 130,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java,1
 135,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-135/app/src/main/java/fr/free/nrw/commons/category/SubCategoryListFragment.java,2
-135,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoryFragment.java,9
+135,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/rchCategoryFragment.java,9
 191,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-191/app/src/main/java/ch/logixisland/anuto/view/game/TowerView.java,8
 206,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-206/app/src/main/java/org/gnucash/android/ui/settings/BookManagerFragment.java,4
 209,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-209/app/src/main/java/org/gnucash/android/ui/util/widget/CalculatorEditText.java,20

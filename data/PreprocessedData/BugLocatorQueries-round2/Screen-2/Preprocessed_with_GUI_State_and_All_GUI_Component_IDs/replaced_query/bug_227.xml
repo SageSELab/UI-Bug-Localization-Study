@@ -3,7 +3,7 @@
    <bug fixdate="" id="227" opendate="">
       <buginformation>
          <summary/>
-         <description>transaction activity accounts activity accounts list fragment action bar root content drawer layout coordinator layout fragment container toolbar toolbar spinner text menu favorite account tab layout pager fragment transaction list transaction recycler view list item line primary text secondary text edit transaction transaction date transaction amount option menu fab create transaction status bar background navigation bar background menu search fragment account list account recycler view account color strip favorite status account balance fab create account</description>
+         <description>transaction activity accounts activity accounts list fragment action bar root content drawer layout coordinator layout fragment container toolbar toolbar spinner text menu favorite account tab layout pager fragment transaction list transaction recycler view list item line primary text secondary text edit transaction transaction date transaction amount option menu fab create transaction status bar background navigation bar background menu rch fragment account list account recycler view account color strip favorite status account balance fab create account</description>
       </buginformation>
       <fixedFiles>
          <file>org.gnucash.android.ui.transaction.SplitEditorFragment.java</file>

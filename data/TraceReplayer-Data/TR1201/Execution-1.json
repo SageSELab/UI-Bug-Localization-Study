@@ -331,7 +331,7 @@
                 "name": "android.widget.TextView",
                 "text": "Allow PDF Converter to access photos, media, and files on your device?",
                 "contentDescription": "",
-                "idXml": "com.android.packageinstaller:id/permission_message",
+                "idXml": "com.android.packageinstaller:id/permission_mes",
                 "componentIndex": 1,
                 "componentTotalIndex": 0,
                 "positionX": 310,
@@ -351,7 +351,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Center",
-                "idText": "com.android.packageinstaller:id/permission_message",
+                "idText": "com.android.packageinstaller:id/permission_mes",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -823,7 +823,7 @@
                 "name": "android.widget.TextView",
                 "text": "Allow PDF Converter to access photos, media, and files on your device?",
                 "contentDescription": "",
-                "idXml": "com.android.packageinstaller:id/permission_message",
+                "idXml": "com.android.packageinstaller:id/permission_mes",
                 "componentIndex": 1,
                 "componentTotalIndex": 0,
                 "positionX": 310,
@@ -843,7 +843,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Center",
-                "idText": "com.android.packageinstaller:id/permission_message",
+                "idText": "com.android.packageinstaller:id/permission_mes",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -1315,7 +1315,7 @@
                 "name": "android.widget.TextView",
                 "text": "Allow PDF Converter to take pictures and record video?",
                 "contentDescription": "",
-                "idXml": "com.android.packageinstaller:id/permission_message",
+                "idXml": "com.android.packageinstaller:id/permission_mes",
                 "componentIndex": 1,
                 "componentTotalIndex": 0,
                 "positionX": 310,
@@ -1335,7 +1335,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Center",
-                "idText": "com.android.packageinstaller:id/permission_message",
+                "idText": "com.android.packageinstaller:id/permission_mes",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -2037,7 +2037,7 @@
             {
                 "activity": "swati4star.createpdf.activity.MainActivity",
                 "name": "android.widget.TextView",
-                "text": "Search PDF",
+                "text": "rch PDF",
                 "contentDescription": "",
                 "idXml": "swati4star.createpdf:id/itemTitleTextView",
                 "componentIndex": 0,
@@ -2066,7 +2066,7 @@
             {
                 "activity": "swati4star.createpdf.activity.MainActivity",
                 "name": "android.widget.TextView",
-                "text": "Search PDFs more easily in view files section.",
+                "text": "rch PDFs more easily in view files section.",
                 "contentDescription": "",
                 "idXml": "swati4star.createpdf:id/itemContentTextView",
                 "componentIndex": 1,
@@ -21578,6 +21578,6 @@
         "packageName": "swati4star.createpdf",
         "mainActivity": "swati4star.createpdf.activity.MainActivity",
         "version": "6.1.0",
-        "apkPath": "/Users/bimalkadesilva/Desktop/BURT/Latest_Code/fse-burt-project/burt/trace-replayer/test-apks/New_Data/1201.apk"
+        "apkPath": "Desktop//Latest_Code/fse-burt-project/burt/trace-replayer/test-apks/New_Data/1201.apk"
     }
 }

@@ -3,7 +3,7 @@
    <bug fixdate="" id="71" opendate="">
       <buginformation>
          <summary/>
-         <description>setting activity main activity decor content parent action bar container action bar content title widget frame widget summary status bar background navigation bar background help header widget layout search edit layout left hand side buttons wrapper launcher button search edit text right hand side buttons wrapper menu button</description>
+         <description>setting activity main activity decor content parent action bar container action bar content title widget frame widget summary status bar background navigation bar background help header widget layout rch edit layout left hand side buttons wrapper launcher button rch edit text right hand side buttons wrapper menu button</description>
       </buginformation>
       <fixedFiles>
          <file>fr.neamar.kiss.forwarder.ExperienceTweaks.java</file>

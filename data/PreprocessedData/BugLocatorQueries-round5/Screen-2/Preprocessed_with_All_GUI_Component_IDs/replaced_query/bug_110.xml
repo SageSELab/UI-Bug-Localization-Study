@@ -3,7 +3,7 @@
    <bug id="110" opendate="" fixdate="">
       <buginformation>
          <summary/>
-         <description>action bar root content slide layout content container toolbar title scrollview title action shuffle artist header album count icon album count text song count icon song count text duration icon duration text recycler view touch intercept framelayout image text scrollview text song view image container menu header overlay drawer layout drawer content container fragment container appbar action search tab pager container</description>
+         <description>action bar root content slide layout content container toolbar title scrollview title action shuffle artist header album count icon album count text song count icon song count text duration icon duration text recycler view touch intercept framelayout image text scrollview text song view image container menu header overlay drawer layout drawer content container fragment container appbar action rch tab pager container</description>
       </buginformation>
       <fixedFiles>
          <file>com.poupa.vinylmusicplayer.provider.Discography.java</file>

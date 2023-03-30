@@ -22,7 +22,7 @@ if [[ "$content_type" == "Content" ]]; then
 	preprocessed_query_folder=UIBugLocalization/FaultLocalizationCode/data/PreprocessedData/PreprocessedContents-round7
 
 	for i in ${!screens[@]}; do
-		"$JAVA_HOME/bin/java" -cp target/code_search_ir-1.0.jar MainClass -br ${bug_reports_folder} \
+		"$JAVA_HOME/bin/java" -cp target/code_rch_ir-1.0.jar MainClass -br ${bug_reports_folder} \
 		-qinfo ${query_infos_file} -s ${screens[$i]} -c ${corpus_type} -preq ${preprocessed_query_folder} \
 		-ctype ${content_type} 
 	done
@@ -32,7 +32,7 @@ then
 	preprocessed_titles_folder=UIBugLocalization/FaultLocalizationCode/data/PreprocessedData/PreprocessedTitles-round7
 
 	for i in ${!screens[@]}; do
-		"$JAVA_HOME/bin/java" -cp target/code_search_ir-1.0.jar MainClass -br ${bug_reports_titles} \
+		"$JAVA_HOME/bin/java" -cp target/code_rch_ir-1.0.jar MainClass -br ${bug_reports_titles} \
 		-s ${screens[$i]} -preq ${preprocessed_titles_folder} \
 		-ctype ${content_type} 
 	done
@@ -41,7 +41,7 @@ then
 	preprocessed_code_folder=UIBugLocalization/FaultLocalizationCode/data/PreprocessedData/PreprocessedCode-round7
 	buggy_projects=UIBugLocalization/Backup/CodeUnused/BuggyProjects
 
-	"$JAVA_HOME/bin/java" -cp target/code_search_ir-1.0.jar MainClass \
+	"$JAVA_HOME/bin/java" -cp target/code_rch_ir-1.0.jar MainClass \
 		-preq ${preprocessed_code_folder} -bp ${buggy_projects}\
 		-ctype ${content_type}
 

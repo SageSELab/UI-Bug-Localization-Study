@@ -360,7 +360,7 @@
                 "name": "android.widget.TextView",
                 "text": "Allow AnkiDroid to access photos, media, and files on your device?",
                 "contentDescription": "",
-                "idXml": "com.android.packageinstaller:id/permission_message",
+                "idXml": "com.android.packageinstaller:id/permission_mes",
                 "componentIndex": 1,
                 "componentTotalIndex": 0,
                 "positionX": 310,
@@ -380,7 +380,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Center",
-                "idText": "com.android.packageinstaller:id/permission_message",
+                "idText": "com.android.packageinstaller:id/permission_mes",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -35566,7 +35566,7 @@
             {
                 "activity": "com.android.chromeorg.chromium.chrome.browser.firstrun.FirstRunActivity",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -38549,7 +38549,7 @@
             {
                 "activity": "com.android.chromeorg.chromium.chrome.browser.firstrun.FirstRunActivity",
                 "name": "android.widget.CheckBox",
-                "text": "Help make Chrome better by sending usage statistics and crash reports to Google.",
+                "text": "Help make Chrome better by sending u statistics and crash reports to Google.",
                 "contentDescription": "",
                 "idXml": "com.android.chrome:id/send_report_checkbox",
                 "componentIndex": 1,
@@ -57997,6 +57997,6 @@
         "packageName": "com.ichi2.anki",
         "mainActivity": "com.ichi2.anki.IntentHandler",
         "version": "2.9alpha52",
-        "apkPath": "UIBugLocalization/FaultLocalizationCode/CrashScope/apks/158.apk"
+        "apkPath": "UIBugLocalization/FaultLocalizationCode//apks/158.apk"
     }
 }

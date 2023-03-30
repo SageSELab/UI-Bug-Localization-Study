@@ -18,7 +18,7 @@ Bug Report ID,File,Rank
 129,bug-129/app/src/main/java/org/shadowice/flocke/andotp/Dialogs/ManualEntryDialog.java,2
 130,bug-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java,1
 135,bug-135/app/src/main/java/fr/free/nrw/commons/category/SubCategoryListFragment.java,5
-135,bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoryFragment.java,6
+135,bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/rchCategoryFragment.java,6
 191,bug-191/app/src/main/java/ch/logixisland/anuto/view/game/TowerView.java,3
 206,bug-206/app/src/main/java/org/gnucash/android/ui/settings/BookManagerFragment.java,35
 209,bug-209/app/src/main/java/org/gnucash/android/ui/util/widget/CalculatorEditText.java,64

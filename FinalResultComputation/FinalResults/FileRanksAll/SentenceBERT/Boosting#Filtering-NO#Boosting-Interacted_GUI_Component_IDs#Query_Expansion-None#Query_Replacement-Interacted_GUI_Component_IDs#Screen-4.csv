@@ -17,10 +17,10 @@ Bug Report ID,File,Rank
 128,bug-128/app/src/main/java/org/shadowice/flocke/andotp/Activities/SettingsActivity.java,32
 129,bug-129/app/src/main/java/org/shadowice/flocke/andotp/Dialogs/ManualEntryDialog.java,1
 130,bug-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java,15
-135,bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoryFragment.java,24
+135,bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/rchCategoryFragment.java,24
 135,bug-135/app/src/main/java/fr/free/nrw/commons/category/SubCategoryListFragment.java,28
-135,bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesRenderer.java,138
-135,bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesAdapterFactory.java,149
+135,bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/rchCategoriesRenderer.java,138
+135,bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/rchCategoriesAdapterFactory.java,149
 206,bug-206/app/src/main/java/org/gnucash/android/ui/settings/BookManagerFragment.java,13
 209,bug-209/app/src/main/java/org/gnucash/android/ui/util/widget/CalculatorEditText.java,88
 256,bug-256/app/src/main/java/org/gnucash/android/ui/account/AccountsListFragment.java,27

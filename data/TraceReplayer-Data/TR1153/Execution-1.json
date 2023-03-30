@@ -37497,6 +37497,6 @@
         "packageName": "com.android.gpstest",
         "mainActivity": "com.android.gpstest.GpsTestActivity",
         "version": "3.1.0",
-        "apkPath": "/Users/smhasanmansur/Downloads/Bug_localization_project/burt/trace-replayer/test-apks/1153.apk"
+        "apkPath": "Downloads/Bug_localization_project/burt/trace-replayer/test-apks/1153.apk"
     }
 }

@@ -3,7 +3,7 @@
    <bug fixdate="" id="151" opendate="">
       <buginformation>
          <summary>autolock work anymore</summary>
-         <description>info version source google play vault encrypted yes fingerprint unlock android version and rom step reproduce unlock the vault push home button not back button launch aegis again what you expect happen should auto lock use work perfectly with previous version what happen instead show message vault unlock tap here lock but lock the vault automatically not sure bug but prefer the old version where the vault close automatically aegis not the foreground want lock itself</description>
+         <description>info version source google play vault encrypted yes fingerprint unlock android version and rom step reproduce unlock the vault push home button not back button launch aegis again what you expect happen should auto lock use work perfectly with previous version what happen instead show mes vault unlock tap here lock but lock the vault automatically not sure bug but prefer the old version where the vault close automatically aegis not the foreground want lock itself</description>
       </buginformation>
       <fixedFiles>
          <file>com.beemdevelopment.aegis.CancelAction.java</file>

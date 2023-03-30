@@ -3,7 +3,7 @@
    <bug fixdate="" id="1198" opendate="">
       <buginformation>
          <summary>bug encrypted pdf get overwritten same pdf encrypted again</summary>
-         <description>step reproduce view file click any pdf abc pdf example click add password write password pdf abc encrypt pdf create again click abc pdf select add password type password click the previous file abc encrypt pdf overwritten expect behavior create abc encrypted some unique number pdf overwrite exist file main activity view files fragment content root title frame title custom view frame passwordlayout password text input password toggle button negative button positive action bar root drawer layout toolbar action search search bar search button item sort empty status view swipe file recycler view checkbox file ripple file name file size file date navigation bar background</description>
+         <description>step reproduce view file click any pdf abc pdf example click add password write password pdf abc encrypt pdf create again click abc pdf select add password type password click the previous file abc encrypt pdf overwritten expect behavior create abc encrypted some unique number pdf overwrite exist file main activity view files fragment content root title frame title custom view frame passwordlayout password text input password toggle button negative button positive action bar root drawer layout toolbar action rch rch bar rch button item sort empty status view swipe file recycler view checkbox file ripple file name file size file date navigation bar background</description>
       </buginformation>
       <fixedFiles>
          <file>swati4star.createpdf.adapter.ViewFilesAdapter.java</file>

@@ -3,7 +3,7 @@
    <bug fixdate="" id="10" opendate="">
       <buginformation>
          <summary>ftp server restart app kill after stop</summary>
-         <description>material file version beta android version kernel version droid version device step reproduce open material file give access file open menu ftp server start server stop server close application result server restart its own that the way the app beautiful and useful really appreciate and thank you work action bar root content drawer bar layout app bar toolbar action search action sort breadcrumb text swipe refresh recycler item icon layout icon name menu speed dial main fab navigation fragment title subtitle navigation bar background preference fragment recycler view summary widget frame widget status bar background</description>
+         <description>material file version beta android version kernel version droid version device step reproduce open material file give access file open menu ftp server start server stop server close application result server restart its own that the way the app beautiful and useful really appreciate and thank you work action bar root content drawer bar layout app bar toolbar action rch action sort breadcrumb text swipe refresh recycler item icon layout icon name menu speed dial main fab navigation fragment title subtitle navigation bar background preference fragment recycler view summary widget frame widget status bar background</description>
       </buginformation>
       <fixedFiles>
          <file>me.zhanghai.android.files.ftpserver.FtpServerReceiver.java</file>

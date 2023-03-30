@@ -18,9 +18,9 @@ Bug Report ID,File,Rank
 129,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-129/app/src/main/java/org/shadowice/flocke/andotp/Dialogs/ManualEntryDialog.java,4
 130,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-130/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java,1
 135,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-135/app/src/main/java/fr/free/nrw/commons/category/SubCategoryListFragment.java,5
-135,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoryFragment.java,11
-135,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesAdapterFactory.java,46
-135,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesRenderer.java,70
+135,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/rchCategoryFragment.java,11
+135,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/rchCategoriesAdapterFactory.java,46
+135,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/rchCategoriesRenderer.java,70
 191,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-191/app/src/main/java/ch/logixisland/anuto/business/control/TowerInserter.java,5
 191,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-191/app/src/main/java/ch/logixisland/anuto/view/game/TowerView.java,1
 206,UIBugLocalization/Backup/CodeUnused/BuggyProjects/bug-206/app/src/main/java/org/gnucash/android/ui/settings/BookManagerFragment.java,2

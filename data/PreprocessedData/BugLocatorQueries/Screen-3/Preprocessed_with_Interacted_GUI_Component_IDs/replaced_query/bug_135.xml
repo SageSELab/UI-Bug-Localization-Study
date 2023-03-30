@@ -6,10 +6,10 @@
          <description>media detail category item text</description>
       </buginformation>
       <fixedFiles>
-         <file>fr.free.nrw.commons.explore.categories.SearchCategoryFragment.java</file>
+         <file>fr.free.nrw.commons.explore.categories.rchCategoryFragment.java</file>
          <file>fr.free.nrw.commons.category.SubCategoryListFragment.java</file>
-         <file>fr.free.nrw.commons.explore.categories.SearchCategoriesAdapterFactory.java</file>
-         <file>fr.free.nrw.commons.explore.categories.SearchCategoriesRenderer.java</file>
+         <file>fr.free.nrw.commons.explore.categories.rchCategoriesAdapterFactory.java</file>
+         <file>fr.free.nrw.commons.explore.categories.rchCategoriesRenderer.java</file>
       </fixedFiles>
    </bug>
 </bugrepository>

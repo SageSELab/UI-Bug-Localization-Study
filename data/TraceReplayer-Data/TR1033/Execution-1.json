@@ -331,7 +331,7 @@
                 "name": "android.widget.TextView",
                 "text": "Allow AnkiDroid to access photos, media, and files on your device?",
                 "contentDescription": "",
-                "idXml": "com.android.packageinstaller:id/permission_message",
+                "idXml": "com.android.packageinstaller:id/permission_mes",
                 "componentIndex": 1,
                 "componentTotalIndex": 0,
                 "positionX": 310,
@@ -351,7 +351,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Center",
-                "idText": "com.android.packageinstaller:id/permission_message",
+                "idText": "com.android.packageinstaller:id/permission_mes",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -794,7 +794,7 @@
                 "name": "android.widget.TextView",
                 "text": "Allow AnkiDroid to access photos, media, and files on your device?",
                 "contentDescription": "",
-                "idXml": "com.android.packageinstaller:id/permission_message",
+                "idXml": "com.android.packageinstaller:id/permission_mes",
                 "componentIndex": 1,
                 "componentTotalIndex": 0,
                 "positionX": 310,
@@ -814,7 +814,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Center",
-                "idText": "com.android.packageinstaller:id/permission_message",
+                "idText": "com.android.packageinstaller:id/permission_mes",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -5577,6 +5577,6 @@
         "packageName": "com.ichi2.anki",
         "mainActivity": "com.ichi2.anki.IntentHandler",
         "version": "2.9alpha18",
-        "apkPath": "/Users/bimalkadesilva/Desktop/BURT/Latest_Code/fse-burt-project/burt/trace-replayer/test-apks/New_Data/1033.apk"
+        "apkPath": "Desktop//Latest_Code/fse-burt-project/burt/trace-replayer/test-apks/New_Data/1033.apk"
     }
 }

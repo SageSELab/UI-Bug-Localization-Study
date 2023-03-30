@@ -25473,7 +25473,7 @@
                 "name": "android.widget.TextView",
                 "text": "Allow GnuCash to access photos, media, and files on your device?",
                 "contentDescription": "",
-                "idXml": "com.android.packageinstaller:id/permission_message",
+                "idXml": "com.android.packageinstaller:id/permission_mes",
                 "componentIndex": 1,
                 "componentTotalIndex": 0,
                 "positionX": 310,
@@ -25493,7 +25493,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Center",
-                "idText": "com.android.packageinstaller:id/permission_message",
+                "idText": "com.android.packageinstaller:id/permission_mes",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -26024,7 +26024,7 @@
                 "name": "android.widget.TextView",
                 "text": "- Support for multiple different books \n - Adds ownCloud as destination for exports\n - Compact view for transactions list\n - Re-design of passcode lock screen\n - Improved handling of scheduled transactions\n - Multiple bug fixes and improvements\n",
                 "contentDescription": "",
-                "idXml": "android:id/message",
+                "idXml": "android:id/mes",
                 "componentIndex": 0,
                 "componentTotalIndex": 0,
                 "positionX": 70,
@@ -26044,7 +26044,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Center",
-                "idText": "android:id/message",
+                "idText": "android:id/mes",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -26602,8 +26602,8 @@
                 "activity": "org.gnucash.android.ui.account.AccountsActivity",
                 "name": "android.widget.TextView",
                 "text": "",
-                "contentDescription": "Search",
-                "idXml": "org.gnucash.android:id/menu_search",
+                "contentDescription": "rch",
+                "idXml": "org.gnucash.android:id/menu_rch",
                 "componentIndex": 0,
                 "componentTotalIndex": 0,
                 "positionX": 954,
@@ -26623,7 +26623,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Top right",
-                "idText": "org.gnucash.android:id/menu_search",
+                "idText": "org.gnucash.android:id/menu_rch",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -34224,8 +34224,8 @@
                 "activity": "org.gnucash.android.ui.account.AccountsActivity",
                 "name": "android.widget.TextView",
                 "text": "",
-                "contentDescription": "Search",
-                "idXml": "org.gnucash.android:id/menu_search",
+                "contentDescription": "rch",
+                "idXml": "org.gnucash.android:id/menu_rch",
                 "componentIndex": 0,
                 "componentTotalIndex": 0,
                 "positionX": 954,
@@ -34245,7 +34245,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Top right",
-                "idText": "org.gnucash.android:id/menu_search",
+                "idText": "org.gnucash.android:id/menu_rch",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -35151,8 +35151,8 @@
                 "activity": "org.gnucash.android.ui.account.AccountsActivity",
                 "name": "android.widget.TextView",
                 "text": "",
-                "contentDescription": "Search",
-                "idXml": "org.gnucash.android:id/menu_search",
+                "contentDescription": "rch",
+                "idXml": "org.gnucash.android:id/menu_rch",
                 "componentIndex": 0,
                 "componentTotalIndex": 0,
                 "positionX": 954,
@@ -35172,7 +35172,7 @@
                 "itemList": false,
                 "calendarWindow": false,
                 "relativeLocation": "Top right",
-                "idText": "org.gnucash.android:id/menu_search",
+                "idText": "org.gnucash.android:id/menu_rch",
                 "offset": 0,
                 "drawTime": 0.0
             },
@@ -35619,6 +35619,6 @@
         "packageName": "org.gnucash.android",
         "mainActivity": "org.gnucash.android.ui.account.AccountsActivity",
         "version": "2.1.7",
-        "apkPath": "/Users/bimalkadesilva/Desktop/BURT/Latest_Code/fse-burt-project/burt/trace-replayer/test-apks/New_Data/228.apk"
+        "apkPath": "Desktop//Latest_Code/fse-burt-project/burt/trace-replayer/test-apks/New_Data/228.apk"
     }
 }

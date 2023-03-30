@@ -17,10 +17,10 @@ Bug Report ID,File,Rank
 128,org.shadowice.flocke.andotp.Utilities.Settings.java,13
 129,org.shadowice.flocke.andotp.Dialogs.ManualEntryDialog.java,2
 130,org.shadowice.flocke.andotp.Activities.IntroScreenActivity.java,1
-135,fr.free.nrw.commons.explore.categories.SearchCategoryFragment.java,11
+135,fr.free.nrw.commons.explore.categories.rchCategoryFragment.java,11
 135,fr.free.nrw.commons.category.SubCategoryListFragment.java,13
-135,fr.free.nrw.commons.explore.categories.SearchCategoriesRenderer.java,135
-135,fr.free.nrw.commons.explore.categories.SearchCategoriesAdapterFactory.java,136
+135,fr.free.nrw.commons.explore.categories.rchCategoriesRenderer.java,135
+135,fr.free.nrw.commons.explore.categories.rchCategoriesAdapterFactory.java,136
 191,ch.logixisland.anuto.view.game.TowerView.java,5
 191,ch.logixisland.anuto.business.control.TowerInserter.java,36
 206,org.gnucash.android.ui.settings.BookManagerFragment.java,7

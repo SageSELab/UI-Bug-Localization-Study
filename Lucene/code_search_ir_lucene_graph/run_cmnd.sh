@@ -46,7 +46,7 @@ for j in ${!boosting_list[@]}; do
 		for l in ${!screen_list[@]}; do 
 			echo "Boosting: B-${boosting_list[$j]}#Q-${query_reformulation_list[$k]}#S-${screen_list[$l]}"
 
-			java -cp target/code_search_ir-1.0.jar MainClass -b ${boosting_list[$j]} \
+			java -cp target/code_rch_ir-1.0.jar MainClass -b ${boosting_list[$j]} \
 				-q ${query_reformulation_list[$k]} -s ${screen_list[$l]}  \
 				-rf $result_folder \
 				-bpd $buggy_project_dir -pcd ${preprocessed_code_dir}\
@@ -63,7 +63,7 @@ for k in ${!query_reformulation_list[@]}; do
 	for l in ${!screen_list[@]}; do 
 		echo "Query Reformulation: Q-${query_reformulation_list[$k]}#S-${screen_list[$l]}"
 
-		java -cp target/code_search_ir-1.0.jar MainClass \
+		java -cp target/code_rch_ir-1.0.jar MainClass \
 				-q ${query_reformulation_list[$k]} -s ${screen_list[$l]}  \
 				-rf $result_folder \
 				-bpd $buggy_project_dir -pcd ${preprocessed_code_dir}\
@@ -97,7 +97,7 @@ for i in ${!filtering_list[@]}; do
 			for l in ${!screen_list[@]}; do 
 				echo "Filtering+Boosting: F-${filtering_list[$i]}#B-${boosting_gui_type[$j]}#Q-${query_reformulation_list[$k]}#S-${screen_list[$l]}"
 
-				java -cp target/code_search_ir-1.0.jar MainClass \
+				java -cp target/code_rch_ir-1.0.jar MainClass \
 					-f ${filtering_list[$i]} -b ${boosting_gui_type[$j]} \
 					-q ${query_reformulation_list[$k]} -s ${screen_list[$l]}  \
 					-rf $result_folder \
@@ -118,7 +118,7 @@ for i in ${!filtering_list[@]}; do
 		for l in ${!screen_list[@]}; do 
 			echo "Filtering: F-${filtering_list[$i]}#Q-${query_reformulation_list[$k]}#S-${screen_list[$l]}"
 
-			java -cp target/code_search_ir-1.0.jar MainClass \
+			java -cp target/code_rch_ir-1.0.jar MainClass \
 					-f ${filtering_list[$i]} \
 					-q ${query_reformulation_list[$k]} -s ${screen_list[$l]}  \
 					-rf $result_folder \

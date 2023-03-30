@@ -146,9 +146,9 @@ def ranking_on_corpus(bug_id, xml_file, subpath, filetype, filtered_boosted_repo
 
 	filenames_store_file = filtered_boosted_filenames + "/" + subpath + "/" + filenameType + ".csv"
 	files_dir = filtered_boosted_repo + "/" + subpath + "/" + filetype
-	search_needed, temp_xml_file_path = remove_java_files_if_not_exist(bug_id, filenames_store_file, temp_xml_dir, xml_file, subpath, filetype)
+	rch_needed, temp_xml_file_path = remove_java_files_if_not_exist(bug_id, filenames_store_file, temp_xml_dir, xml_file, subpath, filetype)
 	
-	if search_needed:
+	if rch_needed:
 		return get_ranks(temp_result_dir + "/" + subpath + "/QueryReformulation-" + query_reformulation_gui + "/" + filetype + "/",bug_id, files_dir, temp_xml_file_path)
 	return []
 
