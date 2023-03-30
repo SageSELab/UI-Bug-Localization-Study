@@ -1,1 +1,0 @@
- action_bar_root content drawer_layout toolbar ScheduleFragment list ScheduleFragmentToolbar fab statusBarBackground navigationBarBackground title nameTextEdit trainSpinner text1 repEdit pauseEdit setEdit speedEdit

@@ -1,1 +1,0 @@
- FormActivity AccountsActivity ColorPickerDialog AccountFormFragment AccountsListFragment

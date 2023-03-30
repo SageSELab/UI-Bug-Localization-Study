@@ -1,1 +1,0 @@
- content parentPanel topPanel title_template alertTitle customPanel custom manual_type text1 manual_issuer manual_label manual_secret manual_layout_counter manual_counter manual_tags dialog_expand_button buttonPanel button2 button1 launcher drag_layer scrim_view apps_view apps_list_view icon all_apps_header search_container_all_apps g_icon mic_icon fast_scroller

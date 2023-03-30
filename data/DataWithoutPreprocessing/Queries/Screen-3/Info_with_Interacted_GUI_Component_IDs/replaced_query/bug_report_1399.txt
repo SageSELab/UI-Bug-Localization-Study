@@ -1,1 +1,0 @@
- button1 camera_item_sub

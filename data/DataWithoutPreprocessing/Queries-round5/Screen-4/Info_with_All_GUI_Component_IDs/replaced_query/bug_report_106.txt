@@ -1,1 +1,0 @@
- action_bar_root content drawer_layout drawer_content_container sliding_layout content_container fragment_container coordinator_layout appbar toolbar action_scan action_go_to_start_directory bread_crumbs container recycler_view empty touch_intercept_framelayout song_view image_container image title_scrollview title menu short_separator text

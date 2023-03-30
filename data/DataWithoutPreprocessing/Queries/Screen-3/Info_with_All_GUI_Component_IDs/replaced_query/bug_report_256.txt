@@ -1,1 +1,0 @@
- action_bar_root content drawer_layout coordinatorLayout fragment_container toolbar toolbar_spinner text1 menu_favorite_account tab_layout pager fragment_transaction_list transaction_recycler_view empty_view fab_create_transaction statusBarBackground navigationBarBackground title checkbox parentPanel topPanel title_template alertTitle customPanel custom aerr_restart

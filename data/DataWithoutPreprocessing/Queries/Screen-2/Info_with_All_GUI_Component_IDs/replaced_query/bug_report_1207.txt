@@ -1,1 +1,0 @@
- content parentPanel topPanel title_template alertTitle customPanel custom manual_type text1 manual_label manual_secret manual_tags dialog_expand_button dialog_expand_layout manual_period manual_digits manual_algorithm buttonPanel button2 button1 aerr_restart

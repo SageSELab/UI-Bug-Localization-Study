@@ -1,1 +1,0 @@
- action_bar_root content drawer_layout toolbar_layout toolbar tabLayout viewPager parentLayout categoryImagesList categoryImageView categoryImageTitle categoryImageAuthor statusBarBackground navigationBarBackground image_search_results_display imageSearchInProgress

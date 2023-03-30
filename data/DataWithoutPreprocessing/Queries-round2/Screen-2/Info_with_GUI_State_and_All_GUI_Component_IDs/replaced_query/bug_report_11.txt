@@ -1,1 +1,0 @@
- GrantPermissionsActivity Launcher content dialog_container desc_container perm_desc_root permission_icon permission_message button_group permission_deny_button permission_allow_button parentPanel contentPanel scrollView message buttonPanel button1

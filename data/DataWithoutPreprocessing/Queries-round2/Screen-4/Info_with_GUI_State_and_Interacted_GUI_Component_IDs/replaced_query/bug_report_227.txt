@@ -1,1 +1,0 @@
- FormActivity TransactionsActivity AccountsActivity TransactionFormFragment AccountsListFragment text1 menu_save

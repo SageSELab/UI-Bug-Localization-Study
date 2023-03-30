@@ -1,1 +1,0 @@
- LFMainActivity SingleMediaActivity SharingActivity SupportRequestManagerFragment album_preview photo_preview action_share

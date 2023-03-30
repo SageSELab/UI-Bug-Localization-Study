@@ -1,1 +1,0 @@
- MainActivity text1 btn_update

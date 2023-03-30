@@ -1,1 +1,0 @@
- ChartActivity DashboardActivity action_bar_root content parentPanel topPanel title_template alertTitle customPanel custom group_by_days group_by_weeks view_values use_percent_values buttonPanel button2 button1 contentPanel scrollView message

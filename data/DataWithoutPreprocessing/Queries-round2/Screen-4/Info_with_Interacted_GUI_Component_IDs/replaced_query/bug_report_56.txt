@@ -1,1 +1,0 @@
- config_title traitLeft button2

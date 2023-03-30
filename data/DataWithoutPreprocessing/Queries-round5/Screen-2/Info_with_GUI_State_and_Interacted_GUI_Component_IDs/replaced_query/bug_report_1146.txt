@@ -1,1 +1,0 @@
- GpsTestActivity GpsStatusFragment gps_switch

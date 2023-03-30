@@ -1,1 +1,0 @@
- action_bar_root content drawer_layout actionToolbar imageProfile action_chrono fragment_container newWorkout searchField headerLayout header_icon drawerTitle itemLayout drawer_icon drawer_itemName statusBarBackground navigationBarBackground parentPanel topPanel title_template alertTitle customPanel custom aerr_restart

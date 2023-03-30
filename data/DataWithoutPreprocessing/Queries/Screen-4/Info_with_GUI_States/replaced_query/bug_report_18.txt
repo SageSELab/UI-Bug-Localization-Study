@@ -1,1 +1,0 @@
- MedicineInfoActivity MedicinesActivity AlertListFragment MedicineCreateOrEditFragment

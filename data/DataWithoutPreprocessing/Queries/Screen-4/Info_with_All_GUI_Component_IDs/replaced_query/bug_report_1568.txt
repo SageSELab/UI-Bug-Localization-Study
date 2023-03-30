@@ -1,1 +1,0 @@
- action_bar_root content drawer_layout appBarLayout toolbar fileCheckBox fileTitle fileIcon filePermissions fileDate fab statusBarBackground navigationBarBackground launcher drag_layer scrim_view workspace search_container_workspace smartspace_content clock page_indicator hotseat apps_view all_apps_header search_container_all_apps g_icon mic_icon

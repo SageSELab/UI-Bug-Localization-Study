@@ -1,1 +1,0 @@
- account_password manual_setup

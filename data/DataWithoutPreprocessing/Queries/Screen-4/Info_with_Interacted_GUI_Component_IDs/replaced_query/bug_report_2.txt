@@ -1,1 +1,0 @@
- use_percent_values button1

@@ -1,1 +1,0 @@
- content parentPanel customPanel custom exerciseName seatCheckBox SeatEdit LegCheckBox LegEdit FootCheckBox FootEdit AngleCheckBox AngleEdit BackCheckBox BackEdit WeightCheckBox WeightEdit buttonPanel button2 button1 topPanel title_template alertTitle aerr_app_info aerr_close

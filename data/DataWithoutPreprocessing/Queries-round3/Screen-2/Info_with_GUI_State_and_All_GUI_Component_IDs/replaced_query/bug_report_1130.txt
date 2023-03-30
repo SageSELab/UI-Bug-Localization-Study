@@ -1,1 +1,0 @@
- MainActivity QueueFragment action_bar_root content drawer_layout toolbar queue_lock refresh_item main_view empty info_bar divider statusBarBackground navigationBarBackground

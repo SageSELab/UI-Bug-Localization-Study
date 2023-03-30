@@ -1,1 +1,0 @@
- ConfigActivity CollectActivity config_title traitLeft button2

@@ -1,1 +1,0 @@
- content fragment_status txt_credits txt_bonus txt_lives txt_wave view_tower_1 view_tower_2 view_tower_3 view_tower_4 btn_menu btn_next_wave view_tower_defense

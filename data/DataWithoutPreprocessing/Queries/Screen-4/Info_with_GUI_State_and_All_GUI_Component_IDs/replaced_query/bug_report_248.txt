@@ -1,1 +1,0 @@
- AdminPreferencesActivity PreferencesActivity action_bar_root content toolbar list_container title widget_frame checkbox statusBarBackground navigationBarBackground summary icon_frame icon

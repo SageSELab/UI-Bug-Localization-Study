@@ -1,1 +1,0 @@
- photo_preview action_edit

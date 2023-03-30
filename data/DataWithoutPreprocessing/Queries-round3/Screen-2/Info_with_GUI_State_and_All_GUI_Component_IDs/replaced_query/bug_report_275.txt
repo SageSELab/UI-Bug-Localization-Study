@@ -1,1 +1,0 @@
- action_bar_root content background view_pager main textView2 textView4 text_password textView3 text_password_confirm check_toggle_visibility bottom back indicator_container next statusBarBackground navigationBarBackground title image description done

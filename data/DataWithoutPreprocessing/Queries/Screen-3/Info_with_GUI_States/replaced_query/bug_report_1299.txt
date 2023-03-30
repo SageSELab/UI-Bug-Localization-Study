@@ -1,1 +1,0 @@
- ConfigActivity CollectActivity

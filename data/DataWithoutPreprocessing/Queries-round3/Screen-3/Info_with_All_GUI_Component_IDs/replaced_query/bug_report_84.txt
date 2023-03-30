@@ -1,1 +1,0 @@
- decor_content_parent action_bar_container action_bar content title summary widget_frame checkbox parentPanel topPanel title_template icon alertTitle titleDivider contentPanel scrollView message buttonPanel button1

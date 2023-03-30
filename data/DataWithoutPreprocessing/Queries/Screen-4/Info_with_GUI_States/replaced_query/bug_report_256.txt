@@ -1,1 +1,0 @@
- AccountsActivity TransactionsActivity AccountsListFragment TransactionsListFragment

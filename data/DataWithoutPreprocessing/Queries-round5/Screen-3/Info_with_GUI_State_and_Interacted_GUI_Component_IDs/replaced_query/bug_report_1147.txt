@@ -1,1 +1,0 @@
- NexusLauncherActivity GpsTestActivity GpsStatusFragment icon

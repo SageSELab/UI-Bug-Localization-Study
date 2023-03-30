@@ -1,1 +1,0 @@
- TaxonSearchActivity ObservationEditor ObservationListActivity

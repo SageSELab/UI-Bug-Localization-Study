@@ -1,1 +1,0 @@
- CollectActivity ConfigActivity addBtn config_title minusBtn
