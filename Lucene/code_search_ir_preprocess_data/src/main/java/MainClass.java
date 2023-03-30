@@ -8,10 +8,10 @@ import .cs.severe.ir4se.processor.entity.RetrievalDoc;
 import .cs.severe.ir4se.processor.entity.RetrievalStats;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.lucene.store.Directory;
-import seers.textanalyzer.PreprocessingOptionsParser;
-import seers.textanalyzer.TextProcessor;
-import seers.textanalyzer.entity.Sentence;
-import seers.textanalyzer.entity.Token;
+import .textanalyzer.PreprocessingOptionsParser;
+import .textanalyzer.TextProcessor;
+import .textanalyzer.entity.Sentence;
+import .textanalyzer.entity.Token;
 
 import java.util.*;
 import java.util.stream.Collectors;

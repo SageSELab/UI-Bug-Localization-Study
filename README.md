@@ -8,7 +8,10 @@
 ```Lucene/code_search_ir_preprocess_data/run_cmnd.sh```: Preprocess queries
 
 ### Dataset:
+```data/Ground-Truth-App-Screen.csv```: Contains Buggy Ground Truth Screen
+
 ```data/TraceReplayer-Data``` : Contains Trace-Replayer Data
+
 ```data/BugReports```: Contains Bug Reports
 
 ## SentenceBERT Results
