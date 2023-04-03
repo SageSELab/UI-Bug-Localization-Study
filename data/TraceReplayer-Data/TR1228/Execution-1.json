@@ -63198,6 +63198,6 @@
         "packageName": "org.gnucash.android",
         "mainActivity": "org.gnucash.android.ui.account.AccountsActivity",
         "version": "2.2.0",
-        "apkPath": "Downloads/Bug_localization_project/burt/trace-replayer/test-apks/1228.apk"
+        "apkPath": "test-apks/1228.apk"
     }
 }

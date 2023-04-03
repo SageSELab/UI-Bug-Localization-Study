@@ -60049,6 +60049,6 @@
         "packageName": "com.easyfitness.debug",
         "mainActivity": "com.easyfitness.MainActivity",
         "version": "0.19.3.1",
-        "apkPath": "Downloads/Bug_localization_project/burt/trace-replayer/test-apks/1425.apk"
+        "apkPath": "test-apks/1425.apk"
     }
 }

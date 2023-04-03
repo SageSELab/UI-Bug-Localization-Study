@@ -31107,6 +31107,6 @@
         "packageName": "io.lerk.lrkFM",
         "mainActivity": "io.lerk.lrkFM.activities.file.FileActivity",
         "version": "2.3.0",
-        "apkPath": "Downloads/Bug_localization_project/burt/trace-replayer/test-apks/1568.apk"
+        "apkPath": "test-apks/1568.apk"
     }
 }

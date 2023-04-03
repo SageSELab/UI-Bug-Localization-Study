@@ -96998,6 +96998,6 @@
         "packageName": "org.odk.collect.android",
         "mainActivity": "org.odk.collect.android.activities.SplashScreenActivity",
         "version": "v1.20.0",
-        "apkPath": "Desktop//Latest_Code/fse-burt-project/burt/trace-replayer/test-apks/New_Data/248.apk"
+        "apkPath": "test-apks/New_Data/248.apk"
     }
 }
