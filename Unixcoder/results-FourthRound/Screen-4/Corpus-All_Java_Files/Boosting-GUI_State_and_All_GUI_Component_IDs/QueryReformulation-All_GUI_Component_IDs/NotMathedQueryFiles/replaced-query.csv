@@ -1,0 +1,4 @@
+Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
+71,40,[],[],[]
+201,15,[],[],[]
+1641,22,"[9, 11, 21]","['bug-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Model/XMLParser.java', 'bug-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Legacy/Schedule.java', 'bug-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Enumerations/TrainingsTypes.java']","[9, 11, 21]"

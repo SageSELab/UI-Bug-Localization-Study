@@ -1,1 +1,0 @@
-action bar root content frame pager intro auth desc intro auth selection text intro credentials layout intro password layout intro password edit text input end icon intro password confirm button back pager indicator button next status bar background navigation bar background

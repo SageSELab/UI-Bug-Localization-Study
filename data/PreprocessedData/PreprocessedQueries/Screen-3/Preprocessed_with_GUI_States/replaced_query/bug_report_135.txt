@@ -1,1 +1,0 @@
-category image activity category details activity media detail pager fragment sub category list fragment

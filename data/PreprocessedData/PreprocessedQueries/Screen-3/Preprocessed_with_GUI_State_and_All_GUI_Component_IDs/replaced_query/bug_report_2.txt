@@ -1,1 +1,0 @@
-chart activity dashboard activity action bar root content parent panel top panel title template alert title custom panel custom group day group week view value use percent value button panel button button content panel scroll view message

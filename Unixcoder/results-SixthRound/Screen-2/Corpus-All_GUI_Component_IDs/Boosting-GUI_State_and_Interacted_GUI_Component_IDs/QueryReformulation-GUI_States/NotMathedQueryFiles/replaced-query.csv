@@ -1,0 +1,4 @@
+Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
+1406,124,[],[],[]
+45,107,[93],['bug-45/omniNotes/src/main/java/it.feio.android.omninotes.helpers/GeocodeProviderBaseFactory.java'],[93]
+1640,13,[],[],[]

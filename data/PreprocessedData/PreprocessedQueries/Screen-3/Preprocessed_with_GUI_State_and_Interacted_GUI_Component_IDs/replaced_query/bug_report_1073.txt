@@ -1,1 +1,0 @@
-setting activity main activity browser fragment

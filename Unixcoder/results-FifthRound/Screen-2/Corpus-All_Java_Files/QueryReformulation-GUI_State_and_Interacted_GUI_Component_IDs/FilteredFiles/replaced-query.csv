@@ -1,0 +1,11 @@
+Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
+1096,195,[12],['bug-1096/iNaturalist/src/main/java/org/inaturalist/android/RecordSoundActivity.java'],[12]
+1146,48,[13],['bug-1146/GPSTest/src/main/java/com/android/gpstest/GpsStatusFragment.java'],[13]
+1147,19,[11],['bug-1147/GPSTest/src/main/java/com/android/gpstest/NavigationDrawerFragment.java'],[11]
+1151,19,"[5, 6]","['bug-1151/GPSTest/src/main/java/com/android/gpstest/Preferences.java', 'bug-1151/GPSTest/src/main/java/com/android/gpstest/GpsTestActivity.java']","[5, 6]"
+1223,179,[5],['bug-1223/app/src/main/java/org/gnucash/android/ui/transaction/TransactionFormFragment.java'],[5]
+1645,21,[4],['bug-1645/app/src/main/java/com/german_software_engineers/trainerapp/ExerciseDialog.java'],[4]
+106,213,"[148, 167]","['bug-106/app/src/main/java/com/poupa/vinylmusicplayer/loader/SongLoader.java', 'bug-106/app/src/main/java/com/poupa/vinylmusicplayer/util/FileUtil.java']","[148, 167]"
+110,221,[],[],[]
+168,785,[183],['bug-168/main/src/cgeo/geocaching/maps/MapProviderFactory.java'],[183]
+271,121,[109],['bug-271/app/src/main/java/com/beemdevelopment/aegis/ui/views/TotpProgressBar.java'],[109]

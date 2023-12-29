@@ -1,1 +1,0 @@
-main activity body part list fragment body part detail fragment list bodypart button add

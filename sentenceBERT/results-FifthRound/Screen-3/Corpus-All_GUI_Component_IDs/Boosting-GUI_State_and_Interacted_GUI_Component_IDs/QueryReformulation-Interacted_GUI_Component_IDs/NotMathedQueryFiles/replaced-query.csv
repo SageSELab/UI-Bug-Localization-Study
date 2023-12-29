@@ -1,0 +1,11 @@
+Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
+1096,144,[],[],[]
+1146,32,[],[],[]
+1147,11,[],[],[]
+1151,11,[2],['bug-1151/GPSTest/src/main/java/com/android/gpstest/GpsTestActivity.java'],[2]
+1223,86,[],[],[]
+1645,9,[],[],[]
+106,104,[55],['bug-106/app/src/main/java/com/poupa/vinylmusicplayer/util/FileUtil.java'],[55]
+110,34,[],[],[]
+168,179,[],[],[]
+271,50,[36],['bug-271/app/src/main/java/com/beemdevelopment/aegis/ui/views/TotpProgressBar.java'],[36]

@@ -1,1 +1,0 @@
-{"id": "106", "bug_location": [{"commit_ids": ["b18e0559b9fdd8eabd8504eaa4927708e7b80216"], "file_name": "bug-106/app/src/main/java/com/poupa/vinylmusicplayer/loader/SongLoader.java"}, {"commit_ids": ["b18e0559b9fdd8eabd8504eaa4927708e7b80216"], "file_name": "bug-106/app/src/main/java/com/poupa/vinylmusicplayer/util/FileUtil.java"}]}

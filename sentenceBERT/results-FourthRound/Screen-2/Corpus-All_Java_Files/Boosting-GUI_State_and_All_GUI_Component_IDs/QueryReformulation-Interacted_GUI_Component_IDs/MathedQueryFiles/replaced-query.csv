@@ -1,0 +1,4 @@
+Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
+71,88,[],[],[]
+201,130,[1],['bug-201/iNaturalist/src/main/java/org/inaturalist/android/ObservationListActivity.java'],[1]
+1641,15,"[5, 11]","['bug-1641/app/src/main/java/com/german_software_engineers/trainerapp/GeneralTrainingScheduleEditor.java', 'bug-1641/app/src/main/java/com/german_software_engineers/trainerapp/ExerciseViewActivity.java']","[5, 11]"

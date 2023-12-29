@@ -1,1 +1,0 @@
-transaction activity transaction detail activity form activity accounts list fragment transaction form fragment split editor fragment

@@ -1,1 +1,0 @@
-main activity single media activity support request manager fragment album preview photo preview action edit

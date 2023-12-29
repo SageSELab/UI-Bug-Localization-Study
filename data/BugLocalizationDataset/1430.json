@@ -1,1 +1,0 @@
-{"id": "1430", "bug_location": [{"commit_ids": ["b336db108de1e83de0ab03ced75cdd8de46d275c"], "file_name": "bug-1430/app/src/main/java/com/easyfitness/programs/ProgramPagerFragment.java"}, {"commit_ids": ["b336db108de1e83de0ab03ced75cdd8de46d275c"], "file_name": "bug-1430/app/src/main/java/com/easyfitness/programs/ProgramRunnerFragment.java"}]}

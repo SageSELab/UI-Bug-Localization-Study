@@ -1,1 +1,0 @@
-collect activity config activity add btn config title minus btn

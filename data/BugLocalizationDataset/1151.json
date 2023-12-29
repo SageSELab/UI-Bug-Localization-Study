@@ -1,1 +1,0 @@
-{"id": "1151", "bug_location": [{"commit_ids": ["70da4875accda4fcb29b5012f5b0c626e3858f03"], "file_name": "bug-1151/GPSTest/src/main/java/com/android/gpstest/GpsTestActivity.java"}, {"commit_ids": ["70da4875accda4fcb29b5012f5b0c626e3858f03"], "file_name": "bug-1151/GPSTest/src/main/java/com/android/gpstest/Preferences.java"}]}

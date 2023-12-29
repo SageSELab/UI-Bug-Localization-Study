@@ -1,0 +1,11 @@
+Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
+1096,145,[6],['bug-1096/iNaturalist/src/main/java/org/inaturalist/android/RecordSoundActivity.java'],[6]
+1146,33,[3],['bug-1146/GPSTest/src/main/java/com/android/gpstest/GpsStatusFragment.java'],[3]
+1147,13,[],[],[]
+1151,12,"[1, 3]","['bug-1151/GPSTest/src/main/java/com/android/gpstest/Preferences.java', 'bug-1151/GPSTest/src/main/java/com/android/gpstest/GpsTestActivity.java']","[1, 3]"
+1223,89,[],[],[]
+1645,9,[],[],[]
+106,104,[69],['bug-106/app/src/main/java/com/poupa/vinylmusicplayer/util/FileUtil.java'],[69]
+110,34,[],[],[]
+168,179,[],[],[]
+271,50,[19],['bug-271/app/src/main/java/com/beemdevelopment/aegis/ui/views/TotpProgressBar.java'],[19]

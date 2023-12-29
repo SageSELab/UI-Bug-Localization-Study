@@ -1,1 +1,0 @@
-back behaviour article web view step reproduce open article select link the article allow the next page load the web view hit back observe the the user take back the front page rather than navigate back page the web view story activity front page activity comment fragment story activity front page activity comment fragment

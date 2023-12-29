@@ -1,1 +1,0 @@
-grant permissions activity launcher permission allow button

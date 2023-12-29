@@ -1,1 +1,0 @@
-form activity accounts activity color picker dialog account form fragment accounts list fragment

@@ -1,0 +1,660 @@
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 4.6092245579 seconds
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 4.7213292122 seconds
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 4.8137583733 seconds
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 4.4780619144 seconds
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 4.7968549728 seconds
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 4.6748697758 seconds
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 4.7095386982 seconds
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 4.7678411007 seconds
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 4.7523474693 seconds
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 4.7708725929 seconds
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 4.6647596359 seconds
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 3.8889694214 seconds
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 4.7337760925 seconds
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 4.7957015038 seconds
+Filtering+Boosting: F-GUI_States#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 4.8879618645 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_States#S-2
+Finished in 0.0684976578 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_States#S-3
+Finished in 3.4822139740 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_States#S-4
+Finished in 3.8250551224 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 0.0698721409 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 3.3990480900 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 3.4482135773 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 0.0672276020 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 3.4234311581 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 3.5522148609 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-All_GUI_Component_IDs#S-2
+Finished in 0.0696904659 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-All_GUI_Component_IDs#S-3
+Finished in 3.4457592964 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-All_GUI_Component_IDs#S-4
+Finished in 3.6667690277 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 0.0696022511 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 3.3651967049 seconds
+Filtering+Boosting: F-Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 3.6425023079 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_States#S-2
+Finished in 0.1102764606 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_States#S-3
+Finished in 0.2112903595 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_States#S-4
+Finished in 0.2574539185 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 0.1089217663 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 0.2150161266 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 0.2350885868 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 0.1091392040 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 0.2113063335 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 0.2309255600 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-All_GUI_Component_IDs#S-2
+Finished in 0.1095118523 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-All_GUI_Component_IDs#S-3
+Finished in 0.2122147083 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-All_GUI_Component_IDs#S-4
+Finished in 0.2309174538 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 0.1111714840 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 0.2161264420 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 0.2293548584 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 0.1080822945 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 0.2133238316 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 0.2332930565 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 0.1091341972 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 0.2141997814 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 0.2283694744 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 0.1101582050 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 0.2182040215 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 0.2318766117 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 0.1076910496 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 0.2132072449 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 0.2380774021 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 0.1106646061 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 0.2195725441 seconds
+Filtering+Boosting: F-GUI_State_and_Interacted_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 0.2374398708 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-GUI_States#S-2
+Finished in 58.8903203011 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-GUI_States#S-3
+Finished in 58.5033824444 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-GUI_States#S-4
+Finished in 56.0645418167 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 61.4026105404 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 56.2861354351 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 59.5775413513 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 60.3792107105 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 59.6772396564 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 59.2655107975 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-All_GUI_Component_IDs#S-2
+Finished in 59.6227831841 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-All_GUI_Component_IDs#S-3
+Finished in 59.0691001415 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-All_GUI_Component_IDs#S-4
+Finished in 57.0718572140 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 61.3582084179 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 57.1795942783 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 59.6944997311 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 2.6228697300 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 2.6485185623 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 2.6999304295 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 2.5853130817 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 2.6607367992 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 2.7223732471 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 2.6579947472 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 2.7739515305 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 2.7773997784 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 2.6083817482 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 2.6916165352 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 2.7092299461 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 2.6647143364 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 2.7079105377 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 2.7530655861 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 2.6619627476 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 2.6679036617 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 2.6776237488 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 2.6362090111 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 2.6915767193 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 2.7505102158 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 2.6968483925 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 2.7263000011 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 2.7577381134 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 2.6698787212 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 2.7688608170 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 2.6863260269 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 2.6517529488 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 2.7778544426 seconds
+Filtering+Boosting: F-All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 2.7277927399 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-GUI_States#S-2
+Finished in 2.5869596004 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-GUI_States#S-3
+Finished in 2.7011215687 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-GUI_States#S-4
+Finished in 2.7381942272 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 2.6586880684 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 2.6907255650 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 2.7434694767 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 2.6497969627 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 2.7248477936 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 2.7158689499 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-All_GUI_Component_IDs#S-2
+Finished in 2.6356766224 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-All_GUI_Component_IDs#S-3
+Finished in 2.7067751884 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-All_GUI_Component_IDs#S-4
+Finished in 2.7211627960 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 2.6324889660 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 2.7614550591 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 2.8174276352 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 2.5973873138 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 2.7216813564 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 2.6790852547 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 2.6294634342 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 2.7292511463 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 2.7223377228 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 2.6465582848 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 2.7273509502 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 2.7555544376 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 2.6282372475 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 2.7284965515 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 2.7108292580 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 2.6850755215 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 2.7218468189 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 2.7461643219 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 2.6412620544 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 2.6672496796 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 2.8195676804 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 2.5749583244 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 2.6717643738 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 2.6986455917 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 2.6108996868 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 2.7635324001 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 2.7195563316 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 2.6200306416 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 2.7099175453 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 2.7241778374 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 2.6572010517 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 2.7448141575 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 2.7209982872 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 2.6082475185 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 2.7429544926 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 2.7335505486 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 2.6088545322 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 2.6788017750 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 2.7442605495 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 2.6738035679 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 2.7880198956 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 2.7897717953 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 2.6569647789 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 2.7331783772 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 2.7921891212 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 2.6605510712 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 2.7168474197 seconds
+Filtering+Boosting: F-GUI_State_and_All_GUI_Component_IDs#B-All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 2.7751934528 seconds
+Filtering: F-GUI_States#Q-GUI_States#S-2
+Finished in 0.0800490379 seconds
+Filtering: F-GUI_States#Q-GUI_States#S-3
+Finished in 0.0787000656 seconds
+Filtering: F-GUI_States#Q-GUI_States#S-4
+Finished in 0.0925261974 seconds
+Filtering: F-GUI_States#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 0.0799970627 seconds
+Filtering: F-GUI_States#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 0.0774257183 seconds
+Filtering: F-GUI_States#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 0.0920448303 seconds
+Filtering: F-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 0.0810167789 seconds
+Filtering: F-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 0.0808877945 seconds
+Filtering: F-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 0.0941934586 seconds
+Filtering: F-GUI_States#Q-All_GUI_Component_IDs#S-2
+Finished in 0.0797464848 seconds
+Filtering: F-GUI_States#Q-All_GUI_Component_IDs#S-3
+Finished in 0.0800259113 seconds
+Filtering: F-GUI_States#Q-All_GUI_Component_IDs#S-4
+Finished in 0.0936608315 seconds
+Filtering: F-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 0.0796232224 seconds
+Filtering: F-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 0.0807363987 seconds
+Filtering: F-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 0.0927798748 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 0.0370371342 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 0.1634161472 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 0.1706652641 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 0.0359385014 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 0.1626551151 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 0.1733362675 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 0.0359864235 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 0.1631140709 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 0.1691582203 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 0.0368778706 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 0.1655700207 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 0.1679718494 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 0.0367987156 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 0.1609120369 seconds
+Filtering: F-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 0.1686859131 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 0.0813341141 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 0.1965286732 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 0.2179872990 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 0.0796747208 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 0.1975967884 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 0.2143144608 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 0.0821986198 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 0.1933102608 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 0.2233016491 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 0.0794670582 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 0.1927247047 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 0.2186529636 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 0.0802814960 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 0.2027726173 seconds
+Filtering: F-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 0.2165148258 seconds
+Filtering: F-All_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 2.6048996449 seconds
+Filtering: F-All_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 2.7278368473 seconds
+Filtering: F-All_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 2.7052948475 seconds
+Filtering: F-All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 2.6037311554 seconds
+Filtering: F-All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 2.6883823872 seconds
+Filtering: F-All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 2.7037589550 seconds
+Filtering: F-All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 2.7032709122 seconds
+Filtering: F-All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 2.7223093510 seconds
+Filtering: F-All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 2.8307676315 seconds
+Filtering: F-All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 2.6250212193 seconds
+Filtering: F-All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 2.7251632214 seconds
+Filtering: F-All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 2.6998813152 seconds
+Filtering: F-All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 2.6697762012 seconds
+Filtering: F-All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 2.7131717205 seconds
+Filtering: F-All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 2.7414147854 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 2.6120672226 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 2.7418587208 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 2.7008469105 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 2.6211063862 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 2.7131202221 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 2.7445521355 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 2.6294054985 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 2.7263491154 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 2.7397649288 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 2.6309878826 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 2.7205452919 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 2.7041501999 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 2.6722002029 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 2.7011067867 seconds
+Filtering: F-GUI_State_and_All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 2.7520418167 seconds
+Boosting: B-GUI_States#Q-GUI_States#S-2
+Finished in 11.2019455433 seconds
+Boosting: B-GUI_States#Q-GUI_States#S-3
+Finished in 10.8100957870 seconds
+Boosting: B-GUI_States#Q-GUI_States#S-4
+Finished in 10.7485141754 seconds
+Boosting: B-GUI_States#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 11.2911064625 seconds
+Boosting: B-GUI_States#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 10.9674668312 seconds
+Boosting: B-GUI_States#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 10.8923215866 seconds
+Boosting: B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 11.1945703030 seconds
+Boosting: B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 10.7734994888 seconds
+Boosting: B-GUI_States#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 10.8941795826 seconds
+Boosting: B-GUI_States#Q-All_GUI_Component_IDs#S-2
+Finished in 11.3606452942 seconds
+Boosting: B-GUI_States#Q-All_GUI_Component_IDs#S-3
+Finished in 10.9739360809 seconds
+Boosting: B-GUI_States#Q-All_GUI_Component_IDs#S-4
+Finished in 10.8971676826 seconds
+Boosting: B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 11.3621299267 seconds
+Boosting: B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 10.9084656239 seconds
+Boosting: B-GUI_States#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 10.9493114948 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 4.4917089939 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 4.5458431244 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 4.6055607796 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 4.6133587360 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 4.5270180702 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 4.7299787998 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 4.5599355698 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 4.6245436668 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 4.9789955616 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 4.6232080460 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 4.6372904778 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 4.5925092697 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 5.0106556416 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 4.6080782413 seconds
+Boosting: B-Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 4.6909689903 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 4.5808835030 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 4.5798680782 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 4.5670394897 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 4.5863680840 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 4.6089510918 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 4.5983703136 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 4.6177828312 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 4.6703636646 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 4.8230035305 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 4.6274518967 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 4.6125028133 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 4.6382803917 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 4.6179997921 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 4.6710722446 seconds
+Boosting: B-GUI_State_and_Interacted_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 4.6909561157 seconds
+Boosting: B-All_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 4.5464813709 seconds
+Boosting: B-All_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 4.5796537399 seconds
+Boosting: B-All_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 4.6105222702 seconds
+Boosting: B-All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 4.5974280834 seconds
+Boosting: B-All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 4.6032869816 seconds
+Boosting: B-All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 4.6329658031 seconds
+Boosting: B-All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 4.6723284721 seconds
+Boosting: B-All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 4.5676515102 seconds
+Boosting: B-All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 4.6711466312 seconds
+Boosting: B-All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 4.6158022881 seconds
+Boosting: B-All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 4.6034286022 seconds
+Boosting: B-All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 4.6162161827 seconds
+Boosting: B-All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 4.6362211704 seconds
+Boosting: B-All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 4.6175475121 seconds
+Boosting: B-All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 4.6055741310 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-GUI_States#S-2
+Finished in 4.5903353691 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-GUI_States#S-3
+Finished in 4.5494537354 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-GUI_States#S-4
+Finished in 4.5777804852 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-2
+Finished in 4.5622780323 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-3
+Finished in 4.6143290997 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-Interacted_GUI_Component_IDs#S-4
+Finished in 4.5702431202 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 4.5929493904 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 4.6057834625 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 4.7048349380 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-2
+Finished in 4.6075587273 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-3
+Finished in 4.5980067253 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-All_GUI_Component_IDs#S-4
+Finished in 4.6092178822 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 4.6318044662 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 4.6434040070 seconds
+Boosting: B-GUI_State_and_All_GUI_Component_IDs#Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 4.6047775745 seconds
+Query Reformulation: Q-GUI_States#S-2
+Finished in 4.5489807129 seconds
+Query Reformulation: Q-GUI_States#S-3
+Finished in 4.5009739399 seconds
+Query Reformulation: Q-GUI_States#S-4
+Finished in 4.5175409317 seconds
+Query Reformulation: Q-Interacted_GUI_Component_IDs#S-2
+Finished in 4.5147409439 seconds
+Query Reformulation: Q-Interacted_GUI_Component_IDs#S-3
+Finished in 4.5386788845 seconds
+Query Reformulation: Q-Interacted_GUI_Component_IDs#S-4
+Finished in 4.5431010723 seconds
+Query Reformulation: Q-GUI_State_and_Interacted_GUI_Component_IDs#S-2
+Finished in 4.5765969753 seconds
+Query Reformulation: Q-GUI_State_and_Interacted_GUI_Component_IDs#S-3
+Finished in 4.5173664093 seconds
+Query Reformulation: Q-GUI_State_and_Interacted_GUI_Component_IDs#S-4
+Finished in 4.6944630146 seconds
+Query Reformulation: Q-All_GUI_Component_IDs#S-2
+Finished in 4.6010193825 seconds
+Query Reformulation: Q-All_GUI_Component_IDs#S-3
+Finished in 4.5732858181 seconds
+Query Reformulation: Q-All_GUI_Component_IDs#S-4
+Finished in 4.5426583290 seconds
+Query Reformulation: Q-GUI_State_and_All_GUI_Component_IDs#S-2
+Finished in 4.5793030262 seconds
+Query Reformulation: Q-GUI_State_and_All_GUI_Component_IDs#S-3
+Finished in 4.6318519115 seconds
+Query Reformulation: Q-GUI_State_and_All_GUI_Component_IDs#S-4
+Finished in 4.5969684124 seconds

@@ -1,0 +1,11 @@
+Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
+1096,0,[],[],[]
+1146,1,[],[],[]
+1147,1,[1],['bug-1147/GPSTest/src/main/java/com/android/gpstest/NavigationDrawerFragment.java'],[1]
+1151,0,[],[],[]
+1223,2,[1],['bug-1223/app/src/main/java/org/gnucash/android/ui/transaction/TransactionFormFragment.java'],[1]
+1645,1,[1],['bug-1645/app/src/main/java/com/german_software_engineers/trainerapp/ExerciseDialog.java'],[1]
+106,70,[17],['bug-106/app/src/main/java/com/poupa/vinylmusicplayer/loader/SongLoader.java'],[17]
+110,143,[90],['bug-110/app/src/main/java/com/poupa/vinylmusicplayer/provider/Discography.java'],[90]
+168,185,[133],['bug-168/main/src/cgeo/geocaching/maps/MapProviderFactory.java'],[133]
+271,1,[],[],[]

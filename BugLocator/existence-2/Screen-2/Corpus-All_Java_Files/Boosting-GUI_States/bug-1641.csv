@@ -1,0 +1,11 @@
+Bug_Id,File,Filenames_Store_File,Stored
+1641,com/german_software_engineers/trainerappmodel/Enumerations/TrainingsTypes.java,../data/FilteringBoostingFileNames-round4/Screen-2/Corpus-All_Java_Files/Boosting-GUI_States/Match_Query_File_List.csv,NotExist
+1641,com/german_software_engineers/trainerappmodel/Model/XMLParser.java,../data/FilteringBoostingFileNames-round4/Screen-2/Corpus-All_Java_Files/Boosting-GUI_States/Match_Query_File_List.csv,NotExist
+1641,com/german_software_engineers/trainerappmodel/Legacy/Schedule.java,../data/FilteringBoostingFileNames-round4/Screen-2/Corpus-All_Java_Files/Boosting-GUI_States/Match_Query_File_List.csv,NotExist
+1641,com/german_software_engineers/trainerapp/GeneralTrainingScheduleEditor.java,../data/FilteringBoostingFileNames-round4/Screen-2/Corpus-All_Java_Files/Boosting-GUI_States/Match_Query_File_List.csv,NotExist
+1641,com/german_software_engineers/trainerapp/ExerciseViewActivity.java,../data/FilteringBoostingFileNames-round4/Screen-2/Corpus-All_Java_Files/Boosting-GUI_States/Match_Query_File_List.csv,NotExist
+1641,com/german_software_engineers/trainerappmodel/Enumerations/TrainingsTypes.java,../data/FilteringBoostingFileNames-round4/Screen-2/Corpus-All_Java_Files/Boosting-GUI_States/Not_Match_Query_File_List.csv,Exist
+1641,com/german_software_engineers/trainerappmodel/Model/XMLParser.java,../data/FilteringBoostingFileNames-round4/Screen-2/Corpus-All_Java_Files/Boosting-GUI_States/Not_Match_Query_File_List.csv,Exist
+1641,com/german_software_engineers/trainerappmodel/Legacy/Schedule.java,../data/FilteringBoostingFileNames-round4/Screen-2/Corpus-All_Java_Files/Boosting-GUI_States/Not_Match_Query_File_List.csv,Exist
+1641,com/german_software_engineers/trainerapp/GeneralTrainingScheduleEditor.java,../data/FilteringBoostingFileNames-round4/Screen-2/Corpus-All_Java_Files/Boosting-GUI_States/Not_Match_Query_File_List.csv,Exist
+1641,com/german_software_engineers/trainerapp/ExerciseViewActivity.java,../data/FilteringBoostingFileNames-round4/Screen-2/Corpus-All_Java_Files/Boosting-GUI_States/Not_Match_Query_File_List.csv,Exist

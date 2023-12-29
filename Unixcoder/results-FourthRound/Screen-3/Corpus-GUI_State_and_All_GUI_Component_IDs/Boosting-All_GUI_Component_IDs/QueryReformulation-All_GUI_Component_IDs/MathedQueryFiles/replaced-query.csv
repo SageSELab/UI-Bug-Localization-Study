@@ -1,0 +1,4 @@
+Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
+71,88,[10],['bug-71/app/src/main/java/fr/neamar/kiss/forwarder/ExperienceTweaks.java'],[10]
+201,130,[4],['bug-201/iNaturalist/src/main/java/org/inaturalist/android/ObservationListActivity.java'],[4]
+1641,16,"[2, 3]","['bug-1641/app/src/main/java/com/german_software_engineers/trainerapp/ExerciseViewActivity.java', 'bug-1641/app/src/main/java/com/german_software_engineers/trainerapp/GeneralTrainingScheduleEditor.java']","[2, 3]"

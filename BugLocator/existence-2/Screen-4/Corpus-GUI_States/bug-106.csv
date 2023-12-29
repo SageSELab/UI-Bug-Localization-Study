@@ -1,0 +1,3 @@
+Bug_Id,File,Filenames_Store_File,Stored
+106,com/poupa/vinylmusicplayer/loader/SongLoader.java,../data/FilteringBoostingFileNames-round5/Screen-4/Corpus-GUI_States/Files_In_Corpus.csv,NotExist
+106,com/poupa/vinylmusicplayer/util/FileUtil.java,../data/FilteringBoostingFileNames-round5/Screen-4/Corpus-GUI_States/Files_In_Corpus.csv,NotExist

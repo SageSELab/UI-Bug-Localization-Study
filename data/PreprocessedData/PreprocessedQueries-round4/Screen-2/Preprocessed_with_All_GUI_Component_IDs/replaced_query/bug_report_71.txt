@@ -1,1 +1,0 @@
-decor content parent action bar container action bar help content header title summary status bar background navigation bar background widget layout search edit layout left hand side buttons wrapper launcher button search edit text right hand side buttons wrapper menu button

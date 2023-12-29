@@ -1,1 +1,0 @@
-action bar root content app bar toolbar layout toolbar exercise view layout schedule info fab status bar background navigation bar background drawer layout schedule fragment list schedule fragment toolbar title name text edit train spinner text rep edit pause edit set edit speed edit

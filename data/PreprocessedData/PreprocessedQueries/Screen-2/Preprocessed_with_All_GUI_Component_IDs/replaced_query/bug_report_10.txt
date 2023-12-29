@@ -1,1 +1,0 @@
-action bar root content drawer bar layout app bar toolbar action search action sort breadcrumb text swipe refresh recycler item icon layout icon name menu speed dial main fab navigation fragment title subtitle navigation bar background preference fragment recycler view summary widget frame widget status bar background

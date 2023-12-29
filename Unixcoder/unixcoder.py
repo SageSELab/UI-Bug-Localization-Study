@@ -99,7 +99,7 @@ class UniXcoder(nn.Module):
         
         device = source_ids.device
         
-        # Decoding using beam rch
+        # Decoding using beam search
         preds = []       
         zero = torch.LongTensor(1).fill_(0).to(device)   
         source_len = list(source_ids.ne(1).sum(-1).cpu().numpy())
@@ -169,14 +169,14 @@ class Beam(object):
     def advance(self, wordLk):
         """
         Given prob over words for every last beam `wordLk` and attention
-        `attnOut`: Compute and update the beam rch.
+        `attnOut`: Compute and update the beam search.
 
         Parameters:
 
         * `wordLk`- probs of advancing from the last step (K x words)
         * `attnOut`- attention at the last step
 
-        Returns: True if beam rch is complete.
+        Returns: True if beam search is complete.
         """
         numWords = wordLk.size(1)
 

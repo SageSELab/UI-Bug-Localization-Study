@@ -1,1 +1,0 @@
-action bar root content drawer layout app bar layout toolbar file check box file title file icon file permission file date fab status bar background navigation bar background launcher drag layer scrim view workspace search container workspace smartspace content clock page indicator hotseat app view all app header search container all app icon mic icon

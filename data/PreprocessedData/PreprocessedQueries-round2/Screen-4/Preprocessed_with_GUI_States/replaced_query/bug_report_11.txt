@@ -1,1 +1,0 @@
-splash activity grant permissions activity launcher

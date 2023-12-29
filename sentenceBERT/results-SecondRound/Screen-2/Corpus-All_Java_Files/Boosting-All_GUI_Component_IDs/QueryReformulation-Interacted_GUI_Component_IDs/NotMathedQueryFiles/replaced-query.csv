@@ -1,0 +1,8 @@
+Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
+11,7,[],[],[]
+55,31,[],[],[]
+56,29,[],[],[]
+227,81,[],[],[]
+1213,15,[],[],[]
+1222,78,"[37, 54]","['bug-1222/app/src/main/java/org/gnucash/android/db/adapter/RecurrenceDbAdapter.java', 'bug-1222/app/src/main/java/org/gnucash/android/ui/util/RecurrenceParser.java']","[37, 54]"
+1428,39,[6],['bug-1428/app/src/main/java/com/easyfitness/DAO/bodymeasures/BodyPartExtensions.java'],[6]

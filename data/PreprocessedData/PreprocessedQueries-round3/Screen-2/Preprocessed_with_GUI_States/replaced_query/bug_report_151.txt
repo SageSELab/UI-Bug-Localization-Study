@@ -1,1 +1,0 @@
-launcher main activity entry list view

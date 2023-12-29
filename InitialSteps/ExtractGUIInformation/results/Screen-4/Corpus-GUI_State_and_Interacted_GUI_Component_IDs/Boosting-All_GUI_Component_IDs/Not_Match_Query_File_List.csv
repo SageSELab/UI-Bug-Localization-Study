@@ -1,0 +1,5 @@
+Bug Report ID,FilePaths,File Source
+2,/Users/sagelab/Documents/Projects/BugLocalization/BuggyProjects/bug-2/app/src/main/java/io/github/zwieback/familyfinance/business/chart/activity/ChartActivity.java,NotMatched
+53,/Users/sagelab/Documents/Projects/BugLocalization/BuggyProjects/bug-53/app/src/main/java/net/gsantner/markor/activity/MoreFragment.java,NotMatched
+54,/Users/sagelab/Documents/Projects/BugLocalization/BuggyProjects/bug-54/app/src/main/java/net/gsantner/markor/activity/MoreFragment.java,NotMatched
+1430,/Users/sagelab/Documents/Projects/BugLocalization/BuggyProjects/bug-1430/app/src/main/java/com/easyfitness/programs/ProgramPagerFragment.java,NotMatched

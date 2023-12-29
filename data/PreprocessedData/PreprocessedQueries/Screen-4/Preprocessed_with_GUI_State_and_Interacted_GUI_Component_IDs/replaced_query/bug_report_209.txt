@@ -1,1 +1,0 @@
-form activity transaction form fragment input transaction name input transaction amount

@@ -1,1 +1,0 @@
-decor content parent action bar container action bar menu add content fragment main main actioncall layout main textview main actioncall image arrow status bar background navigation bar background parent panel custom panel custom dialog add station message dialog add station input dialog add station howto button panel button button content panel scroll view message

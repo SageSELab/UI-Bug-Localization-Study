@@ -1,1 +1,0 @@
-content parent panel custom panel custom exercise name seat check box seat edit leg check box leg edit foot check box foot edit angle check box angle edit back check box back edit weight check box weight edit button panel button button top panel title template alert title aerr app info aerr close

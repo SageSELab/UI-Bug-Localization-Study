@@ -2,15 +2,15 @@ export preprocessedDataPath=../data/PreprocessedData/PreprocessedQueries-round7
 export preprocessedCodePath=../data/PreprocessedData/PreprocessedCode-round7
 export jsonFilePath=../data/JSON-Files-All
 #Change this path
-#export buggy_project_dir=UIBugLocalization/Backup/BuggyProjects
-#export buggy_project_dir=UIBugLocalization/BuggyProjects
-#export buggy_project_dir=UIBugLocalization/FaultLocalizationCode/Projects/BuggyProjects-round2
-export buggy_project_dir=UIBugLocalization/FaultLocalizationCode/Projects/BuggyProjects-round7
+#export buggy_project_dir=/Users/junayed/Documents/NecessaryDocs/GeorgeMasonUniversity/Research/Projects/BugLocalization/Backup/BuggyProjects
+#export buggy_project_dir=/scratch1/Clarity/junayed/BugLocalization/BuggyProjects
+#export buggy_project_dir=/Users/junayed/Documents/NecessaryDocs/GeorgeMasonUniversity/Research/Projects/BugLocalization/FaultLocalizationCode/Projects/BuggyProjects-round2
+export buggy_project_dir=/scratch1/Clarity/junayed/BugLocalization/FaultLocalizationCode/Projects/BuggyProjects-round7
 #Change this path
-#export filtered_boosted_files_in_repo=UIBugLocalization/Backup/FilteredBoostedProjects
-#export filtered_boosted_files_in_repo=UIBugLocalization/FilteredBoostedProjects
-#export filtered_boosted_files_in_repo=UIBugLocalization/FaultLocalizationCode/Projects/FilteredBoostedProjects-round2
-export filtered_boosted_files_in_repo=UIBugLocalization/FaultLocalizationCode/Projects/FilteredBoostedProjects-round7
+#export filtered_boosted_files_in_repo=/Users/junayed/Documents/NecessaryDocs/GeorgeMasonUniversity/Research/Projects/BugLocalization/Backup/FilteredBoostedProjects
+#export filtered_boosted_files_in_repo=/scratch1/Clarity/junayed/BugLocalization/FilteredBoostedProjects
+#export filtered_boosted_files_in_repo=/Users/junayed/Documents/NecessaryDocs/GeorgeMasonUniversity/Research/Projects/BugLocalization/FaultLocalizationCode/Projects/FilteredBoostedProjects-round2
+export filtered_boosted_files_in_repo=/scratch1/Clarity/junayed/BugLocalization/FaultLocalizationCode/Projects/FilteredBoostedProjects-round7
 #The temporary results will be saved here
 export result_folder=results-SeventhRound 
 
@@ -25,7 +25,7 @@ export final_ranks_folder=../FinalResultComputation/AllResults/SentenceBERT-roun
 export filtered_boosted_filenames=../data/FilteringBoostingFileNames-round7
 
 # This path will not be changed
-export preprocessed_code_dir=UIBugLocalization/Backup/CodeUnused/BuggyProjects
+export preprocessed_code_dir=/Users/junayed/Documents/NecessaryDocs/GeorgeMasonUniversity/Research/Projects/BugLocalization/Backup/CodeUnused/BuggyProjects
 
 export filtering_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")

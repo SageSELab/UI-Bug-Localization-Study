@@ -1,0 +1,2 @@
+python unixcoderBR-query-formulation.py -rf results/All-GUI -q GUI_State -c /Users/junayed/Documents/NecessaryDocs/GeorgeMasonUniversity/Research/Projects/BugLocalization/Backup/CodeUnused/BuggyProjects
+python unixcoderBR-query-formulation.py -rf results/All-GUI+Interacted -q GUI_State_and_Interacted_GUI_Component_ID -c /Users/junayed/Documents/NecessaryDocs/GeorgeMasonUniversity/Research/Projects/BugLocalization/Backup/CodeUnused/BuggyProjects

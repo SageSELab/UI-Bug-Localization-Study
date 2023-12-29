@@ -1,1 +1,0 @@
-include year checkbox button birthdaypicker label

@@ -1,1 +1,0 @@
-use percent value button

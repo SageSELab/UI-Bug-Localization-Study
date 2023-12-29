@@ -1,0 +1,4 @@
+Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
+1406,198,[6],['bug-1406/app/src/main/java/org/fossasia/phimpme/gallery/activities/SingleMediaActivity.java'],[6]
+45,192,[69],['bug-45/omniNotes/src/main/java/it.feio.android.omninotes.helpers/GeocodeProviderBaseFactory.java'],[69]
+1640,24,[],[],[]

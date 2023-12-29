@@ -1,29 +1,25 @@
-# UI BUG LOCALIZATION
+# UI Bug Localization Study
 
-### Data Preparation and Preprocessing
-```DataPreparation/filter_files_cmnd.sh``` : Get all the filterted corpus and files which we need to boost
+### InitialSteps
+```ExtractGUIInformation/filter_files_cmnd.sh``` : Get all the filterted corpus and files which we need to boost
 
-```ShortScripts/match_files_from_repo.sh```: Copy and paste files to a new directory based on query matching
+```AugmentationCorpus/match_files_from_repo.sh```: Copy and paste files to a new directory based on query matching
 
-```Lucene/code_search_ir_preprocess_data/run_cmnd.sh```: Preprocess queries
+```Preprocessing/run_cmnd.sh```: Preprocess queries
 
-### Dataset:
-```data/Ground-Truth-App-Screen.csv```: Contains Buggy Ground Truth Screen
-
-```data/TraceReplayer-Data``` : Contains Trace-Replayer Data
-
-```data/BugReports```: Contains Bug Reports
-
-## SentenceBERT Results
+## SentenceBERT
 ```sentenceBERT/sentencebert-max-cmnd.sh```: Run to get all results for SentenceBERT
 
-## UniXCoder Results
+## UniXCoder
 ```Unixcoder/unixcoder-run-cmnd.sh```: Run to get all results for UniXCoder
 
-## Lucene Results
+## Lucene
 ```Lucene/code_search_ir_lucene_graph/run_cmnd.sh```: Run to get all results for Lucene
 
-## BugLocator Results
+## BugLocator
 ```BugLocator/generate_xml_data_for_buglocator.sh```: Preprocess queries specifically for BugLocator.
 
 ```BugLocator/buglocator_cmnd.sh```: Run to get all results for BugLocator 
+
+## Metrics
+```ResultComputation/results_summary.py```: Get metrics

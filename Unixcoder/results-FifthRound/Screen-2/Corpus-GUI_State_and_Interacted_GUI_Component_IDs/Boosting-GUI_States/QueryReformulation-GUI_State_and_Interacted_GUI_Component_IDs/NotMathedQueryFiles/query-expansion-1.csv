@@ -1,0 +1,11 @@
+Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
+1096,0,[],[],[]
+1146,0,[],[],[]
+1147,0,[],[],[]
+1151,0,[],[],[]
+1223,1,[],[],[]
+1645,0,[],[],[]
+106,69,[67],['bug-106/app/src/main/java/com/poupa/vinylmusicplayer/loader/SongLoader.java'],[67]
+110,0,[],[],[]
+168,185,[30],['bug-168/main/src/cgeo/geocaching/maps/MapProviderFactory.java'],[30]
+271,1,[],[],[]

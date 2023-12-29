@@ -1,1 +1,0 @@
-record sound activity inaturalist decor content parent action bar container action bar content seconds counter sound visualizer start recording stop record parent panel top panel title template alert title custom panel custom aerr restart

@@ -1,0 +1,4 @@
+Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
+1406,124,[],[],[]
+45,107,[102],['bug-45/omniNotes/src/main/java/it.feio.android.omninotes.helpers/GeocodeProviderBaseFactory.java'],[102]
+1640,13,[1],['bug-1640/app/src/main/java/com/german_software_engineers/trainerapp/InfoActivity.java'],[1]

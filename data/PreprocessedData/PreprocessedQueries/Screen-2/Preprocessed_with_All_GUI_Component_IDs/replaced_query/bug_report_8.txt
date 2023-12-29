@@ -1,1 +1,0 @@
-content title parent panel content panel scroll view message button panel button

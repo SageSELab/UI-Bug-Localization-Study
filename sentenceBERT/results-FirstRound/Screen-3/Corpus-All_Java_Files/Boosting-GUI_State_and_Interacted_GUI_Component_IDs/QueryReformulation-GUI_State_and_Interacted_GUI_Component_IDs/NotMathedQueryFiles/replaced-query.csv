@@ -1,0 +1,63 @@
+Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
+2,410,"[10, 17]","['bug-2/app/src/main/java/io/github/zwieback/familyfinance/business/chart/fragment/PieChartFragment.java', 'bug-2/app/src/main/java/io/github/zwieback/familyfinance/business/chart/fragment/HorizontalBarChartFragment.java']","[10, 17]"
+8,230,[],[],[]
+10,397,"[3, 6, 84]","['bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerService.java', 'bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerStatePreference.java', 'bug-10/app/src/main/java/me/zhanghai/android/files/ftpserver/FtpServerReceiver.java']","[3, 6, 84]"
+18,222,"[8, 59]","['bug-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/ScheduleTimetableFragment.java', 'bug-18/Calendula/src/main/java/es/usc/citius/servando/calendula/fragments/RoutineCreateOrEditFragment.java']","[8, 59]"
+19,387,[],[],[]
+44,163,[109],['bug-44/omniNotes/src/main/java/it/feio/android/omninotes/utils/TagsHelper.java'],[109]
+53,120,[],[],[]
+71,126,[2],['bug-71/app/src/main/java/fr/neamar/kiss/forwarder/ExperienceTweaks.java'],[2]
+117,202,[],[],[]
+128,49,"[2, 13]","['bug-128/app/src/main/java/org/shadowice/flocke/andotp/Activities/MainActivity.java', 'bug-128/app/src/main/java/org/shadowice/flocke/andotp/Utilities/Settings.java']","[2, 13]"
+129,47,[],[],[]
+130,47,[],[],[]
+135,231,"[16, 64, 83]","['bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoryFragment.java', 'bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesRenderer.java', 'bug-135/app/src/main/java/fr/free/nrw/commons/explore/categories/SearchCategoriesAdapterFactory.java']","[16, 64, 83]"
+191,131,"[14, 64]","['bug-191/app/src/main/java/ch/logixisland/anuto/view/game/TowerView.java', 'bug-191/app/src/main/java/ch/logixisland/anuto/business/control/TowerInserter.java']","[14, 64]"
+201,142,[],[],[]
+206,126,[],[],[]
+209,175,[98],['bug-209/app/src/main/java/org/gnucash/android/ui/util/widget/CalculatorEditText.java'],[98]
+256,125,[],[],[]
+1073,147,[99],['bug-1073/app/src/main/java/org/mozilla/focus/browser/LocalizedContent.java'],[99]
+1096,194,[],[],[]
+1146,46,[],[],[]
+1147,16,[],[],[]
+1151,18,[6],['bug-1151/GPSTest/src/main/java/com/android/gpstest/GpsTestActivity.java'],[6]
+1202,59,[],[],[]
+1205,91,[],[],[]
+1207,34,[],[],[]
+1214,50,[6],['bug-1214/app/src/main/java/org/shadowice/flocke/andotp/Activities/IntroScreenActivity.java'],[6]
+1215,49,[],[],[]
+1223,168,[],[],[]
+1224,157,[],[],[]
+1299,82,[],[],[]
+1399,212,[],[],[]
+1406,195,[],[],[]
+1430,101,"[2, 9]","['bug-1430/app/src/main/java/com/easyfitness/programs/ProgramRunnerFragment.java', 'bug-1430/app/src/main/java/com/easyfitness/programs/ProgramPagerFragment.java']","[2, 9]"
+1441,129,[8],['bug-1441/android/app/src/main/java/com/cohenadair/anglerslog/locations/ManageFishingSpotFragment.java'],[8]
+1445,131,[48],['bug-1445/android/app/src/main/java/com/cohenadair/anglerslog/model/Logbook.java'],[48]
+1481,28,[],[],[]
+1645,15,[7],['bug-1645/app/src/main/java/com/german_software_engineers/trainerapp/ExerciseDialog.java'],[7]
+45,176,[],[],[]
+54,91,[35],['bug-54/app/src/main/java/net/gsantner/markor/util/AppSettings.java'],[35]
+76,147,[20],['bug-76/app/src/main/java/com/genonbeta/TrebleShot/fragment/FileListFragment.java'],[20]
+92,274,[95],['bug-92/app/src/main/java/com/vrem/wifianalyzer/vendor/model/VendorDB.java'],[95]
+101,457,[33],['bug-101/OpenStreetMapViewer/src/main/java/org/osmdroid/intro/StoragePreferenceFragment.java'],[33]
+106,197,"[112, 133]","['bug-106/app/src/main/java/com/poupa/vinylmusicplayer/util/FileUtil.java', 'bug-106/app/src/main/java/com/poupa/vinylmusicplayer/loader/SongLoader.java']","[112, 133]"
+110,221,[],[],[]
+158,272,"[17, 177]","['bug-158/AnkiDroid/src/main/java/com/ichi2/anki/AbstractFlashcardViewer.java', 'bug-158/AnkiDroid/src/main/java/com/ichi2/themes/Themes.java']","[17, 177]"
+160,331,[],[],[]
+162,613,[],[],[]
+168,785,[531],['bug-168/main/src/cgeo/geocaching/maps/MapProviderFactory.java'],[531]
+192,74,[],[],[]
+199,150,[],[],[]
+200,136,[],[],[]
+248,475,[6],['bug-248/collect_app/src/main/java/org/odk/collect/android/preferences/GeneralPreferencesFragment.java'],[6]
+1150,44,[],[],[]
+1198,4,[2],['bug-1198/app/src/main/java/swati4star/createpdf/adapter/ViewFilesAdapter.java'],[2]
+1228,168,[],[],[]
+1389,17,"[2, 3, 16]","['bug-1389/app/src/main/java/org/y20k/transistor/PlayerActivityFragment.java', 'bug-1389/app/src/main/java/org/y20k/transistor/helpers/StationFetcher.java', 'bug-1389/app/src/main/java/org/y20k/transistor/core/Station.java']","[2, 3, 16]"
+1425,105,"[12, 72]","['bug-1425/app/src/main/java/com/easyfitness/WeightFragment.java', 'bug-1425/app/src/main/java/com/easyfitness/DAO/bodymeasures/DAOBodyMeasure.java']","[12, 72]"
+1446,130,[44],['bug-1446/AnglersLog/app/src/main/java/com/cohenadair/anglerslog/locations/ManageLocationFragment.java'],[44]
+1563,30,[],[],[]
+1568,50,[],[],[]
+1641,32,"[18, 19]","['bug-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Legacy/Schedule.java', 'bug-1641/trainerappmodel/src/main/java/com/german_software_engineers/trainerappmodel/Enumerations/TrainingsTypes.java']","[18, 19]"

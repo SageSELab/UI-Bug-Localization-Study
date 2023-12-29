@@ -1,1 +1,0 @@
-action bar root content drawer layout root layout front frame toolbar action hide whiteboard action undo action flag top bar number learn number review number choosen answer flashcard frame flashcard touch layer whiteboard bottom area layout answer option layout flashcard layout flip flip card navigation bar background

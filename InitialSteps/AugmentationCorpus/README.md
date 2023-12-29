@@ -1,0 +1,1 @@
+This file gets BEE results and extract all the bug reports in the XML format from 'data/BugReportsMarked/ParsedBugReports'. Then, it labels the data from the BEE output and write results in 'data/BugReportsMarked/LabeledBugReportsBEE' 

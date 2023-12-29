@@ -1,1 +1,0 @@
-form activity transaction activity accounts activity transaction form fragment accounts list fragment text menu save

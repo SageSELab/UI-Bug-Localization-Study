@@ -1,1 +1,0 @@
-main activity queue fragment action bar root content drawer layout toolbar queue lock refresh item main view empty info bar divider status bar background navigation bar background

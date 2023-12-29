@@ -1,1 +1,0 @@
-category details activity sub category list fragment

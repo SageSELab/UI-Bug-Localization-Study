@@ -1,1 +1,0 @@
-main activity view files fragment content root title frame title custom view frame passwordlayout password text input password toggle button negative button positive action bar root drawer layout toolbar action search search bar search button item sort empty status view swipe file recycler view checkbox file ripple file name file size file date navigation bar background

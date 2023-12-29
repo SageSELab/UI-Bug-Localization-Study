@@ -1,1 +1,0 @@
-main activity grant permissions activity detail fragment location permission allow button
