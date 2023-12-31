@@ -1,8 +1,0 @@
-Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
-11,2,[2],['bug-11/app/src/main/java/com/droidheat/musicplayer/MusicDockFragment.java'],[2]
-55,2,[],[],[]
-56,2,[],[],[]
-227,9,"[2, 3]","['bug-227/app/src/main/java/org/gnucash/android/ui/transaction/TransactionFormFragment.java', 'bug-227/app/src/main/java/org/gnucash/android/ui/transaction/SplitEditorFragment.java']","[2, 3]"
-1213,4,"[2, 3, 4]","['bug-1213/app/src/main/java/org/shadowice/flocke/andotp/Preferences/CredentialsPreference.java', 'bug-1213/app/src/main/java/org/shadowice/flocke/andotp/Dialogs/PasswordEntryDialog.java', 'bug-1213/app/src/main/java/org/shadowice/flocke/andotp/Preferences/PasswordEncryptedPreference.java']","[2, 3, 4]"
-1222,10,[],[],[]
-1428,3,[2],['bug-1428/app/src/main/java/com/easyfitness/bodymeasures/BodyPartDetailsFragment.java'],[2]

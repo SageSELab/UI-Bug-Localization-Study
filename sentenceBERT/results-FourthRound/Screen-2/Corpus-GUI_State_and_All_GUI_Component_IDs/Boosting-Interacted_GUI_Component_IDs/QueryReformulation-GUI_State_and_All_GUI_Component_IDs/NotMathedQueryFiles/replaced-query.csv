@@ -1,4 +1,0 @@
-Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
-71,88,[9],['bug-71/app/src/main/java/fr/neamar/kiss/forwarder/ExperienceTweaks.java'],[9]
-201,129,[],[],[]
-1641,15,"[5, 9]","['bug-1641/app/src/main/java/com/german_software_engineers/trainerapp/GeneralTrainingScheduleEditor.java', 'bug-1641/app/src/main/java/com/german_software_engineers/trainerapp/ExerciseViewActivity.java']","[5, 9]"

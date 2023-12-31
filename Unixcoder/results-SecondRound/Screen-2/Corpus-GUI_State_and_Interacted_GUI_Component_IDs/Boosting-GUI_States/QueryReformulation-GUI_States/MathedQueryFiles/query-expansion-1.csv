@@ -1,8 +1,0 @@
-Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
-11,0,[],[],[]
-55,0,[],[],[]
-56,1,[],[],[]
-227,3,[],[],[]
-1213,0,[],[],[]
-1222,4,[],[],[]
-1428,2,[2],['bug-1428/app/src/main/java/com/easyfitness/bodymeasures/BodyPartDetailsFragment.java'],[2]

@@ -1,8 +1,0 @@
-Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
-11,1,[1],['bug-11/app/src/main/java/com/droidheat/musicplayer/SplashActivity.java'],[1]
-55,0,[],[],[]
-56,2,[],[],[]
-227,5,[4],['bug-227/app/src/main/java/org/gnucash/android/ui/transaction/TransactionFormFragment.java'],[4]
-1213,0,[],[],[]
-1222,4,[],[],[]
-1428,4,[2],['bug-1428/app/src/main/java/com/easyfitness/bodymeasures/BodyPartDetailsFragment.java'],[2]

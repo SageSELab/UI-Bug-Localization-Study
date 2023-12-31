@@ -1,8 +1,0 @@
-Bug Report ID,#Files (.java),Ranks,Ranked Buggy Files,Ranks (Unsorted)
-11,7,[],[],[]
-55,31,[],[],[]
-56,29,[],[],[]
-227,81,"[4, 5]","['bug-227/app/src/main/java/org/gnucash/android/model/Split.java', 'bug-227/app/src/main/java/org/gnucash/android/importer/GncXmlHandler.java']","[4, 5]"
-1213,15,[],[],[]
-1222,78,"[22, 57]","['bug-1222/app/src/main/java/org/gnucash/android/ui/util/RecurrenceParser.java', 'bug-1222/app/src/main/java/org/gnucash/android/db/adapter/RecurrenceDbAdapter.java']","[22, 57]"
-1428,39,[10],['bug-1428/app/src/main/java/com/easyfitness/DAO/bodymeasures/BodyPartExtensions.java'],[10]

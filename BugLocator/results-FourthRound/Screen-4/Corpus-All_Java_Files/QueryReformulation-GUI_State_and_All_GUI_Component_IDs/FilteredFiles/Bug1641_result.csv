@@ -1,6 +1,0 @@
-bugID,filename,rank,score
-1641,com.german_software_engineers.trainerapp.GeneralTrainingScheduleEditor.java,0,0.8
-1641,com.german_software_engineers.trainerapp.ExerciseViewActivity.java,3,0.45180878
-1641,com.german_software_engineers.trainerappmodel.Legacy.Schedule.java,5,0.2610453
-1641,com.german_software_engineers.trainerappmodel.Model.XMLParser.java,6,0.24055102
-1641,com.german_software_engineers.trainerappmodel.Enumerations.TrainingsTypes.java,36,0.0

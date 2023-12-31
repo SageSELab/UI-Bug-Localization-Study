@@ -1,3 +1,0 @@
-Bug_Id,File,Filenames_Store_File,Stored
-110,com/poupa/vinylmusicplayer/provider/Discography.java,../data/FilteringBoostingFileNames-round5/Screen-2/Corpus-All_GUI_Component_IDs/Boosting-GUI_State_and_Interacted_GUI_Component_IDs/Match_Query_File_List.csv,NotExist
-110,com/poupa/vinylmusicplayer/provider/Discography.java,../data/FilteringBoostingFileNames-round5/Screen-2/Corpus-All_GUI_Component_IDs/Boosting-GUI_State_and_Interacted_GUI_Component_IDs/Not_Match_Query_File_List.csv,Exist
