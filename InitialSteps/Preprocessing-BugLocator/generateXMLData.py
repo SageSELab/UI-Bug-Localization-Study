@@ -69,51 +69,33 @@ def create_xml_file(bug_id, bug_report_title, bug_report_content, xml_file, json
         f.write(xmlstr)
 
 def main(args):
-    # bug_issue_ids = ["2", "8", "10", "18", "19", "44",
-    # 	                "53", "117", "128", "129", "130",
-    # 	                "135", "191", "206", "209", "256",
-    # 	                "1073", "1096", "1146",
-    # 	                "1147", "1151", "1202", "1205", "1207",
-    # 	                "1214", "1215", "1223", "1224",
-    # 	                "1299", "1399", "1406", "1430", "1441",
-    # 	                "1445", "1481", "1645", "45", "54", "76", "92", "106", "110", "158", "160", "162", "168",
-    # 	                 "192", "199", "200", "248", "1150", "1198", "1228",
-    # 	                "1389", "1425", "1446", "1563", "1568", ]
-
-    #bug_issue_ids = ["11", "55", "56", "227", "1213", "1222", "1428"]
-    #bug_issue_ids = ["84", "87", "151", "159", "193", "271", "275", "1028", "1089", "1130", "1402", "1403"]
-    #bug_issue_ids = ["71", "201", "1641"]
-
-    # Fifth Round
-    #bug_issue_ids = ["1096", "1146", "1147", "1151", "1223", "1645", "106", "110", "168", "271"]
-
-    # Sixth Round
-    #bug_issue_ids = ["1406", "45", "1640"]
-
-    # Seventh Round
-    bug_issue_ids = ["1150"]
+    #bug_issue_ids = ["1150"]
+    bug_issue_ids = ["2", "8", "10", "11", 
+                "18", "19", "44", "45", "53", "54", "55", "56", "71", "76", "84", "87", "92", "106", "110",
+                "117", "128", "129", "130", "135", "158", "159", "160", "162", "168", "191", "192", "193",
+                "199", "200", "201", "206", "209", "227", "248", "256", "271", "275", "1028", "1073", 
+                "1089", "1096", "1130", "1146", "1147", "1150", "1151", "1198", "1202", "1205", "1207",
+                "1213", "1214", "1215", "1222", "1223", "1224", "1228", "1299", "1389", "1399", "1402",
+                "1403", "1406", "1425", "1428", "1430", "1441", "1445", "1446", "1481", "1563", "1568", 
+                "1640", "1641", "1645"]
     
     title_subpath = "Screen-" + args['screen'] + "/bug_report_titles/"
     content_subpath = "Screen-" + args['screen'] + "/Preprocessed_with_" + args['query_reformulation']
 
     for bug_id in bug_issue_ids:
-        #bug_report_title = get_preprocessed_contents(bug_id, args['preprocessed_data'], "PreprocessedTitles", title_subpath, "", "bug_title_")
-        bug_report_title = get_preprocessed_contents(bug_id, args['preprocessed_data'], "PreprocessedTitles-round7", title_subpath, "", "bug_title_")
+        bug_report_title = get_preprocessed_contents(bug_id, args['preprocessed_data'], "PreprocessedTitles", title_subpath, "", "bug_title_")
         
-        #bug_report_content = get_preprocessed_contents(bug_id, args['preprocessed_data'], "PreprocessedContents", content_subpath, "bug_report_original", "bug_report_")
-        bug_report_content = get_preprocessed_contents(bug_id, args['preprocessed_data'], "PreprocessedContents-round7", content_subpath, "bug_report_original", "bug_report_")
+        bug_report_content = get_preprocessed_contents(bug_id, args['preprocessed_data'], "PreprocessedContents", content_subpath, "bug_report_original", "bug_report_")
         orginal_xml_file = args['generated_data'] + "/" + content_subpath + "/bug_report_original" + "/bug_" + bug_id +".xml"
         create_filepath(orginal_xml_file)
         create_xml_file(bug_id, bug_report_title, bug_report_content, orginal_xml_file, args['json_file_path'])
 
-        #replaced_query = get_preprocessed_contents(bug_id, args['preprocessed_data'], "PreprocessedContents", content_subpath, "replaced_query", "bug_report_")
-        replaced_query = get_preprocessed_contents(bug_id, args['preprocessed_data'], "PreprocessedContents-round7", content_subpath, "replaced_query", "bug_report_")
+        replaced_query = get_preprocessed_contents(bug_id, args['preprocessed_data'], "PreprocessedContents", content_subpath, "replaced_query", "bug_report_")
         replaced_query_xml_file = args['generated_data'] + "/" + content_subpath + "/replaced_query" + "/bug_" + bug_id +".xml"
         create_filepath(replaced_query_xml_file)
         create_xml_file(bug_id, "", replaced_query, replaced_query_xml_file , args['json_file_path'])
         
-        #query_expansion1 = get_preprocessed_contents(bug_id, args['preprocessed_data'], "PreprocessedContents", content_subpath, "query_expansion_1", "bug_report_")
-        query_expansion1 = get_preprocessed_contents(bug_id, args['preprocessed_data'], "PreprocessedContents-round7", content_subpath, "query_expansion_1", "bug_report_")
+        query_expansion1 = get_preprocessed_contents(bug_id, args['preprocessed_data'], "PreprocessedContents", content_subpath, "query_expansion_1", "bug_report_")
         query_expansion1_xml_file = args['generated_data'] + "/" + content_subpath + "/query_expansion_1" + "/bug_" + bug_id +".xml"
         create_filepath(query_expansion1_xml_file)
         create_xml_file(bug_id, bug_report_title, query_expansion1, query_expansion1_xml_file, args['json_file_path'])

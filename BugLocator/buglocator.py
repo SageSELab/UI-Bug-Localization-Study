@@ -137,9 +137,9 @@ def ranking_on_corpus(bug_id, xml_file, subpath, filetype, filtered_boosted_repo
 	filtered_boosted_filenames, query_reformulation_gui):
 	filenameType = ""
 
-	if filetype=="MathedQueryFiles":
+	if filetype=="MatchedQueryFiles":
 		filenameType = "Match_Query_File_List"
-	elif filetype=="NotMathedQueryFiles":
+	elif filetype=="NotMatchedQueryFiles":
 		filenameType = "Not_Match_Query_File_List"
 	elif filetype=="FilteredFiles":
 		filenameType = "Files_In_Corpus"
@@ -198,16 +198,16 @@ def get_ranklist_on_query_reformulation_type(bug_id, filtering_gui, boosting_gui
 	elif operation=="Boosting":
 		corpus_path = "Screen-" + no_of_screen + "/" + "Corpus-" + "All_Java_Files"
 		boosting_path = corpus_path + "/Boosting-" + boosting_gui
-		query_boosted_rankLists = ranking_on_corpus(bug_id, query_xml_file, boosting_path, "MathedQueryFiles", filtered_boosted_repo, temp_xml_dir, temp_result_dir, filtered_boosted_filenames, query_reformulation_gui)
-		query_not_boosted_rankLists = ranking_on_corpus(bug_id, query_xml_file, boosting_path, "NotMathedQueryFiles", filtered_boosted_repo, temp_xml_dir, temp_result_dir, filtered_boosted_filenames, query_reformulation_gui)
+		query_boosted_rankLists = ranking_on_corpus(bug_id, query_xml_file, boosting_path, "MatchedQueryFiles", filtered_boosted_repo, temp_xml_dir, temp_result_dir, filtered_boosted_filenames, query_reformulation_gui)
+		query_not_boosted_rankLists = ranking_on_corpus(bug_id, query_xml_file, boosting_path, "NotMatchedQueryFiles", filtered_boosted_repo, temp_xml_dir, temp_result_dir, filtered_boosted_filenames, query_reformulation_gui)
 		matched_file = filtered_boosted_filenames + "/" + boosting_path + "/Match_Query_File_List.csv"
 		unsorted_ranks, sorted_ranks, ranks_files = get_final_ranks(bug_id, matched_file, query_boosted_rankLists, query_not_boosted_rankLists, operation)
 
 	elif operation=="Filtering+Boosting":
 		corpus_path = "Screen-" + no_of_screen + "/" + "Corpus-" + filtering_gui
 		boosting_path = corpus_path + "/Boosting-" + boosting_gui
-		query_boosted_rankLists = ranking_on_corpus(bug_id, query_xml_file, boosting_path, "MathedQueryFiles", filtered_boosted_repo, temp_xml_dir, temp_result_dir, filtered_boosted_filenames, query_reformulation_gui)
-		query_not_boosted_rankLists = ranking_on_corpus(bug_id, query_xml_file, boosting_path, "NotMathedQueryFiles", filtered_boosted_repo, temp_xml_dir, temp_result_dir, filtered_boosted_filenames, query_reformulation_gui)
+		query_boosted_rankLists = ranking_on_corpus(bug_id, query_xml_file, boosting_path, "MatchedQueryFiles", filtered_boosted_repo, temp_xml_dir, temp_result_dir, filtered_boosted_filenames, query_reformulation_gui)
+		query_not_boosted_rankLists = ranking_on_corpus(bug_id, query_xml_file, boosting_path, "NotMatchedQueryFiles", filtered_boosted_repo, temp_xml_dir, temp_result_dir, filtered_boosted_filenames, query_reformulation_gui)
 
 		matched_file = filtered_boosted_filenames + "/" + boosting_path + "/Match_Query_File_List.csv"
 		unsorted_ranks, sorted_ranks, ranks_files = get_final_ranks(bug_id, matched_file, query_boosted_rankLists, query_not_boosted_rankLists, operation)
@@ -261,7 +261,7 @@ def main(args):
 	# 					"1445", "1481", "1645", "45", "54", "76", "92", "106", "110", "158", "160", "162", "168",
 	# 					 "192", "199", "200", "248", "1150", "1198", "1228",
 	# 					"1389", "1425", "1446", "1563", "1568"]
-	bug_issue_ids = ["53"]
+	#bug_issue_ids = ["53"]
 	
 	#bug_issue_ids = ["11", "55", "56", "227", "1213", "1222", "1428"]
 
@@ -276,7 +276,7 @@ def main(args):
 	#bug_issue_ids = ["1406", "45", "1640"]
 
 	# Seventh Round
-	#bug_issue_ids = ["1150"]
+	bug_issue_ids = ["1150"]
 	
 	if args['operation']=="Filtering":
 		final_ranks_file = args['final_ranks_folder'] + "/" + args['operation'] + "#Screen-" + args['screen'] + "#Filtering-" + args['filtering'] + "#Query_Reformulation-" + args['query_reformulation'] + ".csv"
