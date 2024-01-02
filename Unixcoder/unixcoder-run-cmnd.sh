@@ -1,44 +1,39 @@
-export preprocessedDataPath=../data/PreprocessedData/PreprocessedQueries-round7
-export preprocessedCodePath=../data/PreprocessedData/PreprocessedCode-round7
-export jsonFilePath=../data/JSON-Files-All
-#Change this path
-#export buggy_project_dir=/Users/junayed/Documents/NecessaryDocs/GeorgeMasonUniversity/Research/Projects/BugLocalization/Backup/BuggyProjects
-#export buggy_project_dir=/scratch1/Clarity/junayed/BugLocalization/BuggyProjects
-#export buggy_project_dir=/Users/junayed/Documents/NecessaryDocs/GeorgeMasonUniversity/Research/Projects/BugLocalization/FaultLocalizationCode/Projects/BuggyProjects-round2
-export buggy_project_dir=/scratch1/Clarity/junayed/BugLocalization/FaultLocalizationCode/Projects/BuggyProjects-round7
-#Change this path
-#export filtered_boosted_files_in_repo=/Users/junayed/Documents/NecessaryDocs/GeorgeMasonUniversity/Research/Projects/BugLocalization/Backup/FilteredBoostedProjects
-#export filtered_boosted_files_in_repo=/scratch1/Clarity/junayed/BugLocalization/FilteredBoostedProjects
-#export filtered_boosted_files_in_repo=/Users/junayed/Documents/NecessaryDocs/GeorgeMasonUniversity/Research/Projects/BugLocalization/FaultLocalizationCode/Projects/FilteredBoostedProjects-round2
-export filtered_boosted_files_in_repo=/scratch1/Clarity/junayed/BugLocalization/FaultLocalizationCode/Projects/FilteredBoostedProjects-round7
-#The temporary results will be saved here
-export result_folder=results-SeventhRound
+export preprocessedDataPath=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/PreprocessedData/PreprocessedBugReports
+export preprocessedCodePath=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/PreprocessedData/PreprocessedCode
+export jsonFilePath=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/BugLocalizationGroundTruth
 
-#At the beginning, delete the following two folders manually in exists
+export buggy_project_dir=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/BuggyProjects
+
+export filtered_boosted_files_in_repo=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/Augmenation-Corpus
+export filtered_boosted_filenames=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/Augmentation-Info
+
+#The temporary results will be saved here
+export result_folder=results
+
+#Delete the following two folders if exists
 #Temporary text embeddings will be saved here
-export embeddings_folder=embeddings-SeventhRound
-#Similarity Scores will be saved here. Basically if the cosine similarity scores are already computed, we will not have to recompute that again.
-export similarity_folder=similarityScores-SeventhRound
+export embeddings_folder=embeddings
+export similarity_folder=similarityScores
 
 #Final Results with the proper format will be saved here
-export final_ranks_folder=../FinalResultComputation/AllResults/UniXCoder-round7
-export filtered_boosted_filenames=../data/FilteringBoostingFileNames-round7
+export final_ranks_folder=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/UI-Bug-Localization-Study/Results/UniXCoder
 
 # This path will not be changed
-export preprocessed_code_dir=/Users/junayed/Documents/NecessaryDocs/GeorgeMasonUniversity/Research/Projects/BugLocalization/Backup/CodeUnused/BuggyProjects
+export preprocessed_code_dir=/Users/sagelab/Documents/Projects/BugLocalization/BuggyProjects
 
-export filtering_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
-	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
-export boosting_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
-	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
-export query_reformulation_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
-	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
-export screen_list=("2" "3" "4")
+# export filtering_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
+# 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
+# export boosting_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
+# 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
+# export query_reformulation_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
+# 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
+# export screen_list=("2" "3" "4")
 
-#export filtering_list=("GUI_States" "GUI_State_and_All_GUI_Component_IDs")
-#export boosting_list=("GUI_States")
-#export query_reformulation_list=("GUI_States")
-#export screen_list=("4")
+export filtering_list=("GUI_States" "GUI_State_and_All_GUI_Component_IDs")
+export boosting_list=("GUI_States")
+export query_reformulation_list=("GUI_States")
+export screen_list=("4")
+
 
 # #For Boosting
 for j in ${!boosting_list[@]}; do 

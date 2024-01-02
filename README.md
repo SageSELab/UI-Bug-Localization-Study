@@ -11,6 +11,14 @@
 ```sentenceBERT/sentencebert-max-cmnd.sh```: Run to get all results for SentenceBERT
 
 ## UniXCoder
+### Dependency
+
+conda install python=3.7.6
+conda install pytorch=1.4.0
+conda install transformers=2.1.1
+conda install pandas=1.1.5
+
+
 ```Unixcoder/unixcoder-run-cmnd.sh```: Run to get all results for UniXCoder
 
 ## Lucene

@@ -2,14 +2,10 @@ export prep_data_dir=../data/PreprocessedData/BugLocatorQueries-bug53
 
 #Change this path
 export filtered_boosted_files_in_repo=/Users/junayed/Documents/NecessaryDocs/GeorgeMasonUniversity/Research/Projects/BugLocalization/Backup/FilteredBoostedProjects
-#export filtered_boosted_files_in_repo=/scratch1/Clarity/junayed/BugLocalization/FilteredBoostedProjects
-#export filtered_boosted_files_in_repo=/scratch1/Clarity/junayed/BugLocalization/FaultLocalizationCode/Projects/FilteredBoostedProjects-round5
-#export filtered_boosted_files_in_repo=/Users/junayed/Documents/NecessaryDocs/GeorgeMasonUniversity/Research/Projects/BugLocalization/FaultLocalizationCode/Projects/FilteredBoostedProjects-round7
 
 export temp_data_dir=temp_xml_dir
 export temp_result_dir=results
-#export final_ranks_folder=../FinalResultComputation/AllResults/BugLocator-round7
-#export filtered_boosted_filenames=../data/FilteringBoostingFileNames-round7
+
 export final_ranks_folder=../FinalResultComputation/AllResults/BugLocator53-2
 export filtered_boosted_filenames=../data/FilteringBoostingFileNames
 

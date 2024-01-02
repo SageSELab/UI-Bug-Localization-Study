@@ -374,35 +374,15 @@ def merge_query_matching_ranks(bug_issue_ids, final_ranks_file, matched_file,
         write_to_csv(final_ranks_file, data_row)
 
 def main(args):
-    # First Round
-    #bug_issue_ids = ["2", "8", "10", "18", "19", "44",
-    #               "53", "71", "117", "128", "129", "130",
-    #              "135", "191", "201", "206", "209", "256",
-    #                "1073", "1096", "1146",
-    #                "1147", "1151", "1202", "1205", "1207",
-    #                "1214", "1215", "1223", "1224",
-    #                "1299", "1399", "1406", "1430", "1441",
-    #                "1445", "1481", "1645", "45", "54", "76", "92", "101", "106", "110", "158", "160", "162", "168",
-    #                 "192", "199", "200", "248", "1150", "1198", "1228",
-    #                "1389", "1425", "1446", "1563", "1568", "1641"]
-
-    # Second Round
-    #bug_issue_ids = ["11", "55", "56", "227", "1213", "1222", "1428"]
-
-    #Third Round
-    #bug_issue_ids = ["84", "87", "151", "159", "193", "271", "275", "1028", "1089", "1130", "1402", "1403"]
-
-    # Fourth Round
-    # bug_issue_ids = ["71", "201", "1641"]
-
-    # Fifth Round
-    # bug_issue_ids = ["1096", "1146", "1147", "1151", "1223", "1645", "106", "110", "168", "271"]
-
-    # Sixth Round
-    #bug_issue_ids = ["1406", "45", "1640"]
-
-    # Seventh Round
-    bug_issue_ids = ["1150"]
+    #bug_issue_ids = ["1150"]
+    bug_issue_ids = ["2", "8", "10", "11", 
+                "18", "19", "44", "45", "53", "54", "55", "56", "71", "76", "84", "87", "92", "106", "110",
+                "117", "128", "129", "130", "135", "158", "159", "160", "162", "168", "191", "192", "193",
+                "199", "200", "201", "206", "209", "227", "248", "256", "271", "275", "1028", "1073", 
+                "1089", "1096", "1130", "1146", "1147", "1150", "1151", "1198", "1202", "1205", "1207",
+                "1213", "1214", "1215", "1222", "1223", "1224", "1228", "1299", "1389", "1399", "1402",
+                "1403", "1406", "1425", "1428", "1430", "1441", "1445", "1446", "1481", "1563", "1568", 
+                "1640", "1641", "1645"]
 
     #Get preprocessed queries
     prep_query_path = "Screen-" + args['screen'] + "/Preprocessed_with_" + args['query_reformulation']
@@ -427,19 +407,19 @@ def main(args):
     elif args['operations']=='Boosting':
         corpus_path = "Screen-" + args['screen'] + "/" + "Corpus-" + "All_Java_Files" 
         boosting_path = corpus_path + "/Boosting-" + args['boosting']
-        file_search_and_rankings("MathedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
+        file_search_and_rankings("MatchedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
             args['filtered_boosted_repo'], args['buggy_project_dir'], 
             args['prep_data_path'], args['json_file_path'], args['preprocessed_code_dir'], 
             prep_query_path, args['prep_code_path'], emb_path, sim_path, args['query_reformulation'])
-        file_search_and_rankings("NotMathedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
+        file_search_and_rankings("NotMatchedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
             args['filtered_boosted_repo'], args['buggy_project_dir'], 
             args['prep_data_path'], args['json_file_path'], args['preprocessed_code_dir'], 
             prep_query_path, args['prep_code_path'], emb_path, sim_path, args['query_reformulation'])
 
         final_ranks_file = args['final_ranks_folder'] + "/" + args['operations'] + "#Screen-" + args['screen'] + "#Boosting-" + args['boosting'] + "#Query_Reformulation-" + args['query_reformulation'] + ".csv"
         matched_file = args['filtered_boosted_filenames'] + "/" + boosting_path + "/Match_Query_File_List.csv"
-        matched_ranks_folder = args['result'] + "/" + boosting_path + "/QueryReformulation-" + args['query_reformulation'] + "/" + "MathedQueryFiles"
-        not_matched_ranks_folder = args['result'] + "/" + boosting_path + "/QueryReformulation-" + args['query_reformulation'] + "/" + "NotMathedQueryFiles"
+        matched_ranks_folder = args['result'] + "/" + boosting_path + "/QueryReformulation-" + args['query_reformulation'] + "/" + "MatchedQueryFiles"
+        not_matched_ranks_folder = args['result'] + "/" + boosting_path + "/QueryReformulation-" + args['query_reformulation'] + "/" + "NotMatchedQueryFiles"
 
         create_final_result_header(final_ranks_file)
         merge_query_matching_ranks(bug_issue_ids, final_ranks_file, matched_file, 
@@ -448,19 +428,19 @@ def main(args):
     elif args['operations']=='Filtering+Boosting':
         corpus_path = "Screen-" + args['screen'] + "/" + "Corpus-" + args['filtering'] 
         boosting_path = corpus_path + "/Boosting-" + args['boosting']
-        file_search_and_rankings("MathedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
+        file_search_and_rankings("MatchedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
             args['filtered_boosted_repo'], args['buggy_project_dir'], 
             args['prep_data_path'], args['json_file_path'], args['preprocessed_code_dir'], 
             prep_query_path, args['prep_code_path'], emb_path, sim_path, args['query_reformulation'])
-        file_search_and_rankings("NotMathedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
+        file_search_and_rankings("NotMatchedQueryFiles", bug_issue_ids, args['result'], boosting_path, 
             args['filtered_boosted_repo'], args['buggy_project_dir'], 
             args['prep_data_path'], args['json_file_path'], args['preprocessed_code_dir'], 
             prep_query_path, args['prep_code_path'], emb_path, sim_path, args['query_reformulation'])
 
         final_ranks_file = args['final_ranks_folder'] + "/" + args['operations'] + "#Screen-" + args['screen'] + "#Filtering-" + args['filtering'] + "#Boosting-" + args['boosting'] + "#Query_Reformulation-" + args['query_reformulation'] + ".csv"
         matched_file = args['filtered_boosted_filenames'] + "/" + boosting_path + "/Match_Query_File_List.csv"
-        matched_ranks_folder = args['result'] + "/" + boosting_path + "/QueryReformulation-" + args['query_reformulation'] + "/" + "MathedQueryFiles"
-        not_matched_ranks_folder = args['result'] + "/" + boosting_path + "/QueryReformulation-" + args['query_reformulation'] + "/" + "NotMathedQueryFiles"
+        matched_ranks_folder = args['result'] + "/" + boosting_path + "/QueryReformulation-" + args['query_reformulation'] + "/" + "MatchedQueryFiles"
+        not_matched_ranks_folder = args['result'] + "/" + boosting_path + "/QueryReformulation-" + args['query_reformulation'] + "/" + "NotMatchedQueryFiles"
 
         create_final_result_header(final_ranks_file)
         merge_query_matching_ranks(bug_issue_ids, final_ranks_file, matched_file, 
