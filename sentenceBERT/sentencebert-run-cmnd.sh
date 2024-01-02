@@ -17,8 +17,8 @@ export similarity_folder=similarityScores
 #Final Results with the proper format will be saved here
 export final_ranks_folder=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/UI-Bug-Localization-Study/Results/SentenceBERT
 
-# This path will not be changed
-export preprocessed_code_dir=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/BuggyProjects
+# This path is the directory of the source code projects that was used during preprocessing
+export preprocessed_code_dir=/Users/sagelab/Documents/Projects/BugLocalization/BuggyProjects
 
 export filtering_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
@@ -27,6 +27,28 @@ export boosting_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and
 export query_reformulation_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
 export screen_list=("2" "3" "4")
+
+# export filtering_list=("GUI_States" "GUI_State_and_All_GUI_Component_IDs")
+# export boosting_list=("GUI_States")
+# export query_reformulation_list=("GUI_States")
+# export screen_list=("4")
+
+# #For Boosting
+for j in ${!boosting_list[@]}; do 
+	for k in ${!query_reformulation_list[@]}; do
+		for l in ${!screen_list[@]}; do 
+			echo "Boosting: B-${boosting_list[$j]}#Q-${query_reformulation_list[$k]}#S-${screen_list[$l]}"
+			python sentenceBert-FBQ.py -b ${boosting_list[$j]} \
+				-q ${query_reformulation_list[$k]} -s ${screen_list[$l]}  \
+				-rf $result_folder \
+				-bpd $buggy_project_dir -pcd ${preprocessed_code_dir}\
+				-fbr $filtered_boosted_files_in_repo -preq $preprocessedDataPath -jpath $jsonFilePath \
+				-ops Boosting -prec $preprocessedCodePath -franks $final_ranks_folder \
+				-fbfilenames $filtered_boosted_filenames -emb $embeddings_folder \
+				-sim $similarity_folder
+		done
+	done
+done
 
 #For Filtering and boosting
 for i in ${!filtering_list[@]}; do
@@ -77,23 +99,6 @@ for i in ${!filtering_list[@]}; do
 				-bpd $buggy_project_dir -pcd ${preprocessed_code_dir}\
 				-fbr $filtered_boosted_files_in_repo -preq $preprocessedDataPath -jpath $jsonFilePath \
 				-ops Filtering -prec $preprocessedCodePath -franks $final_ranks_folder \
-				-fbfilenames $filtered_boosted_filenames -emb $embeddings_folder \
-				-sim $similarity_folder
-		done
-	done
-done
-
-# #For Boosting
-for j in ${!boosting_list[@]}; do 
-	for k in ${!query_reformulation_list[@]}; do
-		for l in ${!screen_list[@]}; do 
-			echo "Boosting: B-${boosting_list[$j]}#Q-${query_reformulation_list[$k]}#S-${screen_list[$l]}"
-			python sentenceBert-FBQ.py -b ${boosting_list[$j]} \
-				-q ${query_reformulation_list[$k]} -s ${screen_list[$l]}  \
-				-rf $result_folder \
-				-bpd $buggy_project_dir -pcd ${preprocessed_code_dir}\
-				-fbr $filtered_boosted_files_in_repo -preq $preprocessedDataPath -jpath $jsonFilePath \
-				-ops Boosting -prec $preprocessedCodePath -franks $final_ranks_folder \
 				-fbfilenames $filtered_boosted_filenames -emb $embeddings_folder \
 				-sim $similarity_folder
 		done

@@ -18,21 +18,21 @@ export similarity_folder=similarityScores
 #Final Results with the proper format will be saved here
 export final_ranks_folder=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/UI-Bug-Localization-Study/Results/UniXCoder
 
-# This path will not be changed
+# This path is the directory of the source code projects that was used during preprocessing
 export preprocessed_code_dir=/Users/sagelab/Documents/Projects/BugLocalization/BuggyProjects
 
-# export filtering_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
-# 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
-# export boosting_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
-# 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
-# export query_reformulation_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
-# 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
-# export screen_list=("2" "3" "4")
+export filtering_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
+	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
+export boosting_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
+	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
+export query_reformulation_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
+	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
+export screen_list=("2" "3" "4")
 
-export filtering_list=("GUI_States" "GUI_State_and_All_GUI_Component_IDs")
-export boosting_list=("GUI_States")
-export query_reformulation_list=("GUI_States")
-export screen_list=("4")
+# export filtering_list=("GUI_States" "GUI_State_and_All_GUI_Component_IDs")
+# export boosting_list=("GUI_States")
+# export query_reformulation_list=("GUI_States")
+# export screen_list=("4")
 
 
 # #For Boosting
