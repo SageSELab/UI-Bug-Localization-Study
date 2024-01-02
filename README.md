@@ -39,18 +39,25 @@ conda install pandas=1.1.5
 ## Lucene
 - Install JDK 11+
 - Install Apache Maven using the following command:
-```conda install -c conda-forge maven=3.9.6```
+```
+conda install -c conda-forge maven=3.9.6
+```
 -  Clone the following Repos:
     - [appcore](https://github.com/ojcchar/appcore)
     - [text-analyzer](https://github.com/ojcchar/text-analyzer)
 - Go to ```appcore/appcore``` in the terminal and run the following command:
-    ```./gradlew clean testClasses install```
+```
+./gradlew clean testClasses install
+```
 - Go to ```text-analyzer/text-analyzer``` in the terminal and run the following command:
-    ```./gradlew clean testClasses install```
+```
+./gradlew clean testClasses install
+```
 - Go to ```Lucene/lib``` in the terminal and run the following command:
-    ```mvn install:install-file "-Dfile=ir4se-fwk-0.0.2.jar" "-DgroupId=edu.wayne.cs.severe" "-DartifactId=ir4se-fwk" "-Dversion=0.0.2" "-Dpackaging=jar"```
-- Run the following shell script:
-  ```Lucene/run_cmnd.sh```
+```
+mvn install:install-file "-Dfile=ir4se-fwk-0.0.2.jar" "-DgroupId=edu.wayne.cs.severe" "-DartifactId=ir4se-fwk" "-Dversion=0.0.2" "-Dpackaging=jar"
+``````
+- Run the following shell script: ```Lucene/run_cmnd.sh```
 
 ## BugLocator
 ### Dependency
