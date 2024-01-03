@@ -1,6 +1,12 @@
-export buggy_project_dir=/Users/sagelab/Documents/Projects/BugLocalization/BuggyProjects
-export filtering_boosting_filenames=/Users/sagelab/Documents/Projects/BugLocalization/FL-final/FaultLocalizationCode-ICSE/data/Augmentation-Info
-export filtered_boosted_files_in_repo=/Users/sagelab/Documents/Projects/BugLocalization/FL-final/FaultLocalizationCode-ICSE/data/Augmenation-Corpus
+# Data directory
+data_dir=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data
+
+# The path of the source code repositories
+export buggy_project_dir=${data_dir}/BuggyProjects
+# The path of the GUI info. In the data repository, this folder is named Augmentation-Info.
+export filtering_boosting_filenames=${data_dir}/Augmentation-Info
+# Output: This path contains the path where the filtered corpus will be saved. After searching according to different queries, we will remove the files that are irrelevant to the queries.
+export filtered_boosted_files_in_repo=${data_dir}/Augmenation-Corpus
 
 screens=("4" "3" "2")
 corpus_types=("All_Java_Files" "GUI_State_and_All_GUI_Component_IDs" "All_GUI_Component_IDs"
@@ -21,4 +27,4 @@ for i in ${!screens[@]}; do
 			-bpd $buggy_project_dir -fbfile $filtering_boosting_filenames \
 			-fbr $filtered_boosted_files_in_repo -bpdcsv $buggy_project_dir -ops Filtering
 	done
-done
+donegi

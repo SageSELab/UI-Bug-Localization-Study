@@ -10,12 +10,14 @@ One of the significant challenges in bug report management involves localizing t
 Our study explores leveraging graphical user interfaces (GUIs) in bug localization, which no prior research has thoroughly investigated. GUI information is readily obtainable and encapsulates the latent features of an application, manifested in pixel-based (i.e., screenshots) and metadata-based (i.e., html/uiautomator) information. Our objective is to utilize GUI information to boost the ranking of the files and also utilize it in query reformulation. We posit that analyzing the GUI of the application screen where a bug occurs, along with the one to three preceding screens, can aid in identifying faults in code. We refer to the GUI information on these screens as GUI interaction data. In our research, we specifically utilize three types of GUI interaction data: (1) the Activity and Window information for specific app screens, (2) the GUI components present in the selected app screens, and (3) the GUI components with which the user interacted on the selected app screens during bug reproduction. We believe that GUI interaction data can (i) filter out irrelevant files, (ii) boost relevant files, and (iii) aid in query reformulation.
 
 To assess the effectiveness of GUI in bug localization, we employ four baseline approaches: BugLocator [1], Lucene [2], sentenceBERT [3], and UniXCoder [4]. Our focus is on bug localization within Android apps, specifically for four bug categories: crash, navigation, output, and cosmetic bugs. Our dataset comprises 80 fully localized Android bugs from 39 apps, with associated bug reproduction scenarios and GUI metadata. We compare these baseline TR-based bug localization approaches to 657 different configurations. Our findings reveal that the best-performing configurations of these techniques outperform the baseline approaches, resulting in an improvement in Hits@10 ranging from 13\% to 18\%. These augmentations imply that more files appear in the top-10 ranking of buggy files. Consequently, our results support the rationale that leveraging GUI information enhances bug localization approaches.
-### Dependency
+
+### InitialSteps
+The entire experiment has been done on Mac. We recommend using x86_64 architecture on Mac. However, if a user is using Arm architecure, there is a workaround by running the following command to emulate x86_64:
+
 ```
 conda config --env --set subdir osx-64
 ```
 
-### InitialSteps
 ```ExtractGUIInformation/filter_files_cmnd.sh``` : Get all the filterted corpus and files which we need to boost
 
 ```AugmentationCorpus/match_files_from_repo.sh```: Copy and paste files to a new directory based on query matching

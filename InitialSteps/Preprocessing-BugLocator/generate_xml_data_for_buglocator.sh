@@ -1,9 +1,16 @@
-export preprocessedDataPath=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/PreprocessedData
+# Data directory
+data_dir=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data
+
+# Preprocessed data path
+export preprocessedDataPath=${data_dir}/PreprocessedData
 export query_reformulation_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
 export screen_list=("2" "3" "4")
-export generated_data_path=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/PreprocessedData/BugLocatorQueries
-export jsonFilePath=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/BugLocalizationGroundTruth
+# Bug Localization Ground Truth
+export jsonFilePath=${data_dir}/BugLocalizationGroundTruth
+
+# Output: The path where the queries for buglocator will be saved.
+export generated_data_path=${data_dir}/PreprocessedData/BugLocatorQueries
 
 for k in ${!query_reformulation_list[@]}; do
 	for l in ${!screen_list[@]}; do 
