@@ -120,13 +120,14 @@ conda install lxml=4.9.1
 ``BugLocator/buglocator-cmnd-small.sh```: Run to get rankings for a subset of configuartions for BugLocator.
 
 ## Metrics
-```ResultComputation/results_summary.py```: Get metrics
+```ResultComputation/results-summary-all.py```: Running the previous baselines will provide ranks of the buggy files. To calculate metrics for all configurations, the user needs to update the ```approach_name``` variable with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
+```ResultComputation/results-summary-small.py```: To calculate metrics for a subset of configurations, the user needs to update the ```approach_name``` variable with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
 
 ### References
 1. Jian Zhou, Hongyu Zhang, and David Lo. 2012. Where Should the Bugs Be Fixed? More Accurate Information Retrieval-Based Bug Localization Based on Bug Reports. In ICSE’12. 14–24.
 2. Apache Lucene - https://lucene.apache.org (2023).
 3. Nils Reimers and Iryna Gurevych. 2019. Sentence-bert: Sentence embeddings using siamese bert-networks. EMNLP’19 (2019).
-4. DayaGuo,ShuaiLu,NanDuan,YanlinWang,MingZhou,andJianYin.2022. UniXcoder: Uni￿ed Cross-Modal Pre-training for Code Representation. ACL’22 (2022).
+4. Daya Guo, Shuai Lu, Nan Duan,Yanlin Wang, Ming Zhou, and Jian Yin. 2022. UniXcoder: Uni￿ed Cross-Modal Pre-training for Code Representation. ACL’22 (2022).
 
 
 

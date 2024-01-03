@@ -278,32 +278,40 @@ def get_result_for_each_row(operation,filtering_gui, boosting_gui, query_reformu
 	all_bug_report_ids = bug_report_ids
 
 	row = []
-	row.append(operation)
-
-	if filtering_gui=="":
-		row.append("NO")
+	if filtering_gui=="" and boosting_gui=="" and reformulation_type == "BR":
+		row.append("Baseline")
+		row.append("")
+		row.append("")
+		row.append("")
+		row.append("")
+		row.append("")
 	else:
-		row.append(filtering_gui)
+		row.append(operation)
 
-	if boosting_gui=="":
-		row.append("NO")
-	else:
-		row.append(boosting_gui)
+		if filtering_gui=="":
+			row.append("NO")
+		else:
+			row.append(filtering_gui)
 
-	if reformulation_type == "QE":
-		row.append(query_reformulation_gui)
-		row.append("None")
-	elif reformulation_type == "QR":
-		row.append("None")
-		row.append(query_reformulation_gui)
-	elif reformulation_type == "BR":
-		row.append("None")
-		row.append("None")
+		if boosting_gui=="":
+			row.append("NO")
+		else:
+			row.append(boosting_gui)
 
-	if screen=="":
-		row.append("NA")
-	else:
-		row.append(screen)
+		if reformulation_type == "QE":
+			row.append(query_reformulation_gui)
+			row.append("None")
+		elif reformulation_type == "QR":
+			row.append("None")
+			row.append(query_reformulation_gui)
+		elif reformulation_type == "BR":
+			row.append("None")
+			row.append("None")
+
+		if screen=="":
+			row.append("NA")
+		else:
+			row.append(screen)
 
 	filename_info = row
 
@@ -328,111 +336,112 @@ def get_result_for_each_row(operation,filtering_gui, boosting_gui, query_reformu
 	return row
 
 def main():
-	approach_name = "Lucene"
-	prepocessed_data_dir = "/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/PreprocessedData"
-	result_dir = "../Results/" + approach_name + "/FinalRankings"
-	calc_dir = "/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/UI-Bug-Localization-Study/Results/Lucene/CalculatedResults"
+	approach_name = "Lucene" # BugLocator or Lucene or SentenceBERT or UniXCoder
+	data_dir = "/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data"
+	package_dir = "/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/UI-Bug-Localization-Study"
+
+	prepocessed_data_dir = data_dir + "/PreprocessedData"
+	
+	result_dir = package_dir + "/Results/" + approach_name 
+	calc_dir = package_dir + "/Results/Lucene/OtherResults"
 	final_ranks_folder = calc_dir + "/RanksAll/" + approach_name 
 	file_ranks_folder = calc_dir + "/FileRanksAll/" + approach_name
 	
-	screen_list=["2", "3", "4"]
-	filtering_list=["GUI_States", "Interacted_GUI_Component_IDs", "GUI_State_and_Interacted_GUI_Component_IDs", 
-	"All_GUI_Component_IDs", "GUI_State_and_All_GUI_Component_IDs"]
-	boosting_list=["GUI_States", "Interacted_GUI_Component_IDs", "GUI_State_and_Interacted_GUI_Component_IDs",
-		"All_GUI_Component_IDs", "GUI_State_and_All_GUI_Component_IDs"]
-	query_reformulation_list=["GUI_States", "Interacted_GUI_Component_IDs", "GUI_State_and_Interacted_GUI_Component_IDs",
-		"All_GUI_Component_IDs", "GUI_State_and_All_GUI_Component_IDs"]
+	screen_list=["4"]
+	filtering_list=["GUI_States", "GUI_State_and_All_GUI_Component_IDs"]
+	boosting_list=["GUI_States"]
+	query_reformulation_list=["GUI_States"]
 	reformulation_types =["Ranks (Query-Bug Report)", "Ranks (Query Replacement)", "Ranks (Query Expansion 1)"]
 	reformulation_cols = ["BR", "QR", "QE"]
 
 	metric_file = calc_dir + "/MetricsAll/" + approach_name + "Results.csv"
 	write_header_for_approach_rankings(metric_file)
 
-	# #Filtering
-	# for filtering_gui in filtering_list:
-	# 	for screen in screen_list:
-	# 		row = get_result_for_each_row("Filtering",filtering_gui, "", "GUI_States", screen, "Ranks (Query-Bug Report)", "Ranks-unsorted (Query-Bug Report)", "Files (Query-Bug Report)",
-	# 					"BR", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
-	# 		write_to_csv(metric_file, row)
-	# for query_reformulation_gui in query_reformulation_list:
-	# 	for filtering_gui in filtering_list:
-	# 		for screen in screen_list:
-	# 			row = get_result_for_each_row("Filtering",filtering_gui, "", query_reformulation_gui, screen, "Ranks (Query Expansion 1)", "Ranks-unsorted (Query Expansion 1)", "Files (Query Expansion 1)",
-	# 				"QE", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
-	# 			write_to_csv(metric_file, row)
-	# for query_reformulation_gui in query_reformulation_list:
-	# 	for filtering_gui in filtering_list:
-	# 		for screen in screen_list:
-	# 			row = get_result_for_each_row("Filtering",filtering_gui, "", query_reformulation_gui, screen, "Ranks (Query Replacement)", "Ranks-unsorted (Query Replacement)", "Files (Query Replacement)",
-	# 				"QR", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
-	# 			write_to_csv(metric_file, row)
+	#Filtering
+	for filtering_gui in filtering_list:
+		for screen in screen_list:
+			row = get_result_for_each_row("Filtering",filtering_gui, "", "GUI_States", screen, "Ranks (Query-Bug Report)", "Ranks-unsorted (Query-Bug Report)", "Files (Query-Bug Report)",
+						"BR", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
+			write_to_csv(metric_file, row)
+	for query_reformulation_gui in query_reformulation_list:
+		for filtering_gui in filtering_list:
+			for screen in screen_list:
+				row = get_result_for_each_row("Filtering",filtering_gui, "", query_reformulation_gui, screen, "Ranks (Query Expansion 1)", "Ranks-unsorted (Query Expansion 1)", "Files (Query Expansion 1)",
+					"QE", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
+				write_to_csv(metric_file, row)
+	for query_reformulation_gui in query_reformulation_list:
+		for filtering_gui in filtering_list:
+			for screen in screen_list:
+				row = get_result_for_each_row("Filtering",filtering_gui, "", query_reformulation_gui, screen, "Ranks (Query Replacement)", "Ranks-unsorted (Query Replacement)", "Files (Query Replacement)",
+					"QR", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
+				write_to_csv(metric_file, row)
 
-	# #Boosting
-	# for boosting_gui in boosting_list:
-	# 	for screen in screen_list:
-	# 		row = get_result_for_each_row("Boosting","", boosting_gui, "GUI_States", screen, "Ranks (Query-Bug Report)", "Ranks-unsorted (Query-Bug Report)", "Files (Query-Bug Report)",
-	# 					"BR", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
-	# 		write_to_csv(metric_file, row)
-	# for query_reformulation_gui in query_reformulation_list:
-	# 	for boosting_gui in boosting_list:
-	# 		for screen in screen_list:
-	# 			row = get_result_for_each_row("Boosting","", boosting_gui, query_reformulation_gui, screen, "Ranks (Query Expansion 1)", "Ranks-unsorted (Query Expansion 1)", "Files (Query Expansion 1)",
-	# 				"QE", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
-	# 			write_to_csv(metric_file, row)
-	# for query_reformulation_gui in query_reformulation_list:
-	# 	for boosting_gui in boosting_list:
-	# 		for screen in screen_list:
-	# 			row = get_result_for_each_row("Boosting","", boosting_gui, query_reformulation_gui, screen, "Ranks (Query Replacement)", "Ranks-unsorted (Query Replacement)", "Files (Query Replacement)",
-	# 				"QR", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
-	# 			write_to_csv(metric_file, row)
+	#Boosting
+	for boosting_gui in boosting_list:
+		for screen in screen_list:
+			row = get_result_for_each_row("Boosting","", boosting_gui, "GUI_States", screen, "Ranks (Query-Bug Report)", "Ranks-unsorted (Query-Bug Report)", "Files (Query-Bug Report)",
+						"BR", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
+			write_to_csv(metric_file, row)
+	for query_reformulation_gui in query_reformulation_list:
+		for boosting_gui in boosting_list:
+			for screen in screen_list:
+				row = get_result_for_each_row("Boosting","", boosting_gui, query_reformulation_gui, screen, "Ranks (Query Expansion 1)", "Ranks-unsorted (Query Expansion 1)", "Files (Query Expansion 1)",
+					"QE", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
+				write_to_csv(metric_file, row)
+	for query_reformulation_gui in query_reformulation_list:
+		for boosting_gui in boosting_list:
+			for screen in screen_list:
+				row = get_result_for_each_row("Boosting","", boosting_gui, query_reformulation_gui, screen, "Ranks (Query Replacement)", "Ranks-unsorted (Query Replacement)", "Files (Query Replacement)",
+					"QR", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
+				write_to_csv(metric_file, row)
 
-	# #For Filtering+Boosting
-	# for i in range(2, len(filtering_list)):
-	# 	for l in range(len(screen_list)):
-	# 		boosting_gui_type=[]
-	# 		index = 0
-	# 		for j in range(len(boosting_list)):
-	# 			if index < i:
-	# 				boosting_gui_type.append(boosting_list[j])
-	# 				index+=1
-	# 			else:
-	# 				break
-	# 		for j in range(len(boosting_gui_type)):
-	# 			row = get_result_for_each_row("Filtering+Boosting", filtering_list[i], boosting_gui_type[j], "GUI_States", screen_list[l], "Ranks (Query-Bug Report)", "Ranks-unsorted (Query-Bug Report)", "Files (Query-Bug Report)",
-	# 					"BR", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
-	# 			write_to_csv(metric_file, row)
+	#For Filtering+Boosting
+	for i in range(2, len(filtering_list)):
+		for l in range(len(screen_list)):
+			boosting_gui_type=[]
+			index = 0
+			for j in range(len(boosting_list)):
+				if index < i:
+					boosting_gui_type.append(boosting_list[j])
+					index+=1
+				else:
+					break
+			for j in range(len(boosting_gui_type)):
+				row = get_result_for_each_row("Filtering+Boosting", filtering_list[i], boosting_gui_type[j], "GUI_States", screen_list[l], "Ranks (Query-Bug Report)", "Ranks-unsorted (Query-Bug Report)", "Files (Query-Bug Report)",
+						"BR", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
+				write_to_csv(metric_file, row)
 
-	# for k in range(len(query_reformulation_list)):
-	# 	for i in range(2, len(filtering_list)):
-	# 		for l in range(len(screen_list)):
-	# 			boosting_gui_type=[]
-	# 			index = 0
-	# 			for j in range(len(boosting_list)):
-	# 				if index < i:
-	# 					boosting_gui_type.append(boosting_list[j])
-	# 					index+=1
-	# 				else:
-	# 					break
-	# 			for j in range(len(boosting_gui_type)):
-	# 				row = get_result_for_each_row("Filtering+Boosting", filtering_list[i], boosting_gui_type[j], query_reformulation_list[k], 
-	# 				screen_list[l], "Ranks (Query Expansion 1)", "Ranks-unsorted (Query Expansion 1)", "Files (Query Expansion 1)", "QE", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
-	# 				write_to_csv(metric_file, row)
+	for k in range(len(query_reformulation_list)):
+		for i in range(2, len(filtering_list)):
+			for l in range(len(screen_list)):
+				boosting_gui_type=[]
+				index = 0
+				for j in range(len(boosting_list)):
+					if index < i:
+						boosting_gui_type.append(boosting_list[j])
+						index+=1
+					else:
+						break
+				for j in range(len(boosting_gui_type)):
+					row = get_result_for_each_row("Filtering+Boosting", filtering_list[i], boosting_gui_type[j], query_reformulation_list[k], 
+					screen_list[l], "Ranks (Query Expansion 1)", "Ranks-unsorted (Query Expansion 1)", "Files (Query Expansion 1)", "QE", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
+					write_to_csv(metric_file, row)
 
-	# for k in range(len(query_reformulation_list)):
-	# 	for i in range(2, len(filtering_list)):
-	# 		for l in range(len(screen_list)):
-	# 			boosting_gui_type=[]
-	# 			index = 0
-	# 			for j in range(len(boosting_list)):
-	# 				if index < i:
-	# 					boosting_gui_type.append(boosting_list[j])
-	# 					index+=1
-	# 				else:
-	# 					break
-	# 			for j in range(len(boosting_gui_type)):
-	# 				row = get_result_for_each_row("Filtering+Boosting", filtering_list[i], boosting_gui_type[j], query_reformulation_list[k], 
-	# 				screen_list[l], "Ranks (Query Replacement)", "Ranks-unsorted (Query Replacement)", "Files (Query Replacement)", "QR", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
-	# 				write_to_csv(metric_file, row)
+	for k in range(len(query_reformulation_list)):
+		for i in range(2, len(filtering_list)):
+			for l in range(len(screen_list)):
+				boosting_gui_type=[]
+				index = 0
+				for j in range(len(boosting_list)):
+					if index < i:
+						boosting_gui_type.append(boosting_list[j])
+						index+=1
+					else:
+						break
+				for j in range(len(boosting_gui_type)):
+					row = get_result_for_each_row("Filtering+Boosting", filtering_list[i], boosting_gui_type[j], query_reformulation_list[k], 
+					screen_list[l], "Ranks (Query Replacement)", "Ranks-unsorted (Query Replacement)", "Files (Query Replacement)", "QR", result_dir, final_ranks_folder, file_ranks_folder, approach_name, prepocessed_data_dir)
+					write_to_csv(metric_file, row)
 
 	# For query_reformulation
 	for l in range(len(screen_list)):
