@@ -1,24 +1,28 @@
-export preprocessedDataPath=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/PreprocessedData/PreprocessedBugReports
-export preprocessedCodePath=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/PreprocessedData/PreprocessedCode
-export jsonFilePath=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/BugLocalizationGroundTruth
+# Data directory
+data_dir=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data
+package_dir=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/UI-Bug-Localization-Study
 
-export buggy_project_dir=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/BuggyProjects
+export preprocessedDataPath=${data_dir}/PreprocessedData/PreprocessedBugReports
+export preprocessedCodePath=${data_dir}/PreprocessedData/PreprocessedCode
+export jsonFilePath=${data_dir}/BugLocalizationGroundTruth
 
-export filtered_boosted_files_in_repo=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/Augmenation-Corpus
-export filtered_boosted_filenames=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/Augmentation-Info
+export buggy_project_dir=${data_dir}/BuggyProjects
+
+export filtered_boosted_files_in_repo=${data_dir}/Augmenation-Corpus
+export filtered_boosted_filenames=${data_dir}/Augmentation-Info
+
 #The temporary results will be saved here
-export result_folder=results
-
+export result_folder=temp_results
 #Temporary text embeddings will be saved here
 export embeddings_folder=embeddings
 #Similarity Scores will be saved here. Basically if the cosine similarity scores are already computed, we will not have to recompute that again.
 export similarity_folder=similarityScores
 
 #Final Results with the proper format will be saved here
-export final_ranks_folder=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/UI-Bug-Localization-Study/Results/SentenceBERT
+export final_ranks_folder=${package_dir}/Results/SentenceBERT
 
-# This path is the directory of the source code projects that was used during preprocessing
-export preprocessed_code_dir=/Users/sagelab/Documents/Projects/BugLocalization/BuggyProjects
+# This path is the directory of the source code projects that was used during preprocessing. If you are using our preprocessed data, the the path should be /Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/BuggyProjects
+export preprocessed_code_dir=${data_dir}/BuggyProjects
 
 export filtering_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
@@ -27,11 +31,6 @@ export boosting_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and
 export query_reformulation_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
 export screen_list=("2" "3" "4")
-
-# export filtering_list=("GUI_States" "GUI_State_and_All_GUI_Component_IDs")
-# export boosting_list=("GUI_States")
-# export query_reformulation_list=("GUI_States")
-# export screen_list=("4")
 
 # #For Boosting
 for j in ${!boosting_list[@]}; do 

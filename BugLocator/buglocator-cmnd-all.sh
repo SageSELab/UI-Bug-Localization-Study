@@ -1,25 +1,24 @@
-export prep_data_dir=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/PreprocessedData/BugLocatorQueries
+# Data directory
+data_dir=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data
+package_dir=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/UI-Bug-Localization-Study
 
-export filtered_boosted_files_in_repo=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/Augmenation-Corpus
-export filtered_boosted_filenames=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/Augmentation-Info
+export prep_data_dir=${data_dir}/PreprocessedData/BugLocatorQueries
+
+export filtered_boosted_files_in_repo=${data_dir}/Augmenation-Corpus
+export filtered_boosted_filenames=${data_dir}/Augmentation-Info
 
 export temp_data_dir=temp_xml_dir
-export temp_result_dir=results
+export temp_result_dir=temp_results
 
-export final_ranks_folder=/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/UI-Bug-Localization-Study/Results/BugLocator
+export final_ranks_folder=${package_dir}/Results/BugLocator
 
-# export filtering_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
-# 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
-# export boosting_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
-# 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
-# export query_reformulation_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
-# 	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
-# export screen_list=("2" "3" "4")
-
-export filtering_list=("GUI_States" "GUI_State_and_All_GUI_Component_IDs")
-export boosting_list=("GUI_States")
-export query_reformulation_list=("GUI_States")
-export screen_list=("4")
+export filtering_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
+	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
+export boosting_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
+	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
+export query_reformulation_list=("GUI_States" "Interacted_GUI_Component_IDs" "GUI_State_and_Interacted_GUI_Component_IDs" 
+	"All_GUI_Component_IDs" "GUI_State_and_All_GUI_Component_IDs")
+export screen_list=("2" "3" "4")
 
 #For Boosting
 for j in ${!boosting_list[@]}; do 

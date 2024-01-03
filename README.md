@@ -54,29 +54,33 @@ mvn install:install-file "-Dfile=ir4se-fwk-0.0.2.jar" "-DgroupId=edu.wayne.cs.se
 4. ```Preprocessing-BugLocator/generate_xml_data_for_buglocator.sh```: The preprocessing for BugLocator is different comparent to other approaches. A user needs to run this script to generate preprocessed queries for BugLocator.
 
 ## SentenceBERT
-### Dependency
+### Dependencies
+A user needs to run to following commands to perform enviroment setup.
 ```
 conda install python=3.7.6
 conda install pytorch=1.12.1
 conda install transformers=4.24.0
 conda install pandas=1.3.5
 ```
-
-```sentenceBERT/sentencebert-run-cmnd.sh```: Run to get all results for SentenceBERT
+### Run
+```sentenceBERT/sentencebert-cmnd-all.sh```: Run to get rankings for all configuartions for SentenceBERT.
+```sentenceBERT/sentencebert-cmnd-small.sh```: Run to get rankings for a subset of configuartions for SentenceBERT.
 
 ## UniXCoder
-### Dependency
-
+### Dependencies
+A user needs to run to following commands to perform enviroment setup.
 ```
 conda install python=3.7.6
 conda install pytorch=1.4.0
 conda install transformers=2.1.1
 conda install pandas=1.1.5
 ```
-
-```Unixcoder/unixcoder-run-cmnd.sh```: Run to get all results for UniXCoder
+### Run
+```Unixcoder/unixcoder-cmnd-all.sh```: Run to get rankings for all configuartions for UniXCoder.
+```Unixcoder/unixcoder-cmnd-small.sh```: Run to get rankings for a subset of configuartions for UniXCoder.
 
 ## Lucene
+### Environment Setup
 - Install JDK 11
 - Install Apache Maven using the following command:
 ```
@@ -96,11 +100,14 @@ conda install -c conda-forge maven=3.9.6
 - Go to ```Lucene/lib``` in the terminal and run the following command:
 ```
 mvn install:install-file "-Dfile=ir4se-fwk-0.0.2.jar" "-DgroupId=edu.wayne.cs.severe" "-DartifactId=ir4se-fwk" "-Dversion=0.0.2" "-Dpackaging=jar"
-``````
-- Run the following shell script: ```Lucene/run_cmnd.sh```
+```
+### Run
+```Lucene/lucene-cmnd-all.sh```: Run to get rankings for all configuartions for Lucene.
+```Lucene/lucene-cmnd-small.sh```: Run to get rankings for a subset of configuartions for Lucene.
 
 ## BugLocator
-### Dependency
+### Dependencies
+A user needs to run to following commands to perform enviroment setup.
 ```
 conda install python=3.7.6
 conda install bs4=4.11.1
@@ -108,7 +115,9 @@ conda install pandas=1.3.5
 conda install lxml=4.9.1
 ```
 
-```BugLocator/buglocator_cmnd.sh```: Run to get all results for BugLocator 
+### Run
+```BugLocator/buglocator-cmnd-all.sh```: Run to get rankings for all configuartions for BugLocator.
+``BugLocator/buglocator-cmnd-small.sh```: Run to get rankings for a subset of configuartions for BugLocator.
 
 ## Metrics
 ```ResultComputation/results_summary.py```: Get metrics
