@@ -115,6 +115,7 @@ mvn install:install-file "-Dfile=ir4se-fwk-0.0.2.jar" "-DgroupId=edu.wayne.cs.se
 ```
 #### Run
 ```Lucene/lucene-cmnd-all.sh```: Run to get rankings for all configuartions for Lucene.
+
 ```Lucene/lucene-cmnd-small.sh```: Run to get rankings for a subset of configuartions for Lucene.
 
 ## BugLocator
@@ -129,7 +130,7 @@ conda install lxml=4.9.1
 
 #### Run
 ```BugLocator/buglocator-cmnd-all.sh```: Run to get rankings for all configurations for BugLocator.
-``BugLocator/buglocator-cmnd-small.sh```: Run to get rankings for a subset of configurations for BugLocator.
+```BugLocator/buglocator-cmnd-small.sh```: Run to get rankings for a subset of configurations for BugLocator.
 
 ## Metrics
 Install the following packages:
