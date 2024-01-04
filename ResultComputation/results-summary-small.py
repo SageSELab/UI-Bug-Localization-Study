@@ -342,10 +342,10 @@ def main():
 
 	prepocessed_data_dir = data_dir + "/PreprocessedData"
 	
-	result_dir = package_dir + "/Results/" + approach_name 
-	calc_dir = package_dir + "/Results/Lucene/OtherResults"
-	final_ranks_folder = calc_dir + "/RanksAll/" + approach_name 
-	file_ranks_folder = calc_dir + "/FileRanksAll/" + approach_name
+	result_dir = package_dir + "/Results/" + approach_name + "/Rankings"
+	calc_dir = package_dir + "/Results/" + approach_name
+	final_ranks_folder = calc_dir + "/RanksAll"
+	file_ranks_folder = calc_dir + "/FileRanksAll"
 	
 	screen_list=["4"]
 	filtering_list=["GUI_States", "GUI_State_and_All_GUI_Component_IDs"]

@@ -643,20 +643,20 @@ public class MainClass {
             String corpus_path = "Screen-" + ns.getString("screen") + "/" + "Corpus-" + "All_Java_Files";
             String boosting_path = corpus_path + "/Boosting-" + ns.getString("boosting");
 
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "MathedQueryFiles", 
+            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "MatchedQueryFiles", 
                 ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
                 ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
                 prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
 
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "NotMathedQueryFiles", 
+            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "NotMatchedQueryFiles", 
                 ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
                 ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
                 prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
 
             String final_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Boosting-" + ns.getString("boosting") + "#Query_Reformulation-" + ns.getString("query_reformulation") + ".csv";
             String matched_file = ns.getString("filtered_boosted_filenames") + "/" + boosting_path + "/Match_Query_File_List.csv";
-            String matched_ranks_folder = ns.getString("result") + "/" + boosting_path + "/QueryReformulation-" + ns.getString("query_reformulation") + "/" + "MathedQueryFiles";
-            String not_matched_ranks_folder = ns.getString("result") + "/" + boosting_path + "/QueryReformulation-" + ns.getString("query_reformulation") + "/" + "NotMathedQueryFiles";
+            String matched_ranks_folder = ns.getString("result") + "/" + boosting_path + "/QueryReformulation-" + ns.getString("query_reformulation") + "/" + "MatchedQueryFiles";
+            String not_matched_ranks_folder = ns.getString("result") + "/" + boosting_path + "/QueryReformulation-" + ns.getString("query_reformulation") + "/" + "NotMatchedQueryFiles";
 
             CSVWriter final_result_writer = create_final_result_header(final_ranks_file);
             merge_query_matching_ranks(bug_issue_ids, final_result_writer, matched_file, 
@@ -666,20 +666,20 @@ public class MainClass {
             String corpus_path = "Screen-" + ns.getString("screen") + "/" + "Corpus-" + ns.getString("filtering");
             String boosting_path = corpus_path + "/Boosting-" + ns.getString("boosting");
 
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "MathedQueryFiles", 
+            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "MatchedQueryFiles", 
                 ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
                 ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
                 prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
 
-            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "NotMathedQueryFiles", 
+            file_search_and_rankings(bug_issue_ids, stopwords, ns.getString("result"), boosting_path, "NotMatchedQueryFiles", 
                 ns.getString("preprocessed_code_dir"), ns.getString("filtered_boosted_repo"), 
                 ns.getString("buggy_project_dir"), ns.getString("prep_code_path"), 
                 prep_query_path, ns.getString("prep_data_path"), ns.getString("json_file_path"), ns.getString("query_reformulation"));
 
             String final_ranks_file = ns.getString("final_ranks_folder") + "/" + ns.getString("operations") + "#Screen-" + ns.getString("screen") + "#Filtering-" + ns.getString("filtering") + "#Boosting-" + ns.getString("boosting") + "#Query_Reformulation-" + ns.getString("query_reformulation") + ".csv";
             String matched_file = ns.getString("filtered_boosted_filenames") + "/" + boosting_path + "/Match_Query_File_List.csv";
-            String matched_ranks_folder = ns.getString("result") + "/" + boosting_path + "/QueryReformulation-" + ns.getString("query_reformulation") + "/" + "MathedQueryFiles";
-            String not_matched_ranks_folder = ns.getString("result") + "/" + boosting_path + "/QueryReformulation-" + ns.getString("query_reformulation") + "/" + "NotMathedQueryFiles";
+            String matched_ranks_folder = ns.getString("result") + "/" + boosting_path + "/QueryReformulation-" + ns.getString("query_reformulation") + "/" + "MatchedQueryFiles";
+            String not_matched_ranks_folder = ns.getString("result") + "/" + boosting_path + "/QueryReformulation-" + ns.getString("query_reformulation") + "/" + "NotMatchedQueryFiles";
 
             CSVWriter final_result_writer = create_final_result_header(final_ranks_file);
             merge_query_matching_ranks(bug_issue_ids, final_result_writer, matched_file, 

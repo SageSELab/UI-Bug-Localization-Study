@@ -128,6 +128,10 @@ conda install lxml=4.9.1
 ``BugLocator/buglocator-cmnd-small.sh```: Run to get rankings for a subset of configuartions for BugLocator.
 
 ## Metrics
+```
+conda install pandas=1.3.5
+```
+
 ```ResultComputation/results-summary-all.py```: Running the previous baselines will provide ranks of the buggy files. To calculate metrics for all configurations, the user needs to update the ```approach_name``` variable with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
 ```ResultComputation/results-summary-small.py```: To calculate metrics for a subset of configurations, the user needs to update the ```approach_name``` variable with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
 

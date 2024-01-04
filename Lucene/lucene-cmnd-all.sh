@@ -16,7 +16,7 @@ export filtered_boosted_files_in_repo=${data_dir}/Augmenation-Corpus
 export result_folder=temp-results
 
 #Final Results with the proper format will be saved here
-export final_ranks_folder=${package_dir}/Results/Lucene
+export final_ranks_folder=${package_dir}/Results/Lucene/Rankings
 export filtered_boosted_filenames=${data_dir}/Augmentation-Info
 
 # This path is the directory of the source code projects that was used during preprocessing. If you are using our preprocessed data, the the path should be /Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/BuggyProjects
@@ -63,7 +63,7 @@ for k in ${!query_reformulation_list[@]}; do
 	done
 done
 
-For Filtering and boosting
+# For Filtering and boosting
 for i in ${!filtering_list[@]}; do
 	if [[ ${filtering_list[$i]} == "GUI_States" ]]; then
 		boosting_gui_type=("Interacted_GUI_Component_IDs")
