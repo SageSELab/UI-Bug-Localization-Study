@@ -323,6 +323,13 @@ public class MainClass {
         }
     }
 
+    private static void createDirectoryIfNotExist(String dir) {
+        File parent = new File(dir);
+        if (!parent.exists()) {
+            parent.mkdirs();
+        }
+    }
+
     private static void processBugReport(String bugID, String bugReportContent, String infoFromGUI, List<String> stopWords, String queryGui, String preprocessDataFolder) {
         String preprocessedBugReport = preprocessText(bugReportContent, stopWords);
         Query query = new Query(1, preprocessedBugReport);
@@ -410,6 +417,7 @@ public class MainClass {
             if (ns.getString("content_type").equals("Code")) {
                 List<String>codeFileContent = new ArrayList<String>();
                 List<String>codeFileNameList = new ArrayList<String>();
+                createDirectoryIfNotExist(ns.getString("preprocess_data"));
                 FileWriter preprocessedCodeFile = new FileWriter(ns.getString("preprocess_data") + "/bug-" + bug_issue_ids.get(b_index) + ".csv", true);
                 CSVWriter writer = new CSVWriter(preprocessedCodeFile);
                 String header[] = {"FilePath", "PreprocessedCode"};

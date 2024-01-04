@@ -12,7 +12,7 @@ export screens=("4" "3" "2")
 #   - Content: Preprocess Bug Report Contents. Only necessary for BugLocator. 
 #   - BugReport: Preprocess Bug Reports. It is necessary for all baselines except BugLocator.
 # 	- Code: Preprocess Source Code. It is necessary for all baselines.
-export content_type="Code" # Title or Content or BugReport or Code
+export content_type="BugReport" # Title or Content or BugReport or Code
 
 if [[ "$content_type" == "BugReport" ]]; 
 then

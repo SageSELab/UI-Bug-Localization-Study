@@ -11,13 +11,21 @@ Our study explores leveraging graphical user interfaces (GUIs) in bug localizati
 
 To assess the effectiveness of GUI in bug localization, we employ four baseline approaches: BugLocator [1], Lucene [2], sentenceBERT [3], and UniXCoder [4]. Our focus is on bug localization within Android apps, specifically for four bug categories: crash, navigation, output, and cosmetic bugs. Our dataset comprises 80 fully localized Android bugs from 39 apps, with associated bug reproduction scenarios and GUI metadata. We compare these baseline TR-based bug localization approaches to 657 different configurations. Our findings reveal that the best-performing configurations of these techniques outperform the baseline approaches, resulting in an improvement in Hits@10 ranging from 13\% to 18\%. These augmentations imply that more files appear in the top-10 ranking of buggy files. Consequently, our results support the rationale that leveraging GUI information enhances bug localization approaches.
 
-## Experiments
+# Experiments
 The entire experiment has been done on Mac. We recommend using x86_64 architecture on Mac. However, if a user is using Arm architecure, there is a workaround by running the following command to emulate x86_64:
 ```
 conda config --env --set subdir osx-64
 ```
 Primarily, we used Python 3.7.6 and Java 11 to run all the experiments. A user has also need to install Anaconda. Most of the experiments are done by running either a shell script. To run all the shell scripts, a user has to only update the one specific path in the variable ```data dir``` in the shell scripts with path from the dataset repository [dataset](https://github.com/SageSELab/GUI-Bug-Localization-Data}).
-## InitialSteps
+
+## Initial Steps
+```
+conda install python=3.7.6
+conda install bs4=4.11.1
+conda install anaconda::nltk
+conda install pandas=1.3.5
+```
+
 The user has to run the following scripts for preprocessing:
 1. ```ExtractGUIInformation/filter_files_cmnd.sh``` : This script will extract necessary GUI information and get all the filenames that are necessary for text-retrieval augmentation methods.
 
@@ -40,7 +48,7 @@ conda install -c conda-forge maven=3.9.6
 ```
 ./gradlew clean testClasses install
 ```
-- Go to ```Lucene/lib``` in the terminal and run the following command:
+- Go to ```Preprocessing/lib``` in the terminal and run the following command:
 ```
 mvn install:install-file "-Dfile=ir4se-fwk-0.0.2.jar" "-DgroupId=edu.wayne.cs.severe" "-DartifactId=ir4se-fwk" "-Dversion=0.0.2" "-Dpackaging=jar"
 ```

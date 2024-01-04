@@ -1,1 +1,0 @@
-Run filter_files_cmnd.sh: This will generate all the files for all configurations

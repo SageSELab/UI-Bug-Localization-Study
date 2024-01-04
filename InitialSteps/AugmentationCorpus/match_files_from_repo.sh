@@ -27,4 +27,4 @@ for i in ${!screens[@]}; do
 			-bpd $buggy_project_dir -fbfile $filtering_boosting_filenames \
 			-fbr $filtered_boosted_files_in_repo -bpdcsv $buggy_project_dir -ops Filtering
 	done
-donegi
+done
