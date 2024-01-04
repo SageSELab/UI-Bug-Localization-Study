@@ -12,26 +12,21 @@ Our study explores leveraging graphical user interfaces (GUIs) in bug localizati
 To assess the effectiveness of GUI in bug localization, we employ four baseline approaches: BugLocator [1], Lucene [2], sentenceBERT [3], and UniXCoder [4]. Our focus is on bug localization within Android apps, specifically for four bug categories: crash, navigation, output, and cosmetic bugs. Our dataset comprises 80 fully localized Android bugs from 39 apps, with associated bug reproduction scenarios and GUI metadata. We compare these baseline TR-based bug localization approaches to 657 different configurations. Our findings reveal that the best-performing configurations of these techniques outperform the baseline approaches, resulting in an improvement in Hits@10 ranging from 13\% to 18\%. These augmentations imply that more files appear in the top-10 ranking of buggy files. Consequently, our results support the rationale that leveraging GUI information enhances bug localization approaches.
 
 # Experiments
-The entire experiment has been done on Mac. We recommend using x86_64 architecture on Mac. However, if a user is using Arm architecure, there is a workaround by running the following command to emulate x86_64:
+The entire experiment has been done on Mac. We recommend using the x86_64 architecture on Mac. However, if a user is using Arm architecture, there is a workaround by running the following command to emulate x86_64:
 ```
 conda config --env --set subdir osx-64
 ```
-Primarily, we used Python 3.7.6 and Java 11 to run all the experiments. A user has also need to install Anaconda. Most of the experiments are done by running either a shell script. To run all the shell scripts, a user has to only update the one specific path in the variable ```data dir``` in the shell scripts with path from the dataset repository [dataset](https://github.com/SageSELab/GUI-Bug-Localization-Data}).
+A user needs to install [Anaconda](https://www.anaconda.com) to run the experiments. Most of the experiments are done by running either a shell script or a python file. To run all the scripts, a user has to update thespecific path in the variable ```data_dir``` that contains the link for the [dataset](https://github.com/SageSELab/GUI-Bug-Localization-Data}) and ```package_dir``` that contains the [replication package](https://github.com/SageSELab/UI-Bug-Localization-Study).
 
 ## Initial Steps
+### Environment Setup
+- Install the following packages:
 ```
 conda install python=3.7.6
 conda install bs4=4.11.1
 conda install anaconda::nltk
 conda install pandas=1.3.5
 ```
-
-The user has to run the following scripts for preprocessing:
-1. ```ExtractGUIInformation/filter_files_cmnd.sh``` : This script will extract necessary GUI information and get all the filenames that are necessary for text-retrieval augmentation methods.
-
-2. ```AugmentationCorpus/match_files_from_repo.sh```: From the filenames extracted in the previous step, this script will copy and paste all the files into another directory. This step significantly improves running experiments because we have 657 configurations for each baseline.
-
-3. This step will generate preprocessed queries for bug reports and source code repostiories. At first, a user needs to perform the following steps to setup the environment:
 - Install JDK 11
 - Install Apache Maven using the following command:
 ```
@@ -53,11 +48,17 @@ conda install -c conda-forge maven=3.9.6
 mvn install:install-file "-Dfile=ir4se-fwk-0.0.2.jar" "-DgroupId=edu.wayne.cs.severe" "-DartifactId=ir4se-fwk" "-Dversion=0.0.2" "-Dpackaging=jar"
 ```
 
-```Preprocessing/run_cmnd.sh```: To perform the preprocessing a user needs to run this shell script. A user needs to perform preprocessing for four types of information by updating ```content_type``` variable. This variable should contain specifically four valuse one by one: 
-    - Title: Preprocess Bug Report Titles. Only necessary for BugLocator.
-    - Content: Preprocess Bug Report Contents. Only necessary for BugLocator. 
-    - BugReport: Preprocess Bug Reports. It is necessary for all baselines except BugLocator.
-    - Code: Preprocess Source Code. It is necessary for all baselines.
+### Preprocessing
+The user has to run the following scripts for preprocessing:
+1. ```ExtractGUIInformation/filter_files_cmnd.sh``` : This script will extract necessary GUI information and get all the filenames that are necessary for text-retrieval augmentation methods.
+
+2. ```AugmentationCorpus/match_files_from_repo.sh```: From the filenames extracted in the previous step, this script will copy and paste all the files into another directory. This step significantly improves running experiments because we have 657 configurations for each baseline.
+
+3. ```Preprocessing/run_cmnd.sh```: To perform the preprocessing of the queries and source code a user needs to run this shell script. A user needs to perform preprocessing for four types of information by updating ```content_type``` variable. This variable should contain specifically four valuse one by one: 
+- Title: Preprocess Bug Report Titles. Only necessary for BugLocator.
+- Content: Preprocess Bug Report Contents. Only necessary for BugLocator. 
+- BugReport: Preprocess Bug Reports. It is necessary for all baselines except BugLocator.
+- Code: Preprocess Source Code. It is necessary for all baselines.
 
 4. ```Preprocessing-BugLocator/generate_xml_data_for_buglocator.sh```: The preprocessing for BugLocator is different comparent to other approaches. A user needs to run this script to generate preprocessed queries for BugLocator.
 
@@ -134,6 +135,8 @@ conda install pandas=1.3.5
 
 ```ResultComputation/results-summary-all.py```: Running the previous baselines will provide ranks of the buggy files. To calculate metrics for all configurations, the user needs to update the ```approach_name``` variable with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
 ```ResultComputation/results-summary-small.py```: To calculate metrics for a subset of configurations, the user needs to update the ```approach_name``` variable with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
+
+The results will be saved in ```MetricsAll```.
 
 ### References
 1. Jian Zhou, Hongyu Zhang, and David Lo. 2012. Where Should the Bugs Be Fixed? More Accurate Information Retrieval-Based Bug Localization Based on Bug Reports. In ICSE’12. 14–24.
