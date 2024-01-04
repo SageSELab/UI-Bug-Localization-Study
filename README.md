@@ -16,12 +16,12 @@ The entire experiment has been done on Mac. We recommend using the x86_64 archit
 ```
 conda config --env --set subdir osx-64
 ```
-A user needs to install [Anaconda](https://www.anaconda.com) to run the experiments. Most of the experiments are done by running either a shell script or a python file. To run all the scripts, a user has to update thespecific path in the variable ```data_dir``` that contains the link for the [dataset](https://github.com/SageSELab/GUI-Bug-Localization-Data}) and ```package_dir``` that contains the [replication package](https://github.com/SageSELab/UI-Bug-Localization-Study).
+A user needs to install [Anaconda](https://www.anaconda.com) to run the experiments. Most of the experiments are done by running either a shell script or a Python file. To run all the scripts, a user has to update thespecific path in the variable ```data_dir``` that contains the link for the [dataset](https://github.com/SageSELab/GUI-Bug-Localization-Data}) and ```package_dir``` that contains the [replication package](https://github.com/SageSELab/UI-Bug-Localization-Study).
 
-_**Note: A user can ignore the preprocessing steps and can use the already preprocessed data. However, in that case the user needs to update ```preprocessed_code_dir``` variable with ```/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/BuggyProjects``` if exists in each shell script when generating rankings**_
+_**Note: A user can ignore the preprocessing steps and can use the already preprocessed data. However, in that case, the user needs to update ```preprocessed_code_dir``` variable with ```/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/BuggyProjects``` if it exists in each shell script when generating rankings**_
 
 ## Initial Steps
-### Environment Setup
+#### Environment Setup
 - Install the following packages:
 ```
 conda install python=3.7.6
@@ -56,43 +56,43 @@ The user has to run the following scripts for preprocessing:
 
 2. ```AugmentationCorpus/match_files_from_repo.sh```: From the filenames extracted in the previous step, this script will copy and paste all the files into another directory. This step significantly improves running experiments because we have 657 configurations for each baseline.
 
-3. ```Preprocessing/run_cmnd.sh```: To perform the preprocessing of the queries and source code a user needs to run this shell script. A user needs to perform preprocessing for four types of information by updating ```content_type``` variable. This variable should contain specifically four valuse one by one: 
+3. ```Preprocessing/run_cmnd.sh```: To perform the preprocessing of the queries and source code a user needs to run this shell script. A user needs to perform preprocessing for four types of information by updating ```content_type``` variable. This variable should contain specifically four values one by one: 
 - Title: Preprocess Bug Report Titles. Only necessary for BugLocator.
 - Content: Preprocess Bug Report Contents. Only necessary for BugLocator. 
 - BugReport: Preprocess Bug Reports. It is necessary for all baselines except BugLocator.
 - Code: Preprocess Source Code. It is necessary for all baselines.
 
-4. ```Preprocessing-BugLocator/generate_xml_data_for_buglocator.sh```: The preprocessing for BugLocator is different comparent to other approaches. A user needs to run this script to generate preprocessed queries for BugLocator.
+4. ```Preprocessing-BugLocator/generate_xml_data_for_buglocator.sh```: The preprocessing for BugLocator is different compared to other approaches. A user needs to run this script to generate preprocessed queries for BugLocator.
 
 
 ## SentenceBERT
-### Dependencies
-A user needs to run to following commands to perform enviroment setup.
+#### Dependencies
+A user needs to run the following commands to perform environment setup.
 ```
 conda install python=3.7.6
 conda install pytorch=1.12.1
 conda install transformers=4.24.0
 conda install pandas=1.3.5
 ```
-### Run
-```sentenceBERT/sentencebert-cmnd-all.sh```: Run to get rankings for all configuartions for SentenceBERT.
-```sentenceBERT/sentencebert-cmnd-small.sh```: Run to get rankings for a subset of configuartions for SentenceBERT.
+#### Run
+```sentenceBERT/sentencebert-cmnd-all.sh```: Run to get rankings for all configurations for SentenceBERT.
+```sentenceBERT/sentencebert-cmnd-small.sh```: Run to get rankings for a subset of configurations for SentenceBERT.
 
 ## UniXCoder
-### Dependencies
-A user needs to run to following commands to perform enviroment setup.
+#### Dependencies
+A user needs to run the following commands to perform environment setup.
 ```
 conda install python=3.7.6
 conda install pytorch=1.4.0
 conda install transformers=2.1.1
 conda install pandas=1.1.5
 ```
-### Run
-```Unixcoder/unixcoder-cmnd-all.sh```: Run to get rankings for all configuartions for UniXCoder.
-```Unixcoder/unixcoder-cmnd-small.sh```: Run to get rankings for a subset of configuartions for UniXCoder.
+#### Run
+```Unixcoder/unixcoder-cmnd-all.sh```: Run to get rankings for all configurations for UniXCoder.
+```Unixcoder/unixcoder-cmnd-small.sh```: Run to get rankings for a subset of configurations for UniXCoder.
 
 ## Lucene
-### Environment Setup
+#### Environment Setup
 - Install JDK 11
 - Install Apache Maven using the following command:
 ```
@@ -113,13 +113,13 @@ conda install -c conda-forge maven=3.9.6
 ```
 mvn install:install-file "-Dfile=ir4se-fwk-0.0.2.jar" "-DgroupId=edu.wayne.cs.severe" "-DartifactId=ir4se-fwk" "-Dversion=0.0.2" "-Dpackaging=jar"
 ```
-### Run
+#### Run
 ```Lucene/lucene-cmnd-all.sh```: Run to get rankings for all configuartions for Lucene.
 ```Lucene/lucene-cmnd-small.sh```: Run to get rankings for a subset of configuartions for Lucene.
 
 ## BugLocator
-### Dependencies
-A user needs to run to following commands to perform enviroment setup.
+#### Dependencies
+A user needs to run the following commands to perform environment setup.
 ```
 conda install python=3.7.6
 conda install bs4=4.11.1
@@ -127,15 +127,16 @@ conda install pandas=1.3.5
 conda install lxml=4.9.1
 ```
 
-### Run
-```BugLocator/buglocator-cmnd-all.sh```: Run to get rankings for all configuartions for BugLocator.
-``BugLocator/buglocator-cmnd-small.sh```: Run to get rankings for a subset of configuartions for BugLocator.
+#### Run
+```BugLocator/buglocator-cmnd-all.sh```: Run to get rankings for all configurations for BugLocator.
+``BugLocator/buglocator-cmnd-small.sh```: Run to get rankings for a subset of configurations for BugLocator.
 
 ## Metrics
+Install the following packages:
 ```
 conda install pandas=1.3.5
 ```
-
+#### Run
 ```ResultComputation/results-summary-all.py```: Running the previous baselines will provide ranks of the buggy files. To calculate metrics for all configurations, the user needs to update the ```approach_name``` variable with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
 ```ResultComputation/results-summary-small.py```: To calculate metrics for a subset of configurations, the user needs to update the ```approach_name``` variable with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
 
@@ -145,7 +146,7 @@ The results will be saved in ```MetricsAll```.
 1. Jian Zhou, Hongyu Zhang, and David Lo. 2012. Where Should the Bugs Be Fixed? More Accurate Information Retrieval-Based Bug Localization Based on Bug Reports. In ICSE’12. 14–24.
 2. Apache Lucene - https://lucene.apache.org (2023).
 3. Nils Reimers and Iryna Gurevych. 2019. Sentence-bert: Sentence embeddings using siamese bert-networks. EMNLP’19 (2019).
-4. Daya Guo, Shuai Lu, Nan Duan,Yanlin Wang, Ming Zhou, and Jian Yin. 2022. UniXcoder: Uni￿ed Cross-Modal Pre-training for Code Representation. ACL’22 (2022).
+4. Daya Guo, Shuai Lu, Nan Duan, Yanlin Wang, Ming Zhou, and Jian Yin. 2022. UniXcoder: Unified Cross-Modal Pre-training for Code Representation. ACL’22 (2022).
 
 
 
