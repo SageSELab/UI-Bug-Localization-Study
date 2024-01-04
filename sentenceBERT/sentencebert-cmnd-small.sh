@@ -20,7 +20,7 @@ export embeddings_folder=embeddings
 export similarity_folder=similarityScores
 
 #Final Results with the proper format will be saved here
-export final_ranks_folder=${package_dir}/Results/SentenceBERT
+export final_ranks_folder=${package_dir}/Results/SentenceBERT/Rankings
 
 # This path is the directory of the source code projects that was used during preprocessing. If you are using our preprocessed data, the the path should be /Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/BuggyProjects
 export preprocessed_code_dir=${data_dir}/BuggyProjects

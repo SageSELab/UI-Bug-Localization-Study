@@ -18,6 +18,8 @@ conda config --env --set subdir osx-64
 ```
 A user needs to install [Anaconda](https://www.anaconda.com) to run the experiments. Most of the experiments are done by running either a shell script or a python file. To run all the scripts, a user has to update thespecific path in the variable ```data_dir``` that contains the link for the [dataset](https://github.com/SageSELab/GUI-Bug-Localization-Data}) and ```package_dir``` that contains the [replication package](https://github.com/SageSELab/UI-Bug-Localization-Study).
 
+_**Note: A user can ignore the preprocessing steps and can use the already preprocessed data. However, in that case the user needs to update ```preprocessed_code_dir``` variable with ```/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/BuggyProjects``` if exists in each shell script when generating rankings**_
+
 ## Initial Steps
 ### Environment Setup
 - Install the following packages:
@@ -61,6 +63,7 @@ The user has to run the following scripts for preprocessing:
 - Code: Preprocess Source Code. It is necessary for all baselines.
 
 4. ```Preprocessing-BugLocator/generate_xml_data_for_buglocator.sh```: The preprocessing for BugLocator is different comparent to other approaches. A user needs to run this script to generate preprocessed queries for BugLocator.
+
 
 ## SentenceBERT
 ### Dependencies

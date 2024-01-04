@@ -10,7 +10,7 @@ export filtered_boosted_filenames=${data_dir}/Augmentation-Info
 export temp_data_dir=temp_xml_dir
 export temp_result_dir=temp_results
 
-export final_ranks_folder=${package_dir}/Results/BugLocator
+export final_ranks_folder=${package_dir}/Results/BugLocator/Rankings
 
 export filtering_list=("GUI_States" "GUI_State_and_All_GUI_Component_IDs")
 export boosting_list=("GUI_States")
