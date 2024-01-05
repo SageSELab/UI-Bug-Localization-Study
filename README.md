@@ -1,10 +1,18 @@
-# On Using GUI Interaction Data to Improve Text Retrieval-based Bug Localization
+# Replication Package for *"On Using GUI Interaction Data to Improve Text Retrieval-based Bug Localization"*
+
+### Purpose
+
 This article presents the replication package associated with our paper:
+
 > Junayed Mahmud, Nadeeshan De Silva, Safwat Ali Khan, Seyed Hooman Mostafavi, SM Hasan Mansur, Oscar Chaparro, Andrian Marcus, and Kevin Moran, “_**On Using GUI Interaction Data to Improve Text Retrieval-based Bug Localization**_,” in Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (ICSE 2024)
 
-We provide access to the available dataset, source code and detailed instructions required to reproduce the experimental results discussed in our paper. We aim to apply for Available & Reusable badges and hope to further extend research on GUI-based bug localization. We recommend utilizing a recent version of the Mac operating system, and we have conducted our tests on Sonoma 14.0. For SentenceBERT and UniXCoder, we suggest using a system with GPU support. We provide all of our source code in this [link](https://github.com/SageSELab/UI-Bug-Localization-Study) and the dataset is available in this [link](https://github.com/SageSELab/GUI-Bug-Localization-Data).
+### Provenance
 
-# Paper Overview
+We provide access to the available dataset, source code and detailed instructions required to reproduce the experimental results discussed in our paper. We aim to apply for Available & Reusable badges and hope to further extend research on GUI-based bug localization. We recommend utilizing a recent version of the Mac operating system, and we have conducted our tests on Sonoma 14.0. For SentenceBERT and UniXCoder, we suggest using a system with GPU support. We provide all of our source code at [https://github.com/SageSELab/UI-Bug-Localization-Study](https://github.com/SageSELab/UI-Bug-Localization-Study) and the dataset is available here: [https://github.com/SageSELab/GUI-Bug-Localization-Data](https://github.com/SageSELab/GUI-Bug-Localization-Data).
+
+Our code and data are also permanently archived at: [https://doi.org/10.5281/zenodo.10460609](https://doi.org/10.5281/zenodo.10460609)
+
+## Paper Overview
 One of the significant challenges in bug report management involves localizing the fault in source code based on the information provided in bug reports. This task is particularly complicated due to the incomplete or incorrect information in these reports. Researchers have attempted to automate the retrieval and ranking of relevant buggy files or code snippets using bug reports as queries. Although many researchers consider bug localization as a text-retrieval-based (TR) problem, there exists a noticeable semantic gap between the contents of bug reports and the source code written by developers. Researchers have explored various strategies to bridge this gap, such as processing bug reports or source code, or reformulating queries by incorporating information from diverse sources, including execution information, code dependencies, and historical data.
 
 Our study explores leveraging graphical user interfaces (GUIs) in bug localization, which no prior research has thoroughly investigated. GUI information is readily obtainable and encapsulates the latent features of an application, manifested in pixel-based (i.e., screenshots) and metadata-based (i.e., html/uiautomator) information. Our objective is to utilize GUI information to boost the ranking of the files and also utilize it in query reformulation. We posit that analyzing the GUI of the application screen where a bug occurs, along with the one to three preceding screens, can aid in identifying faults in code. We refer to the GUI information on these screens as GUI interaction data. In our research, we specifically utilize three types of GUI interaction data: (1) the Activity and Window information for specific app screens, (2) the GUI components present in the selected app screens, and (3) the GUI components with which the user interacted on the selected app screens during bug reproduction. We believe that GUI interaction data can (i) filter out irrelevant files, (ii) boost relevant files, and (iii) aid in query reformulation.
@@ -16,11 +24,11 @@ The entire experiment has been done on Mac. We recommend using the x86_64 archit
 ```
 conda config --env --set subdir osx-64
 ```
-A user needs to install [Anaconda](https://www.anaconda.com) to run the experiments. Most of the experiments are done by running either a shell script or a Python file. To run all the scripts, a user has to update thespecific path in the variable ```data_dir``` that contains the link for the [dataset](https://github.com/SageSELab/GUI-Bug-Localization-Data}) and ```package_dir``` that contains the [replication package](https://github.com/SageSELab/UI-Bug-Localization-Study).
+A user needs to install [Anaconda](https://www.anaconda.com) to run the experiments. Most of the experiments are done by running either a shell script or a Python file. To run all the scripts, a user has to update the specific path in the variable ```data_dir``` that contains the link for the [dataset](https://github.com/SageSELab/GUI-Bug-Localization-Data}) and ```package_dir``` that contains the [replication package](https://github.com/SageSELab/UI-Bug-Localization-Study).
 
 _**Note: A user can ignore the preprocessing steps and can use the already preprocessed data. However, in that case, the user needs to update ```preprocessed_code_dir``` variable with ```/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/BuggyProjects``` if it exists in each shell script when generating rankings**_
 
-## Initial Steps
+## Setup
 #### Environment Setup
 - Install the following packages:
 ```
@@ -50,7 +58,10 @@ conda install -c conda-forge maven=3.9.6
 mvn install:install-file "-Dfile=ir4se-fwk-0.0.2.jar" "-DgroupId=edu.wayne.cs.severe" "-DartifactId=ir4se-fwk" "-Dversion=0.0.2" "-Dpackaging=jar"
 ```
 
-### Preprocessing
+Note that the setup consists of two main steps: First, the data from the dataset needs to be pre-processed, then Second, each of the individual BL techniques needs to be configured.
+
+### Preprocessing Data
+
 The user has to run the following scripts for preprocessing:
 1. ```ExtractGUIInformation/filter_files_cmnd.sh``` : This script will extract necessary GUI information and get all the filenames that are necessary for text-retrieval augmentation methods.
 
@@ -123,8 +134,14 @@ mvn install:install-file "-Dfile=ir4se-fwk-0.0.2.jar" "-DgroupId=edu.wayne.cs.se
 A user needs to run the following commands to perform environment setup.
 ```
 conda install python=3.7.6
+```
+```
 conda install bs4=4.11.1
+```
+```
 conda install pandas=1.3.5
+```
+```
 conda install lxml=4.9.1
 ```
 
@@ -132,13 +149,17 @@ conda install lxml=4.9.1
 ```BugLocator/buglocator-cmnd-all.sh```: Run to get rankings for all configurations for BugLocator.
 ```BugLocator/buglocator-cmnd-small.sh```: Run to get rankings for a subset of configurations for BugLocator.
 
-## Metrics
+## Usage 
+
 Install the following packages:
 ```
 conda install pandas=1.3.5
 ```
+
 #### Run
+
 ```ResultComputation/results-summary-all.py```: Running the previous baselines will provide ranks of the buggy files. To calculate metrics for all configurations, the user needs to update the ```approach_name``` variable with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
+
 ```ResultComputation/results-summary-small.py```: To calculate metrics for a subset of configurations, the user needs to update the ```approach_name``` variable with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
 
 The results will be saved in ```MetricsAll```.
