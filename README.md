@@ -22,9 +22,9 @@ To assess the effectiveness of GUI in bug localization, we employ four baseline 
 ### Directory Structure (Source Code)
 ```bash
 ├── UI Bug Localization
-│   ├──  Initial Steps
+│   ├──  InitialSteps
 |   |   ├──  ExtractGUIInformation --> extract necessary GUI information and filenames necessary for augmentation
-|   |   ├──  AugmentationCorpus --> copy and paste files into another directory by matching filenames from previous steps
+|   |   ├──  AugmentationCorpus --> copy and paste files into another directory by matching filenames from the previous step
 |   |   ├──  Preprocessing --> preprocess queries and source code
 |   |   ├──  Preprocessing-BugLocator--> an additional preprocessing required for BugLocator
 │   ├──  SentenceBERT --> generate rankings of all configurations for SentenceBERT
