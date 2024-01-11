@@ -19,6 +19,26 @@ Our study explores leveraging graphical user interfaces (GUIs) in bug localizati
 
 To assess the effectiveness of GUI in bug localization, we employ four baseline approaches: BugLocator [1], Lucene [2], sentenceBERT [3], and UniXCoder [4]. Our focus is on bug localization within Android apps, specifically for four bug categories: crash, navigation, output, and cosmetic bugs. Our dataset comprises 80 fully localized Android bugs from 39 apps, with associated bug reproduction scenarios and GUI metadata. We compare these baseline TR-based bug localization approaches to 657 different configurations. Our findings reveal that the best-performing configurations of these techniques outperform the baseline approaches, resulting in an improvement in Hits@10 ranging from 13\% to 18\%. These augmentations imply that more files appear in the top-10 ranking of buggy files. Consequently, our results support the rationale that leveraging GUI information enhances bug localization approaches.
 
+### Directory Structure (Source Code)
+```bash
+├── UI Bug Localization
+│   ├──  Initial Steps
+|   |   ├──  ExtractGUIInformation --> extract necessary GUI information and filenames necessary for augmentation
+|   |   ├──  AugmentationCorpus --> copy and paste files into another directory by matching filenames from previous steps
+|   |   ├──  Preprocessing --> preprocess queries and source code
+|   |   ├──  Preprocessing-BugLocator--> an additional preprocessing required for BugLocator
+│   ├──  SentenceBERT --> generate rankings of all configurations for SentenceBERT
+│   ├──  UnixCoder --> generate rankings of all configurations for UniXCoder
+│   ├──  Lucene --> generate rankings of all configurations for Lucene
+│   ├──  BugLocator --> generate rankings of all configurations for BugLocator
+│   ├──  ResultComputation --> calculate metrics for all configurations
+│   ├──  Results
+│   │   ├──  SentenceBERT/MetricsAll --> calculated metrics for SentenceBERT
+│   │   ├──  UnixCoder/MetricsAll -->  calculated metrics for UniXCoder
+│   │   ├──  Lucene/MetricsAll --> calculated metrics for Lucene
+│   │   ├──  BugLocator/MetricsAll --> calculated metrics for BugLocator
+```
+
 # Experiments
 The entire experiment has been done on Mac. We recommend using the x86_64 architecture on Mac. However, if a user is using Arm architecture, there is a workaround by running the following command to emulate x86_64:
 ```
@@ -86,8 +106,8 @@ conda install transformers=4.24.0
 conda install pandas=1.3.5
 ```
 #### Run
-```sentenceBERT/sentencebert-cmnd-all.sh```: Run to get rankings for all configurations for SentenceBERT.
-```sentenceBERT/sentencebert-cmnd-small.sh```: Run to get rankings for a subset of configurations for SentenceBERT.
+```sentenceBERT/sentencebert-cmnd-all.sh```: Run to get rankings of all configurations for SentenceBERT.
+```sentenceBERT/sentencebert-cmnd-small.sh```: Run to get rankings of a subset of configurations for SentenceBERT.
 
 ## UniXCoder
 #### Dependencies
@@ -99,8 +119,8 @@ conda install transformers=2.1.1
 conda install pandas=1.1.5
 ```
 #### Run
-```Unixcoder/unixcoder-cmnd-all.sh```: Run to get rankings for all configurations for UniXCoder.
-```Unixcoder/unixcoder-cmnd-small.sh```: Run to get rankings for a subset of configurations for UniXCoder.
+```Unixcoder/unixcoder-cmnd-all.sh```: Run to get rankings of all configurations for UniXCoder.
+```Unixcoder/unixcoder-cmnd-small.sh```: Run to get rankings of a subset of configurations for UniXCoder.
 
 ## Lucene
 #### Environment Setup
@@ -125,9 +145,9 @@ conda install -c conda-forge maven=3.9.6
 mvn install:install-file "-Dfile=ir4se-fwk-0.0.2.jar" "-DgroupId=edu.wayne.cs.severe" "-DartifactId=ir4se-fwk" "-Dversion=0.0.2" "-Dpackaging=jar"
 ```
 #### Run
-```Lucene/lucene-cmnd-all.sh```: Run to get rankings for all configuartions for Lucene.
+```Lucene/lucene-cmnd-all.sh```: Run to get rankings of all configuartions for Lucene.
 
-```Lucene/lucene-cmnd-small.sh```: Run to get rankings for a subset of configuartions for Lucene.
+```Lucene/lucene-cmnd-small.sh```: Run to get rankings of a subset of configuartions for Lucene.
 
 ## BugLocator
 #### Dependencies
@@ -146,8 +166,8 @@ conda install lxml=4.9.1
 ```
 
 #### Run
-```BugLocator/buglocator-cmnd-all.sh```: Run to get rankings for all configurations for BugLocator.
-```BugLocator/buglocator-cmnd-small.sh```: Run to get rankings for a subset of configurations for BugLocator.
+```BugLocator/buglocator-cmnd-all.sh```: Run to get rankings of all configurations for BugLocator.
+```BugLocator/buglocator-cmnd-small.sh```: Run to get rankings of a subset of configurations for BugLocator.
 
 ## Usage 
 
@@ -162,7 +182,7 @@ conda install pandas=1.3.5
 
 ```ResultComputation/results-summary-small.py```: To calculate metrics for a subset of configurations, the user needs to update the ```approach_name``` variable with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
 
-The results will be saved in ```MetricsAll```.
+The results will be saved in ```Results/<Approach-Name>/MetricsAll```.
 
 ### References
 1. Jian Zhou, Hongyu Zhang, and David Lo. 2012. Where Should the Bugs Be Fixed? More Accurate Information Retrieval-Based Bug Localization Based on Bug Reports. In ICSE’12. 14–24.
