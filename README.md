@@ -33,10 +33,10 @@ To assess the effectiveness of GUI in bug localization, we employ four baseline 
 │   ├──  BugLocator --> generate rankings of all configurations for BugLocator
 │   ├──  ResultComputation --> calculate metrics for all configurations
 │   ├──  Results
-│   │   ├──  SentenceBERT/MetricsAll --> calculated metrics for SentenceBERT
-│   │   ├──  UnixCoder/MetricsAll -->  calculated metrics for UniXCoder
-│   │   ├──  Lucene/MetricsAll --> calculated metrics for Lucene
-│   │   ├──  BugLocator/MetricsAll --> calculated metrics for BugLocator
+│   │   ├──  SentenceBERT --> calculated metrics for SentenceBERT
+│   │   ├──  UnixCoder -->  calculated metrics for UniXCoder
+│   │   ├──  Lucene --> calculated metrics for Lucene
+│   │   ├──  BugLocator --> calculated metrics for BugLocator
 ```
 
 # Experiments
@@ -178,11 +178,13 @@ conda install pandas=1.3.5
 
 #### Run
 
-```ResultComputation/results-summary-all.py```: Running the previous baselines will provide ranks of the buggy files. To calculate metrics for all configurations, the user needs to update the ```approach_name``` variable with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
+```ResultComputation/results-summary-all.py```: Running the previous baselines will provide ranks of the buggy files. To calculate metrics for all configurations, the user needs to run the follwing command after updating ```approach-name``` with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
+```python3 results-summary-all.py -a <approach-name>```
 
-```ResultComputation/results-summary-small.py```: To calculate metrics for a subset of configurations, the user needs to update the ```approach_name``` variable with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
+```ResultComputation/results-summary-small.py```: To calculate metrics for a subset of configurations, the user needs to run the follwing command after updating ```approach-name``` with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder.
+```python3 results-summary-small.py -a <approach-name>```
 
-The results will be saved in ```Results/<Approach-Name>/MetricsAll```.
+The results will be saved in ```Results/<Approach-Name>/Metrics.csv```.
 
 ### References
 1. Jian Zhou, Hongyu Zhang, and David Lo. 2012. Where Should the Bugs Be Fixed? More Accurate Information Retrieval-Based Bug Localization Based on Bug Reports. In ICSE’12. 14–24.

@@ -335,8 +335,8 @@ def get_result_for_each_row(operation,filtering_gui, boosting_gui, query_reformu
 	row.extend(metric_values)
 	return row
 
-def main():
-	approach_name = "Lucene" # BugLocator or Lucene or SentenceBERT or UniXCoder
+def main(args):
+	approach_name = args["approach"] # BugLocator or Lucene or SentenceBERT or UniXCoder # BugLocator or Lucene or SentenceBERT or UniXCoder
 	data_dir = "/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data"
 	package_dir = "/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/UI-Bug-Localization-Study"
 
@@ -354,7 +354,7 @@ def main():
 	reformulation_types =["Ranks (Query-Bug Report)", "Ranks (Query Replacement)", "Ranks (Query Expansion 1)"]
 	reformulation_cols = ["BR", "QR", "QE"]
 
-	metric_file = calc_dir + "/MetricsAll/" + approach_name + "Results.csv"
+	metric_file = calc_dir + "/Metrics.csv"
 	write_header_for_approach_rankings(metric_file)
 
 	#Filtering
@@ -460,4 +460,7 @@ def main():
 			write_to_csv(metric_file, row)	
 
 if __name__ == "__main__":
-	main()
+	parser = argparse.ArgumentParser()
+	parser.add_argument('-a','--approach', help='Approach Name', required=False)
+	args = vars(parser.parse_args())
+	main(args)
