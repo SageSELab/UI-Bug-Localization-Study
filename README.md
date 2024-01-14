@@ -48,29 +48,34 @@ We bundled all the experiments in a docker image so that a user can replicate th
 3. Run the container
 ```docker run -it junayed21/uibuglocalization```
 4. Generate results for each baseline
+
     a. SentenceBERT
     ```
     cd UI-Bug-Localization-Study/sentenceBERT
     ./sentencebert-cmnd-all.sh
+    cd ..
     ```
     b. UniXCoder
     ```
     cd UI-Bug-Localization-Study/Unixcoder
     ./unixcoder-cmnd-all.sh
+    cd ..
     ```
     c. Lucene
     ```
     cd UI-Bug-Localization-Study/Lucene
     ./lucene-cmnd-all.sh
+    cd ..
     ```
     d. BugLocator
     ```
     cd UI-Bug-Localization-Study/BugLocator
     ./buglocator-cmnd-all.sh
+    cd ..
     ```
 5. Compute Metrics separately for each baseline
     ```
-    cd ../ResultComputation
+    cd ResultComputation
     python3 results-summary-small.py -a <approach-name>
     ```
     Here ```approach-name``` will be *BugLocator or Lucene or SentenceBERT or UniXCoder*. The results will be saved in ```Results/<approach-Name>/Metrics.csv```.
