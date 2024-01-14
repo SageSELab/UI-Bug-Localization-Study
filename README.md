@@ -19,7 +19,7 @@ Our study explores leveraging graphical user interfaces (GUIs) in bug localizati
 
 To assess the effectiveness of GUI in bug localization, we employ four baseline approaches: BugLocator [1], Lucene [2], sentenceBERT [3], and UniXCoder [4]. Our focus is on bug localization within Android apps, specifically for four bug categories: crash, navigation, output, and cosmetic bugs. Our dataset comprises 80 fully localized Android bugs from 39 apps, with associated bug reproduction scenarios and GUI metadata. We compare these baseline TR-based bug localization approaches to 657 different configurations. Our findings reveal that the best-performing configurations of these techniques outperform the baseline approaches, resulting in an improvement in Hits@10 ranging from 13\% to 18\%. These augmentations imply that more files appear in the top-10 ranking of buggy files. Consequently, our results support the rationale that leveraging GUI information enhances bug localization approaches.
 
-### Directory Structure (Source Code)
+## Directory Structure (Source Code)
 ```bash
 ├── UI Bug Localization
 │   ├──  InitialSteps
@@ -39,7 +39,43 @@ To assess the effectiveness of GUI in bug localization, we employ four baseline 
 │   │   ├──  BugLocator --> calculated metrics for BugLocator
 ```
 
-# Experiments
+## Experiments (with Docker)
+We bundled all the experiments in a docker image so that a user can replicate those easily. The docker image is available in [dockerfile](https://github.com/SageSELab/UI-Bug-Localization-Study/blob/master/dockerfile) and required packages are available in [environment.yml](https://github.com/SageSELab/UI-Bug-Localization-Study/blob/master/environment.yml). Please follow these steps to replicate the experiments:
+
+1. Install Docker following the instructions in this [link](https://docs.docker.com/engine/install/)
+2. Download the docker image
+```docker pull junayed21/uibuglocalization```
+3. Run the container
+```docker run -it junayed21/uibuglocalization```
+4. Generate results for each baseline
+    a. SentenceBERT
+    ```
+    cd UI-Bug-Localization-Study/sentenceBERT
+    ./sentencebert-cmnd-all.sh
+    ```
+    b. UniXCoder
+    ```
+    cd UI-Bug-Localization-Study/Unixcoder
+    ./unixcoder-cmnd-all.sh
+    ```
+    c. Lucene
+    ```
+    cd UI-Bug-Localization-Study/Lucene
+    ./lucene-cmnd-all.sh
+    ```
+    d. BugLocator
+    ```
+    cd UI-Bug-Localization-Study/BugLocator
+    ./buglocator-cmnd-all.sh
+    ```
+5. Compute Metrics separately for each baseline
+    ```
+    cd ../ResultComputation
+    python3 results-summary-small.py -a <approach-name>
+    ```
+    Here ```approach-name``` will be *BugLocator or Lucene or SentenceBERT or UniXCoder*. The results will be saved in ```Results/<approach-Name>/Metrics.csv```.
+
+## Experiments (without docker)
 The entire experiment has been done on Mac. We recommend using the x86_64 architecture on Mac. However, if a user is using Arm architecture, there is a workaround by running the following command to emulate x86_64:
 ```
 conda config --env --set subdir osx-64
@@ -48,8 +84,8 @@ A user needs to install [Anaconda](https://www.anaconda.com) to run the experime
 
 _**Note: A user can ignore the preprocessing steps and can use the already preprocessed data. However, in that case, the user needs to update ```preprocessed_code_dir``` variable with ```/Users/sagelab/Documents/Projects/BugLocalization/Artifact-ICSE24/GUI-Bug-Localization-Data/BuggyProjects``` if it exists in each shell script when generating rankings**_
 
-## Setup
-#### Environment Setup
+#### Setup
+##### Environment Setup
 - Install the following packages:
 ```
 conda install python=3.7.6
@@ -80,7 +116,7 @@ mvn install:install-file "-Dfile=ir4se-fwk-0.0.2.jar" "-DgroupId=edu.wayne.cs.se
 
 Note that the setup consists of two main steps: First, the data from the dataset needs to be pre-processed, then Second, each of the individual BL techniques needs to be configured.
 
-### Preprocessing Data
+#### Preprocessing Data
 
 The user has to run the following scripts for preprocessing:
 1. ```ExtractGUIInformation/filter_files_cmnd.sh``` : This script will extract necessary GUI information and get all the filenames that are necessary for text-retrieval augmentation methods.
@@ -96,8 +132,8 @@ The user has to run the following scripts for preprocessing:
 4. ```Preprocessing-BugLocator/generate_xml_data_for_buglocator.sh```: The preprocessing for BugLocator is different compared to other approaches. A user needs to run this script to generate preprocessed queries for BugLocator.
 
 
-## SentenceBERT
-#### Dependencies
+#### SentenceBERT
+##### Dependencies
 A user needs to run the following commands to perform environment setup.
 ```
 conda install python=3.7.6
@@ -105,12 +141,12 @@ conda install pytorch=1.12.1
 conda install transformers=4.24.0
 conda install pandas=1.3.5
 ```
-#### Run
+##### Run
 ```sentenceBERT/sentencebert-cmnd-all.sh```: Run to get rankings of all configurations for SentenceBERT.
 ```sentenceBERT/sentencebert-cmnd-small.sh```: Run to get rankings of a subset of configurations for SentenceBERT.
 
-## UniXCoder
-#### Dependencies
+#### UniXCoder
+##### Dependencies
 A user needs to run the following commands to perform environment setup.
 ```
 conda install python=3.7.6
@@ -118,12 +154,12 @@ conda install pytorch=1.4.0
 conda install transformers=2.1.1
 conda install pandas=1.1.5
 ```
-#### Run
+##### Run
 ```Unixcoder/unixcoder-cmnd-all.sh```: Run to get rankings of all configurations for UniXCoder.
 ```Unixcoder/unixcoder-cmnd-small.sh```: Run to get rankings of a subset of configurations for UniXCoder.
 
-## Lucene
-#### Environment Setup
+#### Lucene
+##### Environment Setup
 - Install JDK 11
 - Install Apache Maven using the following command:
 ```
@@ -144,47 +180,41 @@ conda install -c conda-forge maven=3.9.6
 ```
 mvn install:install-file "-Dfile=ir4se-fwk-0.0.2.jar" "-DgroupId=edu.wayne.cs.severe" "-DartifactId=ir4se-fwk" "-Dversion=0.0.2" "-Dpackaging=jar"
 ```
-#### Run
+##### Run
 ```Lucene/lucene-cmnd-all.sh```: Run to get rankings of all configuartions for Lucene.
 
 ```Lucene/lucene-cmnd-small.sh```: Run to get rankings of a subset of configuartions for Lucene.
 
-## BugLocator
-#### Dependencies
+#### BugLocator
+##### Dependencies
 A user needs to run the following commands to perform environment setup.
 ```
 conda install python=3.7.6
-```
-```
 conda install bs4=4.11.1
-```
-```
 conda install pandas=1.3.5
-```
-```
 conda install lxml=4.9.1
 ```
 
-#### Run
+##### Run
 ```BugLocator/buglocator-cmnd-all.sh```: Run to get rankings of all configurations for BugLocator.
 ```BugLocator/buglocator-cmnd-small.sh```: Run to get rankings of a subset of configurations for BugLocator.
 
-## Usage 
+#### Usage 
 
 Install the following packages:
 ```
 conda install pandas=1.3.5
 ```
 
-#### Run
+##### Run
 
-```ResultComputation/results-summary-all.py```: Running the previous baselines will provide ranks of the buggy files. To calculate metrics for all configurations, the user needs to run the follwing command after updating ```approach-name``` with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder. 
+```ResultComputation/results-summary-all.py```: Running the previous baselines will provide ranks of the buggy files. To calculate metrics for all configurations, the user needs to run the follwing command after updating ```approach-name``` with one of the following baseline names: *BugLocator or Lucene or SentenceBERT or UniXCoder*. 
 ```python3 results-summary-all.py -a <approach-name>```
 
-```ResultComputation/results-summary-small.py```: To calculate metrics for a subset of configurations, the user needs to run the follwing command after updating ```approach-name``` with one of the following baseline names: BugLocator or Lucene or SentenceBERT or UniXCoder.
+```ResultComputation/results-summary-small.py```: To calculate metrics for a subset of configurations, the user needs to run the follwing command after updating ```approach-name``` with one of the following baseline names: *BugLocator or Lucene or SentenceBERT or UniXCoder*.
 ```python3 results-summary-small.py -a <approach-name>```
 
-The results will be saved in ```Results/<Approach-Name>/Metrics.csv```.
+The results will be saved in ```Results/<approach-Name>/Metrics.csv```.
 
 ### References
 1. Jian Zhou, Hongyu Zhang, and David Lo. 2012. Where Should the Bugs Be Fixed? More Accurate Information Retrieval-Based Bug Localization Based on Bug Reports. In ICSE’12. 14–24.
