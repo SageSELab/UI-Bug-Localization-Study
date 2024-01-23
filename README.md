@@ -12,6 +12,8 @@ We provide access to the available dataset, source code and detailed instruction
 
 Our code and data are also permanently archived at: [https://doi.org/10.5281/zenodo.10460609](https://doi.org/10.5281/zenodo.10460609)
 
+A user will require ~80 hours to regenerate the results for all experiments. 
+
 ## Paper Overview
 One of the significant challenges in bug report management involves localizing the fault in source code based on the information provided in bug reports. This task is particularly complicated due to the incomplete or incorrect information in these reports. Researchers have attempted to automate the retrieval and ranking of relevant buggy files or code snippets using bug reports as queries. Although many researchers consider bug localization as a text-retrieval-based (TR) problem, there exists a noticeable semantic gap between the contents of bug reports and the source code written by developers. Researchers have explored various strategies to bridge this gap, such as processing bug reports or source code, or reformulating queries by incorporating information from diverse sources, including execution information, code dependencies, and historical data.
 
