@@ -7,9 +7,9 @@ COPY ./environment.yml ./environment.yml
 COPY ./appcore ./appcore
 COPY ./text-analyzer ./text-analyzer
 
-RUN conda env create -n buglocalizationenv -f environment.yml
-RUN echo "source activate buglocalizationenv" > ~/.bashrc
-ENV PATH /opt/conda/envs/buglocalizationenv/bin:$PATH
+RUN conda env create -n uibuglocalizationenv -f environment.yml
+RUN echo "source activate uibuglocalizationenv" > ~/.bashrc
+ENV PATH /opt/conda/envs/uibuglocalizationenv/bin:$PATH
 
 RUN cd appcore/appcore && ./gradlew clean testClasses install && cd ../..
 RUN cd text-analyzer/text-analyzer && ./gradlew clean testClasses install && cd ../..

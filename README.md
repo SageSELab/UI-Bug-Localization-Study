@@ -44,9 +44,9 @@ We bundled all the experiments in a docker image so that a user can replicate th
 
 1. Install Docker following the instructions in this [link](https://docs.docker.com/engine/install/)
 2. Download the docker image
-```docker pull junayed21/uibuglocalization```
+```docker pull junayed21/buglocalization```
 3. Run the container
-```docker run -it junayed21/uibuglocalization```
+```docker run -it junayed21/buglocalization```
 4. Generate results for each baseline
 
     a. SentenceBERT
@@ -73,10 +73,12 @@ We bundled all the experiments in a docker image so that a user can replicate th
     ./buglocator-cmnd-all.sh
     cd ..
     ```
+
+    To generate results for a small subset of configurations instead of all configurations, replace ```<approach-name>-cmnd-all.sh``` with ```<approach-name>-cmnd-small.sh``` 
 5. Compute Metrics separately for each baseline
     ```
     cd ResultComputation
-    python3 results-summary-small.py -a <approach-name>
+    python3 results-summary-all.py -a <approach-name>
     ```
     Here ```approach-name``` will be *BugLocator or Lucene or SentenceBERT or UniXCoder*. The results will be saved in ```Results/<approach-Name>/Metrics.csv```.
 
@@ -214,9 +216,11 @@ conda install pandas=1.3.5
 ##### Run
 
 ```ResultComputation/results-summary-all.py```: Running the previous baselines will provide ranks of the buggy files. To calculate metrics for all configurations, the user needs to run the follwing command after updating ```approach-name``` with one of the following baseline names: *BugLocator or Lucene or SentenceBERT or UniXCoder*. 
+
 ```python3 results-summary-all.py -a <approach-name>```
 
 ```ResultComputation/results-summary-small.py```: To calculate metrics for a subset of configurations, the user needs to run the follwing command after updating ```approach-name``` with one of the following baseline names: *BugLocator or Lucene or SentenceBERT or UniXCoder*.
+
 ```python3 results-summary-small.py -a <approach-name>```
 
 The results will be saved in ```Results/<approach-Name>/Metrics.csv```.
