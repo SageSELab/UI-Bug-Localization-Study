@@ -6,6 +6,8 @@ This article presents the replication package associated with our paper:
 
 > Junayed Mahmud, Nadeeshan De Silva, Safwat Ali Khan, Seyed Hooman Mostafavi, SM Hasan Mansur, Oscar Chaparro, Andrian Marcus, and Kevin Moran, “_**On Using GUI Interaction Data to Improve Text Retrieval-based Bug Localization**_,” in Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (ICSE 2024)
 
+Link to the Full paper: https://dl.acm.org/doi/10.1145/3597503.3608139 
+
 ### Provenance
 
 We provide access to the available dataset, source code and detailed instructions required to reproduce the experimental results discussed in our paper. We aim to apply for Available & Reusable badges and hope to further extend research on GUI-based bug localization. We recommend utilizing a recent version of the Mac operating system, and we have conducted our tests on Sonoma 14.0. For SentenceBERT and UniXCoder, we suggest using a system with GPU support. We provide all of our source code at [https://github.com/SageSELab/UI-Bug-Localization-Study](https://github.com/SageSELab/UI-Bug-Localization-Study) and the dataset is available here: [https://github.com/SageSELab/GUI-Bug-Localization-Data](https://github.com/SageSELab/GUI-Bug-Localization-Data).
@@ -15,8 +17,6 @@ Our code and data are also permanently archived at: [https://doi.org/10.5281/zen
 A user will require ~80 hours to regenerate the results for all experiments. 
 
 ## Paper Overview
-
-Link to the Full paper: https://dl.acm.org/doi/10.1145/3597503.3608139 
 
 One of the significant challenges in bug report management involves localizing the fault in source code based on the information provided in bug reports. This task is particularly complicated due to the incomplete or incorrect information in these reports. Researchers have attempted to automate the retrieval and ranking of relevant buggy files or code snippets using bug reports as queries. Although many researchers consider bug localization as a text-retrieval-based (TR) problem, there exists a noticeable semantic gap between the contents of bug reports and the source code written by developers. Researchers have explored various strategies to bridge this gap, such as processing bug reports or source code, or reformulating queries by incorporating information from diverse sources, including execution information, code dependencies, and historical data.
 
